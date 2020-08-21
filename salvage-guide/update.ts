@@ -1,4 +1,3 @@
-import * as fs from "fs";
 import * as ora from "ora";
 import * as path from "path";
 import {
@@ -11,24 +10,14 @@ import {
 } from "selenium-webdriver";
 import { Options } from "selenium-webdriver/chrome";
 
+import { RawItemData, RawBuildData } from './output/types'
+import { saveFileToDirectory } from "./utils/saveFileToDirectory";
+
 const SALVAGE_GUIDE_URL =
   "https://www.icy-veins.com/d3/legendary-item-salvage-guide";
 
-const CONSTANTS_DIR = path.resolve(__dirname, "..", "src", "constants");
+const SAVE_DIR = path.resolve(__dirname, "output");
 
-interface ItemData {
-  label: string;
-  link: string;
-  type: string;
-  img: string;
-  buildsData?: BuildData[];
-}
-
-interface BuildData {
-  label: string;
-  link: string;
-  tags: string;
-}
 
 // helpers
 async function getBuilder() {
@@ -74,7 +63,7 @@ async function delay(timeout: number = 100) {
 }
 
 // getters
-async function getItemData(el: WebElement): Promise<ItemData> {
+async function getItemData(el: WebElement): Promise<RawItemData> {
   let label = "";
   let link = "";
   let type = "";
@@ -88,7 +77,7 @@ async function getItemData(el: WebElement): Promise<ItemData> {
     ]);
     label = linkText;
     link = linkRef;
-    type = linkClass;
+    type = linkClass.substr(3);
   } else {
     return null;
   }
@@ -103,7 +92,7 @@ async function getItemData(el: WebElement): Promise<ItemData> {
   return { label, link, type, img };
 }
 
-async function getBuildData(el: WebElement): Promise<BuildData> {
+async function getBuildData(el: WebElement): Promise<RawBuildData> {
   let label = "";
   let link = "";
   let tags = "";
@@ -119,21 +108,21 @@ async function getBuildData(el: WebElement): Promise<BuildData> {
   }
 
   const buildText = await el.getText();
-  tags = buildText.substr(label.length).trim();
+  tags = buildText.substr(label.length).trim().replace(/\(|\)/g, "");
 
   return { label, link, tags };
 }
 
-async function getBuildsData(el: WebElement): Promise<BuildData[]> {
+async function getBuildsData(el: WebElement): Promise<RawBuildData[]> {
   const buildEls = await getElements(el, By.tagName("li"));
-  return await Promise.all<BuildData>(
-    buildEls.map<Promise<BuildData>>(getBuildData)
+  return await Promise.all<RawBuildData>(
+    buildEls.map<Promise<RawBuildData>>(getBuildData)
   );
 }
 
 async function getResults(driver: WebDriver) {
   const rows = await getElements(driver, By.css(".salvage_table tr"));
-  const results: ItemData[] = [];
+  const results: RawItemData[] = [];
 
   const spinner = ora("Loading items");
   spinner.spinner = "simpleDotsScrolling";
@@ -166,53 +155,19 @@ async function getResults(driver: WebDriver) {
   return results;
 }
 
-async function saveFile(results: ItemData[]) {
+async function saveFile(results: RawItemData[]) {
   const itemData = JSON.stringify(results, null, 2);
   const data = `// Last updated on ${new Date().toLocaleString()}
 
-export interface ItemData {
-  label: string;
-  link: string;
-  type: string;
-  img: string;
-  buildsData?: BuildData[];
+import { RawItemData } from './types';
+
+export const RAW_SALVAGE_GUIDE: RawItemData[] = \n${itemData};`;
+
+  return saveFileToDirectory(SAVE_DIR, "raw-salvage-guide.ts", data);
 }
 
-interface BuildData {
-  label: string;
-  link: string;
-  tags: string;
-}
-
-export const SALVAGE_GUIDE: ItemData[] = \n${itemData};`;
-
-  // make the directory
-  await new Promise((res, rej) =>
-    fs.mkdir(CONSTANTS_DIR, { recursive: true }, (err) => {
-      if (err) {
-        rej();
-      } else {
-        res();
-      }
-    })
-  );
-
-  // create the file
-  const target = path.resolve(CONSTANTS_DIR, "salvage-guide.ts");
-  return new Promise<string>((res, rej) =>
-    fs.writeFile(target, data, (err) => {
-      if (err) {
-        rej(err);
-      } else {
-        res(target);
-      }
-    })
-  );
-}
-
-async function run() {
+async function update() {
   console.log("Updating salvage guide...");
-
   const driver = await getBuilder();
   await driver.get(SALVAGE_GUIDE_URL);
   await delay(5000);
@@ -220,9 +175,9 @@ async function run() {
 
   const results = await getResults(driver);
   const target = await saveFile(results);
-  console.log(`Saved salvage guide to ${target}`);
+  console.log(`Saved raw salvage guide to ${target}`);
 
   await driver.quit();
 }
 
-run();
+update();
