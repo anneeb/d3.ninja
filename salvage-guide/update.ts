@@ -85,7 +85,10 @@ async function getItemData(el: WebElement): Promise<RawItemData> {
   const imgEl = await getElement(el, By.tagName("img"));
   if (imgEl) {
     const imgSrc = await imgEl.getAttribute("src");
-    img = `${imgSrc}`;
+    img = imgSrc.replace(
+      "https://static.icy-veins.com/images/d3/icons/",
+      "https://blzmedia-a.akamaihd.net/d3/icons/items/small/"
+    );
   }
 
   return { label, link, type, img };
