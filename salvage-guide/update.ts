@@ -10,14 +10,13 @@ import {
 } from "selenium-webdriver";
 import { Options } from "selenium-webdriver/chrome";
 
-import { RawItemData, RawBuildData } from './output/types'
-import { saveFileToDirectory } from "./utils/saveFileToDirectory";
+import { RawItemData, RawBuildData } from "./output/types";
+import { saveFileToDirectory } from "./utils/fileSystem";
 
 const SALVAGE_GUIDE_URL =
   "https://www.icy-veins.com/d3/legendary-item-salvage-guide";
 
 const SAVE_DIR = path.resolve(__dirname, "output");
-
 
 // helpers
 async function getBuilder() {

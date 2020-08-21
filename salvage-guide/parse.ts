@@ -10,7 +10,7 @@ import {
   BuildsByItem,
 } from "./output/types";
 import { RAW_SALVAGE_GUIDE } from "./output/raw-salvage-guide";
-import { saveFileToDirectory } from "./utils/saveFileToDirectory";
+import { saveFileToDirectory } from "./utils/fileSystem";
 
 const SAVE_DIR = path.resolve(__dirname, "output");
 
