@@ -119,7 +119,7 @@ async function getBuildData(el: WebElement): Promise<BuildData> {
   }
 
   const buildText = await el.getText();
-  tags = buildText;
+  tags = buildText.substr(label.length).trim();
 
   return { label, link, tags };
 }
