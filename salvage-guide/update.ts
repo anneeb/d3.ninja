@@ -161,7 +161,7 @@ async function saveFile(results: RawItemData[]) {
   const itemData = JSON.stringify(results, null, 2);
   const data = `// Last updated on ${new Date().toLocaleString()}
 
-import { RawItemData } from './types';
+import { RawItemData } from "./types";
 
 export const RAW_SALVAGE_GUIDE: RawItemData[] = \n${itemData};`;
 

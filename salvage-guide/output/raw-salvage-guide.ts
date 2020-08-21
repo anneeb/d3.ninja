@@ -1,4 +1,4 @@
-import { RawItemData } from './types';
+import { RawItemData } from "./types";
 
 export const RAW_SALVAGE_GUIDE: RawItemData[] = 
 [
