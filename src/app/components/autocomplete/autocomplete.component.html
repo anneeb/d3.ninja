@@ -1,0 +1,18 @@
+<mat-form-field>
+  <input
+    matInput
+    [placeholder]="placeholder"
+    [formControl]="selectControl"
+    [matAutocomplete]="auto"
+  />
+  <mat-autocomplete #auto="matAutocomplete">
+    <mat-option *ngFor="let item of filteredItems | async" [value]="item.value">
+      <ng-container
+        *ngIf="itemTemplateRef"
+        [ngTemplateOutlet]="itemTemplateRef"
+        [ngTemplateOutletContext]="{ $implicit: item }"
+      ></ng-container>
+    </mat-option>
+  </mat-autocomplete>
+</mat-form-field>
+x
