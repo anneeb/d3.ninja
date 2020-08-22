@@ -10,7 +10,7 @@ import { UiService } from "app/services/ui.service";
 })
 export class HomeComponent implements OnInit {
   public headerColor = "primary";
-  public headerText = "What to Play";
+  public headerText = "d3.ninja";
 
   public isSidebarOpen: boolean = true;
   public sidebarIcon: string = "chevron_left";
