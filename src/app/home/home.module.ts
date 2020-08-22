@@ -3,11 +3,11 @@ import { RouterModule } from "@angular/router";
 
 import { HomeRoutes } from "app/home/home.routes";
 
-import { SharedModule } from 'app/shared/shared.module';
-import { ComponentsModule } from 'app/components/components.module';
-import { ContainersModule } from 'app/containers/containers.module';
+import { SharedModule } from "app/shared/shared.module";
+import { ComponentsModule } from "app/components/components.module";
+import { ContainersModule } from "app/containers/containers.module";
 
-import { HomeComponent } from 'app/home/home.component';
+import { HomeComponent } from "app/home/home.component";
 
 @NgModule({
   imports: [
@@ -18,8 +18,6 @@ import { HomeComponent } from 'app/home/home.component';
     ComponentsModule,
   ],
   declarations: [HomeComponent],
-  exports: [
-    RouterModule
-  ]
+  exports: [RouterModule],
 })
 export class HomeModule {}

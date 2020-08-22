@@ -1,37 +1,29 @@
 import { Component, OnInit } from "@angular/core";
-import { BehaviorSubjectWrapper } from 'utils/behavior-subject-wrapper';
+
+import { UiService } from "app/services/ui.service";
 
 @Component({
   selector: "app-home",
   templateUrl: "./home.component.html",
   styleUrls: ["./home.component.scss"],
+  providers: [UiService],
 })
 export class HomeComponent implements OnInit {
   public headerText = "What to Play";
+  public isSidebarOpen: boolean = true;
+  public sidebarIcon: string = "chevron_left";
 
-  private _isSidebarOpen: BehaviorSubjectWrapper<boolean>;
-  public isSidebarOpen: boolean;
-
-  private _sidebarIcon: BehaviorSubjectWrapper<string>;
-  public sidebarIcon: string;
-
-  constructor() {
-    this._isSidebarOpen = new BehaviorSubjectWrapper(true);
-    this._sidebarIcon = new BehaviorSubjectWrapper("chevron_left");
-  }
+  constructor(private uiService: UiService) {}
 
   ngOnInit(): void {
-    this._isSidebarOpen.getValue().subscribe((isSidebarOpen) => {
+    this.uiService.getIsSidebarOpen().subscribe((isSidebarOpen) => {
       this.isSidebarOpen = isSidebarOpen;
-    });
-    this._sidebarIcon.getValue().subscribe((sidebarIcon) => {
-      this.sidebarIcon = sidebarIcon;
+      this.sidebarIcon = isSidebarOpen ? "chevron_left" : "chevron_right";
     });
   }
 
   handleSidebarIconClick = () => {
     const isSidebarOpen = !this.isSidebarOpen;
-    this._isSidebarOpen.setValue(isSidebarOpen);
-    this._sidebarIcon.setValue(isSidebarOpen ? "chevron_left" : "chevron_right");
+    this.uiService.setIsSidebarOpen(isSidebarOpen);
   };
 }
