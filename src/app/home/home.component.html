@@ -1,0 +1,20 @@
+<div class="home">
+  <app-header [text]="headerText"></app-header>
+  <mat-drawer-container class="home__drawer-container">
+    <mat-drawer
+      class="home__drawer-container__drawer"
+      #drawer
+      mode="side"
+      opened="{{ isSidebarOpen }}"
+      ><app-sidebar></app-sidebar>
+    </mat-drawer>
+    <mat-drawer-content class="home__drawer-container__drawercontent">
+      <app-main></app-main>
+    </mat-drawer-content>
+  </mat-drawer-container>
+  <app-icon-fab
+    class="home__sidebar-icon"
+    [icon]="sidebarIcon"
+    [onClick]="handleSidebarIconClick"
+  ></app-icon-fab>
+</div>
