@@ -9,6 +9,9 @@ export class HeaderComponent implements OnInit {
   @Input()
   text: string;
 
+  @Input()
+  color?: string;
+  
   constructor() {}
 
   ngOnInit(): void {}

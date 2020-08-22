@@ -1,11 +1,10 @@
 <div class="home">
-  <app-header [text]="headerText"></app-header>
+  <app-header [text]="headerText" [color]="headerColor"></app-header>
   <mat-drawer-container class="home__drawer-container">
     <mat-drawer
       class="home__drawer-container__drawer"
-      #drawer
       mode="side"
-      opened="{{ isSidebarOpen }}"
+      [opened]="isSidebarOpen"
       ><app-sidebar></app-sidebar>
     </mat-drawer>
     <mat-drawer-content class="home__drawer-container__drawercontent">
