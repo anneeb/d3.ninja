@@ -12,11 +12,11 @@ export class UiService extends BaseService {
     super();
   }
 
-  public getIsSidebarOpen() {
+  getIsSidebarOpen() {
     return super.getBehaviorSubjectValue(this.isSidebarOpen);
   }
 
-  public setIsSidebarOpen(isSidebarOpen: boolean) {
+  setIsSidebarOpen(isSidebarOpen: boolean) {
     return super.setBehaviorSubjectValue(this.isSidebarOpen, isSidebarOpen);
   }
 }

@@ -12,8 +12,6 @@ export class IconFabComponent implements OnInit {
   @Input()
   onClick: () => any;
 
-  constructor() {}
-
   ngOnInit(): void {}
 
   handleClick() {

@@ -1,7 +1,7 @@
 import { NgModule } from "@angular/core";
 
-import { SidebarModule } from "app/containers/sidebar/sidebar.module";
 import { MainModule } from "app/containers/main/main.module";
+import { SidebarModule } from "app/containers/sidebar/sidebar.module";
 
 @NgModule({
   imports: [MainModule, SidebarModule],

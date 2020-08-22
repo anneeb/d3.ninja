@@ -12,7 +12,5 @@ export class HeaderComponent implements OnInit {
   @Input()
   color?: string;
   
-  constructor() {}
-
   ngOnInit(): void {}
 }

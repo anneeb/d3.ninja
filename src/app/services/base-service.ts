@@ -1,8 +1,6 @@
 import { BehaviorSubject, Observable } from "rxjs";
 
 export class BaseService {
-  constructor() {}
-
   protected getBehaviorSubjectValue<T>(
     subject: BehaviorSubject<T>
   ): Observable<T> {

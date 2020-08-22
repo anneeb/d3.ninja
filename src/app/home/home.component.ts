@@ -9,11 +9,11 @@ import { UiService } from "app/services/ui.service";
   providers: [UiService],
 })
 export class HomeComponent implements OnInit {
-  public headerColor = "primary";
-  public headerText = "d3.ninja";
+  headerColor = "primary";
+  headerText = "d3.ninja";
 
-  public isSidebarOpen: boolean = true;
-  public sidebarIcon: string = "chevron_left";
+  isSidebarOpen: boolean = true;
+  sidebarIcon: string = "chevron_left";
 
   constructor(private uiService: UiService) {}
 
