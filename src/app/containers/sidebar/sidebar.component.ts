@@ -21,7 +21,7 @@ const salvageGuideItems = Object.values(itemsByLink).map<SalvageGuideItem>(
 })
 export class SidebarComponent implements OnInit {
   headerText = "Stash";
-  placeholder = "Search items...";
+  placeholder = "Quick add items...";
   items = salvageGuideItems;
   filteredItems = salvageGuideItems;
 
@@ -30,13 +30,13 @@ export class SidebarComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-    console.log("init SidebarComponent", this.items);
-    console.log("init SidebarComponent", this.filteredItems);
-  }
+  ngOnInit(): void {}
 
   handleFilterItems = (filteredItems: SalvageGuideItem[]) => {
-    console.log("handleFilterItems", filteredItems);
     this.filteredItems = filteredItems;
+  };
+
+  handleItemSelect = (item: SalvageGuideItem) => {
+    console.log("selected", item);
   };
 }

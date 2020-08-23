@@ -1,11 +1,18 @@
-<app-header [text]="headerText"></app-header>
-<app-autocomplete
-  [placeholder]="placeholder"
-  [items]="items"
-  [itemFilter]="filter"
-  (onFilterItems)="handleFilterItems($event)"
->
-  <ng-template let-item #item>
-    <div>{{ item.label }}</div>
-  </ng-template>
-</app-autocomplete>
+<div class="sidebar">
+  <div class="sidebar__header">
+    <app-header [text]="headerText"></app-header>
+  </div>
+  <div class="sidebar__body">
+    <app-select
+      [placeholder]="placeholder"
+      [items]="items"
+      [itemFilter]="filter"
+      [onItemSelect]="handleItemSelect"
+      (onFilterItems)="handleFilterItems($event)"
+    >
+      <ng-template let-item #item>
+        <div>{{ item.label }}</div>
+      </ng-template>
+    </app-select>
+  </div>
+</div>
