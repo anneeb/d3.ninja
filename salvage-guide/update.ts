@@ -75,7 +75,7 @@ async function getItemData(el: WebElement): Promise<RawItemData> {
       linkEl.getAttribute("class"),
     ]);
     label = linkText;
-    link = linkRef;
+    link = linkRef.replace("http", "https");
     type = linkClass.substr(3);
   } else {
     return null;
