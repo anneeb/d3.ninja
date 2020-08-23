@@ -1,0 +1,93 @@
+@import "~@angular/material/theming";
+
+$app-primary: mat-palette($mat-purple, 700, 500, 800);
+$app-accent: mat-palette($mat-green, A200, A100, A400);
+$app-warn: mat-palette($mat-red);
+
+$app-theme: mat-dark-theme($app-primary, $app-accent, $app-warn);
+
+$app-dark-primary-text: rgba(black, 0.87);
+$app-light-primary-text: white;
+
+$app-background-status-bar: map-get($mat-dark-theme-background, "status-bar");
+$app-background-app-bar: map-get($mat-dark-theme-background, "app-bar");
+$app-background-background: map-get($mat-dark-theme-background, "background");
+$app-background-hover: map-get($mat-dark-theme-background, "hover");
+$app-background-card: map-get($mat-dark-theme-background, "card");
+$app-background-dialog: map-get($mat-dark-theme-background, "dialog");
+$app-background-disabled-button: map-get(
+  $mat-dark-theme-background,
+  "disabled-button"
+);
+$app-background-raised-button: map-get(
+  $mat-dark-theme-background,
+  "raised-button"
+);
+$app-background-focused-button: map-get(
+  $mat-dark-theme-background,
+  "focused-button"
+);
+$app-background-selected-button: map-get(
+  $mat-dark-theme-background,
+  "selected-button"
+);
+$app-background-selected-disabled-button: map-get(
+  $mat-dark-theme-background,
+  "selected-disabled-button"
+);
+$app-background-disabled-button-toggle: map-get(
+  $mat-dark-theme-background,
+  "disabled-button-toggle"
+);
+$app-background-unselected-chip: map-get(
+  $mat-dark-theme-background,
+  "unselected-chip"
+);
+$app-background-disabled-list-option: map-get(
+  $mat-dark-theme-background,
+  "disabled-list-option"
+);
+$app-background-tooltip: map-get($mat-dark-theme-background, "tooltip");
+
+$app-foreground-status-bar: map-get($mat-dark-theme-foreground, "status-bar");
+$app-foreground-app-bar: map-get($mat-dark-theme-foreground, "app-bar");
+$app-foreground-background: map-get($mat-dark-theme-foreground, "background");
+$app-foreground-hover: map-get($mat-dark-theme-foreground, "hover");
+$app-foreground-card: map-get($mat-dark-theme-foreground, "card");
+$app-foreground-dialog: map-get($mat-dark-theme-foreground, "dialog");
+$app-foreground-disabled-button: map-get(
+  $mat-dark-theme-foreground,
+  "disabled-button"
+);
+$app-foreground-raised-button: map-get(
+  $mat-dark-theme-foreground,
+  "raised-button"
+);
+$app-foreground-focused-button: map-get(
+  $mat-dark-theme-foreground,
+  "focused-button"
+);
+$app-foreground-selected-button: map-get(
+  $mat-dark-theme-foreground,
+  "selected-button"
+);
+$app-foreground-selected-disabled-button: map-get(
+  $mat-dark-theme-foreground,
+  "selected-disabled-button"
+);
+$app-foreground-disabled-button-toggle: map-get(
+  $mat-dark-theme-foreground,
+  "disabled-button-toggle"
+);
+$app-foreground-unselected-chip: map-get(
+  $mat-dark-theme-foreground,
+  "unselected-chip"
+);
+$app-foreground-disabled-list-option: map-get(
+  $mat-dark-theme-foreground,
+  "disabled-list-option"
+);
+$app-foreground-tooltip: map-get($mat-dark-theme-foreground, "tooltip");
+
+$app-stash-item-set: #8bd442;
+$app-stash-item-legendary: #bf642f;

@@ -1,5 +1,9 @@
-<mat-list>
-  <mat-list-item *ngFor="let item of items">
-    {{ item.label }}
+<mat-list class="stash-list">
+  <mat-list-item
+    *ngFor="let item of items"
+    [ngClass]="['stash-list__item', 'stash-list__item--' + item.type]"
+  >
+    <img [src]="item.img" />
+    <a [href]="item.link" target="_blank">{{ item.label }}</a>
   </mat-list-item>
 </mat-list>

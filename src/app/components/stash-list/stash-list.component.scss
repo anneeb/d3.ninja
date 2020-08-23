@@ -1,0 +1,38 @@
+@import "../../../styles/variables.scss";
+
+.stash-list {
+  &__item {
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+      border: 2px solid $app-background-background;
+      border-radius: 6px;
+      margin-right: 10px;
+    }
+
+    &--set {
+      a {
+        color: $app-stash-item-set;
+      }
+      img {
+        background-color: $app-stash-item-set;
+      }
+    }
+
+    &--legendary {
+      a {
+        color: $app-stash-item-legendary;
+      }
+      img {
+        background-color: $app-stash-item-legendary;
+      }
+    }
+  }
+}

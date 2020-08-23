@@ -1,4 +1,16 @@
+@import "../../../styles/variables.scss";
+
 .stash-quick-add {
   width: calc(100% - 20px);
   padding: 10px;
+
+  &__item {
+    &--set {
+      color: $app-stash-item-set;
+    }
+
+    &--legendary {
+      color: $app-stash-item-legendary;
+    }
+  }
 }

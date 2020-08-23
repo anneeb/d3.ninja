@@ -1,10 +1,4 @@
-import {
-  Component,
-  OnInit,
-  Input,
-  ContentChild,
-  TemplateRef,
-} from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { FormControl } from "@angular/forms";
 import { Observable } from "rxjs";
 import { startWith } from "rxjs/operators";

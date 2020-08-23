@@ -8,11 +8,17 @@
   />
   <mat-autocomplete #autoComplete="matAutocomplete">
     <mat-option *ngFor="let item of items" [value]="">
-      <div (click)="handleItemClick($event, item)">
+      <div
+        (click)="handleItemClick($event, item)"
+        [ngClass]="[
+          'stash-quick-add__item',
+          'stash-quick-add__item--' + item.type
+        ]"
+      >
         <mat-checkbox [checked]="item.isSelected">
           {{ item.label }}
         </mat-checkbox>
       </div>
-    </mat-option></mat-autocomplete
-  ></mat-form-field
+    </mat-option>
+  </mat-autocomplete></mat-form-field
 >
