@@ -1,0 +1,18 @@
+<mat-form-field>
+  <input
+    matInput
+    type="text"
+    [placeholder]="placeholder"
+    [formControl]="selectControl"
+    [matAutocomplete]="autoComplete"
+  />
+  <mat-autocomplete #autoComplete="matAutocomplete">
+    <mat-option *ngFor="let item of items" [value]="">
+      <div (click)="handleItemClick($event, item)">
+        <mat-checkbox [checked]="item.isSelected">
+          {{ item.label }}
+        </mat-checkbox>
+      </div>
+    </mat-option></mat-autocomplete
+  ></mat-form-field
+>

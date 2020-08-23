@@ -1,23 +1,13 @@
 <div class="sidebar">
   <div class="sidebar__header">
-    <app-header [text]="headerText"></app-header>
+    <mat-toolbar>
+      <span>{{ headerText }}</span>
+    </mat-toolbar>
   </div>
   <div class="sidebar__body">
-    <app-select
-      [placeholder]="placeholder"
-      [items]="filteredItems"
-      [onItemSelect]="handleItemSelect"
-      [onFilterChange]="handleFilterChange"
-    >
-      <ng-template let-item #item>
-        <mat-checkbox [checked]="item.isSelected">
-          {{ item.label }}
-        </mat-checkbox>
-      </ng-template>
-    </app-select>
-
-    <div *ngFor="let selectedItem of selectedItems">
-      {{ selectedItem.label }}
+    <app-stash-quick-add></app-stash-quick-add>
+    <div *ngFor="let item of items">
+      {{ item.label }}
     </div>
   </div>
 </div>

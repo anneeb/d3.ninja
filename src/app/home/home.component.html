@@ -1,5 +1,7 @@
 <div class="home">
-  <app-header [text]="headerText" [color]="headerColor"></app-header>
+  <mat-toolbar [color]="headerColor">
+    <span>{{ headerText }}</span>
+  </mat-toolbar>
   <mat-drawer-container class="home__drawer-container">
     <mat-drawer
       class="home__drawer-container__drawer"
@@ -11,9 +13,11 @@
       <app-main></app-main>
     </mat-drawer-content>
   </mat-drawer-container>
-  <app-icon-fab
+  <button
+    mat-mini-fab
     class="home__sidebar-icon"
-    [icon]="sidebarIcon"
-    [onClick]="handleSidebarIconClick"
-  ></app-icon-fab>
+    (click)="handleSidebarIconClick()"
+  >
+    <mat-icon>{{ sidebarIcon }}</mat-icon>
+  </button>
 </div>
