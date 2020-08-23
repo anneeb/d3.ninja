@@ -5,14 +5,19 @@
   <div class="sidebar__body">
     <app-select
       [placeholder]="placeholder"
-      [items]="items"
-      [itemFilter]="filter"
+      [items]="filteredItems"
       [onItemSelect]="handleItemSelect"
-      (onFilterItems)="handleFilterItems($event)"
+      [onFilterChange]="handleFilterChange"
     >
       <ng-template let-item #item>
-        <div>{{ item.label }}</div>
+        <mat-checkbox [checked]="item.isSelected">
+          {{ item.label }}
+        </mat-checkbox>
       </ng-template>
     </app-select>
+
+    <div *ngFor="let selectedItem of selectedItems">
+      {{ selectedItem.label }}
+    </div>
   </div>
 </div>

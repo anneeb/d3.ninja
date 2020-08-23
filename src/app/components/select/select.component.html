@@ -5,8 +5,8 @@
     [placeholder]="placeholder"
     [formControl]="selectControl"
     [matAutocomplete]="autoComplete" />
-  <mat-autocomplete #autoComplete="matAutocomplete" [displayWith]="filterValue">
-    <mat-option *ngFor="let item of filteredItems | async" [value]="">
+  <mat-autocomplete #autoComplete="matAutocomplete">
+    <mat-option *ngFor="let item of items" [value]="">
       <div (click)="handleItemClick($event, item)">
         <ng-container
           *ngIf="itemTemplateRef"

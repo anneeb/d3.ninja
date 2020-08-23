@@ -25,7 +25,6 @@ export class HomeComponent implements OnInit {
   }
 
   handleSidebarIconClick = () => {
-    const isSidebarOpen = !this.isSidebarOpen;
-    this.uiService.setIsSidebarOpen(isSidebarOpen);
+    this.uiService.setIsSidebarOpen(!this.isSidebarOpen);
   };
 }

@@ -1,42 +1,52 @@
 import { Component, OnInit } from "@angular/core";
-import { itemsByLink } from "constants/salvage-guide/salvage-guide";
+
 import { Item } from "constants/salvage-guide/types";
+import { StashService, StashItem } from "app/services/stash.service";
 
-interface SalvageGuideItem {
-  value: string;
-  label: string;
+function itemFilter(value: string) {
+  return (item: Item) => item.label.match(new RegExp(value, "gi"));
 }
-
-const salvageGuideItems = Object.values(itemsByLink).map<SalvageGuideItem>(
-  (item: Item) => ({
-    value: item.link,
-    label: item.label,
-  })
-);
 
 @Component({
   selector: "app-sidebar",
   templateUrl: "./sidebar.component.html",
   styleUrls: ["./sidebar.component.scss"],
+  providers: [StashService],
 })
 export class SidebarComponent implements OnInit {
   headerText = "Stash";
   placeholder = "Quick add items...";
-  items = salvageGuideItems;
-  filteredItems = salvageGuideItems;
+  allItems: StashItem[];
+  filteredItems: StashItem[];
+  selectedItems: StashItem[] = [];
+  filterValue: string = "";
 
-  filter = (value: string) => (item: Item) =>
-    item.label.match(new RegExp(value, "gi"));
+  constructor(private stashService: StashService) {}
 
-  constructor() {}
+  ngOnInit(): void {
+    this.stashService.getItems().subscribe((items) => {
+      this.allItems = Object.values(items);
+      this.filteredItems = Object.values(this.allItems).filter(
+        itemFilter(this.filterValue)
+      );
+      this.selectedItems = Object.values(this.allItems).filter(
+        (item) => item.isSelected
+      );
+    });
 
-  ngOnInit(): void {}
+    this.stashService.getFilter().subscribe((filterValue) => {
+      this.filterValue = filterValue;
+      this.filteredItems = Object.values(this.allItems).filter(
+        itemFilter(this.filterValue)
+      );
+    });
+  }
 
-  handleFilterItems = (filteredItems: SalvageGuideItem[]) => {
-    this.filteredItems = filteredItems;
+  handleItemSelect = (item: StashItem) => {
+    this.stashService.setIsItemSelcted(item);
   };
 
-  handleItemSelect = (item: SalvageGuideItem) => {
-    console.log("selected", item);
+  handleFilterChange = (filter: string) => {
+    this.stashService.setFilter(filter);
   };
 }
