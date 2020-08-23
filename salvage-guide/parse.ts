@@ -71,7 +71,7 @@ function getParsed(): ParsedData {
       const buildLink = build.link;
       buildsByLink[buildLink] = {
         label: build.label,
-        link: itemLink,
+        link: buildLink,
       };
 
       const buildItemLinks = `${itemLink}-${buildLink}`;

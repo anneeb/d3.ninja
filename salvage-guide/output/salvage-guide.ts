@@ -4177,975 +4177,1042 @@ export const buildsByLink: BuildsByLink = {
   "https://www.icy-veins.com/d3/demon-hunter-elemental-arrow-build-with-unhallowed-essence-and-kridershot-patch-2-4": {
     label: "Unhallowed Essence Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/unsanctified-shoulders-Unique_Shoulder_Set_03_p2",
+      "https://www.icy-veins.com/d3/demon-hunter-elemental-arrow-build-with-unhallowed-essence-and-kridershot-patch-2-4",
   },
   "https://www.icy-veins.com/d3/zdps-demon-hunter-support-build-with-unhallowed-essence-patch-2-4-2-season-8": {
     label: "Support Demon Hunter",
-    link: "https://us.diablo3.com/en/item/zoeys-secret-P4_Unique_Belt_04",
+    link:
+      "https://www.icy-veins.com/d3/zdps-demon-hunter-support-build-with-unhallowed-essence-patch-2-4-2-season-8",
   },
   "https://www.icy-veins.com/d3/demon-hunter-unhallowed-essence-set-dungeon-guide": {
     label: "Demon Hunter UE Set Dungeon Guide",
     link:
-      "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
+      "https://www.icy-veins.com/d3/demon-hunter-unhallowed-essence-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/unhallowed-essence-grenades-demon-hunter-bis-gear-gems-paragon-points": {
     label: "Unhallowed Essence Grenades Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/wraps-of-clarity-P61_Unique_Bracer_103",
+      "https://www.icy-veins.com/d3/unhallowed-essence-grenades-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points": {
     label: "Unhallowed Essence Multishot Demon Hunter",
-    link: "https://us.diablo3.com/en/item/yangs-recurve-P61_Unique_Bow_104_x1",
+    link:
+      "https://www.icy-veins.com/d3/unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/chakram-demon-hunter-bis-gear-gems-paragon-points": {
     label: "Chakram Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/wraps-of-clarity-P61_Unique_Bracer_103",
+      "https://www.icy-veins.com/d3/chakram-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/wizard-firebird-set-dungeon-guide": {
     label: "Wizard Firebird Set Dungeon Guide",
-    link:
-      "https://us.diablo3.com/en/item/the-grand-vizier-P61_Unique_Staff_009",
+    link: "https://www.icy-veins.com/d3/wizard-firebird-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/lightning-arcane-torrent-wizard-electrocute-build": {
     label: "Lightning Arcane Torrent Wizard",
     link:
-      "https://us.diablo3.com/en/item/velvet-camaral-Unique_WizardHat_102_x1",
+      "https://www.icy-veins.com/d3/lightning-arcane-torrent-wizard-electrocute-build",
   },
   "https://www.icy-veins.com/d3/vyr-archon-wizard-speed-farming-build": {
     label: "Vyr Archon Wizard",
-    link:
-      "https://us.diablo3.com/en/item/ring-of-royal-grandeur-Unique_Ring_107_x1",
+    link: "https://www.icy-veins.com/d3/vyr-archon-wizard-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/lightning-archon-wizard-solo-progression-build": {
     label: "Lightning Archon Wizard",
     link:
-      "https://us.diablo3.com/en/item/convention-of-elements-P2_Unique_Ring_04",
+      "https://www.icy-veins.com/d3/lightning-archon-wizard-solo-progression-build",
   },
   "https://www.icy-veins.com/d3/meteor-wizard-speed-farming-build": {
     label: "Meteor Wizard",
-    link:
-      "https://us.diablo3.com/en/item/tal-rashas-unwavering-glare-Unique_Orb_012_x1",
+    link: "https://www.icy-veins.com/d3/meteor-wizard-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/support-monk-bis-gear-gems-paragon-points": {
     label: "Support Monk",
     link:
-      "https://us.diablo3.com/en/item/xephirian-amulet-Unique_Amulet_004_x1",
+      "https://www.icy-veins.com/d3/support-monk-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/support-necromancer-bis-gear-gems-paragon-points": {
     label: "Support Necromancer",
     link:
-      "https://us.diablo3.com/en/item/strongarm-bracers-Unique_Bracer_007_x1",
+      "https://www.icy-veins.com/d3/support-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/crusader-invoker-set-dungeon-guide": {
     label: "Invoker Set Dungeon Guide",
-    link:
-      "https://us.diablo3.com/en/item/zeal-of-the-invoker-Unique_Boots_Set_12_x1",
+    link: "https://www.icy-veins.com/d3/crusader-invoker-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/crusader-the-thrill-conquest-build-season-12-patch-2-6-1": {
     label: "The Thrill Crusader",
-    link: "https://us.diablo3.com/en/item/votoyias-spiker-Unique_Shield_104_x1",
+    link:
+      "https://www.icy-veins.com/d3/crusader-the-thrill-conquest-build-season-12-patch-2-6-1",
   },
   "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points": {
     label: "Aegis of Valor Fist of the Heavens Crusader",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/invoker-thorns-crusader-bis-gear-gems-paragon-points": {
     label: "Invoker Thorns Crusader",
     link:
-      "https://us.diablo3.com/en/item/zeal-of-the-invoker-Unique_Boots_Set_12_x1",
+      "https://www.icy-veins.com/d3/invoker-thorns-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-blessed-shield-crusader-bis-gear-gems-paragon-points": {
     label: "LoD Blessed Shield Crusader",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/akkhan-blessed-shield-crusader-bis-gear-gems-paragon-points": {
     label: "Akkhan Blessed Shield Crusader",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/akkhan-blessed-shield-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/rend-wastes-barbarian-bis-gear-gems-paragon-points": {
     label: "Rend Wastes Barbarian",
     link:
-      "https://us.diablo3.com/en/item/the-slanderer-Unique_Sword_1H_Set_02_x1",
+      "https://www.icy-veins.com/d3/rend-wastes-barbarian-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/monk-dashing-strike-cold-build-with-the-raiment-of-a-thousand-storms-set-patch-2-4": {
     label: "Dashing Strike Monk",
     link:
-      "https://us.diablo3.com/en/item/xephirian-amulet-Unique_Amulet_004_x1",
+      "https://www.icy-veins.com/d3/monk-dashing-strike-cold-build-with-the-raiment-of-a-thousand-storms-set-patch-2-4",
   },
   "https://www.icy-veins.com/d3/wizard-energy-twister-build-with-the-dmo-set-patch-2-4": {
     label: "Energy Twister Wizard",
-    link: "https://us.diablo3.com/en/item/the-witching-hour-Unique_Belt_009_x1",
+    link:
+      "https://www.icy-veins.com/d3/wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
   },
   "https://www.icy-veins.com/d3/zdps-crusader-support-build-with-cain-and-born-sets-patch-2-4": {
     label: "Support Crusader",
-    link: "https://us.diablo3.com/en/item/vigilante-belt-Unique_Belt_002_x1",
+    link:
+      "https://www.icy-veins.com/d3/zdps-crusader-support-build-with-cain-and-born-sets-patch-2-4",
   },
   "https://www.icy-veins.com/d3/necromancer-the-thrill-conquest-build-season-12-patch-2-6-1": {
     label: "The Thrill Necromancer",
     link:
-      "https://us.diablo3.com/en/item/tragouls-corroded-fang-P6_Unique_Scythe1H_02",
+      "https://www.icy-veins.com/d3/necromancer-the-thrill-conquest-build-season-12-patch-2-6-1",
   },
   "https://www.icy-veins.com/d3/necromancer-inarius-set-dungeon-guide": {
     label: "Necromancer Inarius Set Dungeon Guide",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link: "https://www.icy-veins.com/d3/necromancer-inarius-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/lod-corpse-explosion-necromancer-bis-gear-gems-paragon-points": {
     label: "LoD Corpse Explosion Necromancer",
     link:
-      "https://us.diablo3.com/en/item/tragouls-corroded-fang-P6_Unique_Scythe1H_02",
+      "https://www.icy-veins.com/d3/lod-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lightning-arcane-torrent-wizard-bis-gear-gems-paragon-points": {
     label: "Lightning Arcane Torrent Wizard",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/lightning-arcane-torrent-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": {
     label: "LoD Mammoth Hydra Wizard",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-spirit-barrage-witch-doctor-group-progression-build": {
     label: "LoD Spirit Barrage Witch Doctor",
-    link: "https://us.diablo3.com/en/item/voos-juicer-P4_Unique_Dagger_002",
+    link:
+      "https://www.icy-veins.com/d3/lod-spirit-barrage-witch-doctor-group-progression-build",
   },
   "https://www.icy-veins.com/d3/lod-star-pact-wizard-bis-gear-gems-paragon-points": {
     label: "LoD Star Pact Wizard",
-    link: "https://us.diablo3.com/en/item/the-wailing-host-Unique_Ring_014_x1",
+    link:
+      "https://www.icy-veins.com/d3/lod-star-pact-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/shadow-marauder-fok-demon-hunter-bis-gear-gems-paragon-points": {
     label: "Shadow/Marauder FoK Demon Hunter",
-    link: "https://us.diablo3.com/en/item/zoeys-secret-P4_Unique_Belt_04",
+    link:
+      "https://www.icy-veins.com/d3/shadow-marauder-fok-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-bis-gear-gems-paragon-points": {
     label: "Frenzy HotNS Barbarian",
     link:
-      "https://us.diablo3.com/en/item/vambraces-of-sescheron-P4_Unique_Bracer_106",
+      "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-poison-scythe-necromancer-trash-killer-build": {
     label: "LoD Poison Scythe Necromancer",
     link:
-      "https://us.diablo3.com/en/item/swamp-land-waders-P41_Unique_Pants_001",
+      "https://www.icy-veins.com/d3/lod-poison-scythe-necromancer-trash-killer-build",
   },
   "https://www.icy-veins.com/d3/firebird-wizard-bis-gear-gems-paragon-points": {
     label: "Firebird Wizard",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/firebird-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lightning-archon-wizard-group-progression-build": {
     label: "Lightning Archon Wizard",
-    link: "https://us.diablo3.com/en/item/serpents-sparker-P68_Unique_Wand_102",
+    link:
+      "https://www.icy-veins.com/d3/lightning-archon-wizard-group-progression-build",
   },
   "https://www.icy-veins.com/d3/meteor-wizard-bis-gear-gems-paragon-points": {
     label: "Meteor Wizard",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/meteor-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/trag-oul-blood-mages-necromancer-solo-progression-build": {
     label: "Trag'Oul Blood Mages Necromancer",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/trag-oul-blood-mages-necromancer-solo-progression-build",
   },
   "https://www.icy-veins.com/d3/inarius-corpse-explosion-necromancer-bis-gear-gems-paragon-points": {
     label: "Inarius Corpse Explosion Necromancer",
     link:
-      "https://us.diablo3.com/en/item/tragouls-corroded-fang-P6_Unique_Scythe1H_02",
+      "https://www.icy-veins.com/d3/inarius-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/inarius-bone-storm-necromancer-bis-gear-gems-paragon-points": {
     label: "Inarius Bone Storm Necromancer",
-    link: "https://us.diablo3.com/en/item/wisdom-of-kalan-P6_Unique_Amulet_03",
+    link:
+      "https://www.icy-veins.com/d3/inarius-bone-storm-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points": {
     label: "Leap/Earthquake MotE Barbarian",
     link:
-      "https://us.diablo3.com/en/item/weight-of-the-earth-Unique_Pants_Set_15_x1",
+      "https://www.icy-veins.com/d3/leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": {
     label: "DMO Arcane Orbit Wizard",
     link:
-      "https://us.diablo3.com/en/item/unstable-scepter-P61_Wand_norm_unique_02",
+      "https://www.icy-veins.com/d3/dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-corpse-lance-necromancer-bis-gear-gems-paragon-points": {
     label: "LoD Corpse Lance Necromancer",
     link:
-      "https://us.diablo3.com/en/item/tragouls-corroded-fang-P6_Unique_Scythe1H_02",
+      "https://www.icy-veins.com/d3/lod-corpse-lance-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-fok-demon-hunter-bis-gear-gems-paragon-points": {
     label: "LoD FoK Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/wraps-of-clarity-P61_Unique_Bracer_103",
+      "https://www.icy-veins.com/d3/lod-fok-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points": {
     label: "LoD Singularity Necromancer",
-    link: "https://us.diablo3.com/en/item/the-witching-hour-Unique_Belt_009_x1",
+    link:
+      "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/hota-gr-lod-barbarian-bis-gear-gems-paragon-points": {
     label: "HotA GR LoD Barbarian",
-    link: "https://us.diablo3.com/en/item/the-wailing-host-Unique_Ring_014_x1",
+    link:
+      "https://www.icy-veins.com/d3/hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-poison-scythe-necromancer-bis-gear-gems-paragon-points": {
     label: "LoD Poison Scythe Necromancer",
     link:
-      "https://us.diablo3.com/en/item/tragouls-corroded-fang-P6_Unique_Scythe1H_02",
+      "https://www.icy-veins.com/d3/lod-poison-scythe-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points": {
     label: "LoD Thorns Skeletons Solo Necromancer",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-blood-nova-necromancer-bis-gear-gems-paragon-points": {
     label: "LoD Blood Nova Necromancer",
-    link: "https://us.diablo3.com/en/item/wisdom-of-kalan-P6_Unique_Amulet_03",
+    link:
+      "https://www.icy-veins.com/d3/lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": {
     label: "LoD Skeletons Group Necromancer",
     link:
-      "https://us.diablo3.com/en/item/tragouls-corroded-fang-P6_Unique_Scythe1H_02",
+      "https://www.icy-veins.com/d3/lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points": {
     label: "Frenzy Thorns LoN Barbarian",
     link:
-      "https://us.diablo3.com/en/item/vambraces-of-sescheron-P4_Unique_Bracer_106",
+      "https://www.icy-veins.com/d3/frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points": {
     label: "GoD Hungering Arrow Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/wraps-of-clarity-P61_Unique_Bracer_103",
+      "https://www.icy-veins.com/d3/god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/witch-doctor-carnevil-build-with-legacy-of-nightmares-patch-2-4-1": {
     label: "LoN Carnevil Witch Doctor",
-    link: "https://us.diablo3.com/en/item/the-witching-hour-Unique_Belt_009_x1",
+    link:
+      "https://www.icy-veins.com/d3/witch-doctor-carnevil-build-with-legacy-of-nightmares-patch-2-4-1",
   },
   "https://www.icy-veins.com/d3/zdps-witch-doctor-support-build-with-helltooth-set-patch-2-4-2-season-7": {
     label: "Support Witch Doctor",
     link:
-      "https://us.diablo3.com/en/item/xephirian-amulet-Unique_Amulet_004_x1",
+      "https://www.icy-veins.com/d3/zdps-witch-doctor-support-build-with-helltooth-set-patch-2-4-2-season-7",
   },
   "https://www.icy-veins.com/d3/witch-doctor-gargantuan-build-with-legacy-of-nightmares-patch-2-4-1": {
     label: "Firebats Witch Doctor",
-    link: "https://us.diablo3.com/en/item/uhkapian-serpent-Unique_Mojo_008_x1",
+    link:
+      "https://www.icy-veins.com/d3/witch-doctor-gargantuan-build-with-legacy-of-nightmares-patch-2-4-1",
   },
   "https://www.icy-veins.com/d3/barbarian-immortal-king-set-dungeon-guide": {
     label: "Barbarian IK Dungeon Guide",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/barbarian-immortal-king-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/witch-doctor-the-thrill-conquest-build-season-12-patch-2-6-1": {
     label: "The Thrill Witch Doctor",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/witch-doctor-the-thrill-conquest-build-season-12-patch-2-6-1",
   },
   "https://www.icy-veins.com/d3/barbarian-the-thrill-conquest-build-season-12-patch-2-6-1": {
     label: "The Thrill Barbarian",
     link:
-      "https://us.diablo3.com/en/item/the-gavel-of-judgment-P61_Unique_Mighty_2H_001",
+      "https://www.icy-veins.com/d3/barbarian-the-thrill-conquest-build-season-12-patch-2-6-1",
   },
   "https://www.icy-veins.com/d3/lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points": {
     label: "LoD Spirit Barrage Witch Doctor",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/hota-raekor-barbarian-bis-gear-gems-paragon-points": {
     label: "HotA Raekor Barbarian",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/hota-raekor-barbarian-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points": {
     label: "LoD Carnevil DoD Witch Doctor",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/meteor-wizard-tal-rasha-build": {
     label: "Meteor Wizard",
-    link: "https://us.diablo3.com/en/item/tal-rashas-stride-P2_Unique_Pants_03",
+    link: "https://www.icy-veins.com/d3/meteor-wizard-tal-rasha-build",
   },
   "https://www.icy-veins.com/d3/lon-bombardment-crusader-bis-gear-gems-paragon-points": {
     label: "LoN Bombardment Crusader",
-    link: "https://us.diablo3.com/en/item/the-wailing-host-Unique_Ring_014_x1",
+    link:
+      "https://www.icy-veins.com/d3/lon-bombardment-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-solo-progression-build": {
     label: "Akkhan Bombardment Crusader",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-solo-progression-build",
   },
   "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-trash-killer-build": {
     label: "Spirit Barrage Mundunugu WD",
-    link: "https://us.diablo3.com/en/item/the-witching-hour-Unique_Belt_009_x1",
+    link:
+      "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-trash-killer-build",
   },
   "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-speed-farming-build": {
     label: "Spirit Barrage Mundunugu WD",
     link:
-      "https://us.diablo3.com/en/item/squirts-necklace-P66_Unique_Amulet_010",
+      "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points": {
     label: "Natalya Rain of Vengeance Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/wraps-of-clarity-P61_Unique_Bracer_103",
+      "https://www.icy-veins.com/d3/natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/rolands-sweep-attack-crusader-bis-gear-gems-paragon-points": {
     label: "Roland's Sweep Attack Crusader",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/witch-doctor-arachyr-set-dungeon-guide": {
     label: "Witch Doctor Arachyr Set Dungeon Guide",
-    link:
-      "https://us.diablo3.com/en/item/xephirian-amulet-Unique_Amulet_004_x1",
+    link: "https://www.icy-veins.com/d3/witch-doctor-arachyr-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points": {
     label: "Arachyr Firebats Witch Doctor",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/wizard-dmo-set-dungeon-guide": {
     label: "Wizard DMO Set Dungeon Guide",
-    link:
-      "https://us.diablo3.com/en/item/the-shame-of-delsere-P4_Unique_Belt_02",
+    link: "https://www.icy-veins.com/d3/wizard-dmo-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/wizard-vyr-set-dungeon-guide": {
     label: "Wizard Vyr Set Dungeon Guide",
-    link:
-      "https://us.diablo3.com/en/item/vyrs-swaggering-stance-Unique_Boots_Set_13_x1",
+    link: "https://www.icy-veins.com/d3/wizard-vyr-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/lightning-arcane-torrent-wizard-spectral-blade-build": {
     label: "Lightning Arcane Torrent Wizard",
     link:
-      "https://us.diablo3.com/en/item/the-shame-of-delsere-P4_Unique_Belt_02",
+      "https://www.icy-veins.com/d3/lightning-arcane-torrent-wizard-spectral-blade-build",
   },
   "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-greater-rifting-build": {
     label: "Explosive Blast Farming Wizard",
-    link: "https://us.diablo3.com/en/item/restraint-Unique_Ring_Set_002_x1",
+    link:
+      "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-greater-rifting-build",
   },
   "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points": {
     label: "Vyr Archon Wizard",
     link:
-      "https://us.diablo3.com/en/item/vyrs-swaggering-stance-Unique_Boots_Set_13_x1",
+      "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": {
     label: "Typhon Frost Hydra Wizard",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1": {
     label: "Energy Twister Tal Wizard",
     link:
-      "https://us.diablo3.com/en/item/the-twisted-sword-Unique_Sword_1H_107_x1",
+      "https://www.icy-veins.com/d3/wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1",
   },
   "https://www.icy-veins.com/d3/akkhan-condemn-crusader-bis-gear-gems-paragon-points": {
     label: "Akkhan Condemn Crusader",
-    link: "https://us.diablo3.com/en/item/the-furnace-Unique_Mace_2H_103_x1",
+    link:
+      "https://www.icy-veins.com/d3/akkhan-condemn-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points": {
     label: "Masquerade Bone Spear Necromancer",
     link:
-      "https://us.diablo3.com/en/item/sophisticated-vest-P69_Necro_Set_5_Chest",
+      "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points": {
     label: "Zuni Carnevil Poison Dart Witch Doctor",
-    link: "https://us.diablo3.com/en/item/zunimassas-trail-Unique_Boots_013_x1",
+    link:
+      "https://www.icy-veins.com/d3/zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/shadow-impale-demon-hunter-bis-gear-gems-paragon-points": {
     label: "Shadow Impale Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/shadow-impale-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/natalya-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": {
     label: "Natalya Rapid Fire Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/wojahnni-assaulter-P65_Unique_Xbow_102",
+      "https://www.icy-veins.com/d3/natalya-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/seismic-slam-barbarian-speed-farming-build": {
     label: "Seismic Slam Barbarian",
     link:
-      "https://us.diablo3.com/en/item/weight-of-the-earth-Unique_Pants_Set_15_x1",
+      "https://www.icy-veins.com/d3/seismic-slam-barbarian-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/lod-corpse-explosion-necromancer-key-farming-build": {
     label: "LoD Corpse Explosion Necromancer",
     link:
-      "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
+      "https://www.icy-veins.com/d3/lod-corpse-explosion-necromancer-key-farming-build",
   },
   "https://www.icy-veins.com/d3/helltooth-gargantuan-witch-doctor-speed-farming-build": {
     label: "Helltooth Gargantuan Witch Doctor",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/helltooth-gargantuan-witch-doctor-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/lod-singularity-necromancer-key-farming-build": {
     label: "LoD Singularity Necromancer",
     link:
-      "https://us.diablo3.com/en/item/rechels-ring-of-larceny-Unique_Ring_104_x1",
+      "https://www.icy-veins.com/d3/lod-singularity-necromancer-key-farming-build",
   },
   "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build": {
     label: "Aegis of Valor Fist of the Heavens Crusader",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-speed-farming-build": {
     label: "Aegis of Valor Heaven's Fury Crusader",
-    link: "https://us.diablo3.com/en/item/stone-of-jordan-P69_Unique_Ring_019",
+    link:
+      "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/rend-wastes-barbarian-speed-farming-build": {
     label: "Rend Wastes Barbarian",
     link:
-      "https://us.diablo3.com/en/item/rechels-ring-of-larceny-Unique_Ring_104_x1",
+      "https://www.icy-veins.com/d3/rend-wastes-barbarian-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-speed-farming-build": {
     label: "Raiment Shenlong Generator Monk",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/marauder-cluster-arrow-demon-hunter-speed-farming-build": {
     label: "Marauder Cluster Arrow Demon Hunter",
-    link: "https://us.diablo3.com/en/item/yangs-recurve-P61_Unique_Bow_104_x1",
+    link:
+      "https://www.icy-veins.com/d3/marauder-cluster-arrow-demon-hunter-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/lod-spirit-barrage-witch-doctor-speed-farming-build": {
     label: "LoD Spirit Barrage Witch Doctor",
     link:
-      "https://us.diablo3.com/en/item/rechels-ring-of-larceny-Unique_Ring_104_x1",
+      "https://www.icy-veins.com/d3/lod-spirit-barrage-witch-doctor-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/akkhan-condemn-crusader-speed-farming-build": {
     label: "Akkhan Condemn Crusader",
-    link: "https://us.diablo3.com/en/item/stone-of-jordan-P69_Unique_Ring_019",
+    link:
+      "https://www.icy-veins.com/d3/akkhan-condemn-crusader-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/rolands-shield-bash-crusader-speed-farming-build": {
     label: "Roland's Shield Bash Crusader",
-    link: "https://us.diablo3.com/en/item/stone-of-jordan-P69_Unique_Ring_019",
+    link:
+      "https://www.icy-veins.com/d3/rolands-shield-bash-crusader-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/inna-exploding-palm-monk-speed-farming-build": {
     label: "Inna Exploding Palm Monk",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/inna-exploding-palm-monk-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/swk-ltk-monk-speed-farming-build": {
     label: "SWK LTK Monk",
-    link: "https://us.diablo3.com/en/item/stone-of-jordan-P69_Unique_Ring_019",
+    link: "https://www.icy-veins.com/d3/swk-ltk-monk-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/multishot-marauder-demon-hunter-speed-farming-build": {
     label: "Multishot Marauder Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
+      "https://www.icy-veins.com/d3/multishot-marauder-demon-hunter-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/hota-raekor-barbarian-speed-farming-build": {
     label: "HotA Raekor Barbarian",
     link:
-      "https://us.diablo3.com/en/item/the-burning-axe-of-sankis-Unique_Axe_1H_007_x1",
+      "https://www.icy-veins.com/d3/hota-raekor-barbarian-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/rathma-skeletal-mages-necromancer-speed-farming-build": {
     label: "Rathma Skeletal Mages Necromancer",
     link:
-      "https://us.diablo3.com/en/item/squirts-necklace-P66_Unique_Amulet_010",
+      "https://www.icy-veins.com/d3/rathma-skeletal-mages-necromancer-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-speed-farming-build": {
     label: "Frenzy HotNS Barbarian",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/zuni-carnevil-poison-dart-witch-doctor-speed-farming-build": {
     label: "Zuni Carnevil Poison Dart Witch Doctor",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/invoker-thorns-crusader-speed-farming-build": {
     label: "Invoker Thorns Crusader",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/invoker-thorns-crusader-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/firebird-wizard-speed-farming-build": {
     label: "Firebird Wizard",
-    link: "https://us.diablo3.com/en/item/nemesis-bracers-Unique_Bracer_106_x1",
+    link: "https://www.icy-veins.com/d3/firebird-wizard-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/blessed-hammer-crusader-speed-farming-build": {
     label: "Blessed Hammer Crusader",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/blessed-hammer-crusader-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-bis-gear-gems-paragon-points": {
     label: "Explosive Blast Farming Wizard",
-    link: "https://us.diablo3.com/en/item/wand-of-woh-P61_Unique_Wand_101_x1",
+    link:
+      "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/generator-necromancer-speed-farming-build": {
     label: "Generator Necromancer",
     link:
-      "https://us.diablo3.com/en/item/razeths-volition-P69_Necro_Unique_Shoulders_22",
+      "https://www.icy-veins.com/d3/generator-necromancer-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/poj-tempest-rush-monk-speed-farming-build": {
     label: "PoJ Tempest Rush Monk",
     link:
-      "https://us.diablo3.com/en/item/vengeful-wind-P67_fistWeapon_norm_unique_02",
+      "https://www.icy-veins.com/d3/poj-tempest-rush-monk-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-speed-farming-build": {
     label: "Helltooth Zombie Bears Witch Doctor",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/lon-bombardment-crusader-speed-farming-build": {
     label: "LoN Bombardment Crusader",
-    link: "https://us.diablo3.com/en/item/nemesis-bracers-Unique_Bracer_106_x1",
+    link:
+      "https://www.icy-veins.com/d3/lon-bombardment-crusader-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/trag-oul-blood-mages-necromancer-bis-gear-gems-paragon-points": {
     label: "Trag'Oul Blood Mages Necromancer",
     link:
-      "https://us.diablo3.com/en/item/tragouls-stalwart-greaves-P6_Necro_Set_2_Boots",
+      "https://www.icy-veins.com/d3/trag-oul-blood-mages-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/inarius-corpse-explosion-necromancer-speed-farming-build": {
     label: "Inarius Corpse Explosion Necromancer",
-    link: "https://us.diablo3.com/en/item/wisdom-of-kalan-P6_Unique_Amulet_03",
+    link:
+      "https://www.icy-veins.com/d3/inarius-corpse-explosion-necromancer-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-speed-farming-build": {
     label: "Sunwuko Wave of Light Monk",
-    link: "https://us.diablo3.com/en/item/stone-of-jordan-P69_Unique_Ring_019",
+    link:
+      "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points": {
     label: "Akkhan Bombardment Crusader",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/inarius-bone-storm-necromancer-speed-farming-build": {
     label: "Inarius Bone Storm Necromancer",
     link:
-      "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
+      "https://www.icy-veins.com/d3/inarius-bone-storm-necromancer-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/unhallowed-essence-grenades-demon-hunter-speed-farming-build": {
     label: "Unhallowed Essence Grenades Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/unhallowed-essence-grenades-demon-hunter-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/shadow-impale-demon-hunter-speed-farming-build": {
     label: "Shadow Impale Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/the-shadows-burden-Unique_Shoulder_Set_14_x1",
+      "https://www.icy-veins.com/d3/shadow-impale-demon-hunter-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/god-hungering-arrow-speed-farming-demon-hunter-build": {
     label: "GoD Hungering Arrow Demon Hunter",
-    link: "https://us.diablo3.com/en/item/yangs-recurve-P61_Unique_Bow_104_x1",
+    link:
+      "https://www.icy-veins.com/d3/god-hungering-arrow-speed-farming-demon-hunter-build",
   },
   "https://www.icy-veins.com/d3/demon-hunter-bolas-build-with-gears-of-dreadlands": {
     label: "GoD Hungering Arrow Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
+      "https://www.icy-veins.com/d3/demon-hunter-bolas-build-with-gears-of-dreadlands",
   },
   "https://www.icy-veins.com/d3/arachyr-firebats-witch-doctor-speed-farming-build": {
     label: "Arachyr Firebats Witch Doctor",
-    link: "https://us.diablo3.com/en/item/wormwood-P2_Unique_Staff_003",
+    link:
+      "https://www.icy-veins.com/d3/arachyr-firebats-witch-doctor-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/unhallowed-essence-multishot-demon-hunter-speed-farming-build": {
     label: "Unhallowed Essence Multishot Demon Hunter",
-    link: "https://us.diablo3.com/en/item/unholy-plates-Unique_Pants_Set_03_p2",
+    link:
+      "https://www.icy-veins.com/d3/unhallowed-essence-multishot-demon-hunter-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/whirlwind-gr-wastes-barbarian-speed-farming-build": {
     label: "Whirlwind GR Wastes Barbarian",
-    link: "https://us.diablo3.com/en/item/stone-of-jordan-P69_Unique_Ring_019",
+    link:
+      "https://www.icy-veins.com/d3/whirlwind-gr-wastes-barbarian-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/natalya-rain-of-vengeance-demon-hunter-speed-farming-build": {
     label: "Natalya Rain of Vengeance Demon Hunter",
-    link: "https://us.diablo3.com/en/item/yangs-recurve-P61_Unique_Bow_104_x1",
+    link:
+      "https://www.icy-veins.com/d3/natalya-rain-of-vengeance-demon-hunter-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/jade-harvester-witch-doctor-speed-farming-build": {
     label: "Jade Harvester Witch Doctor",
-    link: "https://us.diablo3.com/en/item/wormwood-P2_Unique_Staff_003",
+    link:
+      "https://www.icy-veins.com/d3/jade-harvester-witch-doctor-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/leap-earthquake-mote-barbarian-speed-farming-build": {
     label: "Leap/Earthquake MotE Barbarian",
-    link: "https://us.diablo3.com/en/item/stone-of-jordan-P69_Unique_Ring_019",
+    link:
+      "https://www.icy-veins.com/d3/leap-earthquake-mote-barbarian-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/furious-charge-ik-raekor-barbarian-speed-farming-build": {
     label: "Furious Charge IK/Raekor Barbarian",
-    link: "https://us.diablo3.com/en/item/nemesis-bracers-Unique_Bracer_106_x1",
+    link:
+      "https://www.icy-veins.com/d3/furious-charge-ik-raekor-barbarian-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/dmo-arcane-orbit-wizard-speed-farming-build": {
     label: "DMO Arcane Orbit Wizard",
     link:
-      "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
+      "https://www.icy-veins.com/d3/dmo-arcane-orbit-wizard-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/akkhan-blessed-shield-crusader-speed-farming-build": {
     label: "Akkhan Blessed Shield Crusader",
     link:
-      "https://us.diablo3.com/en/item/talisman-of-akkhan-P43_AkkhanSet_Amulet",
+      "https://www.icy-veins.com/d3/akkhan-blessed-shield-crusader-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/speed-farming-barbarian-hota-build-with-immortal-king": {
     label: "HotA IK Barbarian",
-    link: "https://us.diablo3.com/en/item/restraint-Unique_Ring_Set_002_x1",
+    link:
+      "https://www.icy-veins.com/d3/speed-farming-barbarian-hota-build-with-immortal-king",
   },
   "https://www.icy-veins.com/d3/rolands-sweep-attack-crusader-speed-farming-build": {
     label: "Roland's Sweep Attack Crusader",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/rolands-sweep-attack-crusader-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/uliana-seven-sided-strike-monk-speed-farming-build": {
     label: "Uliana Seven-Sided Strike Monk",
     link:
-      "https://us.diablo3.com/en/item/ulianas-burden-Unique_Pants_Set_01_p3",
+      "https://www.icy-veins.com/d3/uliana-seven-sided-strike-monk-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/swk-tempest-rush-monk-speed-farming-build": {
     label: "SWK Tempest Rush Monk",
     link:
-      "https://us.diablo3.com/en/item/sunwukos-balance-Unique_Shoulder_Set_11_x1",
+      "https://www.icy-veins.com/d3/swk-tempest-rush-monk-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/chakram-demon-hunter-speed-farming-build": {
     label: "Chakram Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
+      "https://www.icy-veins.com/d3/chakram-demon-hunter-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/frenzy-thorns-lon-barbarian-speed-farming-build": {
     label: "Frenzy Thorns LoN Barbarian",
-    link: "https://us.diablo3.com/en/item/homing-pads-Unique_Shoulder_001_x1",
+    link:
+      "https://www.icy-veins.com/d3/frenzy-thorns-lon-barbarian-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/poj-tempest-rush-monk-bis-gear-gems-paragon-points": {
     label: "PoJ Tempest Rush Monk",
-    link: "https://us.diablo3.com/en/item/won-khim-lau-P67_Unique_Fist_006",
+    link:
+      "https://www.icy-veins.com/d3/poj-tempest-rush-monk-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/swk-tempest-rush-monk-bis-gear-gems-paragon-points": {
     label: "SWK Tempest Rush Monk",
-    link: "https://us.diablo3.com/en/item/won-khim-lau-P67_Unique_Fist_006",
+    link:
+      "https://www.icy-veins.com/d3/swk-tempest-rush-monk-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/demon-hunter-natalya-fire-build-with-rain-of-vengeance-patch-2-4": {
     label: "Fire Natalya Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/the-ess-of-johan-Unique_Amulet_104_x1",
+      "https://www.icy-veins.com/d3/demon-hunter-natalya-fire-build-with-rain-of-vengeance-patch-2-4",
   },
   "https://www.icy-veins.com/d3/barbarian-might-of-the-earth-set-dungeon-guide": {
     label: "Barbarian MotE Dungeon Guide",
     link:
-      "https://us.diablo3.com/en/item/weight-of-the-earth-Unique_Pants_Set_15_x1",
+      "https://www.icy-veins.com/d3/barbarian-might-of-the-earth-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/barbarian-raekor-set-dungeon-guide": {
     label: "Barbarian Raekor Dungeon Guide",
-    link:
-      "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
+    link: "https://www.icy-veins.com/d3/barbarian-raekor-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/support-barbarian-speed-farming-build": {
     label: "Support Barbarian",
-    link:
-      "https://us.diablo3.com/en/item/messerschmidts-reaver-P66_Unique_Axe_2H_011",
+    link: "https://www.icy-veins.com/d3/support-barbarian-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/furious-charge-ik-raekor-barbarian-bis-gear-gems-paragon-points": {
     label: "Furious Charge IK/Raekor Barbarian",
-    link: "https://us.diablo3.com/en/item/vile-ward-Unique_Shoulder_003_p1",
+    link:
+      "https://www.icy-veins.com/d3/furious-charge-ik-raekor-barbarian-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/hota-ik-barbarian-bis-gear-gems-paragon-points": {
     label: "HotA IK Barbarian",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/hota-ik-barbarian-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/monk-raiment-of-a-thousand-storms-set-dungeon-guide": {
     label: "Monk Raiment Set Dungeon Guide",
     link:
-      "https://us.diablo3.com/en/item/the-crudest-boots-P1_Unique_Boots_010",
+      "https://www.icy-veins.com/d3/monk-raiment-of-a-thousand-storms-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/monk-ulianas-stratagem-set-dungeon-guide": {
     label: "Monk Uliana Set Dungeon Guide",
-    link: "https://us.diablo3.com/en/item/vigilante-belt-Unique_Belt_002_x1",
+    link:
+      "https://www.icy-veins.com/d3/monk-ulianas-stratagem-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/witch-doctor-zunimassa-set-dungeon-guide": {
     label: "Witch Doctor Zunimassa Set Dungeon Guide",
-    link: "https://us.diablo3.com/en/item/zunimassas-trail-Unique_Boots_013_x1",
+    link:
+      "https://www.icy-veins.com/d3/witch-doctor-zunimassa-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/zuni-gargantuan-witch-doctor-bis-gear-gems-paragon-points": {
     label: "Zuni Gargantuan Witch Doctor",
     link:
-      "https://us.diablo3.com/en/item/zunimassas-vision-Unique_VoodooMask_007_x1",
+      "https://www.icy-veins.com/d3/zuni-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points": {
     label: "Helltooth Acid Cloud Witch Doctor",
     link:
-      "https://us.diablo3.com/en/item/the-grin-reaper-Unique_VoodooMask_002_x1",
+      "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": {
     label: "Helltooth Zombie Bears Witch Doctor",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points": {
     label: "Uliana Seven-Sided Strike Monk",
     link:
-      "https://us.diablo3.com/en/item/ulianas-strength-Unique_Shoulder_Set_01_p3",
+      "https://www.icy-veins.com/d3/uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-ltk-monk-bis-gear-gems-paragon-points": {
     label: "LoD LTK Monk",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/lod-ltk-monk-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/inna-exploding-palm-monk-bis-gear-gems-paragon-points": {
     label: "Inna Exploding Palm Monk",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/inna-exploding-palm-monk-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-wol-monk-bis-gear-gems-paragon-points": {
     label: "LoD WoL Monk",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/lod-wol-monk-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-condemn-crusader-bis-gear-gems-paragon-points": {
     label: "LoD Condemn Crusader",
-    link: "https://us.diablo3.com/en/item/vigilante-belt-Unique_Belt_002_x1",
+    link:
+      "https://www.icy-veins.com/d3/lod-condemn-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/demon-hunter-embodiment-of-the-marauder-set-dungeon-guide": {
     label: "Demon Hunter Marauder Set Dungeon Guide",
-    link: "https://us.diablo3.com/en/item/zoeys-secret-P4_Unique_Belt_04",
+    link:
+      "https://www.icy-veins.com/d3/demon-hunter-embodiment-of-the-marauder-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/natalya-marauder-sentry-demon-hunter-bis-gear-gems-paragon-points": {
     label: "Natalya Marauder Sentry Demon Hunter",
-    link: "https://us.diablo3.com/en/item/zoeys-secret-P4_Unique_Belt_04",
+    link:
+      "https://www.icy-veins.com/d3/natalya-marauder-sentry-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/marauder-cluster-arrow-demon-hunter-bis-gear-gems-paragon-points": {
     label: "Marauder Cluster Arrow Demon Hunter",
-    link: "https://us.diablo3.com/en/item/zoeys-secret-P4_Unique_Belt_04",
+    link:
+      "https://www.icy-veins.com/d3/marauder-cluster-arrow-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/multishot-marauder-demon-hunter-bis-gear-gems-paragon-points": {
     label: "Multishot Marauder Demon Hunter",
-    link: "https://us.diablo3.com/en/item/zoeys-secret-P4_Unique_Belt_04",
+    link:
+      "https://www.icy-veins.com/d3/multishot-marauder-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points": {
     label: "Aegis of Valor Heaven's Fury Crusader",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/seismic-slam-barbarian-bis-gear-gems-paragon-points": {
     label: "Seismic Slam Barbarian",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/seismic-slam-barbarian-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/crusader-akkhan-set-dungeon-guide": {
     label: "Akkhan Set Dungeon Guide",
-    link: "https://us.diablo3.com/en/item/vigilante-belt-Unique_Belt_002_x1",
+    link: "https://www.icy-veins.com/d3/crusader-akkhan-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/barbarian-wrath-of-the-wastes-set-dungeon-guide": {
     label: "Barbarian Wastes Dungeon Guide",
     link:
-      "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
+      "https://www.icy-veins.com/d3/barbarian-wrath-of-the-wastes-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points": {
     label: "Whirlwind GR Wastes Barbarian",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/follower-skills-and-gearing-guide": {
     label: "Follower Guide",
-    link: "https://us.diablo3.com/en/item/wyrdward-Unique_Ring_102_p2",
+    link: "https://www.icy-veins.com/d3/follower-skills-and-gearing-guide",
   },
   "https://www.icy-veins.com/d3/crusader-seeker-of-the-light-set-dungeon-guide": {
     label: "SotL Set Dungeon Guide",
     link:
-      "https://us.diablo3.com/en/item/will-of-the-light-Unique_Gloves_Set_03_p3",
+      "https://www.icy-veins.com/d3/crusader-seeker-of-the-light-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-bis-gear-gems-paragon-points": {
     label: "Raiment Shenlong Generator Monk",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/rolands-shield-bash-crusader-bis-gear-gems-paragon-points": {
     label: "Roland's Shield Bash Crusader",
     link:
-      "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
+      "https://www.icy-veins.com/d3/rolands-shield-bash-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points": {
     label: "Sunwuko Wave of Light Monk",
     link:
-      "https://us.diablo3.com/en/item/vengeful-wind-P67_fistWeapon_norm_unique_02",
+      "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points": {
     label: "Spirit Barrage Mundunugu WD",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points": {
     label: "Corpse Lance Necromancer",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/jade-harvester-witch-doctor-bis-gear-gems-paragon-points": {
     label: "Jade Harvester Witch Doctor",
-    link: "https://us.diablo3.com/en/item/vile-hive-P4_Unique_Mojo_001",
+    link:
+      "https://www.icy-veins.com/d3/jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/demon-hunter-shadow-set-dungeon-guide": {
     label: "Demon Hunter Shadow Set Dungeon Guide",
-    link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+    link: "https://www.icy-veins.com/d3/demon-hunter-shadow-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/support-barbarian-bis-gear-gems-paragon-points": {
     label: "Support Barbarian",
     link:
-      "https://us.diablo3.com/en/item/xephirian-amulet-Unique_Amulet_004_x1",
+      "https://www.icy-veins.com/d3/support-barbarian-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/wizard-fire-build-with-the-tal-rasha-set-patch-2-3": {
     label: "Tal Rasha Wizard",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/wizard-fire-build-with-the-tal-rasha-set-patch-2-3",
   },
   "https://www.icy-veins.com/d3/monk-the-thrill-conquest-build-season-12-patch-2-6-1": {
     label: "The Thrill Monk",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/monk-the-thrill-conquest-build-season-12-patch-2-6-1",
   },
   "https://www.icy-veins.com/d3/demon-hunter-the-thrill-conquest-build-season-12-patch-2-6-1": {
     label: "The Thrill Demon Hunter",
-    link: "https://us.diablo3.com/en/item/yangs-recurve-P61_Unique_Bow_104_x1",
+    link:
+      "https://www.icy-veins.com/d3/demon-hunter-the-thrill-conquest-build-season-12-patch-2-6-1",
   },
   "https://www.icy-veins.com/d3/swk-ltk-monk-bis-gear-gems-paragon-points": {
     label: "SWK LTK Monk",
     link:
-      "https://us.diablo3.com/en/item/vengeful-wind-P67_fistWeapon_norm_unique_02",
+      "https://www.icy-veins.com/d3/swk-ltk-monk-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": {
     label: "LoD Rapid Fire Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/wojahnni-assaulter-P65_Unique_Xbow_102",
+      "https://www.icy-veins.com/d3/lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/necromancer-rathma-set-dungeon-guide": {
     label: "Necromancer Rathma Set Dungeon Guide",
-    link:
-      "https://us.diablo3.com/en/item/steuarts-greaves-P61_Necro_Unique_Boots_21",
+    link: "https://www.icy-veins.com/d3/necromancer-rathma-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/necromancer-trag-oul-set-dungeon-guide": {
     label: "Necromancer Trag'Oul Set Dungeon Guide",
-    link:
-      "https://us.diablo3.com/en/item/tragouls-stalwart-greaves-P6_Necro_Set_2_Boots",
+    link: "https://www.icy-veins.com/d3/necromancer-trag-oul-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points": {
     label: "Rathma Skeletal Mages Necromancer",
-    link: "https://us.diablo3.com/en/item/the-witching-hour-Unique_Belt_009_x1",
+    link:
+      "https://www.icy-veins.com/d3/rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/monk-sunwuko-exploding-palm-build-patch-2-4": {
     label: "Sunwuko EP Monk",
     link:
-      "https://us.diablo3.com/en/item/wrath-of-the-bone-king-Unique_Mace_2H_012_p1",
+      "https://www.icy-veins.com/d3/monk-sunwuko-exploding-palm-build-patch-2-4",
   },
   "https://www.icy-veins.com/d3/monk-sunwuko-set-dungeon-guide": {
     label: "Monk Sunwuko Set Dungeon Guide",
-    link:
-      "https://us.diablo3.com/en/item/tzo-krins-gaze-Unique_SpiritStone_007_x1",
+    link: "https://www.icy-veins.com/d3/monk-sunwuko-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/wizard-the-thrill-conquest-build-season-12-patch-2-6-1": {
     label: "The Thrill Wizard",
     link:
-      "https://us.diablo3.com/en/item/unstable-scepter-P61_Wand_norm_unique_02",
+      "https://www.icy-veins.com/d3/wizard-the-thrill-conquest-build-season-12-patch-2-6-1",
   },
   "https://www.icy-veins.com/d3/necromancer-pestilence-set-dungeon-guide": {
     label: "Necromancer Pestilence Set Dungeon Guide",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/necromancer-pestilence-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/blessed-hammer-crusader-bis-gear-gems-paragon-points": {
     label: "Blessed Hammer Crusader",
     link:
-      "https://us.diablo3.com/en/item/will-of-the-light-Unique_Gloves_Set_03_p3",
+      "https://www.icy-veins.com/d3/blessed-hammer-crusader-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/generator-necromancer-bis-gear-gems-paragon-points": {
     label: "Generator Necromancer",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/generator-necromancer-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": {
     label: "DMO Frozen Orb Wizard",
     link:
-      "https://us.diablo3.com/en/item/unstable-scepter-P61_Wand_norm_unique_02",
+      "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points": {
     label: "Helltooth Grasp Witch Doctor",
-    link: "https://us.diablo3.com/en/item/wilkens-reach-P4_Unique_Mojo_003",
+    link:
+      "https://www.icy-veins.com/d3/helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/arachyr-firebats-witch-doctor-group-progression-build": {
     label: "Arachyr Firebats Witch Doctor",
-    link: "https://us.diablo3.com/en/item/vile-hive-P4_Unique_Mojo_001",
+    link:
+      "https://www.icy-veins.com/d3/arachyr-firebats-witch-doctor-group-progression-build",
   },
   "https://www.icy-veins.com/d3/dmo-energy-twister-wizard-bis-gear-gems-paragon-points": {
     label: "DMO Energy Twister Wizard",
     link:
-      "https://us.diablo3.com/en/item/the-twisted-sword-Unique_Sword_1H_107_x1",
+      "https://www.icy-veins.com/d3/dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/demon-hunter-natalyas-vengeance-set-dungeon-guide": {
     label: "Demon Hunter Natalya Set Dungeon Guide",
-    link: "https://us.diablo3.com/en/item/vigilante-belt-Unique_Belt_002_x1",
+    link:
+      "https://www.icy-veins.com/d3/demon-hunter-natalyas-vengeance-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/rathma-skeletal-mages-necromancer-group-speed-grs-build": {
     label: "Rathma Skeletal Mages Necromancer",
     link:
-      "https://us.diablo3.com/en/item/scythe-of-the-cycle-P61_Unique_Scythe1H_03",
+      "https://www.icy-veins.com/d3/rathma-skeletal-mages-necromancer-group-speed-grs-build",
   },
   "https://www.icy-veins.com/d3/corpse-lance-necromancer-group-progression-build": {
     label: "Corpse Lance Necromancer",
     link:
-      "https://us.diablo3.com/en/item/tragouls-corroded-fang-P6_Unique_Scythe1H_02",
+      "https://www.icy-veins.com/d3/corpse-lance-necromancer-group-progression-build",
   },
   "https://www.icy-veins.com/d3/crusader-rolands-set-dungeon-guide": {
     label: "Roland's Set Dungeon Guide",
-    link: "https://us.diablo3.com/en/item/the-witching-hour-Unique_Belt_009_x1",
+    link: "https://www.icy-veins.com/d3/crusader-rolands-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/monk-static-charge-lightning-build-patch-2-4": {
     label: "Static Charge Monk",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link:
+      "https://www.icy-veins.com/d3/monk-static-charge-lightning-build-patch-2-4",
   },
   "https://www.icy-veins.com/d3/monk-innas-mantra-set-dungeon-guide": {
     label: "Monk Inna Set Dungeon Guide",
-    link: "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
+    link: "https://www.icy-veins.com/d3/monk-innas-mantra-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/god-marauder-support-demon-hunter-bis-gear-gems-paragon-points": {
     label: "GoD/Marauder Support Demon Hunter",
-    link: "https://us.diablo3.com/en/item/zoeys-secret-P4_Unique_Belt_04",
+    link:
+      "https://www.icy-veins.com/d3/god-marauder-support-demon-hunter-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/lightning-archon-wizard-bis-gear-gems-paragon-points": {
     label: "Lightning Archon Wizard",
     link:
-      "https://us.diablo3.com/en/item/vyrs-swaggering-stance-Unique_Boots_Set_13_x1",
+      "https://www.icy-veins.com/d3/lightning-archon-wizard-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/witch-doctor-helltooth-set-dungeon-guide": {
     label: "Witch Doctor Helltooth Set Dungeon Guide",
-    link: "https://us.diablo3.com/en/item/vigilante-belt-Unique_Belt_002_x1",
+    link:
+      "https://www.icy-veins.com/d3/witch-doctor-helltooth-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/wizard-tal-rasha-set-dungeon-guide": {
     label: "Wizard Tal Rasha Set Dungeon Guide",
-    link:
-      "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
+    link: "https://www.icy-veins.com/d3/wizard-tal-rasha-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/marauder-cluster-arrow-demon-hunter-rockets-based-progression-build": {
     label: "Marauder Cluster Arrow Demon Hunter",
-    link: "https://us.diablo3.com/en/item/visage-of-gunes-P4_Unique_Helm_103",
+    link:
+      "https://www.icy-veins.com/d3/marauder-cluster-arrow-demon-hunter-rockets-based-progression-build",
   },
   "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-rgk-build": {
     label: "Frenzy HotNS Barbarian",
-    link: "https://us.diablo3.com/en/item/sun-keeper-Unique_Mace_1H_011_x1",
+    link: "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-rgk-build",
   },
   "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build": {
     label: "Masquerade Bone Spear Necromancer",
     link:
-      "https://us.diablo3.com/en/item/steuarts-greaves-P61_Necro_Unique_Boots_21",
+      "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build",
   },
   "https://www.icy-veins.com/d3/helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points": {
     label: "Helltooth Gargantuan Witch Doctor",
-    link: "https://us.diablo3.com/en/item/uhkapian-serpent-Unique_Mojo_008_x1",
+    link:
+      "https://www.icy-veins.com/d3/helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
   },
   "https://www.icy-veins.com/d3/corpse-lance-necromancer-speed-farming-build": {
     label: "Corpse Lance Necromancer",
-    link: "https://us.diablo3.com/en/item/the-johnstone-P6_Unique_Amulet_01",
+    link:
+      "https://www.icy-veins.com/d3/corpse-lance-necromancer-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/meteor-wizard-star-pact-build": {
     label: "Meteor Wizard",
-    link:
-      "https://us.diablo3.com/en/item/the-shame-of-delsere-P4_Unique_Belt_02",
+    link: "https://www.icy-veins.com/d3/meteor-wizard-star-pact-build",
   },
   "https://www.icy-veins.com/d3/witch-doctor-jade-set-dungeon-guide": {
     label: "Witch Doctor Jade Set Dungeon Guide",
-    link: "https://us.diablo3.com/en/item/vigilante-belt-Unique_Belt_002_x1",
+    link: "https://www.icy-veins.com/d3/witch-doctor-jade-set-dungeon-guide",
   },
   "https://www.icy-veins.com/d3/zuni-gargantuan-witch-doctor-speed-farming-build": {
     label: "Zuni Gargantuan Witch Doctor",
-    link: "https://us.diablo3.com/en/item/zunimassas-pox-Unique_Ring_012_x1",
+    link:
+      "https://www.icy-veins.com/d3/zuni-gargantuan-witch-doctor-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/shadow-marauder-fok-demon-hunter-speed-farming-build": {
     label: "Shadow/Marauder FoK Demon Hunter",
     link:
-      "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
+      "https://www.icy-veins.com/d3/shadow-marauder-fok-demon-hunter-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-inna-shenlong-build": {
     label: "Raiment Shenlong Generator Monk",
     link:
-      "https://us.diablo3.com/en/item/the-crudest-boots-P1_Unique_Boots_010",
+      "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-inna-shenlong-build",
   },
   "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-inna-wave-of-light-build": {
     label: "Sunwuko Wave of Light Monk",
     link:
-      "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
+      "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-inna-wave-of-light-build",
   },
   "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-rgk-build": {
     label: "Aegis of Valor Heaven's Fury Crusader",
     link:
-      "https://us.diablo3.com/en/item/squirts-necklace-P66_Unique_Amulet_010",
+      "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-rgk-build",
   },
   "https://www.icy-veins.com/d3/lod-singularity-necromancer-speed-farming-build": {
     label: "LoD Singularity Necromancer",
     link:
-      "https://us.diablo3.com/en/item/squirts-necklace-P66_Unique_Amulet_010",
+      "https://www.icy-veins.com/d3/lod-singularity-necromancer-speed-farming-build",
   },
   "https://www.icy-veins.com/d3/shadow-impale-demon-hunter-group-progression-build": {
     label: "Shadow Impale Demon Hunter",
-    link: "https://us.diablo3.com/en/item/the-witching-hour-Unique_Belt_009_x1",
+    link:
+      "https://www.icy-veins.com/d3/shadow-impale-demon-hunter-group-progression-build",
   },
   "https://www.icy-veins.com/d3/corpse-lance-necromancer-trag-oul-build": {
     label: "Corpse Lance Necromancer",
     link:
-      "https://us.diablo3.com/en/item/tragouls-stalwart-greaves-P6_Necro_Set_2_Boots",
+      "https://www.icy-veins.com/d3/corpse-lance-necromancer-trag-oul-build",
   },
 };
 

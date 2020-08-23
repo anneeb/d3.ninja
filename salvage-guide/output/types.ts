@@ -39,8 +39,8 @@ export interface BuildsByLink {
 
 export const enum BuildItemTag {
   "ALT" = "Alt",
-  "CUBE" = "Cube",
   "BIS" = "BiS",
+  "CUBE" = "Cube",
   "OUTDATED" = "outdated",
   "VARIATION" = "variation",
 }
