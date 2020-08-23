@@ -1,21 +1,26 @@
-<div class="home">
+<div class="app-home">
   <mat-toolbar [color]="headerColor">
     <span>{{ headerText }}</span>
   </mat-toolbar>
-  <mat-drawer-container class="home__drawer-container">
+  <mat-drawer-container class="app-home__drawer-container">
     <mat-drawer
-      class="home__drawer-container__drawer"
+      class="app-home__drawer-container__drawer"
       mode="side"
-      [opened]="isSidebarOpen"
-      ><app-sidebar></app-sidebar>
+      [opened]="isStashDrawerOpen"
+      ><app-stash></app-stash>
     </mat-drawer>
-    <mat-drawer-content class="home__drawer-container__drawercontent">
-      <app-main></app-main>
-    </mat-drawer-content>
+    <app-main></app-main>
+    <mat-drawer
+      class="app-home__drawer-container__drawer"
+      mode="side"
+      position="end"
+      [opened]="isBuildDrawerOpen"
+      ><app-build-drawer></app-build-drawer>
+    </mat-drawer>
   </mat-drawer-container>
   <button
     mat-mini-fab
-    class="home__sidebar-icon"
+    class="app-home__sidebar-icon"
     (click)="handleSidebarIconClick()"
   >
     <mat-icon>{{ sidebarIcon }}</mat-icon>

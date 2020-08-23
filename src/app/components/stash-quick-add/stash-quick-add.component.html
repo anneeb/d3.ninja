@@ -1,4 +1,4 @@
-<mat-form-field class="stash-quick-add">
+<mat-form-field class="app-stash-quick-add">
   <input
     matInput
     type="text"
@@ -11,8 +11,8 @@
       <div
         (click)="handleItemClick($event, item)"
         [ngClass]="[
-          'stash-quick-add__item',
-          'stash-quick-add__item--' + item.type
+          'app-stash-quick-add__item',
+          'app-stash-quick-add__item--' + item.type
         ]"
       >
         <mat-checkbox [checked]="item.isSelected">

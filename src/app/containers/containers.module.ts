@@ -1,11 +1,12 @@
 import { NgModule } from "@angular/core";
 
+import { BuildDrawerModule } from "app/containers/build-drawer/build-drawer.module";
 import { MainModule } from "app/containers/main/main.module";
-import { SidebarModule } from "app/containers/sidebar/sidebar.module";
+import { StashDrawerModule } from "app/containers/stash-drawer/stash-drawer.module";
 
 @NgModule({
-  imports: [MainModule, SidebarModule],
+  imports: [BuildDrawerModule, MainModule, StashDrawerModule],
   declarations: [],
-  exports: [MainModule, SidebarModule],
+  exports: [BuildDrawerModule, MainModule, StashDrawerModule],
 })
 export class ContainersModule {}

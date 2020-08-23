@@ -3,20 +3,23 @@ import { BehaviorSubject } from "rxjs";
 import { BaseService } from "app/services/base-service";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class UiService extends BaseService {
-  private isSidebarOpen = new BehaviorSubject(true);
+  private isStashDrawerOpen = new BehaviorSubject(true);
 
   constructor() {
     super();
   }
 
-  getIsSidebarOpen() {
-    return super.getBehaviorSubjectValue(this.isSidebarOpen);
+  getisStashDrawerOpen() {
+    return super.getBehaviorSubjectValue(this.isStashDrawerOpen);
   }
 
-  setIsSidebarOpen(isSidebarOpen: boolean) {
-    return super.setBehaviorSubjectValue(this.isSidebarOpen, isSidebarOpen);
+  setisStashDrawerOpen(isStashDrawerOpen: boolean) {
+    return super.setBehaviorSubjectValue(
+      this.isStashDrawerOpen,
+      isStashDrawerOpen
+    );
   }
 }
