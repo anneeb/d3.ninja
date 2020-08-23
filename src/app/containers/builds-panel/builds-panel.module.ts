@@ -2,11 +2,11 @@ import { NgModule } from "@angular/core";
 
 import { SharedModule } from "app/shared/shared.module";
 import { ComponentsModule } from "app/components/components.module";
-import { MainComponent } from "app/containers/main/main.component";
+import { BuildsPanelComponent } from "app/containers/builds-panel/builds-panel.component";
 
 @NgModule({
   imports: [SharedModule, ComponentsModule],
-  declarations: [MainComponent],
-  exports: [MainComponent]
+  declarations: [BuildsPanelComponent],
+  exports: [BuildsPanelComponent],
 })
-export class MainModule {}
+export class BuildsPanelModule {}
