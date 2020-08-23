@@ -1,9 +1,9 @@
 import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
-import { BaseService } from "app/services/base-service";
 
 import { itemsByLink } from "constants/salvage-guide/salvage-guide";
 import { Item } from "constants/salvage-guide/types";
+import { BaseService } from "app/services/base-service";
 
 export interface StashItem extends Item {
   isSelected: boolean;
