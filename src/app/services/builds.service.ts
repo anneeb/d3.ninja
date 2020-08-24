@@ -2,9 +2,9 @@ import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
 
 import {
-  buildsByLink,
+  buildsById,
   itemsByBuild,
-  tagsByLinks,
+  tagsById,
 } from "constants/salvage-guide/salvage-guide";
 import { Build, BuildItemTag } from "constants/salvage-guide/types";
 import { BaseService } from "app/services/base-service";
@@ -37,7 +37,7 @@ function buildItemSort(property: keyof BuildItem = "score", desc: boolean) {
   };
 }
 
-const buildItems = Object.values(buildsByLink).reduce<BuildItemMap>(
+const buildItems = Object.values(buildsById).reduce<BuildItemMap>(
   (acc, build: Build) => {
     let isOutdated = false;
 
@@ -48,11 +48,11 @@ const buildItems = Object.values(buildsByLink).reduce<BuildItemMap>(
       [BuildItemTag.VARIATION]: [],
     };
 
-    const buildItems = itemsByBuild[build.link];
+    const buildItems = itemsByBuild[build.id];
 
     if (buildItems) {
       Object.entries(buildItems).forEach(([item, tagLink]) => {
-        const tags = tagsByLinks[tagLink];
+        const tags = tagsById[tagLink];
         tags.forEach((tag) => {
           if (tag === BuildItemTag.OUTDATED) {
             isOutdated = true;
@@ -62,12 +62,12 @@ const buildItems = Object.values(buildsByLink).reduce<BuildItemMap>(
         });
       });
     } else {
-      console.log(build.link, itemsByBuild[build.link]);
+      console.log(build.id, itemsByBuild[build.id]);
     }
 
     return {
       ...acc,
-      [build.link]: {
+      [build.id]: {
         ...build,
         isOutdated,
         items,

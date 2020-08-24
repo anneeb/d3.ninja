@@ -17,21 +17,21 @@
       margin-right: 10px;
     }
 
-    &--set {
+    &--green {
       a {
-        color: $app-stash-item-set;
+        color: $app-stash-item-green;
       }
       img {
-        background-color: $app-stash-item-set;
+        background-color: $app-stash-item-green;
       }
     }
 
-    &--legendary {
+    &--orange {
       a {
-        color: $app-stash-item-legendary;
+        color: $app-stash-item-orange;
       }
       img {
-        background-color: $app-stash-item-legendary;
+        background-color: $app-stash-item-orange;
       }
     }
   }

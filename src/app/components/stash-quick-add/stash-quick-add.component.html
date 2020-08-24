@@ -12,7 +12,7 @@
         (click)="handleItemClick($event, item)"
         [ngClass]="[
           'app-stash-quick-add__item',
-          'app-stash-quick-add__item--' + item.type
+          'app-stash-quick-add__item--' + item.color
         ]"
       >
         <mat-checkbox [checked]="item.isSelected">

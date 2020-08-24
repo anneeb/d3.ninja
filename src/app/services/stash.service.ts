@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
 
-import { itemsByLink } from "constants/salvage-guide/salvage-guide";
+import { itemsById } from "constants/salvage-guide/salvage-guide";
 import { Item } from "constants/salvage-guide/types";
 import { BaseService } from "app/services/base-service";
 
@@ -14,12 +14,12 @@ export interface StashItemMap {
   [value: string]: StashItem;
 }
 
-const stashItems = Object.values(itemsByLink).reduce<StashItemMap>(
+const stashItems = Object.values(itemsById).reduce<StashItemMap>(
   (acc, item: Item) => ({
     ...acc,
-    [item.link]: {
+    [item.id]: {
       ...item,
-      value: item.link,
+      value: item.id,
       isSelected: false,
     },
   }),

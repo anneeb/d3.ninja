@@ -5,12 +5,12 @@
   padding: 10px;
 
   &__item {
-    &--set {
-      color: $app-stash-item-set;
+    &--green {
+      color: $app-stash-item-green;
     }
 
-    &--legendary {
-      color: $app-stash-item-legendary;
+    &--orange {
+      color: $app-stash-item-orange;
     }
   }
 }

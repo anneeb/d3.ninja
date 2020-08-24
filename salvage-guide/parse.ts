@@ -72,7 +72,7 @@ async function getParsed(): Promise<ParsedData> {
   const itemsByBuild: ItemsByBuild = {};
   const tagsById: TagsById = {};
 
-  await Promise.all(
+  const requestedItem = await Promise.all(
     RAW_SALVAGE_GUIDE.map(async (item) => {
       let itemPath = item.link.replace("https://us.diablo3.com/en/", "");
       let itemData = await getItemData(itemPath);
@@ -82,40 +82,46 @@ async function getParsed(): Promise<ParsedData> {
         itemData = await getItemData(itemPath);
       }
 
-      const itemId = itemPath.slice(5);
-
-      itemsById[itemId] = {
-        id: itemId,
-        label: item.label,
-        link: item.link,
-        img: `http://media.blizzard.com/d3/icons/items/small/${itemData.icon}`,
-        color: itemData.color,
-        slots: itemData.slots.filter((slot: ItemSlot) =>
-          new Set(Object.values(ItemSlot)).has(slot)
-        ),
-        isTwoHanded: itemData.type.twoHanded,
+      return {
+        itemId: itemPath.slice(5),
+        itemData,
       };
-
-      buildsByItem[itemId] = {};
-
-      item.buildsData.forEach((build) => {
-        buildsById[build.id] = {
-          id: build.id,
-          label: build.label,
-          link: build.link,
-        };
-
-        const buildItemLinks = `${itemId}-${build.id}`;
-        tagsById[buildItemLinks] = getTags(build.tags);
-
-        if (!itemsByBuild[build.id]) {
-          itemsByBuild[build.id] = {};
-        }
-        itemsByBuild[build.id][itemId] = buildItemLinks;
-        buildsByItem[itemId][build.id] = buildItemLinks;
-      });
     })
   );
+
+  RAW_SALVAGE_GUIDE.forEach((item, idx) => {
+    const { itemId, itemData } = requestedItem[idx];
+    itemsById[itemId] = {
+      id: itemId,
+      label: item.label,
+      link: item.link,
+      img: `http://media.blizzard.com/d3/icons/items/small/${itemData.icon}.png`,
+      color: itemData.color,
+      slots: itemData.slots.filter((slot: ItemSlot) =>
+        new Set(Object.values(ItemSlot)).has(slot)
+      ),
+      isTwoHanded: itemData.type.twoHanded,
+    };
+
+    buildsByItem[itemId] = {};
+
+    item.buildsData.forEach((build) => {
+      buildsById[build.id] = {
+        id: build.id,
+        label: build.label,
+        link: build.link,
+      };
+
+      const buildItemLinks = `${itemId}-${build.id}`;
+      tagsById[buildItemLinks] = getTags(build.tags);
+
+      if (!itemsByBuild[build.id]) {
+        itemsByBuild[build.id] = {};
+      }
+      itemsByBuild[build.id][itemId] = buildItemLinks;
+      buildsByItem[itemId][build.id] = buildItemLinks;
+    });
+  });
 
   return {
     itemsById,
