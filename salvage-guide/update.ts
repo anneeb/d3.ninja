@@ -11,6 +11,7 @@ import {
 import { Options } from "selenium-webdriver/chrome";
 
 import { RawItemData, RawBuildData } from "./output/types";
+import { delay } from "./utils/delay";
 import { saveFileToDirectory } from "./utils/fileSystem";
 
 const SALVAGE_GUIDE_URL =
@@ -57,44 +58,28 @@ async function getElements(el: WebDriver | WebElement, locator: Locator) {
   }
 }
 
-async function delay(timeout: number = 100) {
-  await new Promise((res) => setTimeout(res, timeout));
-}
-
 // getters
 async function getItemData(el: WebElement): Promise<RawItemData> {
   let label = "";
   let link = "";
-  let type = "";
 
   const linkEl = await getElement(el, By.tagName("a"));
   if (linkEl) {
-    const [linkText, linkRef, linkClass] = await Promise.all([
+    const [linkText, linkRef] = await Promise.all([
       linkEl.getText(),
       linkEl.getAttribute("href"),
-      linkEl.getAttribute("class"),
     ]);
     label = linkText;
     link = linkRef.replace("http", "https");
-    type = linkClass.substr(3);
   } else {
     return null;
   }
 
-  let img = "";
-  const imgEl = await getElement(el, By.tagName("img"));
-  if (imgEl) {
-    const imgSrc = await imgEl.getAttribute("src");
-    img = imgSrc.replace(
-      "https://static.icy-veins.com/images/d3/icons/",
-      "https://blzmedia-a.akamaihd.net/d3/icons/items/small/"
-    );
-  }
-
-  return { label, link, type, img };
+  return { label, link };
 }
 
 async function getBuildData(el: WebElement): Promise<RawBuildData> {
+  let id = "";
   let label = "";
   let link = "";
   let tags = "";
@@ -105,14 +90,17 @@ async function getBuildData(el: WebElement): Promise<RawBuildData> {
       linkEl.getText(),
       linkEl.getAttribute("href"),
     ]);
+    id = linkRef.replace("https://www.icy-veins.com/d3/", "");
     label = linkText;
     link = linkRef;
+  } else {
+    return;
   }
 
   const buildText = await el.getText();
   tags = buildText.substr(label.length).trim().replace(/\(|\)/g, "");
 
-  return { label, link, tags };
+  return { id, label, link, tags };
 }
 
 async function getBuildsData(el: WebElement): Promise<RawBuildData[]> {
