@@ -1,0 +1,45 @@
+@import "../../../styles/variables.scss";
+
+.builds-panel {
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  &__card {
+    max-width: 200px;
+    margin: 5px;
+
+    a {
+      color: inherit;
+    }
+
+    &__items {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 6px;
+        margin-right: 10px;
+        border: 2px solid $app-background-background;
+      }
+
+      &--green {
+        img {
+          background-color: $app-stash-item-green;
+        }
+      }
+
+      &--orange {
+        img {
+          background-color: $app-stash-item-orange;
+        }
+      }
+    }
+  }
+}

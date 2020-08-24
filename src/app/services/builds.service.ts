@@ -2,11 +2,12 @@ import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
 
 import {
+  itemsById,
   buildsById,
   itemsByBuild,
   tagsById,
 } from "constants/salvage-guide/salvage-guide";
-import { Build, BuildItemTag } from "constants/salvage-guide/types";
+import { ItemColor, Build, BuildItemTag } from "constants/salvage-guide/types";
 import { BaseService } from "app/services/base-service";
 import { StashService, StashItem } from "app/services/stash.service";
 
@@ -18,6 +19,12 @@ export interface BuildItem extends Build {
     [BuildItemTag.BIS]: string[];
     [BuildItemTag.VARIATION]: string[];
   };
+  icons: {
+    link: string;
+    img: string;
+    color: ItemColor;
+    isSelected: boolean;
+  }[];
   score: number;
 }
 
@@ -48,22 +55,23 @@ const buildItems = Object.values(buildsById).reduce<BuildItemMap>(
       [BuildItemTag.VARIATION]: [],
     };
 
-    const buildItems = itemsByBuild[build.id];
-
-    if (buildItems) {
-      Object.entries(buildItems).forEach(([item, tagLink]) => {
-        const tags = tagsById[tagLink];
-        tags.forEach((tag) => {
-          if (tag === BuildItemTag.OUTDATED) {
-            isOutdated = true;
-          } else {
-            items[tag].push(item);
-          }
-        });
+    Object.entries(itemsByBuild[build.id]).forEach(([item, tagId]) => {
+      const tags = tagsById[tagId];
+      tags.forEach((tag) => {
+        if (tag === BuildItemTag.OUTDATED) {
+          isOutdated = true;
+        } else {
+          items[tag].push(item);
+        }
       });
-    } else {
-      console.log(build.id, itemsByBuild[build.id]);
-    }
+    });
+
+    const icons = items[BuildItemTag.BIS].map((item) => ({
+      link: itemsById[item].link,
+      img: itemsById[item].img,
+      color: itemsById[item].color,
+      isSelected: false,
+    }));
 
     return {
       ...acc,
@@ -71,6 +79,7 @@ const buildItems = Object.values(buildsById).reduce<BuildItemMap>(
         ...build,
         isOutdated,
         items,
+        icons,
         score: 0,
       },
     };
