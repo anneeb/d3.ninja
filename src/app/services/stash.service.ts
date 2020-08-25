@@ -33,9 +33,8 @@ export class StashService extends BaseService {
   private items = new BehaviorSubject(stashItems);
 
   private filter = new BehaviorSubject("");
-  private filteredItems = new BehaviorSubject(Object.values(stashItems));
-
-  private selectedItems = new BehaviorSubject([] as StashItem[]);
+  private filteredItems = new BehaviorSubject(Object.keys(stashItems));
+  private selectedItems = new BehaviorSubject([] as string[]);
 
   constructor() {
     super();
@@ -61,7 +60,7 @@ export class StashService extends BaseService {
     return super.getBehaviorSubjectValue(this.filteredItems);
   }
 
-  private setFilteredItems(items: StashItem[]) {
+  private setFilteredItems(items: string[]) {
     return super.setBehaviorSubjectValue(this.filteredItems, items);
   }
 
@@ -69,47 +68,38 @@ export class StashService extends BaseService {
     return super.getBehaviorSubjectValue(this.selectedItems);
   }
 
-  private setSelectedItems(items: StashItem[]) {
+  private setSelectedItems(items: string[]) {
     return super.setBehaviorSubjectValue(this.selectedItems, items);
   }
 
   updateFilter(filter: string) {
-    const filterMatch = new RegExp(this.filter.getValue(), "gi");
-    const filteredItems = Object.values(this.items.getValue()).filter((item) =>
-      item.label.match(filterMatch)
-    );
+    const prevItems = this.items.getValue();
+    const filterMatch = new RegExp(filter, "gi");
+    const filteredItems = Object.values(prevItems)
+      .filter((item) => item.label.match(filterMatch))
+      .map((item) => item.id);
 
     this.setFilter(filter);
     this.setFilteredItems(filteredItems);
   }
 
   updateIsItemSelcted(item: StashItem, isSelected?: boolean) {
+    const prevItems = this.items.getValue();
     const updatedItems: StashItemMap = {
-      ...this.items.value,
+      ...prevItems,
       [item.value]: {
-        ...this.items.value[item.value],
+        ...prevItems[item.value],
         isSelected:
           isSelected === undefined
-            ? !this.items.value[item.value].isSelected
+            ? !prevItems[item.value].isSelected
             : isSelected,
       },
     };
-
-    const filterMatch = new RegExp(this.filter.getValue(), "gi");
-    const filteredItems: StashItem[] = [];
-    const selectedItems: StashItem[] = [];
-
-    Object.values(updatedItems).forEach((updatedItem) => {
-      if (updatedItem.label.match(filterMatch)) {
-        filteredItems.push(updatedItem);
-      }
-      if (updatedItem.isSelected) {
-        selectedItems.push(updatedItem);
-      }
-    });
-
     this.setItems(updatedItems);
-    this.setFilteredItems(filteredItems);
+
+    const selectedItems = Object.values(this.items.getValue())
+      .filter((item) => item.isSelected)
+      .map((item) => item.id);
     this.setSelectedItems(selectedItems);
   }
 }

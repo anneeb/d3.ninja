@@ -1,6 +1,10 @@
 import { Component, OnInit } from "@angular/core";
 
-import { StashService, StashItem } from "app/services/stash.service";
+import {
+  StashService,
+  StashItem,
+  StashItemMap,
+} from "app/services/stash.service";
 
 @Component({
   selector: "app-stash-list",
@@ -8,13 +12,13 @@ import { StashService, StashItem } from "app/services/stash.service";
   styleUrls: ["./stash-list.component.scss"],
 })
 export class StashListComponent implements OnInit {
-  items: StashItem[] = [];
+  itemIds: string[] = [];
 
   constructor(private stashService: StashService) {}
 
   ngOnInit(): void {
     this.stashService.getSelectedItems().subscribe((items) => {
-      this.items = items;
+      this.itemIds = items;
     });
   }
 }

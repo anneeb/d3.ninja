@@ -1,0 +1,8 @@
+@import "../../../styles/variables.scss";
+
+.app-builds-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: auto;
+}

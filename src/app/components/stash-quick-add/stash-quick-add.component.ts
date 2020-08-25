@@ -2,7 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { FormControl } from "@angular/forms";
 import { Observable } from "rxjs";
 import { startWith } from "rxjs/operators";
-import { StashService, StashItem } from "app/services/stash.service";
+import { StashService } from "app/services/stash.service";
 
 @Component({
   selector: "app-stash-quick-add",
@@ -10,8 +10,7 @@ import { StashService, StashItem } from "app/services/stash.service";
   styleUrls: ["./stash-quick-add.component.scss"],
 })
 export class StashQuickAddComponent implements OnInit {
-  placeholder = "Quick add items...";
-  items: StashItem[] = [];
+  itemIds: string[] = [];
   selectControl = new FormControl();
   filterValue: Observable<string>;
 
@@ -25,13 +24,8 @@ export class StashQuickAddComponent implements OnInit {
     });
 
     this.stashService.getFilteredItems().subscribe((items) => {
-      this.items = items;
+      this.itemIds = items;
     });
-  }
-
-  handleItemClick(event: Event, item: StashItem) {
-    event.stopPropagation();
-    this.stashService.updateIsItemSelcted(item);
   }
 
   handleFilterChange = (filter: string) => {

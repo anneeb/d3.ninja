@@ -11,9 +11,6 @@ import { UiService } from "app/services/ui.service";
   providers: [UiService, StashService, BuildsService],
 })
 export class HomeComponent implements OnInit {
-  headerColor = "primary";
-  headerText = "d3.ninja";
-
   isStashDrawerOpen: boolean = true;
   isBuildDrawerOpen: boolean = true;
   sidebarIcon: string = "chevron_left";

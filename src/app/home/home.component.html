@@ -1,13 +1,13 @@
 <div class="app-home">
-  <mat-toolbar [color]="headerColor">
-    <span>{{ headerText }}</span>
+  <mat-toolbar color="primary">
+    <span>d3.ninja</span>
   </mat-toolbar>
   <mat-drawer-container class="app-home__drawer-container">
     <mat-drawer
       class="app-home__drawer-container__drawer"
       mode="side"
       [opened]="isStashDrawerOpen"
-      ><app-stash></app-stash>
+      ><app-stash-drawer></app-stash-drawer>
     </mat-drawer>
     <app-builds-panel></app-builds-panel>
     <mat-drawer

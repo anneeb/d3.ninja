@@ -7,7 +7,12 @@ import {
   itemsByBuild,
   tagsById,
 } from "constants/salvage-guide/salvage-guide";
-import { ItemColor, Build, BuildItemTag } from "constants/salvage-guide/types";
+import {
+  ItemColor,
+  ItemSlot,
+  Build,
+  BuildItemTag,
+} from "constants/salvage-guide/types";
 import { BaseService } from "app/services/base-service";
 import { StashService, StashItem } from "app/services/stash.service";
 
@@ -32,7 +37,7 @@ export interface BuildItemMap {
   [value: string]: BuildItem;
 }
 
-function buildItemSort(property: keyof BuildItem = "score", desc: boolean) {
+function buildItemSort(property: keyof BuildItem = "score", desc?: boolean) {
   return function (a: BuildItem, b: BuildItem) {
     const aProp = a[property];
     const aVal = typeof aProp === "string" ? aProp.toLowerCase() : aProp;
@@ -40,8 +45,22 @@ function buildItemSort(property: keyof BuildItem = "score", desc: boolean) {
     const bProp = b[property];
     const bVal = typeof bProp === "string" ? bProp.toLowerCase() : bProp;
 
+    if (property !== "label" && aVal === bVal) {
+      return buildItemSort("label")(a, b);
+    }
+
     return aVal < bVal ? (desc ? 1 : -1) : aVal > bVal ? (desc ? -1 : 1) : 0;
   };
+}
+
+function itemSlotSort(a: { slots: ItemSlot[] }, b: { slots: ItemSlot[] }) {
+  const aSlots = new Set(a.slots);
+  const bSlots = new Set(b.slots);
+
+  const aVal = Object.values(ItemSlot).findIndex((slot) => aSlots.has(slot));
+  const bVal = Object.values(ItemSlot).findIndex((slot) => bSlots.has(slot));
+
+  return aVal < bVal ? -1 : aVal > bVal ? 1 : 0;
 }
 
 const buildItems = Object.values(buildsById).reduce<BuildItemMap>(
@@ -66,12 +85,15 @@ const buildItems = Object.values(buildsById).reduce<BuildItemMap>(
       });
     });
 
-    const icons = items[BuildItemTag.BIS].map((item) => ({
-      link: itemsById[item].link,
-      img: itemsById[item].img,
-      color: itemsById[item].color,
-      isSelected: false,
-    }));
+    const icons = items[BuildItemTag.BIS]
+      .map((item) => ({
+        link: itemsById[item].link,
+        img: itemsById[item].img,
+        color: itemsById[item].color,
+        slots: itemsById[item].slots,
+        isSelected: false,
+      }))
+      .sort(itemSlotSort);
 
     return {
       ...acc,
@@ -95,7 +117,7 @@ export class BuildsService extends BaseService {
 
   private items = new BehaviorSubject(buildItems);
 
-  private sortedItems = new BehaviorSubject(Object.values(buildItems));
+  private sortedItems = new BehaviorSubject(Object.keys(buildItems));
 
   // private filter = new BehaviorSubject("");
   // private filteredItems = new BehaviorSubject(Object.values(buildItems));
@@ -124,7 +146,7 @@ export class BuildsService extends BaseService {
     return super.getBehaviorSubjectValue(this.sortedItems);
   }
 
-  private setSortedItems(items: BuildItem[]) {
+  private setSortedItems(items: string[]) {
     return super.setBehaviorSubjectValue(this.sortedItems, items);
   }
 
@@ -136,16 +158,13 @@ export class BuildsService extends BaseService {
   //   return super.setBehaviorSubjectValue(this.filter, filter);
   // }
 
-  setItemScores(selectedItems: StashItem[]) {
-    const selectedItemsSet = new Set(selectedItems.map((item) => item.value));
+  setItemScores(selectedItems: string[]) {
+    const selectedItemsSet = new Set(selectedItems);
     const hasSelectedItems = Boolean(selectedItemsSet.size);
     const updatedItems = Object.entries(this.items.getValue()).reduce<
       BuildItemMap
     >((acc, [key, build]) => {
-      console.log(key, itemsByBuild[key]);
-
       const allBuildItems = Object.keys(itemsByBuild[key]);
-      console.log(allBuildItems);
 
       if (
         !hasSelectedItems ||
@@ -177,16 +196,16 @@ export class BuildsService extends BaseService {
         score: (bestInSlot + cube) / 2,
       };
 
-      console.log(acc[key].score);
-
       return acc;
     }, {});
 
     this.setItems(updatedItems);
     this.setSortedItems(
-      Object.values(updatedItems).sort(
-        buildItemSort(hasSelectedItems ? "score" : "label", hasSelectedItems)
-      )
+      Object.values(updatedItems)
+        .sort(
+          buildItemSort(hasSelectedItems ? "score" : "label", hasSelectedItems)
+        )
+        .map((item) => item.id)
     );
   }
 }

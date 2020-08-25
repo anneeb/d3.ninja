@@ -1,0 +1,20 @@
+<mat-card class="app-builds-card__card">
+  <mat-card-content>
+    <!-- <a [href]="item.link" target="_blank"> -->
+    {{ item.label }} ({{ item.score }})
+    <!-- </a> -->
+  </mat-card-content>
+  <div class="app-builds-card__items">
+    <div
+      *ngFor="let icon of item.icons"
+      [ngClass]="[
+        'app-builds-card__item',
+        'app-builds-card__item--' + icon.color
+      ]"
+    >
+      <!-- <a [href]="icon.link"> -->
+      <img [src]="icon.img" />
+      <!-- </a> -->
+    </div>
+  </div>
+</mat-card>

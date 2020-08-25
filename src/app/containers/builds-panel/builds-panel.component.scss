@@ -1,45 +1,17 @@
 @import "../../../styles/variables.scss";
 
-.builds-panel {
-  &__cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.app-builds-panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    flex: none;
   }
 
-  &__card {
-    max-width: 200px;
-    margin: 5px;
-
-    a {
-      color: inherit;
-    }
-
-    &__items {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    &__item {
-      img {
-        width: 30px;
-        height: 30px;
-        border-radius: 6px;
-        margin-right: 10px;
-        border: 2px solid $app-background-background;
-      }
-
-      &--green {
-        img {
-          background-color: $app-stash-item-green;
-        }
-      }
-
-      &--orange {
-        img {
-          background-color: $app-stash-item-orange;
-        }
-      }
-    }
+  > *:not(.app-builds-panel__header) {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: auto;
   }
 }

@@ -3,14 +3,4 @@
 .app-stash-quick-add {
   width: calc(100% - 20px);
   padding: 10px;
-
-  &__item {
-    &--green {
-      color: $app-stash-item-green;
-    }
-
-    &--orange {
-      color: $app-stash-item-orange;
-    }
-  }
 }

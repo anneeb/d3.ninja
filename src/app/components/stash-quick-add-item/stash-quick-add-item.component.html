@@ -1,0 +1,11 @@
+<div
+  (click)="handleItemClick($event, item)"
+  [ngClass]="[
+    'app-stash-quick-add-item',
+    'app-stash-quick-add-item--' + item.color
+  ]"
+>
+  <mat-checkbox [checked]="item.isSelected">
+    {{ item.label }}
+  </mat-checkbox>
+</div>

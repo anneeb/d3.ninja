@@ -1,0 +1,13 @@
+.app-stash-drawer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    flex: none;
+  }
+
+  &__list {
+    flex: 1 1 auto;
+  }
+}

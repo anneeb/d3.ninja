@@ -1,0 +1,40 @@
+@import "../../../styles/variables.scss";
+
+.app-builds-card {
+  &__card {
+    width: 220px;
+    height: 180px;
+    margin: 10px;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 6px;
+      margin-right: 10px;
+      border: 2px solid $app-background-background;
+    }
+
+    &--green {
+      img {
+        background-color: $app-stash-item-green;
+      }
+    }
+
+    &--orange {
+      img {
+        background-color: $app-stash-item-orange;
+      }
+    }
+  }
+}

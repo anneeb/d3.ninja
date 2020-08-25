@@ -1,0 +1,6 @@
+<mat-list-item
+  [ngClass]="['app-stash-list-item', 'app-stash-list-item--' + item.color]"
+>
+  <img [src]="item.img" />
+  <a [href]="item.link" target="_blank">{{ item.label }}</a>
+</mat-list-item>

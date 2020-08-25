@@ -1,0 +1,11 @@
+@import "../../../styles/variables.scss";
+
+.app-stash-quick-add-item {
+  &--green {
+    color: $app-stash-item-green;
+  }
+
+  &--orange {
+    color: $app-stash-item-orange;
+  }
+}

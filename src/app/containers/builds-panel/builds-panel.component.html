@@ -1,24 +1,6 @@
-<div class="builds-panel">
-  <div class="builds-panel__cards">
-    <mat-card *ngFor="let item of items" class="builds-panel__card">
-      <mat-card-content>
-        <a [href]="item.link" target="_blank">
-          {{ item.label }} ({{ item.score }})
-        </a>
-      </mat-card-content>
-      <div class="builds-panel__card__items">
-        <div
-          *ngFor="let icon of item.icons"
-          [ngClass]="[
-            'builds-panel__card__item',
-            'builds-panel__card__item--' + icon.color
-          ]"
-        >
-          <a [href]="icon.link">
-            <img [src]="icon.img" />
-          </a>
-        </div>
-      </div>
-    </mat-card>
-  </div>
+<div class="app-builds-panel">
+  <mat-toolbar color="accent" class="app-builds-panel__header">
+    <span>Builds</span>
+  </mat-toolbar>
+  <app-builds-cards></app-builds-cards>
 </div>
