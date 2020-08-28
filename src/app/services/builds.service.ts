@@ -34,7 +34,7 @@ export interface BuildItem extends Build {
 }
 
 export interface BuildItemMap {
-  [value: string]: BuildItem;
+  [id: string]: BuildItem;
 }
 
 function buildItemSort(property: keyof BuildItem = "score", desc?: boolean) {

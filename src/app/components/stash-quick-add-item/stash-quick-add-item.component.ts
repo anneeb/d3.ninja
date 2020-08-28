@@ -9,7 +9,6 @@ import { StashService, StashItem } from "app/services/stash.service";
 export class StashQuickAddItemComponent implements OnInit {
   @Input()
   itemId: string;
-
   item: StashItem;
 
   constructor(private stashService: StashService) {}
@@ -20,8 +19,12 @@ export class StashQuickAddItemComponent implements OnInit {
     });
   }
 
-  handleItemClick(event: Event, item: StashItem) {
+  handleItemClick(event: Event) {
     event.stopPropagation();
-    this.stashService.updateIsItemSelcted(item);
+    this.stashService.updateIsItemSelcted(this.itemId);
+  }
+
+  handleCheckboxClick(event: Event) {
+    event.preventDefault();
   }
 }

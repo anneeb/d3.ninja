@@ -7,7 +7,6 @@ import { BaseService } from "app/services/base-service";
 
 export interface StashItem extends Item {
   isSelected: boolean;
-  value: string;
 }
 
 export interface StashItemMap {
@@ -19,7 +18,6 @@ const stashItems = Object.values(itemsById).reduce<StashItemMap>(
     ...acc,
     [item.id]: {
       ...item,
-      value: item.id,
       isSelected: false,
     },
   }),
@@ -83,16 +81,14 @@ export class StashService extends BaseService {
     this.setFilteredItems(filteredItems);
   }
 
-  updateIsItemSelcted(item: StashItem, isSelected?: boolean) {
+  updateIsItemSelcted(itemId: string, isSelected?: boolean) {
     const prevItems = this.items.getValue();
     const updatedItems: StashItemMap = {
       ...prevItems,
-      [item.value]: {
-        ...prevItems[item.value],
+      [itemId]: {
+        ...prevItems[itemId],
         isSelected:
-          isSelected === undefined
-            ? !prevItems[item.value].isSelected
-            : isSelected,
+          isSelected === undefined ? !prevItems[itemId].isSelected : isSelected,
       },
     };
     this.setItems(updatedItems);
