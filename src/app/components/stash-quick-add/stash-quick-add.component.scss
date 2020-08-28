@@ -3,4 +3,12 @@
 .app-stash-quick-add {
   width: calc(100% - 20px);
   padding: 10px;
+
+  &__option {
+    padding: 0;
+
+    ::ng-deep .mat-option-text {
+      padding: 0 16px;
+    }
+  }
 }

@@ -6,7 +6,10 @@
     [formControl]="selectControl"
     [matAutocomplete]="autoComplete" />
   <mat-autocomplete #autoComplete="matAutocomplete">
-    <mat-option *ngFor="let itemId of itemIds">
+    <mat-option
+      *ngFor="let itemId of itemIds"
+      class="app-stash-quick-add__option"
+    >
       <app-stash-quick-add-item
         [itemId]="itemId"
       ></app-stash-quick-add-item></mat-option></mat-autocomplete

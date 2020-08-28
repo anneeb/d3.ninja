@@ -8,4 +8,8 @@
   &--orange {
     color: $app-stash-item-orange;
   }
+
+  ::ng-deep .mat-checkbox-inner-container {
+    margin-right: 14px;
+  }
 }
