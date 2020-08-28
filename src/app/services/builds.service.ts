@@ -16,20 +16,38 @@ import {
 import { BaseService } from "app/services/base-service";
 import { StashService, StashItem } from "app/services/stash.service";
 
+function createItemsByTag() {
+  return {
+    [BuildItemTag.ALT]: [] as string[],
+    [BuildItemTag.BIS]: [] as string[],
+    [BuildItemTag.CUBE]: [] as string[],
+    [BuildItemTag.VARIATION]: [] as string[],
+  };
+}
+
+function createItemsBySlot() {
+  return {
+    [ItemSlot.HEAD]: createItemsByTag(),
+    [ItemSlot.SHOULDERS]: createItemsByTag(),
+    [ItemSlot.TORSO]: createItemsByTag(),
+    [ItemSlot.BRACERS]: createItemsByTag(),
+    [ItemSlot.HANDS]: createItemsByTag(),
+    [ItemSlot.WAIST]: createItemsByTag(),
+    [ItemSlot.LEGS]: createItemsByTag(),
+    [ItemSlot.FEET]: createItemsByTag(),
+    [ItemSlot.NECK]: createItemsByTag(),
+    [ItemSlot.RIGHT_FINGER]: createItemsByTag(),
+    [ItemSlot.LEFT_FINGER]: createItemsByTag(),
+    [ItemSlot.RIGHT_HAND]: createItemsByTag(),
+    [ItemSlot.LEFT_HAND]: createItemsByTag(),
+    [ItemSlot.FOLLOWER_SPECIAL]: createItemsByTag(),
+  };
+}
+
 export interface BuildItem extends Build {
   isOutdated: boolean;
-  items: {
-    [BuildItemTag.ALT]: string[];
-    [BuildItemTag.CUBE]: string[];
-    [BuildItemTag.BIS]: string[];
-    [BuildItemTag.VARIATION]: string[];
-  };
-  icons: {
-    link: string;
-    img: string;
-    color: ItemColor;
-    isSelected: boolean;
-  }[];
+  items: ReturnType<typeof createItemsBySlot>;
+  icons: string[];
   score: number;
 }
 
@@ -53,26 +71,11 @@ function buildItemSort(property: keyof BuildItem = "score", desc?: boolean) {
   };
 }
 
-function itemSlotSort(a: { slots: ItemSlot[] }, b: { slots: ItemSlot[] }) {
-  const aSlots = new Set(a.slots);
-  const bSlots = new Set(b.slots);
-
-  const aVal = Object.values(ItemSlot).findIndex((slot) => aSlots.has(slot));
-  const bVal = Object.values(ItemSlot).findIndex((slot) => bSlots.has(slot));
-
-  return aVal < bVal ? -1 : aVal > bVal ? 1 : 0;
-}
-
 const buildItems = Object.values(buildsById).reduce<BuildItemMap>(
   (acc, build: Build) => {
     let isOutdated = false;
 
-    const items = {
-      [BuildItemTag.ALT]: [],
-      [BuildItemTag.BIS]: [],
-      [BuildItemTag.CUBE]: [],
-      [BuildItemTag.VARIATION]: [],
-    };
+    const items = createItemsBySlot();
 
     Object.entries(itemsByBuild[build.id]).forEach(([item, tagId]) => {
       const tags = tagsById[tagId];
@@ -80,20 +83,20 @@ const buildItems = Object.values(buildsById).reduce<BuildItemMap>(
         if (tag === BuildItemTag.OUTDATED) {
           isOutdated = true;
         } else {
-          items[tag].push(item);
+          itemsById[item].slots.forEach((slot) => {
+            items[slot][tag].push(item);
+          });
         }
       });
     });
 
-    const icons = items[BuildItemTag.BIS]
-      .map((item) => ({
-        link: itemsById[item].link,
-        img: itemsById[item].img,
-        color: itemsById[item].color,
-        slots: itemsById[item].slots,
-        isSelected: false,
-      }))
-      .sort(itemSlotSort);
+    const icons = Object.values(items).reduce<string[]>((acc, tags) => {
+      const icon = tags[BuildItemTag.BIS][0] || tags[BuildItemTag.CUBE][0];
+      if (icon && !acc.includes(icon)) {
+        acc.push(icon);
+      }
+      return acc;
+    }, []);
 
     return {
       ...acc,
@@ -119,18 +122,18 @@ export class BuildsService extends BaseService {
 
   private sortedItems = new BehaviorSubject(Object.keys(buildItems));
 
-  // private filter = new BehaviorSubject("");
-  // private filteredItems = new BehaviorSubject(Object.values(buildItems));
-
   constructor() {
     super();
+
+    this.getItems().subscribe(() =>
+      setTimeout(() => this.syncSortedItems(), 0)
+    );
   }
 
   setStashService(stashService: StashService) {
     this.stashService = stashService;
     this.stashService.getSelectedItems().subscribe((selectedItems) => {
-      console.log("changed items", selectedItems);
-      this.setItemScores(selectedItems);
+      setTimeout(() => this.setItemScores(selectedItems), 0);
     });
   }
 
@@ -150,13 +153,13 @@ export class BuildsService extends BaseService {
     return super.setBehaviorSubjectValue(this.sortedItems, items);
   }
 
-  // getFilter() {
-  //   return super.getBehaviorSubjectValue(this.filter);
-  // }
-
-  // private setFilter(filter: string) {
-  //   return super.setBehaviorSubjectValue(this.filter, filter);
-  // }
+  private syncSortedItems() {
+    this.setSortedItems(
+      Object.values(this.items.getValue())
+        .sort(buildItemSort("score", true))
+        .map((item) => item.id)
+    );
+  }
 
   setItemScores(selectedItems: string[]) {
     const selectedItemsSet = new Set(selectedItems);
@@ -177,35 +180,19 @@ export class BuildsService extends BaseService {
         return acc;
       }
 
-      const bestInSlot =
-        (build.items[BuildItemTag.BIS].filter((item) =>
-          selectedItemsSet.has(item)
-        ).length /
-          build.items[BuildItemTag.BIS].length) *
-        100;
-
-      const cube =
-        (build.items[BuildItemTag.CUBE].filter((item) =>
-          selectedItemsSet.has(item)
-        ).length /
-          build.items[BuildItemTag.CUBE].length) *
+      const score =
+        (build.icons.filter((icon) => selectedItemsSet.has(icon)).length /
+          build.icons.length) *
         100;
 
       acc[key] = {
         ...build,
-        score: (bestInSlot + cube) / 2,
+        score,
       };
 
       return acc;
     }, {});
 
-    this.setItems(updatedItems);
-    this.setSortedItems(
-      Object.values(updatedItems)
-        .sort(
-          buildItemSort(hasSelectedItems ? "score" : "label", hasSelectedItems)
-        )
-        .map((item) => item.id)
-    );
+    setTimeout(() => this.setItems(updatedItems), 0);
   }
 }

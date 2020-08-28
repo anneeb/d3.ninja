@@ -5,16 +5,9 @@
     <!-- </a> -->
   </mat-card-content>
   <div class="app-builds-card__items">
-    <div
+    <app-builds-card-item
       *ngFor="let icon of item.icons"
-      [ngClass]="[
-        'app-builds-card__item',
-        'app-builds-card__item--' + icon.color
-      ]"
-    >
-      <!-- <a [href]="icon.link"> -->
-      <img [src]="icon.img" />
-      <!-- </a> -->
-    </div>
+      [itemId]="icon"
+    ></app-builds-card-item>
   </div>
 </mat-card>

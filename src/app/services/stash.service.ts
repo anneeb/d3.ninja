@@ -36,6 +36,13 @@ export class StashService extends BaseService {
 
   constructor() {
     super();
+
+    this.getItems().subscribe(() =>
+      setTimeout(() => this.syncSelectedItems(), 0)
+    );
+    this.getFilter().subscribe(() =>
+      setTimeout(() => this.syncFilteredItems(), 0)
+    );
   }
 
   getItems() {
@@ -62,6 +69,14 @@ export class StashService extends BaseService {
     return super.setBehaviorSubjectValue(this.filteredItems, items);
   }
 
+  private syncFilteredItems() {
+    const filterMatch = new RegExp(this.filter.getValue(), "gi");
+    const filteredItems = Object.values(this.items.getValue())
+      .filter((item) => item.label.match(filterMatch))
+      .map((item) => item.id);
+    this.setFilteredItems(filteredItems);
+  }
+
   getSelectedItems() {
     return super.getBehaviorSubjectValue(this.selectedItems);
   }
@@ -70,15 +85,15 @@ export class StashService extends BaseService {
     return super.setBehaviorSubjectValue(this.selectedItems, items);
   }
 
-  updateFilter(filter: string) {
-    const prevItems = this.items.getValue();
-    const filterMatch = new RegExp(filter, "gi");
-    const filteredItems = Object.values(prevItems)
-      .filter((item) => item.label.match(filterMatch))
+  private syncSelectedItems() {
+    const selectedItems = Object.values(this.items.getValue())
+      .filter((item) => item.isSelected)
       .map((item) => item.id);
+    this.setSelectedItems(selectedItems);
+  }
 
-    this.setFilter(filter);
-    this.setFilteredItems(filteredItems);
+  updateFilter(filter: string) {
+    setTimeout(() => this.setFilter(filter), 0);
   }
 
   updateIsItemSelcted(itemId: string, isSelected?: boolean) {
@@ -91,11 +106,6 @@ export class StashService extends BaseService {
           isSelected === undefined ? !prevItems[itemId].isSelected : isSelected,
       },
     };
-    this.setItems(updatedItems);
-
-    const selectedItems = Object.values(this.items.getValue())
-      .filter((item) => item.isSelected)
-      .map((item) => item.id);
-    this.setSelectedItems(selectedItems);
+    setTimeout(() => this.setItems(updatedItems), 0);
   }
 }
