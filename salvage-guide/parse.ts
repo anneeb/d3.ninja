@@ -8,6 +8,7 @@ import {
   ItemColor,
   ItemSlot,
   ItemsById,
+  BuildCharacter,
   BuildsById,
   BuildItemTag,
   TagsById,
@@ -38,6 +39,20 @@ function getTags(rawTags: string) {
   });
 
   return tags;
+}
+
+function getCharacter(label: string, link: string) {
+  for (let character of Object.values(BuildCharacter)) {
+    if (label.indexOf(character) > -1) {
+      return character;
+    }
+  }
+
+  if (link.includes("crusader")) {
+    return BuildCharacter.CRUSADER;
+  } else if (link.includes("wd")) {
+    return BuildCharacter.WITCH_DOCTOR;
+  }
 }
 
 interface ParsedData {
@@ -131,6 +146,7 @@ async function getParsed(): Promise<ParsedData> {
     item.buildsData.forEach((build) => {
       buildsById[build.id] = {
         id: build.id,
+        character: getCharacter(build.label, build.link),
         label: build.label,
         link: build.link,
       };
@@ -179,7 +195,11 @@ async function saveFile(results: ParsedData) {
     ItemSlot,
     "ItemSlot"
   );
-  const buildsById = JSON.stringify(results.buildsById, null, 2);
+  const buildsById = replaceEnums(
+    JSON.stringify(results.buildsById, null, 2),
+    BuildCharacter,
+    "BuildCharacter"
+  );
   const tagsById = replaceEnums(
     JSON.stringify(results.tagsById, null, 2),
     BuildItemTag,
@@ -193,6 +213,7 @@ import {
   ItemColor,
   ItemSlot,
   ItemsById,
+  BuildCharacter,
   BuildsById,
   BuildItemTag,
   TagsById,

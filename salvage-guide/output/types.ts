@@ -37,6 +37,12 @@ export enum ItemSlot {
   "CUBE" = "cube",
 }
 
+export enum ItemCubeSlot {
+  "ARMOR" = "armor",
+  "WEAPON" = "weapon",
+  "JEWELRY" = "jewelry",
+}
+
 export interface Item {
   id: string;
   label: string;
@@ -51,8 +57,21 @@ export interface ItemsById {
   [id: string]: Item;
 }
 
+export enum BuildCharacter {
+  "BARBARIAN" = "Barbarian",
+  "CRUSADER" = "Crusader",
+  "DEMON_HUNTER" = "Demon Hunter",
+  "MONK" = "Monk",
+  "NECROMANCER" = "Necromancer",
+  "WITCH_DOCTOR" = "Witch Doctor",
+  "WIZARD" = "Wizard",
+
+  "FOLLOWER" = "Follower",
+}
+
 export interface Build {
   id: string;
+  character: BuildCharacter;
   label: string;
   link: string;
 }
