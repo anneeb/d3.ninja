@@ -25,12 +25,16 @@ export enum ItemSlot {
   "WAIST" = "waist",
   "LEGS" = "legs",
   "FEET" = "feet",
+
   "NECK" = "neck",
   "RIGHT_FINGER" = "right-finger",
   "LEFT_FINGER" = "left-finger",
+
   "RIGHT_HAND" = "right-hand",
   "LEFT_HAND" = "left-hand",
+
   "FOLLOWER_SPECIAL" = "follower-special",
+  "CUBE" = "cube",
 }
 
 export interface Item {
@@ -63,6 +67,7 @@ export enum BuildItemTag {
   "CUBE" = "Cube",
   "OUTDATED" = "outdated",
   "VARIATION" = "variation",
+
   "ENCHANTRESS" = "Enchantress",
   "SCOUNDREL" = "Scoundrel",
   "TEMPLAR" = "Templar",

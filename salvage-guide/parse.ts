@@ -1,5 +1,7 @@
 import fetch from "node-fetch";
 import { URL } from "url";
+import { ClientCredentials } from "simple-oauth2";
+import * as ora from "ora";
 import * as path from "path";
 
 import {
@@ -20,27 +22,20 @@ const BASE_D3_DATA_URL = "https://us.api.blizzard.com/d3/data/";
 
 function getTags(rawTags: string) {
   const tags: BuildItemTag[] = [];
-  if (rawTags.indexOf(BuildItemTag.ALT) > -1) {
-    tags.push(BuildItemTag.ALT);
-  }
 
-  if (rawTags.indexOf(BuildItemTag.CUBE) > -1) {
-    tags.push(BuildItemTag.CUBE);
-  }
-
-  if (rawTags.indexOf(BuildItemTag.BIS) > -1) {
-    tags.push(BuildItemTag.BIS);
-  }
-
-  if (rawTags.indexOf(BuildItemTag.OUTDATED) > -1) {
-    tags.push(BuildItemTag.OUTDATED);
-  }
-
-  if (rawTags.indexOf(BuildItemTag.VARIATION) > -1) {
-    const numVariations = Number(rawTags.match(/[0-9]+/g)[0]);
-    const variations = new Array(numVariations).fill(BuildItemTag.VARIATION);
-    tags.push(...variations);
-  }
+  Object.values(BuildItemTag).forEach((tag) => {
+    if (rawTags.indexOf(tag) > -1) {
+      if (tag === BuildItemTag.VARIATION) {
+        const numVariations = Number(rawTags.match(/[0-9]+/g)[0]);
+        const variations = new Array(numVariations).fill(
+          BuildItemTag.VARIATION
+        );
+        tags.push(...variations);
+      } else {
+        tags.push(tag);
+      }
+    }
+  });
 
   return tags;
 }
@@ -53,16 +48,35 @@ interface ParsedData {
   buildsByItem: BuildsByItem;
 }
 
-async function getItemData(path: string) {
+async function getBlizzardAccessToken() {
+  const client = new ClientCredentials({
+    client: {
+      id: process.env.BLIZZARD_CLIENT_ID,
+      secret: process.env.BLIZZARD_CLIENT_SECRET,
+    },
+    auth: {
+      tokenHost: "https://us.battle.net",
+    },
+  });
+
+  const token = await client.getToken({});
+  return token.token.access_token as string;
+}
+
+async function getItemData(path: string, accessToken: string) {
   const itemUrl = new URL(`${BASE_D3_DATA_URL}${path}`);
   itemUrl.searchParams.append("locale", "en_US");
-  itemUrl.searchParams.append("access_token", process.env.BLIZZARD_KEY);
+  itemUrl.searchParams.append("access_token", accessToken);
 
-  return fetch(itemUrl, {
+  const response = await fetch(itemUrl, {
     headers: { "Content-Type": "application/json" },
-  })
-    .then((res) => res.json())
-    .catch(() => getItemData(path));
+  });
+
+  if (!response.ok) {
+    return await getItemData(path, accessToken);
+  } else {
+    return response.json();
+  }
 }
 
 async function getParsed(): Promise<ParsedData> {
@@ -72,14 +86,21 @@ async function getParsed(): Promise<ParsedData> {
   const itemsByBuild: ItemsByBuild = {};
   const tagsById: TagsById = {};
 
-  const requestedItem = await Promise.all(
+  const spinner = ora("Authenticating Blizzard client");
+  spinner.spinner = "simpleDotsScrolling";
+  spinner.start();
+
+  const blizzardAccessToken = await getBlizzardAccessToken();
+
+  spinner.text = "Loading items";
+  const results = await Promise.all(
     RAW_SALVAGE_GUIDE.map(async (item) => {
       let itemPath = item.link.replace("https://us.diablo3.com/en/", "");
-      let itemData = await getItemData(itemPath);
+      let itemData = await getItemData(itemPath, blizzardAccessToken);
 
       if (itemData.itemProduced) {
         itemPath = itemData.itemProduced.path;
-        itemData = await getItemData(itemPath);
+        itemData = await getItemData(itemPath, blizzardAccessToken);
       }
 
       return {
@@ -89,8 +110,10 @@ async function getParsed(): Promise<ParsedData> {
     })
   );
 
+  spinner.succeed(`Loaded ${results.length} items`);
+
   RAW_SALVAGE_GUIDE.forEach((item, idx) => {
-    const { itemId, itemData } = requestedItem[idx];
+    const { itemId, itemData } = results[idx];
     itemsById[itemId] = {
       id: itemId,
       label: item.label,
@@ -191,11 +214,16 @@ export const buildsByItem: BuildsByItem = \n${buildsByItem};`;
 }
 
 async function parse() {
-  console.log("Parsing salvage guide...");
-  const parsed = await getParsed();
+  try {
+    console.log("Parsing salvage guide...");
+    const parsed = await getParsed();
 
-  const target = await saveFile(parsed);
-  console.log(`Saved salvage guide to ${target}`);
+    const target = await saveFile(parsed);
+    console.log(`Saved salvage guide to ${target}`);
+  } catch (err) {
+    console.log(err);
+    process.exit(-1);
+  }
 }
 
 parse();

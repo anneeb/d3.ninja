@@ -157,17 +157,22 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] = \n${itemData};`;
 }
 
 async function update() {
-  console.log("Updating salvage guide...");
-  const driver = await getBuilder();
-  await driver.get(SALVAGE_GUIDE_URL);
-  await delay(5000);
-  await driver.wait(until.elementLocated(By.className("salvage_table")));
+  try {
+    console.log("Updating salvage guide...");
+    const driver = await getBuilder();
+    await driver.get(SALVAGE_GUIDE_URL);
+    await delay(5000);
+    await driver.wait(until.elementLocated(By.className("salvage_table")));
 
-  const results = await getResults(driver);
-  const target = await saveFile(results);
-  console.log(`Saved raw salvage guide to ${target}`);
+    const results = await getResults(driver);
+    const target = await saveFile(results);
+    console.log(`Saved raw salvage guide to ${target}`);
 
-  await driver.quit();
+    await driver.quit();
+  } catch (err) {
+    console.log(err);
+    process.exit(-1);
+  }
 }
 
 update();

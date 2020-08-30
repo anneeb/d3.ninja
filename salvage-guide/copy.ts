@@ -12,11 +12,15 @@ const CONSTANTS_DIR = path.resolve(
 );
 
 async function copy() {
-  console.log("Copying salvage guide...");
+  try {
+    console.log("Copying salvage guide...");
 
-  
-  const target = await copyDirectory(OUTPUT_DIR, CONSTANTS_DIR);
-  console.log(`Saved salvage guide to ${target}`);
+    const target = await copyDirectory(OUTPUT_DIR, CONSTANTS_DIR);
+    console.log(`Saved salvage guide to ${target}`);
+  } catch (err) {
+    console.log(err);
+    process.exit(-1);
+  }
 }
 
 copy();
