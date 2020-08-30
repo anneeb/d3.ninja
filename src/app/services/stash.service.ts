@@ -1,28 +1,8 @@
 import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
 
-import { itemsById } from "constants/salvage-guide/salvage-guide";
-import { Item } from "constants/salvage-guide/types";
+import { stashItems, StashItemMap } from "constants/salvage-guide/stash";
 import { BaseService } from "app/services/base-service";
-
-export interface StashItem extends Item {
-  isSelected: boolean;
-}
-
-export interface StashItemMap {
-  [value: string]: StashItem;
-}
-
-const stashItems = Object.values(itemsById).reduce<StashItemMap>(
-  (acc, item: Item) => ({
-    ...acc,
-    [item.id]: {
-      ...item,
-      isSelected: false,
-    },
-  }),
-  {}
-);
 
 @Injectable({
   providedIn: "root",
