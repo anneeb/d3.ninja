@@ -12,6 +12,12 @@ import {
   BuildsById,
 } from "constants/salvage-guide/types";
 
+const CubeItemSlots = [
+  ItemCubeSlot.ARMOR,
+  ItemCubeSlot.WEAPON,
+  ItemCubeSlot.JEWELRY,
+];
+
 function createCubeItems() {
   return {
     [ItemCubeSlot.ARMOR]: [] as string[],
@@ -70,6 +76,11 @@ type ItemWeaponSlot = ItemSlot.RIGHT_HAND | ItemSlot.LEFT_HAND;
 const ItemWeaponSlots = new Set([ItemSlot.RIGHT_HAND, ItemSlot.LEFT_HAND]);
 
 type HeroItemSlot = ItemArmorSlot | ItemJewelrySlot | ItemWeaponSlot;
+const HeroItemSlots = [
+  ...ItemArmorSlots,
+  ...ItemJewelrySlots,
+  ...ItemWeaponSlots,
+];
 
 type HeroItems = ReturnType<typeof createHeroItems>;
 function createHeroItems() {
@@ -98,6 +109,11 @@ type FollowerItemSlot =
   | ItemJewelrySlot
   | ItemWeaponSlot
   | ItemSlot.FOLLOWER_SPECIAL;
+const FollowerItemSlots = [
+  ...ItemJewelrySlots,
+  ...ItemWeaponSlots,
+  ItemSlot.FOLLOWER_SPECIAL,
+];
 
 function createFollowerItems() {
   return {
@@ -291,7 +307,7 @@ function addBaseGearItemsToBuild(
   baseItems: GearItems
 ) {
   if (!items[BuildItemTag.BIS].length) {
-    items[BuildItemTag.BIS] = [...baseItems[BuildItemTag.BIS]];
+    items[BuildItemTag.BIS].push(...baseItems[BuildItemTag.BIS]);
   }
 
   if (
@@ -327,9 +343,9 @@ function addBaseItemsToBuild(
         if (slot === ItemSlot.CUBE) {
           Object.entries(slotItems).forEach(([cubeSlot, cubeSlotItems]) => {
             if (!cubeSlotItems.length) {
-              build.heroItems[slot][cubeSlot] = [
-                ...baseBuild.heroItems[slot][cubeSlot],
-              ];
+              build.heroItems[slot][cubeSlot].push(
+                ...baseBuild.heroItems[slot][cubeSlot]
+              );
             }
           });
         } else {
@@ -345,11 +361,12 @@ function addBaseItemsToBuild(
 }
 
 function addItemsToIcons(items: GearItems, icons: string[]) {
-  items[BuildItemTag.BIS].forEach((item: string) => {
+  for (let item of items[BuildItemTag.BIS]) {
     if (!icons.includes(item)) {
       icons.push(item);
+      break;
     }
-  });
+  }
 }
 
 function getBuildIcons(build: BuildWithItems) {
@@ -358,27 +375,25 @@ function getBuildIcons(build: BuildWithItems) {
 
   if (build.isFollower) {
     Object.values(build.followersItems).forEach((followerItems) => {
-      Object.values(followerItems).forEach((slotItems) => {
-        addItemsToIcons(slotItems, slotIcons);
+      FollowerItemSlots.forEach((slot) => {
+        addItemsToIcons(followerItems[slot], slotIcons);
       });
     });
   } else {
-    Object.entries(build.heroItems).forEach(([slot, slotItems]) => {
-      if (slot === ItemSlot.CUBE) {
-        Object.values(slotItems).forEach((cubeSlotItems, idx) => {
-          cubeSlotItems.forEach((item: string) => {
-            if (
-              cubeIcons.length !== idx + 1 &&
-              !slotIcons.includes(item) &&
-              !cubeIcons.includes(item)
-            ) {
-              cubeIcons.push(item);
-            }
-          });
-        });
-      } else {
-        addItemsToIcons(slotItems as GearItems, slotIcons);
-      }
+    HeroItemSlots.forEach((slot) => {
+      addItemsToIcons(build.heroItems[slot], slotIcons);
+    });
+
+    CubeItemSlots.forEach((slot, idx) => {
+      build.heroItems[ItemSlot.CUBE][slot].forEach((item) => {
+        if (
+          cubeIcons.length !== idx + 1 &&
+          !slotIcons.includes(item) &&
+          !cubeIcons.includes(item)
+        ) {
+          cubeIcons.push(item);
+        }
+      });
     });
   }
 
