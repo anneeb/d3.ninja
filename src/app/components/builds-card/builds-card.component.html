@@ -1,4 +1,4 @@
-<mat-card class="app-builds-card">
+<mat-card class="app-builds-card" (click)="handleCardClick()">
   <mat-card-content class="app-builds-card__header">
     <!-- <a [href]="item.link" target="_blank"> -->
     {{ item.label }} ({{ item.score }})

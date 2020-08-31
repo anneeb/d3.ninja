@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { BuildsService, BuildItem } from "app/services/builds.service";
+import { BuildItem } from "constants/salvage-guide/builds";
+import { BuildsService } from "app/services/builds.service";
+import { UiService } from "app/services/ui.service";
 
 @Component({
   selector: "app-builds-card",
@@ -12,11 +14,18 @@ export class BuildsCardComponent implements OnInit {
 
   item: BuildItem;
 
-  constructor(private buildsService: BuildsService) {}
+  constructor(
+    private buildsService: BuildsService,
+    private uiService: UiService
+  ) {}
 
   ngOnInit(): void {
     this.buildsService.getItems().subscribe((itemMap) => {
       this.item = itemMap[this.itemId];
     });
+  }
+
+  handleCardClick() {
+    this.uiService.setSelectedBuild(this.itemId);
   }
 }

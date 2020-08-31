@@ -1,6 +1,7 @@
 import classNames from "classnames";
 import { Component, OnInit, Input } from "@angular/core";
-import { StashService, StashItem } from "app/services/stash.service";
+import { StashItem } from "constants/salvage-guide/stash";
+import { StashService } from "app/services/stash.service";
 
 @Component({
   selector: "app-builds-card-item",

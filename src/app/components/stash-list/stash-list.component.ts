@@ -1,10 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-
-import {
-  StashService,
-  StashItem,
-  StashItemMap,
-} from "app/services/stash.service";
+import { StashService } from "app/services/stash.service";
 
 @Component({
   selector: "app-stash-list",

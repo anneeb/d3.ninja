@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { UiService } from "app/services/ui.service";
 
 @Component({
   selector: "app-build-drawer",
@@ -6,7 +7,13 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./build-drawer.component.scss"],
 })
 export class BuildDrawerComponent implements OnInit {
-  constructor() {}
+  buildId: string;
 
-  ngOnInit(): void {}
+  constructor(private uiService: UiService) {}
+
+  ngOnInit(): void {
+    this.uiService.getSelectedBuild().subscribe((buildId) => {
+      this.buildId = buildId;
+    });
+  }
 }
