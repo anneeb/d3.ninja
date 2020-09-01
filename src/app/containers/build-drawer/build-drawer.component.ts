@@ -7,13 +7,13 @@ import { UiService } from "app/services/ui.service";
   styleUrls: ["./build-drawer.component.scss"],
 })
 export class BuildDrawerComponent implements OnInit {
-  buildId: string;
+  hasSelectedBuild: boolean;
 
   constructor(private uiService: UiService) {}
 
   ngOnInit(): void {
     this.uiService.getSelectedBuild().subscribe((buildId) => {
-      this.buildId = buildId;
+      this.hasSelectedBuild = Boolean(buildId);
     });
   }
 }

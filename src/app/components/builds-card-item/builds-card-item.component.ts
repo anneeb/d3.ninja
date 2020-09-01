@@ -11,8 +11,8 @@ import { StashService } from "app/services/stash.service";
 export class BuildsCardItemComponent implements OnInit {
   @Input()
   itemId: string;
-  item: StashItem;
 
+  item: StashItem;
   className: string;
 
   constructor(private stashService: StashService) {}

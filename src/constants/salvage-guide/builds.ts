@@ -151,6 +151,7 @@ function createFollowersItems() {
 interface BuildWithItems extends Build {
   isFollower: boolean;
   isOutdated: boolean;
+  isVariation?: boolean;
   heroItems?: HeroItems;
   followersItems?: FollowersItems;
 }
@@ -343,6 +344,7 @@ function addBaseItemsToBuild(
 ) {
   const baseBuildId = baseBuilds[build.label];
   if (baseBuildId !== build.id) {
+    build.isVariation = true;
     const baseBuild = builds[baseBuildId];
     if (build.isFollower) {
       Object.entries(build.followersItems).forEach(
@@ -458,8 +460,12 @@ export function buildItemSort(
     const bProp = b[property];
     const bVal = typeof bProp === "string" ? bProp.toLowerCase() : bProp;
 
-    if (property !== "label" && aVal === bVal) {
-      return buildItemSort("label")(a, b);
+    if (aVal === bVal) {
+      if (property === "label") {
+        return a.isVariation ? 1 : b.isVariation ? -1 : 0;
+      } else {
+        return buildItemSort("label")(a, b);
+      }
     }
 
     return aVal < bVal ? (desc ? 1 : -1) : aVal > bVal ? (desc ? -1 : 1) : 0;

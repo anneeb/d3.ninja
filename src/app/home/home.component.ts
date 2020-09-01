@@ -1,5 +1,4 @@
 import { Component, OnInit } from "@angular/core";
-
 import { BuildsService } from "app/services/builds.service";
 import { StashService } from "app/services/stash.service";
 import { UiService } from "app/services/ui.service";

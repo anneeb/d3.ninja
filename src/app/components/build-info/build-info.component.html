@@ -1,0 +1,34 @@
+<div class="app-build-info">
+  <div class="app-build-info__header">
+    <h1>{{ label }}</h1>
+
+    <mat-chip-list>
+      <mat-chip color="accent" selected="true">{{ character }}</mat-chip>
+      <mat-chip *ngIf="isVariation" color="primary" selected="true"
+        >Variation</mat-chip
+      >
+      <mat-chip *ngIf="isOutdated" color="warn" selected="true"
+        >Outdated</mat-chip
+      >
+    </mat-chip-list>
+  </div>
+
+  <mat-list>
+    <ng-container *ngFor="let itemHeaders of itemHeaders">
+      <mat-divider></mat-divider>
+      <div mat-subheader>{{ itemHeaders.label }}</div>
+      <mat-list-item *ngFor="let item of itemHeaders.items">
+        <div mat-line>{{ item.label }}</div>
+        <mat-chip-list mat-line>
+          <mat-chip
+            *ngFor="let tag of item.tags"
+            class="app-build-info__tag"
+            [color]="tag.color"
+            selected="true"
+            >{{ tag.label }}</mat-chip
+          >
+        </mat-chip-list>
+      </mat-list-item>
+    </ng-container>
+  </mat-list>
+</div>

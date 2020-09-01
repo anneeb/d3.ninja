@@ -1,5 +1,7 @@
 <div class="app-build-drawer">
-  <div *ngIf="buildId; else elseBlock">{{ buildId }}</div>
+  <div *ngIf="hasSelectedBuild; else elseBlock">
+    <app-build-info></app-build-info>
+  </div>
   <ng-template #elseBlock
     ><h3 class="app-build-drawer__empty">
       Select a build

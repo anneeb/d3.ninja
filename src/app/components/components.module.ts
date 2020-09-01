@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 
 import { SharedModule } from "app/shared/shared.module";
+import { BuildInfoComponent } from "app/components/build-info/build-info.component";
 import { BuildsCardsComponent } from "app/components/builds-cards/builds-cards.component";
 import { BuildsCardComponent } from "app/components/builds-card/builds-card.component";
 import { BuildsCardItemComponent } from "app/components/builds-card-item/builds-card-item.component";
@@ -12,6 +13,7 @@ import { StashQuickAddItemComponent } from "app/components/stash-quick-add-item/
 @NgModule({
   imports: [SharedModule],
   declarations: [
+    BuildInfoComponent,
     BuildsCardsComponent,
     BuildsCardComponent,
     BuildsCardItemComponent,
@@ -21,6 +23,7 @@ import { StashQuickAddItemComponent } from "app/components/stash-quick-add-item/
     StashQuickAddItemComponent,
   ],
   exports: [
+    BuildInfoComponent,
     BuildsCardsComponent,
     BuildsCardComponent,
     BuildsCardItemComponent,

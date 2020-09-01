@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { BuildsService, BuildItem } from "app/services/builds.service";
+import { BuildsService } from "app/services/builds.service";
 
 @Component({
   selector: "app-builds-cards",
