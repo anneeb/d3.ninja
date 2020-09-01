@@ -64,19 +64,19 @@ const ItemArmorSlots = new Set([
 
 type ItemJewelrySlot =
   | ItemSlot.NECK
-  | ItemSlot.RIGHT_FINGER
-  | ItemSlot.LEFT_FINGER;
+  | ItemSlot.LEFT_FINGER
+  | ItemSlot.RIGHT_FINGER;
 const ItemJewelrySlots = new Set([
   ItemSlot.NECK,
-  ItemSlot.RIGHT_FINGER,
   ItemSlot.LEFT_FINGER,
+  ItemSlot.RIGHT_FINGER,
 ]);
 
-type ItemWeaponSlot = ItemSlot.RIGHT_HAND | ItemSlot.LEFT_HAND;
-const ItemWeaponSlots = new Set([ItemSlot.RIGHT_HAND, ItemSlot.LEFT_HAND]);
+type ItemWeaponSlot = ItemSlot.LEFT_HAND | ItemSlot.RIGHT_HAND;
+const ItemWeaponSlots = new Set([ItemSlot.LEFT_HAND, ItemSlot.RIGHT_HAND]);
 
 type HeroItemSlot = ItemArmorSlot | ItemJewelrySlot | ItemWeaponSlot;
-const HeroItemSlots = [
+export const HeroItemSlots = [
   ...ItemArmorSlots,
   ...ItemJewelrySlots,
   ...ItemWeaponSlots,
@@ -95,11 +95,11 @@ function createHeroItems() {
     [ItemSlot.FEET]: createGearItems(),
 
     [ItemSlot.NECK]: createGearItems(),
-    [ItemSlot.RIGHT_FINGER]: createGearItems(),
     [ItemSlot.LEFT_FINGER]: createGearItems(),
+    [ItemSlot.RIGHT_FINGER]: createGearItems(),
 
-    [ItemSlot.RIGHT_HAND]: createGearItems(),
     [ItemSlot.LEFT_HAND]: createGearItems(),
+    [ItemSlot.RIGHT_HAND]: createGearItems(),
 
     [ItemSlot.CUBE]: createCubeItems(),
   };
@@ -115,20 +115,21 @@ const FollowerItemSlots = [
   ItemSlot.FOLLOWER_SPECIAL,
 ];
 
+type FollowerItems = ReturnType<typeof createFollowerItems>;
 function createFollowerItems() {
   return {
     [ItemSlot.NECK]: createGearItems(),
-    [ItemSlot.RIGHT_FINGER]: createGearItems(),
     [ItemSlot.LEFT_FINGER]: createGearItems(),
+    [ItemSlot.RIGHT_FINGER]: createGearItems(),
 
-    [ItemSlot.RIGHT_HAND]: createGearItems(),
     [ItemSlot.LEFT_HAND]: createGearItems(),
+    [ItemSlot.RIGHT_HAND]: createGearItems(),
 
     [ItemSlot.FOLLOWER_SPECIAL]: createGearItems(),
   };
 }
 
-const FollowerTags = new Set([
+export const FollowerTags = new Set([
   BuildItemTag.ENCHANTRESS,
   BuildItemTag.SCOUNDREL,
   BuildItemTag.TEMPLAR,
@@ -160,6 +161,28 @@ interface BuildsWithItems {
 
 interface BuildsByLabel {
   [label: string]: BuildsWithItems;
+}
+
+function dedupeItems(items: HeroItems | FollowerItems) {
+  const leftHand = items[ItemSlot.LEFT_HAND];
+  const rightHand = items[ItemSlot.RIGHT_HAND];
+  ItemGearTags.forEach((tag: ItemGearTag) => {
+    rightHand[tag] = rightHand[tag].filter(
+      (item) => !leftHand[tag].includes(item)
+    );
+  });
+
+  const leftFinger = items[ItemSlot.LEFT_FINGER];
+  const rightFinger = items[ItemSlot.RIGHT_FINGER];
+  ItemGearTags.forEach((tag: ItemGearTag) => {
+    if (leftFinger[tag].length > 1) {
+      leftFinger[tag] = leftFinger[tag].slice(0, 1);
+    }
+
+    rightFinger[tag] = rightFinger[tag].filter(
+      (item) => !leftFinger[tag].includes(item)
+    );
+  });
 }
 
 function getBuildWithItems(build: Build): BuildWithItems {
@@ -229,6 +252,12 @@ function getBuildWithItems(build: Build): BuildWithItems {
       });
     }
   });
+
+  if (isFollower) {
+    Object.values(followersItems).forEach((follower) => dedupeItems(follower));
+  } else {
+    dedupeItems(heroItems);
+  }
 
   return {
     ...build,
@@ -301,20 +330,9 @@ function getBaseBuilds(buildsByLabel: BuildsByLabel) {
   );
 }
 
-function addBaseGearItemsToBuild(
-  slot: ItemSlot,
-  items: GearItems,
-  baseItems: GearItems
-) {
+function addBaseGearItemsToBuild(items: GearItems, baseItems: GearItems) {
   if (!items[BuildItemTag.BIS].length) {
     items[BuildItemTag.BIS].push(...baseItems[BuildItemTag.BIS]);
-  }
-
-  if (
-    (slot === ItemSlot.LEFT_FINGER || slot === ItemSlot.RIGHT_FINGER) &&
-    items[BuildItemTag.BIS].length < 2
-  ) {
-    items[BuildItemTag.BIS].push(...baseItems[BuildItemTag.VARIATION]);
   }
 }
 
@@ -331,7 +349,6 @@ function addBaseItemsToBuild(
         ([follower, followerItems]) => {
           Object.entries(followerItems).forEach(([slot, slotItems]) => {
             addBaseGearItemsToBuild(
-              slot as ItemSlot,
               slotItems,
               baseBuild.followersItems[follower][slot]
             );
@@ -350,7 +367,6 @@ function addBaseItemsToBuild(
           });
         } else {
           addBaseGearItemsToBuild(
-            slot as ItemSlot,
             slotItems as GearItems,
             baseBuild.heroItems[slot]
           );

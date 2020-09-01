@@ -27,20 +27,20 @@ export enum ItemSlot {
   "FEET" = "feet",
 
   "NECK" = "neck",
-  "RIGHT_FINGER" = "right-finger",
   "LEFT_FINGER" = "left-finger",
+  "RIGHT_FINGER" = "right-finger",
 
-  "RIGHT_HAND" = "right-hand",
   "LEFT_HAND" = "left-hand",
+  "RIGHT_HAND" = "right-hand",
 
   "FOLLOWER_SPECIAL" = "follower-special",
   "CUBE" = "cube",
 }
 
 export enum ItemCubeSlot {
-  "ARMOR" = "armor",
-  "WEAPON" = "weapon",
-  "JEWELRY" = "jewelry",
+  "ARMOR" = "Armor",
+  "WEAPON" = "Weapon",
+  "JEWELRY" = "Jewelry",
 }
 
 export interface Item {
