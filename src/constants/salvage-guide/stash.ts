@@ -3,6 +3,7 @@ import { Item } from "constants/salvage-guide/types";
 
 export interface StashItem extends Item {
   isSelected: boolean;
+  isCubeSelected: boolean;
 }
 
 export interface StashItemMap {
@@ -15,6 +16,7 @@ export const stashItems = Object.values(itemsById).reduce<StashItemMap>(
     [item.id]: {
       ...item,
       isSelected: false,
+      isCubeSelected: false,
     },
   }),
   {}

@@ -24,7 +24,8 @@ export class BuildsCardItemComponent implements OnInit {
         "app-builds-card-item",
         `app-builds-card-item--${this.item.color}`,
         {
-          "app-builds-card-item--selected": this.item.isSelected,
+          "app-builds-card-item--selected":
+            this.item.isSelected || this.item.isCubeSelected,
         }
       );
     });

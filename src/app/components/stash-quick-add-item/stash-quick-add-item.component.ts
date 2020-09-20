@@ -22,7 +22,7 @@ export class StashQuickAddItemComponent implements OnInit {
 
   handleItemClick(event: Event) {
     event.stopPropagation();
-    this.stashService.updateIsItemSelcted(this.itemId);
+    this.stashService.updateIsItemSelected(this.itemId);
   }
 
   handleCheckboxClick(event: Event) {

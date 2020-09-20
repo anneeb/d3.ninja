@@ -18,7 +18,10 @@
       <mat-divider></mat-divider>
       <div mat-subheader>{{ itemHeaders.label }}</div>
       <ng-container *ngFor="let item of itemHeaders.items">
-        <app-stash-list-item [itemId]="item.id"></app-stash-list-item>
+        <app-stash-list-item
+          [itemId]="item.id"
+          [isItemSelected]="isItemSelected"
+        ></app-stash-list-item>
         <mat-chip-list mat-line class="app-build-info__tags">
           <mat-chip
             *ngFor="let tag of item.tags"

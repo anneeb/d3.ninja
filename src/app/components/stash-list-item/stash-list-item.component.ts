@@ -12,6 +12,9 @@ export class StashListItemComponent implements OnInit {
   @Input()
   itemId: string;
 
+  @Input()
+  isItemSelected?: (item: StashItem) => boolean;
+
   item: StashItem;
   className: string;
 
@@ -24,7 +27,9 @@ export class StashListItemComponent implements OnInit {
         "app-stash-list-item",
         `app-stash-list-item--${this.item.color}`,
         {
-          "app-stash-list-item--selected": this.item.isSelected,
+          "app-stash-list-item--selected": this.isItemSelected
+            ? this.isItemSelected(this.item)
+            : this.item.isSelected || this.item.isCubeSelected,
         }
       );
     });

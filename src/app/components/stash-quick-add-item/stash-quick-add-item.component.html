@@ -6,7 +6,7 @@
   ]"
 >
   <mat-checkbox
-    [checked]="item.isSelected"
+    [checked]="item.isSelected || item.isCubeSelected"
     (click)="handleCheckboxClick($event)"
   >
     {{ item.label }}
