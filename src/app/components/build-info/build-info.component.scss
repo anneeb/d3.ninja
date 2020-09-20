@@ -3,6 +3,10 @@
     padding: 16px;
   }
 
+  &__tags ::ng-deep .mat-chip-list-wrapper {
+    padding: 0 16px 16px;
+  }
+
   &__tag {
     min-height: 24px;
     padding: 5px 8px;

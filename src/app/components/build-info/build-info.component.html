@@ -17,9 +17,9 @@
     <ng-container *ngFor="let itemHeaders of itemHeaders">
       <mat-divider></mat-divider>
       <div mat-subheader>{{ itemHeaders.label }}</div>
-      <mat-list-item *ngFor="let item of itemHeaders.items">
-        <div mat-line>{{ item.label }}</div>
-        <mat-chip-list mat-line>
+      <ng-container *ngFor="let item of itemHeaders.items">
+        <app-stash-list-item [itemId]="item.id"></app-stash-list-item>
+        <mat-chip-list mat-line class="app-build-info__tags">
           <mat-chip
             *ngFor="let tag of item.tags"
             class="app-build-info__tag"
@@ -28,7 +28,7 @@
             >{{ tag.label }}</mat-chip
           >
         </mat-chip-list>
-      </mat-list-item>
+      </ng-container>
     </ng-container>
   </mat-list>
 </div>
