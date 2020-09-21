@@ -151,13 +151,21 @@ function createFollowersItems() {
 interface BuildWithItems extends Build {
   isFollower: boolean;
   isOutdated: boolean;
-  isVariation?: boolean;
   heroItems?: HeroItems;
   followersItems?: FollowersItems;
 }
 
 interface BuildsWithItems {
   [id: string]: BuildWithItems;
+}
+
+interface BuildTags {
+  isVariation: boolean;
+  subLabel: string;
+}
+
+interface BuildsTags {
+  [id: string]: BuildTags;
 }
 
 interface BuildsByLabel {
@@ -282,54 +290,64 @@ function getBuildsByLabel(buildsById: BuildsById) {
   );
 }
 
-function countGearItems(acc: number, gear: GearItems) {
-  return (
-    acc +
-    Object.values(gear).reduce<number>(
-      (subAcc, items) => subAcc + items.length,
-      0
-    )
-  );
-}
+function getBaseBuildsAndTags(buildsByLabel: BuildsByLabel) {
+  const baseBuilds: BaseBuildsByLabel = {};
+  const buildTags: BuildsTags = {};
+  Object.entries(buildsByLabel).forEach(([key, buildsById]) => {
+    const builds = Object.values(buildsById);
 
-function countBuildItems(build: BuildWithItems) {
-  return build.isFollower
-    ? Object.values(build.followersItems).reduce<number>(
-        (acc, follower) =>
-          acc + Object.values(follower).reduce<number>(countGearItems, 0),
-        0
-      )
-    : Object.values(build.heroItems).reduce<number>(countGearItems, 0);
+    if (builds.length === 1) {
+      const buildId = builds[0].id;
+      baseBuilds[key] = buildId;
+      buildTags[buildId] = { isVariation: false, subLabel: "" };
+      return;
+    }
+
+    const splitBuilds = builds.map((build) => build.id.split("-"));
+    const longestBuild = splitBuilds
+      .slice()
+      .sort((a, b) => a.length - b.length)[0];
+
+    const prefix = [];
+    longestBuild.forEach((id, idx) => {
+      if (splitBuilds.every((build) => build[idx] === id)) {
+        prefix.push(id);
+      }
+    });
+
+    const tags = splitBuilds.map<BuildTags>((build) => {
+      const subLabels = build.slice(prefix.length);
+      let isVariation = true;
+      let subLabel = "";
+
+      if (subLabels.includes("bis")) {
+        isVariation = false;
+      } else {
+        subLabel = subLabels.filter((label) => label !== "build").join(" ");
+      }
+      return { isVariation, subLabel };
+    });
+
+    tags.forEach((tag, idx) => {
+      const buildId = builds[idx].id;
+      if (!tag.isVariation) {
+        baseBuilds[key] = buildId;
+      }
+      buildTags[buildId] = tag;
+    });
+  });
+
+  console.log(baseBuilds);
+
+  return {
+    baseBuilds,
+    buildTags,
+  };
 }
 
 type BaseBuildsByLabel = {
   [key: string]: string;
 };
-
-function getBaseBuilds(buildsByLabel: BuildsByLabel) {
-  return Object.entries(buildsByLabel).reduce<BaseBuildsByLabel>(
-    (acc, [key, buildsById]) => {
-      const builds = Object.values(buildsById);
-      if (builds.length === 1) {
-        acc[key] = builds[0].id;
-      } else {
-        let maxBuild = builds[0];
-        let maxBuildCount = countBuildItems(maxBuild);
-        builds.forEach((build) => {
-          const buildCount = countBuildItems(build);
-          if (buildCount > maxBuildCount) {
-            maxBuild = build;
-            maxBuildCount = maxBuildCount;
-          }
-        });
-        acc[key] = maxBuild.id;
-      }
-
-      return acc;
-    },
-    {}
-  );
-}
 
 function addBaseGearItemsToBuild(items: GearItems, baseItems: GearItems) {
   if (!items[BuildItemTag.BIS].length) {
@@ -344,7 +362,6 @@ function addBaseItemsToBuild(
 ) {
   const baseBuildId = baseBuilds[build.label];
   if (baseBuildId !== build.id) {
-    build.isVariation = true;
     const baseBuild = builds[baseBuildId];
     if (build.isFollower) {
       Object.entries(build.followersItems).forEach(
@@ -419,12 +436,13 @@ function getBuildIcons(build: BuildWithItems) {
 }
 
 const buildsByLabel = getBuildsByLabel(buildsById);
-const baseBuildIds = getBaseBuilds(buildsByLabel);
+const { baseBuilds, buildTags } = getBaseBuildsAndTags(buildsByLabel);
 
-export type BuildItem = BuildWithItems & {
-  icons: string[];
-  score: number;
-};
+export type BuildItem = BuildWithItems &
+  BuildTags & {
+    icons: string[];
+    score: number;
+  };
 
 export interface BuildItemMap {
   [id: string]: BuildItem;
@@ -434,11 +452,12 @@ export const buildItems = Object.values(getBuildsByLabel(buildsById)).reduce<
   BuildItemMap
 >((acc, builds) => {
   Object.values(builds).forEach((build) => {
-    addBaseItemsToBuild(build, builds, baseBuildIds);
+    addBaseItemsToBuild(build, builds, baseBuilds);
     const icons = getBuildIcons(build);
 
     acc[build.id] = {
       ...build,
+      ...buildTags[build.id],
       icons,
       score: 0,
     };

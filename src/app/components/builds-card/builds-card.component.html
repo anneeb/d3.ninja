@@ -1,9 +1,12 @@
 <mat-card class="app-builds-card" (click)="handleCardClick()">
-  <mat-card-content class="app-builds-card__header">
+  <mat-card-header class="app-builds-card__header">
     <!-- <a [href]="item.link" target="_blank"> -->
-    {{ item.label }} ({{ item.score }})
+    <mat-card-title>{{ item.label }}</mat-card-title>
+    <mat-card-subtitle
+      >{{ item.subLabel }} ({{ item.score }})</mat-card-subtitle
+    >
     <!-- </a> -->
-  </mat-card-content>
+  </mat-card-header>
   <div class="app-builds-card__items">
     <app-builds-card-item
       *ngFor="let icon of item.icons"
