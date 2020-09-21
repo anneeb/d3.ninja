@@ -14,6 +14,7 @@ type BuildInfoItem = { id: string; tags: BuildInfoTag[] };
 })
 export class BuildInfoComponent implements OnInit {
   label: string;
+  subLabel: string;
   character: string;
   isOutdated: boolean;
   isVariation: boolean;
@@ -50,6 +51,7 @@ export class BuildInfoComponent implements OnInit {
 
     const {
       label,
+      subLabel,
       character,
       isOutdated,
       isVariation,
@@ -59,6 +61,7 @@ export class BuildInfoComponent implements OnInit {
     } = build;
 
     this.label = label;
+    this.subLabel = subLabel;
     this.character = character;
     this.isOutdated = isOutdated;
     this.isVariation = isVariation;
@@ -82,7 +85,7 @@ export class BuildInfoComponent implements OnInit {
           }
         );
 
-        return { label: slot.toUpperCase(), items: Object.values(tagItems) };
+        return { label: slot, items: Object.values(tagItems) };
       });
     }
   }

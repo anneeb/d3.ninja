@@ -1,6 +1,7 @@
 <div class="app-build-info">
   <div class="app-build-info__header">
     <h1>{{ label }}</h1>
+    <h3>{{ subLabel }}</h3>
 
     <mat-chip-list>
       <mat-chip color="accent" selected="true">{{ character }}</mat-chip>
@@ -16,7 +17,9 @@
   <mat-list>
     <ng-container *ngFor="let itemHeaders of itemHeaders">
       <mat-divider></mat-divider>
-      <div mat-subheader>{{ itemHeaders.label }}</div>
+      <div mat-subheader class="app-build-info__section-header">
+        {{ itemHeaders.label }}
+      </div>
       <ng-container *ngFor="let item of itemHeaders.items">
         <app-stash-list-item
           [itemId]="item.id"

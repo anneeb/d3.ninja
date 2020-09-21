@@ -322,6 +322,8 @@ function getBaseBuildsAndTags(buildsByLabel: BuildsByLabel) {
 
       if (subLabels.includes("bis")) {
         isVariation = false;
+      } else if (subLabels.includes("rgk")) {
+        subLabel = "RGK";
       } else {
         subLabel = subLabels.filter((label) => label !== "build").join(" ");
       }

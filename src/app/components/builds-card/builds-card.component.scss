@@ -16,6 +16,10 @@
     height: 110px;
   }
 
+  &__subtitle {
+    text-transform: capitalize;
+  }
+
   a {
     color: inherit;
   }

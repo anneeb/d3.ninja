@@ -1,10 +1,20 @@
 .app-build-info {
   &__header {
     padding: 16px;
+
+    h3 {
+      text-transform: capitalize;
+    }
+  }
+
+  &__section-header {
+    text-transform: uppercase;
   }
 
   &__tags ::ng-deep .mat-chip-list-wrapper {
+    justify-content: flex-end;
     padding: 0 16px 16px;
+    text-transform: capitalize;
   }
 
   &__tag {
