@@ -325,7 +325,10 @@ function getBaseBuildsAndTags(buildsByLabel: BuildsByLabel) {
       } else if (subLabels.includes("rgk")) {
         subLabel = "RGK";
       } else {
-        subLabel = subLabels.filter((label) => label !== "build").join(" ");
+        subLabel = subLabels
+          .filter((label) => label !== "build")
+          .join(" ")
+          .trim();
       }
       return { isVariation, subLabel };
     });

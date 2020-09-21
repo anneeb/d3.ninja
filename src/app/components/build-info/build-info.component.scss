@@ -1,14 +1,14 @@
 .app-build-info {
   &__header {
     padding: 16px;
-
-    h3 {
-      text-transform: capitalize;
-    }
   }
 
   &__section-header {
     text-transform: uppercase;
+  }
+
+  &__variation-tag {
+    text-transform: capitalize;
   }
 
   &__tags ::ng-deep .mat-chip-list-wrapper {

@@ -1,12 +1,15 @@
 <div class="app-build-info">
   <div class="app-build-info__header">
     <h1>{{ label }}</h1>
-    <h3>{{ subLabel }}</h3>
 
     <mat-chip-list>
       <mat-chip color="accent" selected="true">{{ character }}</mat-chip>
-      <mat-chip *ngIf="isVariation" color="primary" selected="true"
-        >Variation</mat-chip
+      <mat-chip
+        *ngIf="isVariation"
+        class="app-build-info__variation-tag"
+        color="primary"
+        selected="true"
+        >{{ subLabel }}</mat-chip
       >
       <mat-chip *ngIf="isOutdated" color="warn" selected="true"
         >Outdated</mat-chip

@@ -2,9 +2,18 @@
   <mat-card-header class="app-builds-card__header">
     <!-- <a [href]="item.link" target="_blank"> -->
     <mat-card-title>{{ item.label }}</mat-card-title>
-    <mat-card-subtitle class="app-builds-card__subtitle"
-      >{{ item.subLabel }} ({{ item.score }})</mat-card-subtitle
-    >
+    <mat-card-subtitle>
+      <mat-chip-list class="app-builds-card__tags">
+        <mat-chip
+          *ngIf="item.isVariation"
+          class="app-builds-card__variation-tag"
+          color="primary"
+          selected="true"
+        >
+          {{ item.subLabel }}
+        </mat-chip>
+      </mat-chip-list>
+    </mat-card-subtitle>
     <!-- </a> -->
   </mat-card-header>
   <div class="app-builds-card__items">

@@ -16,8 +16,19 @@
     height: 110px;
   }
 
-  &__subtitle {
+  &__tags ::ng-deep .mat-chip-list-wrapper {
     text-transform: capitalize;
+  }
+
+  &__variation-tag {
+    display: inline-block;
+    max-width: 100%;
+    min-height: 24px;
+    padding: 5px 8px;
+    line-height: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   a {
