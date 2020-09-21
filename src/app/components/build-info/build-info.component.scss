@@ -1,6 +1,16 @@
 .app-build-info {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 32px);
+  overflow: hidden;
+
   &__header {
+    flex: none;
     padding: 16px;
+  }
+
+  &__sections {
+    overflow: scroll;
   }
 
   &__section-header {
