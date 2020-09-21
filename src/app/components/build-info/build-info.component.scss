@@ -21,9 +21,19 @@
     text-transform: capitalize;
   }
 
+  &__item ::ng-deep .mat-list-text {
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__stash-item {
+    flex: 1 1;
+  }
+
   &__tags ::ng-deep .mat-chip-list-wrapper {
     justify-content: flex-end;
-    padding: 0 16px 16px;
     text-transform: capitalize;
   }
 

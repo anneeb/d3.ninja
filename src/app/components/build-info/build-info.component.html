@@ -23,12 +23,16 @@
       <div mat-subheader class="app-build-info__section-header">
         {{ itemHeaders.label }}
       </div>
-      <ng-container *ngFor="let item of itemHeaders.items">
+      <mat-list-item
+        *ngFor="let item of itemHeaders.items"
+        class="app-build-info__item"
+      >
         <app-stash-list-item
+          class="app-build-info__stash-item"
           [itemId]="item.id"
           [isItemSelected]="isItemSelected"
         ></app-stash-list-item>
-        <mat-chip-list mat-line class="app-build-info__tags">
+        <mat-chip-list class="app-build-info__tags">
           <mat-chip
             *ngFor="let tag of item.tags"
             class="app-build-info__tag"
@@ -37,7 +41,7 @@
             >{{ tag.label }}</mat-chip
           >
         </mat-chip-list>
-      </ng-container>
+      </mat-list-item>
     </ng-container>
   </mat-list>
 </div>
