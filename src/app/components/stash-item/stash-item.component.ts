@@ -4,11 +4,11 @@ import { StashItem } from "constants/salvage-guide/stash";
 import { StashService } from "app/services/stash.service";
 
 @Component({
-  selector: "app-stash-list-item",
-  templateUrl: "./stash-list-item.component.html",
-  styleUrls: ["./stash-list-item.component.scss"],
+  selector: "app-stash-item",
+  templateUrl: "./stash-item.component.html",
+  styleUrls: ["./stash-item.component.scss"],
 })
-export class StashListItemComponent implements OnInit {
+export class StashItemComponent implements OnInit {
   @Input()
   itemId: string;
 
@@ -24,10 +24,10 @@ export class StashListItemComponent implements OnInit {
     this.stashService.getItems().subscribe((itemMap) => {
       this.item = itemMap[this.itemId];
       this.className = classNames(
-        "app-stash-list-item",
-        `app-stash-list-item--${this.item.color}`,
+        "app-stash-item",
+        `app-stash-item--${this.item.color}`,
         {
-          "app-stash-list-item--selected": this.isItemSelected
+          "app-stash-item--selected": this.isItemSelected
             ? this.isItemSelected(this.item)
             : this.item.isSelected || this.item.isCubeSelected,
         }

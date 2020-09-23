@@ -76,31 +76,37 @@ export class StashService extends BaseService {
     setTimeout(() => this.setFilter(filter), 0);
   }
 
-  updateIsItemSelected(itemId: string, isSelected?: boolean) {
+  updateIsItemSelected(
+    itemId: string,
+    newValues?: {
+      isSelected: boolean;
+      isCubeSelected: boolean;
+    }
+  ) {
     const prevItems = this.items.getValue();
-    const newIsSelected =
-      isSelected === undefined ? !prevItems[itemId].isSelected : isSelected;
-    const updatedItems: StashItemMap = {
-      ...prevItems,
-      [itemId]: {
-        ...prevItems[itemId],
-        isSelected: newIsSelected,
-        isCubeSelected: newIsSelected,
-      },
-    };
-    setTimeout(() => this.setItems(updatedItems), 0);
-  }
+    let isSelected: boolean;
+    let isCubeSelected: boolean;
 
-  updateIsItemCubeSelected(itemId: string, isCubeSelected?: boolean) {
-    const prevItems = this.items.getValue();
+    if (newValues) {
+      isSelected = newValues.isSelected;
+      isCubeSelected = newValues.isCubeSelected;
+    } else if (
+      prevItems[itemId].isSelected ||
+      prevItems[itemId].isCubeSelected
+    ) {
+      isSelected = false;
+      isCubeSelected = false;
+    } else {
+      isSelected = true;
+      isCubeSelected = true;
+    }
+
     const updatedItems: StashItemMap = {
       ...prevItems,
       [itemId]: {
         ...prevItems[itemId],
-        isCubeSelected:
-          isCubeSelected === undefined
-            ? !prevItems[itemId].isCubeSelected
-            : isCubeSelected,
+        isSelected,
+        isCubeSelected,
       },
     };
     setTimeout(() => this.setItems(updatedItems), 0);

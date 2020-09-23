@@ -27,11 +27,11 @@
         *ngFor="let item of itemHeaders.items"
         class="app-build-info__item"
       >
-        <app-stash-list-item
+        <app-stash-item
           class="app-build-info__stash-item"
           [itemId]="item.id"
           [isItemSelected]="isItemSelected"
-        ></app-stash-list-item>
+        ></app-stash-item>
         <mat-chip-list class="app-build-info__tags">
           <mat-chip
             *ngFor="let tag of item.tags"

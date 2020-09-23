@@ -1,5 +1,9 @@
 <mat-list class="app-stash-list">
-  <mat-list-item *ngFor="let itemId of itemIds">
-    <app-stash-list-item [itemId]="itemId"></app-stash-list-item>
+  <mat-list-item *ngFor="let itemId of itemIds" class="app-stash-list__item">
+    <app-stash-item
+      class="app-stash-list__stash-item"
+      [itemId]="itemId"
+    ></app-stash-item>
+    <app-stash-item-toggle [itemId]="itemId"></app-stash-item-toggle>
   </mat-list-item>
 </mat-list>

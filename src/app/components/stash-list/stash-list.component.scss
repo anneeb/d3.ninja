@@ -1,3 +1,14 @@
 .app-stash-list {
   padding-bottom: 50px;
+
+  &__item ::ng-deep .mat-list-text {
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__stash-item {
+    flex: 1 1;
+  }
 }

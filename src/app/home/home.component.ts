@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  handleSidebarIconClick = () => {
+  handleSidebarIconClick() {
     this.uiService.setisStashDrawerOpen(!this.isStashDrawerOpen);
-  };
+  }
 }
