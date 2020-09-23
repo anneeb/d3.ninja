@@ -6,6 +6,11 @@ export interface StashItem extends Item {
   isCubeSelected: boolean;
 }
 
+export type SelectedStashItem = Pick<
+  StashItem,
+  "id" | "isSelected" | "isCubeSelected"
+>;
+
 export interface StashItemMap {
   [value: string]: StashItem;
 }

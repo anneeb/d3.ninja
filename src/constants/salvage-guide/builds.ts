@@ -437,7 +437,9 @@ function getBuildIcons(build: BuildWithItems) {
     });
   }
 
-  return slotIcons.concat(cubeIcons);
+  return slotIcons
+    .map((id) => ({ id, isCube: false }))
+    .concat(cubeIcons.map((id) => ({ id, isCube: true })));
 }
 
 const buildsByLabel = getBuildsByLabel(buildsById);
@@ -445,7 +447,7 @@ const { baseBuilds, buildTags } = getBaseBuildsAndTags(buildsByLabel);
 
 export type BuildItem = BuildWithItems &
   BuildTags & {
-    icons: string[];
+    icons: {id: string, isCube: boolean} [];
     score: number;
   };
 

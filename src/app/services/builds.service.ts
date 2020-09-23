@@ -7,6 +7,7 @@ import {
   BuildItemMap,
 } from "constants/salvage-guide/builds";
 import { itemsByBuild } from "constants/salvage-guide/salvage-guide";
+import { SelectedStashItem } from "constants/salvage-guide/stash";
 import { BaseService } from "app/services/base-service";
 import { StashService } from "app/services/stash.service";
 
@@ -30,8 +31,8 @@ export class BuildsService extends BaseService {
 
   setStashService(stashService: StashService) {
     this.stashService = stashService;
-    this.stashService.getSelectedItems().subscribe((selectedItems) => {
-      setTimeout(() => this.setItemScores(selectedItems), 0);
+    this.stashService.getSelectedItems().subscribe((items) => {
+      setTimeout(() => this.setItemScores(items), 0);
     });
   }
 
@@ -59,9 +60,19 @@ export class BuildsService extends BaseService {
     );
   }
 
-  setItemScores(selectedItems: string[]) {
-    const selectedItemsSet = new Set(selectedItems);
-    const hasSelectedItems = Boolean(selectedItemsSet.size);
+  setItemScores(items: SelectedStashItem[]) {
+    const stashedItems = new Set();
+    const cubedItems = new Set();
+    items.forEach(({ id, isSelected, isCubeSelected }) => {
+      if (isSelected) {
+        stashedItems.add(id);
+      }
+      if (isCubeSelected) {
+        cubedItems.add(id);
+      }
+    });
+
+    const hasSelectedItems = Boolean(stashedItems.size + cubedItems.size);
     const updatedItems = Object.entries(this.items.getValue()).reduce<
       BuildItemMap
     >((acc, [key, build]) => {
@@ -69,7 +80,9 @@ export class BuildsService extends BaseService {
 
       if (
         !hasSelectedItems ||
-        !allBuildItems.some((item) => selectedItemsSet.has(item))
+        !allBuildItems.some(
+          (item) => cubedItems.has(item) || stashedItems.has(item)
+        )
       ) {
         acc[key] = {
           ...build,
@@ -79,7 +92,9 @@ export class BuildsService extends BaseService {
       }
 
       const score =
-        (build.icons.filter((icon) => selectedItemsSet.has(icon)).length /
+        (build.icons.filter((icon) =>
+          icon.isCube ? cubedItems.has(icon.id) : stashedItems.has(icon.id)
+        ).length /
           build.icons.length) *
         100;
 

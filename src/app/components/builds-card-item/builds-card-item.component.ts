@@ -12,6 +12,9 @@ export class BuildsCardItemComponent implements OnInit {
   @Input()
   itemId: string;
 
+  @Input()
+  isCube: boolean;
+
   item: StashItem;
   className: string;
 
@@ -24,8 +27,9 @@ export class BuildsCardItemComponent implements OnInit {
         "app-builds-card-item",
         `app-builds-card-item--${this.item.color}`,
         {
-          "app-builds-card-item--selected":
-            this.item.isSelected || this.item.isCubeSelected,
+          "app-builds-card-item--selected": this.isCube
+            ? this.item.isCubeSelected
+            : this.item.isSelected,
         }
       );
     });

@@ -1,7 +1,11 @@
 import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
 
-import { stashItems, StashItemMap } from "constants/salvage-guide/stash";
+import {
+  stashItems,
+  SelectedStashItem,
+  StashItemMap,
+} from "constants/salvage-guide/stash";
 import { BaseService } from "app/services/base-service";
 
 @Injectable({
@@ -12,7 +16,7 @@ export class StashService extends BaseService {
 
   private filter = new BehaviorSubject("");
   private filteredItems = new BehaviorSubject(Object.keys(stashItems));
-  private selectedItems = new BehaviorSubject([] as string[]);
+  private selectedItems = new BehaviorSubject([] as SelectedStashItem[]);
 
   constructor() {
     super();
@@ -61,14 +65,18 @@ export class StashService extends BaseService {
     return super.getBehaviorSubjectValue(this.selectedItems);
   }
 
-  private setSelectedItems(items: string[]) {
+  private setSelectedItems(items: SelectedStashItem[]) {
     return super.setBehaviorSubjectValue(this.selectedItems, items);
   }
 
   private syncSelectedItems() {
     const selectedItems = Object.values(this.items.getValue())
       .filter((item) => item.isSelected || item.isCubeSelected)
-      .map((item) => item.id);
+      .map(({ id, isSelected, isCubeSelected }) => ({
+        id,
+        isSelected,
+        isCubeSelected,
+      }));
     this.setSelectedItems(selectedItems);
   }
 

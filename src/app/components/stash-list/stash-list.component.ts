@@ -13,7 +13,7 @@ export class StashListComponent implements OnInit {
 
   ngOnInit(): void {
     this.stashService.getSelectedItems().subscribe((items) => {
-      this.itemIds = items;
+      this.itemIds = items.map((item) => item.id);
     });
   }
 }

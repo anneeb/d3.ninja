@@ -3,9 +3,14 @@ import { BuildItemMap, HeroItemSlots } from "constants/salvage-guide/builds";
 import { BuildsService } from "app/services/builds.service";
 import { UiService } from "app/services/ui.service";
 import { ItemSlot, BuildItemTag } from "constants/salvage-guide/types";
+import { StashItem } from "constants/salvage-guide/stash";
 
 type BuildInfoTag = { label: string; color: string };
-type BuildInfoItem = { id: string; tags: BuildInfoTag[] };
+type BuildInfoItem = {
+  id: string;
+  tags: BuildInfoTag[];
+  isItemSelected: (item: StashItem) => boolean;
+};
 
 @Component({
   selector: "app-build-info",
@@ -75,7 +80,14 @@ export class BuildInfoComponent implements OnInit {
           ([itemTag, itemIds]: [BuildItemTag, string[]]) => {
             itemIds.forEach((itemId) => {
               if (!tagItems[itemId]) {
-                tagItems[itemId] = { id: itemId, tags: [] };
+                tagItems[itemId] = {
+                  id: itemId,
+                  tags: [],
+                  isItemSelected: (item: StashItem) =>
+                    slot === ItemSlot.CUBE
+                      ? item.isCubeSelected
+                      : item.isSelected,
+                };
               }
 
               if (!tagItems[itemId].tags.some((tag) => tag.label === itemTag)) {

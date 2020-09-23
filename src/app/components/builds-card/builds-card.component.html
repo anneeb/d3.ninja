@@ -19,7 +19,8 @@
   <div class="app-builds-card__items">
     <app-builds-card-item
       *ngFor="let icon of item.icons"
-      [itemId]="icon"
+      [itemId]="icon.id"
+      [isCube]="icon.isCube"
     ></app-builds-card-item>
   </div>
 </mat-card>
