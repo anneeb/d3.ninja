@@ -1,3 +1,5 @@
+@import "../../../styles/variables.scss";
+
 .app-build-info {
   display: flex;
   flex-direction: column;
@@ -10,6 +12,7 @@
   }
 
   &__sections {
+    padding-bottom: 20px;
     overflow: scroll;
   }
 

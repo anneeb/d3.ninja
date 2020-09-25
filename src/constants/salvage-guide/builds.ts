@@ -445,9 +445,10 @@ function getBuildIcons(build: BuildWithItems) {
 const buildsByLabel = getBuildsByLabel(buildsById);
 const { baseBuilds, buildTags } = getBaseBuildsAndTags(buildsByLabel);
 
+export type BuildIcon = { id: string; isCube: boolean };
 export type BuildItem = BuildWithItems &
   BuildTags & {
-    icons: {id: string, isCube: boolean} [];
+    icons: BuildIcon[];
     score: number;
   };
 

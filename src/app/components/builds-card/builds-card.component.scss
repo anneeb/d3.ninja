@@ -6,13 +6,13 @@
   width: 200px;
   height: 260px;
   margin: 10px;
-  cursor: pointer;
 
   &__header ::ng-deep .mat-card-header-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 200px;
+    cursor: pointer;
   }
 
   &__tags ::ng-deep .mat-chip-list-wrapper {

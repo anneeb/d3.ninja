@@ -1,5 +1,8 @@
-<mat-card class="app-builds-card" (click)="handleCardClick()">
-  <mat-card-header class="app-builds-card__header">
+<mat-card class="app-builds-card">
+  <mat-card-header
+    class="app-builds-card__header"
+    (click)="handleHeaderClick()"
+  >
     <!-- <a [href]="item.link" target="_blank"> -->
     <mat-card-title>{{ item.label }}</mat-card-title>
     <mat-card-subtitle>
@@ -17,10 +20,12 @@
     <!-- </a> -->
   </mat-card-header>
   <div class="app-builds-card__items">
-    <app-builds-card-item
+    <app-stash-item
       *ngFor="let icon of item.icons"
       [itemId]="icon.id"
+      isClickable="true"
       [isCube]="icon.isCube"
-    ></app-builds-card-item>
+      [isItemSelected]="isItemSelected(icon)"
+    ></app-stash-item>
   </div>
 </mat-card>

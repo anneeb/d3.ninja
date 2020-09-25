@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { BuildItem } from "constants/salvage-guide/builds";
+import { StashItem } from "constants/salvage-guide/stash";
+import { BuildItem, BuildIcon } from "constants/salvage-guide/builds";
 import { BuildsService } from "app/services/builds.service";
 import { UiService } from "app/services/ui.service";
 
@@ -25,7 +26,12 @@ export class BuildsCardComponent implements OnInit {
     });
   }
 
-  handleCardClick() {
+  handleHeaderClick() {
     this.uiService.setSelectedBuild(this.itemId);
+  }
+
+  isItemSelected(icon: BuildIcon) {
+    return (item: StashItem) =>
+      icon.isCube ? item.isCubeSelected : item.isSelected;
   }
 }

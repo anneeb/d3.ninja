@@ -13,7 +13,16 @@ export class StashItemComponent implements OnInit {
   itemId: string;
 
   @Input()
+  isClickable?: boolean;
+
+  @Input()
+  isCube?: boolean;
+
+  @Input()
   isItemSelected?: (item: StashItem) => boolean;
+
+  @Input()
+  showLabel?: boolean;
 
   item: StashItem;
   className: string;
@@ -30,8 +39,25 @@ export class StashItemComponent implements OnInit {
           "app-stash-item--selected": this.isItemSelected
             ? this.isItemSelected(this.item)
             : this.item.isSelected || this.item.isCubeSelected,
+          "app-stash-item--clickable": this.isClickable,
         }
       );
     });
+  }
+
+  handleImageClick() {
+    if (this.isClickable) {
+      if (this.isCube) {
+        this.stashService.updateIsItemSelected(this.itemId, {
+          isSelected: this.item.isSelected,
+          isCubeSelected: !this.item.isCubeSelected,
+        });
+      } else {
+        this.stashService.updateIsItemSelected(this.itemId, {
+          isSelected: !this.item.isSelected,
+          isCubeSelected: this.item.isCubeSelected,
+        });
+      }
+    }
   }
 }

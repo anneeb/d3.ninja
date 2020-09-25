@@ -13,13 +13,26 @@
     }
   }
 
-  img {
-    width: 20px;
-    height: 20px;
+  &__img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
     border: 2px solid $app-background-background;
     border-radius: 6px;
-    margin-right: 10px;
-    opacity: 0.3;
+
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 4px;
+      opacity: 0.3;
+    }
+  }
+
+  &--clickable {
+    .app-stash-item__img:hover {
+      border-color: $app-primary-color;
+      cursor: pointer;
+    }
   }
 
   &--selected {

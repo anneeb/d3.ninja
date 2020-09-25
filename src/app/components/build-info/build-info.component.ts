@@ -1,14 +1,15 @@
 import { Component, OnInit } from "@angular/core";
+import { StashItem } from "constants/salvage-guide/stash";
 import { BuildItemMap, HeroItemSlots } from "constants/salvage-guide/builds";
 import { BuildsService } from "app/services/builds.service";
 import { UiService } from "app/services/ui.service";
 import { ItemSlot, BuildItemTag } from "constants/salvage-guide/types";
-import { StashItem } from "constants/salvage-guide/stash";
 
 type BuildInfoTag = { label: string; color: string };
 type BuildInfoItem = {
   id: string;
   tags: BuildInfoTag[];
+  isCube: boolean;
   isItemSelected: (item: StashItem) => boolean;
 };
 
@@ -83,6 +84,7 @@ export class BuildInfoComponent implements OnInit {
                 tagItems[itemId] = {
                   id: itemId,
                   tags: [],
+                  isCube: slot === ItemSlot.CUBE,
                   isItemSelected: (item: StashItem) =>
                     slot === ItemSlot.CUBE
                       ? item.isCubeSelected
