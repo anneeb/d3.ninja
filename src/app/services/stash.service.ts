@@ -13,7 +13,6 @@ import { BaseService } from "app/services/base-service";
 })
 export class StashService extends BaseService {
   private items = new BehaviorSubject(stashItems);
-
   private filter = new BehaviorSubject("");
   private filteredItems = new BehaviorSubject(Object.keys(stashItems));
   private selectedItems = new BehaviorSubject([] as SelectedStashItem[]);

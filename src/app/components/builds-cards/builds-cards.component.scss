@@ -1,6 +1,18 @@
+@import "../../../styles/variables.scss";
+
 .app-builds-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   overflow: auto;
+
+  &__spinner {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($app-background-app-bar, 0.7);
+  }
 }

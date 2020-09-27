@@ -16,17 +16,16 @@ import { StashService } from "app/services/stash.service";
 })
 export class BuildsService extends BaseService {
   private stashService: StashService;
-
   private items = new BehaviorSubject(buildItems);
-
+  private isSortingItems = new BehaviorSubject(false);
   private sortedItems = new BehaviorSubject(Object.keys(buildItems));
+  private isPendingSortItems: boolean;
+  private sortItemsTimeout: NodeJS.Timeout;
 
   constructor() {
     super();
 
-    this.getItems().subscribe(() =>
-      setTimeout(() => this.syncSortedItems(), 0)
-    );
+    this.getItems().subscribe(() => this.debouncedSortItems());
   }
 
   setStashService(stashService: StashService) {
@@ -44,6 +43,29 @@ export class BuildsService extends BaseService {
     return super.setBehaviorSubjectValue(this.items, items);
   }
 
+  getIsSortingItems() {
+    return super.getBehaviorSubjectValue(this.isSortingItems);
+  }
+
+  private setIsSortingItems(isSortingItems: boolean) {
+    return super.setBehaviorSubjectValue(this.isSortingItems, isSortingItems);
+  }
+
+  private debouncedSortItems() {
+    if (this.isPendingSortItems) {
+      clearTimeout(this.sortItemsTimeout);
+    }
+
+    this.isPendingSortItems = true;
+    this.sortItemsTimeout = setTimeout(() => this.delayedSortItems(), 1000);
+  }
+
+  private delayedSortItems() {
+    this.isPendingSortItems = false;
+    this.setIsSortingItems(true);
+    setTimeout(() => this.syncSortedItems(), 500);
+  }
+
   getSortedItems() {
     return super.getBehaviorSubjectValue(this.sortedItems);
   }
@@ -58,9 +80,12 @@ export class BuildsService extends BaseService {
         .sort(buildItemSort("score", true))
         .map((item) => item.id)
     );
+    if (!this.isPendingSortItems) {
+      this.setIsSortingItems(false);
+    }
   }
 
-  setItemScores(items: SelectedStashItem[]) {
+  private setItemScores(items: SelectedStashItem[]) {
     const stashedItems = new Set();
     const cubedItems = new Set();
     items.forEach(({ id, isSelected, isCubeSelected }) => {

@@ -8,12 +8,17 @@ import { BuildsService } from "app/services/builds.service";
 })
 export class BuildsCardsComponent implements OnInit {
   itemIds: string[] = [];
+  isSortingItems: boolean;
 
   constructor(private buildService: BuildsService) {}
 
   ngOnInit(): void {
     this.buildService.getSortedItems().subscribe((items) => {
       this.itemIds = items;
+    });
+
+    this.buildService.getIsSortingItems().subscribe((isSortingItems) => {
+      this.isSortingItems = isSortingItems;
     });
   }
 }
