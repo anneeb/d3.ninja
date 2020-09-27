@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
+import classNames from "classnames";
 import { StashItem } from "constants/salvage-guide/stash";
 import { BuildItem, BuildIcon } from "constants/salvage-guide/builds";
 import { BuildsService } from "app/services/builds.service";
@@ -14,6 +15,7 @@ export class BuildsCardComponent implements OnInit {
   itemId: string;
 
   item: BuildItem;
+  className: string;
 
   constructor(
     private buildsService: BuildsService,
@@ -24,9 +26,15 @@ export class BuildsCardComponent implements OnInit {
     this.buildsService.getItems().subscribe((itemMap) => {
       this.item = itemMap[this.itemId];
     });
+
+    this.uiService.getSelectedBuild().subscribe((selectedBuild) => {
+      this.className = classNames("app-builds-card", {
+        "app-builds-card--selected": selectedBuild === this.itemId,
+      });
+    });
   }
 
-  handleHeaderClick() {
+  handleItemClick() {
     this.uiService.setSelectedBuild(this.itemId);
   }
 

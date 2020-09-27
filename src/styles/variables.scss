@@ -52,45 +52,33 @@ $app-background-disabled-list-option: map-get(
 );
 $app-background-tooltip: map-get($mat-dark-theme-background, "tooltip");
 
-$app-foreground-status-bar: map-get($mat-dark-theme-foreground, "status-bar");
-$app-foreground-app-bar: map-get($mat-dark-theme-foreground, "app-bar");
-$app-foreground-background: map-get($mat-dark-theme-foreground, "background");
-$app-foreground-hover: map-get($mat-dark-theme-foreground, "hover");
-$app-foreground-card: map-get($mat-dark-theme-foreground, "card");
-$app-foreground-dialog: map-get($mat-dark-theme-foreground, "dialog");
+$app-foreground-base: map-get($mat-dark-theme-foreground, "base");
+$app-foreground-divider: map-get($mat-dark-theme-foreground, "divider");
+$app-foreground-dividers: map-get($mat-dark-theme-foreground, "dividers");
+$app-foreground-disabled: map-get($mat-dark-theme-foreground, "disabled");
 $app-foreground-disabled-button: map-get(
   $mat-dark-theme-foreground,
   "disabled-button"
 );
-$app-foreground-raised-button: map-get(
+$app-foreground-disabled-text: map-get(
   $mat-dark-theme-foreground,
-  "raised-button"
+  "disabled-text"
 );
-$app-foreground-focused-button: map-get(
+$app-foreground-elevation: map-get($mat-dark-theme-foreground, "elevation");
+$app-foreground-hint-text: map-get($mat-dark-theme-foreground, "hint-text");
+$app-foreground-secondary-text: map-get(
   $mat-dark-theme-foreground,
-  "focused-button"
+  "secondary-text"
 );
-$app-foreground-selected-button: map-get(
+$app-foreground-icon: map-get($mat-dark-theme-foreground, "icon");
+$app-foreground-icons: map-get($mat-dark-theme-foreground, "icons");
+$app-foreground-text: map-get($mat-dark-theme-foreground, "text");
+$app-foreground-slider-min: map-get($mat-dark-theme-foreground, "slider-min");
+$app-foreground-slider-off: map-get($mat-dark-theme-foreground, "slider-off");
+$app-foreground-slider-off-activ: map-get(
   $mat-dark-theme-foreground,
-  "selected-button"
+  "slider-off-activ"
 );
-$app-foreground-selected-disabled-button: map-get(
-  $mat-dark-theme-foreground,
-  "selected-disabled-button"
-);
-$app-foreground-disabled-button-toggle: map-get(
-  $mat-dark-theme-foreground,
-  "disabled-button-toggle"
-);
-$app-foreground-unselected-chip: map-get(
-  $mat-dark-theme-foreground,
-  "unselected-chip"
-);
-$app-foreground-disabled-list-option: map-get(
-  $mat-dark-theme-foreground,
-  "disabled-list-option"
-);
-$app-foreground-tooltip: map-get($mat-dark-theme-foreground, "tooltip");
 
 $app-stash-item-green: #8bd442;
 $app-stash-item-orange: #bf642f;

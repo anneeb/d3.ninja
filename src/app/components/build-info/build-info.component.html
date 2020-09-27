@@ -1,6 +1,8 @@
 <div class="app-build-info">
   <div class="app-build-info__header">
-    <h1>{{ label }}</h1>
+    <h1>
+      <a [href]="link" target="_blank">{{ label }}</a>
+    </h1>
 
     <mat-chip-list>
       <mat-chip color="accent" selected="true">{{ character }}</mat-chip>

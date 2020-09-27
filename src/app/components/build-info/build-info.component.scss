@@ -9,6 +9,16 @@
   &__header {
     flex: none;
     padding: 16px;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      white-space: normal;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   &__sections {

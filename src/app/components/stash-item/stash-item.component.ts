@@ -45,7 +45,8 @@ export class StashItemComponent implements OnInit {
     });
   }
 
-  handleImageClick() {
+  handleImageClick(event: Event) {
+    event.stopPropagation();
     if (this.isClickable) {
       if (this.isCube) {
         this.stashService.updateIsItemSelected(this.itemId, {

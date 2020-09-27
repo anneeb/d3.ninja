@@ -1,10 +1,10 @@
-<mat-card class="app-builds-card">
-  <mat-card-header
-    class="app-builds-card__header"
-    (click)="handleHeaderClick()"
-  >
-    <!-- <a [href]="item.link" target="_blank"> -->
-    <mat-card-title>{{ item.label }}</mat-card-title>
+<mat-card [class]="className" (click)="handleItemClick()">
+  <mat-card-header class="app-builds-card__header">
+    <mat-card-title
+      ><a [href]="item.link" target="_blank">{{
+        item.label
+      }}</a></mat-card-title
+    >
     <mat-card-subtitle>
       <mat-chip-list class="app-builds-card__tags">
         <mat-chip

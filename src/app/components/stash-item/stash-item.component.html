@@ -1,5 +1,5 @@
 <div [class]="className">
-  <div class="app-stash-item__img" (click)="handleImageClick()">
+  <div class="app-stash-item__img" (click)="handleImageClick($event)">
     <img [src]="item.img" [title]="showLabel ? '' : item.label" />
   </div>
   <a *ngIf="showLabel" [href]="item.link" target="_blank">{{ item.label }}</a>

@@ -1,9 +1,9 @@
 import { Component, OnInit } from "@angular/core";
 import { StashItem } from "constants/salvage-guide/stash";
 import { BuildItemMap, HeroItemSlots } from "constants/salvage-guide/builds";
+import { ItemSlot, BuildItemTag } from "constants/salvage-guide/types";
 import { BuildsService } from "app/services/builds.service";
 import { UiService } from "app/services/ui.service";
-import { ItemSlot, BuildItemTag } from "constants/salvage-guide/types";
 
 type BuildInfoTag = { label: string; color: string };
 type BuildInfoItem = {
@@ -21,6 +21,7 @@ type BuildInfoItem = {
 export class BuildInfoComponent implements OnInit {
   label: string;
   subLabel: string;
+  link: string;
   character: string;
   isOutdated: boolean;
   isVariation: boolean;
@@ -58,6 +59,7 @@ export class BuildInfoComponent implements OnInit {
     const {
       label,
       subLabel,
+      link,
       character,
       isOutdated,
       isVariation,
@@ -68,6 +70,7 @@ export class BuildInfoComponent implements OnInit {
 
     this.label = label;
     this.subLabel = subLabel;
+    this.link = link;
     this.character = character;
     this.isOutdated = isOutdated;
     this.isVariation = isVariation;
