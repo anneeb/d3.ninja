@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { StashService } from "app/services/stash.service";
 
-type StashToggleValue = "Stash" | "Cube" | "Both";
+type StashToggleValue = "Stash" | "Cube" | "Both" | "";
 
 @Component({
   selector: "app-stash-item-toggle",
@@ -24,7 +24,9 @@ export class StashItemToggleComponent implements OnInit {
           ? "Both"
           : item.isSelected
           ? "Stash"
-          : "Cube";
+          : item.isCubeSelected
+          ? "Cube"
+          : "";
     });
   }
 

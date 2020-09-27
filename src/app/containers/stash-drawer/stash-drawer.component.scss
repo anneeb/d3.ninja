@@ -7,7 +7,15 @@
     flex: none;
   }
 
-  &__list {
+  &__items {
     flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  &__list {
+    padding-bottom: 20px;
+    overflow: scroll;
   }
 }

@@ -6,5 +6,13 @@
       showLabel="true"
     ></app-stash-item>
     <app-stash-item-toggle [itemId]="itemId"></app-stash-item-toggle>
+    <button
+      mat-icon-button
+      class="app-stash-list__item-delete"
+      color="primary"
+      (click)="handleDeleteClick(itemId)"
+    >
+      <mat-icon>delete_forever</mat-icon>
+    </button>
   </mat-list-item>
 </mat-list>
