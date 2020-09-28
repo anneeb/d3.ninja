@@ -20,9 +20,16 @@
   </mat-drawer-container>
   <button
     mat-mini-fab
-    class="app-home__sidebar-icon"
-    (click)="handleSidebarIconClick()"
+    class="app-home__stash-icon"
+    (click)="handleStashIconClick()"
   >
-    <mat-icon>{{ sidebarIcon }}</mat-icon>
+    <mat-icon>{{ stashIcon }}</mat-icon>
+  </button>
+  <button
+    mat-mini-fab
+    class="app-home__build-icon"
+    (click)="handleBuildIconClick()"
+  >
+    <mat-icon>{{ buildIcon }}</mat-icon>
   </button>
 </div>

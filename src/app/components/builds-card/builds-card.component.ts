@@ -16,6 +16,7 @@ export class BuildsCardComponent implements OnInit {
 
   item: BuildItem;
   className: string;
+  isBuildDrawerOpen: boolean;
 
   constructor(
     private buildsService: BuildsService,
@@ -27,6 +28,10 @@ export class BuildsCardComponent implements OnInit {
       this.item = itemMap[this.itemId];
     });
 
+    this.uiService.getIsBuildDrawerOpen().subscribe((isBuildDrawerOpen) => {
+      this.isBuildDrawerOpen = isBuildDrawerOpen;
+    });
+
     this.uiService.getSelectedBuild().subscribe((selectedBuild) => {
       this.className = classNames("app-builds-card", {
         "app-builds-card--selected": selectedBuild === this.itemId,
@@ -36,6 +41,9 @@ export class BuildsCardComponent implements OnInit {
 
   handleBuildItemClick = () => {
     this.uiService.setSelectedBuild(this.itemId);
+    if (!this.isBuildDrawerOpen) {
+      this.uiService.setIsBuildDrawerOpen(!this.isBuildDrawerOpen);
+    }
   };
 
   handleStashItemClick = () => {

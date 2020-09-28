@@ -11,8 +11,9 @@ import { UiService } from "app/services/ui.service";
 })
 export class HomeComponent implements OnInit {
   isStashDrawerOpen: boolean = true;
+  stashIcon: string = "chevron_left";
   isBuildDrawerOpen: boolean = true;
-  sidebarIcon: string = "chevron_left";
+  buildIcon: string = "chevron_right";
 
   constructor(
     private uiService: UiService,
@@ -23,13 +24,22 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.buildService.setStashService(this.stashService);
 
-    this.uiService.getisStashDrawerOpen().subscribe((isStashDrawerOpen) => {
+    this.uiService.getIsStashDrawerOpen().subscribe((isStashDrawerOpen) => {
       this.isStashDrawerOpen = isStashDrawerOpen;
-      this.sidebarIcon = isStashDrawerOpen ? "chevron_left" : "chevron_right";
+      this.stashIcon = isStashDrawerOpen ? "chevron_left" : "chevron_right";
+    });
+
+    this.uiService.getIsBuildDrawerOpen().subscribe((isBuildDrawerOpen) => {
+      this.isBuildDrawerOpen = isBuildDrawerOpen;
+      this.buildIcon = isBuildDrawerOpen ? "chevron_right" : "chevron_left";
     });
   }
 
-  handleSidebarIconClick = () => {
-    this.uiService.setisStashDrawerOpen(!this.isStashDrawerOpen);
+  handleStashIconClick = () => {
+    this.uiService.setIsStashDrawerOpen(!this.isStashDrawerOpen);
+  };
+
+  handleBuildIconClick = () => {
+    this.uiService.setIsBuildDrawerOpen(!this.isBuildDrawerOpen);
   };
 }

@@ -8,6 +8,7 @@ import { BaseService } from "app/services/base-service";
 })
 export class UiService extends BaseService {
   private isStashDrawerOpen = new BehaviorSubject(true);
+  private isBuildDrawerOpen = new BehaviorSubject(false);
   private selectedBuild = new BehaviorSubject("");
   private lastClickedBuild = new BehaviorSubject("");
 
@@ -15,14 +16,25 @@ export class UiService extends BaseService {
     super();
   }
 
-  getisStashDrawerOpen() {
+  getIsStashDrawerOpen() {
     return super.getBehaviorSubjectValue(this.isStashDrawerOpen);
   }
 
-  setisStashDrawerOpen(isStashDrawerOpen: boolean) {
+  setIsStashDrawerOpen(isStashDrawerOpen: boolean) {
     return super.setBehaviorSubjectValue(
       this.isStashDrawerOpen,
       isStashDrawerOpen
+    );
+  }
+
+  getIsBuildDrawerOpen() {
+    return super.getBehaviorSubjectValue(this.isBuildDrawerOpen);
+  }
+
+  setIsBuildDrawerOpen(isBuildDrawerOpen: boolean) {
+    return super.setBehaviorSubjectValue(
+      this.isBuildDrawerOpen,
+      isBuildDrawerOpen
     );
   }
 
