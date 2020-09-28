@@ -17,7 +17,7 @@ export class StashListComponent implements OnInit {
     });
   }
 
-  handleDeleteClick(itemId: string) {
+  handleDeleteClick = (itemId: string) => {
     this.stashService.updateIsItemSelected(itemId);
-  }
+  };
 }

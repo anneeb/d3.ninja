@@ -24,6 +24,9 @@ export class StashItemComponent implements OnInit {
   @Input()
   showLabel?: boolean;
 
+  @Input()
+  onImageClick?: (itemId: string) => any;
+
   item: StashItem;
   className: string;
 
@@ -45,8 +48,11 @@ export class StashItemComponent implements OnInit {
     });
   }
 
-  handleImageClick(event: Event) {
+  handleImageClick = (event: Event) => {
     event.stopPropagation();
+    if (this.onImageClick) {
+      this.onImageClick(this.itemId);
+    }
     if (this.isClickable) {
       if (this.isCube) {
         this.stashService.updateIsItemSelected(this.itemId, {
@@ -60,5 +66,5 @@ export class StashItemComponent implements OnInit {
         });
       }
     }
-  }
+  };
 }

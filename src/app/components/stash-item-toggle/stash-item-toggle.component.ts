@@ -30,7 +30,7 @@ export class StashItemToggleComponent implements OnInit {
     });
   }
 
-  handleTagClick(event: Event) {
+  handleTagClick = (event: Event) => {
     event.stopPropagation();
     switch (this.value) {
       case "Stash": {
@@ -55,5 +55,5 @@ export class StashItemToggleComponent implements OnInit {
         break;
       }
     }
-  }
+  };
 }

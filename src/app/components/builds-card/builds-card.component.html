@@ -1,4 +1,8 @@
-<mat-card [class]="className" (click)="handleItemClick()">
+<mat-card
+  [class]="className"
+  id="app-builds-card__{{ item.id }}"
+  (click)="handleBuildItemClick()"
+>
   <mat-card-header class="app-builds-card__header">
     <mat-card-title
       ><a [href]="item.link" target="_blank">{{
@@ -26,6 +30,7 @@
       isClickable="true"
       [isCube]="icon.isCube"
       [isItemSelected]="isItemSelected(icon)"
+      [onImageClick]="handleStashItemClick"
     ></app-stash-item>
   </div>
 </mat-card>

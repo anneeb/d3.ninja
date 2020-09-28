@@ -28,7 +28,7 @@ export class StashQuickAddComponent implements OnInit {
     });
   }
 
-  handleFilterChange(filter: string) {
+  handleFilterChange = (filter: string) => {
     this.stashService.updateFilter(filter);
-  }
+  };
 }

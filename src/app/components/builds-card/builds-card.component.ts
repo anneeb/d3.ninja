@@ -34,9 +34,13 @@ export class BuildsCardComponent implements OnInit {
     });
   }
 
-  handleItemClick() {
+  handleBuildItemClick = () => {
     this.uiService.setSelectedBuild(this.itemId);
-  }
+  };
+
+  handleStashItemClick = () => {
+    this.uiService.setLastClickedBuild(this.itemId);
+  };
 
   isItemSelected(icon: BuildIcon) {
     return (item: StashItem) =>

@@ -4,7 +4,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  overflow: auto;
+  height: calc(100% - 20px);
+  padding-bottom: 20px;
+  overflow: scroll;
 
   &__spinner {
     position: absolute;

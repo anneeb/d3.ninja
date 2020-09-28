@@ -106,4 +106,8 @@ export class BuildInfoComponent implements OnInit {
       });
     }
   }
+
+  handleStashItemClick = () => {
+    this.uiService.setLastClickedBuild(this.buildId);
+  };
 }

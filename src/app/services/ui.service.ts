@@ -9,6 +9,7 @@ import { BaseService } from "app/services/base-service";
 export class UiService extends BaseService {
   private isStashDrawerOpen = new BehaviorSubject(true);
   private selectedBuild = new BehaviorSubject("");
+  private lastClickedBuild = new BehaviorSubject("");
 
   constructor() {
     super();
@@ -31,5 +32,13 @@ export class UiService extends BaseService {
 
   setSelectedBuild(build: string) {
     return super.setBehaviorSubjectValue(this.selectedBuild, build);
+  }
+
+  getLastClickedBuild() {
+    return super.getBehaviorSubjectValue(this.lastClickedBuild);
+  }
+
+  setLastClickedBuild(build: string) {
+    return super.setBehaviorSubjectValue(this.lastClickedBuild, build);
   }
 }
