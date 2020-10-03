@@ -350,9 +350,9 @@ function getBaseBuildsAndTags(buildsByLabel: BuildsByLabel) {
   };
 }
 
-type BaseBuildsByLabel = {
+interface BaseBuildsByLabel {
   [key: string]: string;
-};
+}
 
 function addBaseGearItemsToBuild(items: GearItems, baseItems: GearItems) {
   if (!items[BuildItemTag.BIS].length) {
@@ -445,7 +445,10 @@ function getBuildIcons(build: BuildWithItems) {
 const buildsByLabel = getBuildsByLabel(buildsById);
 const { baseBuilds, buildTags } = getBaseBuildsAndTags(buildsByLabel);
 
-export type BuildIcon = { id: string; isCube: boolean };
+export interface BuildIcon {
+  id: string;
+  isCube: boolean;
+}
 export type BuildItem = BuildWithItems &
   BuildTags & {
     icons: BuildIcon[];

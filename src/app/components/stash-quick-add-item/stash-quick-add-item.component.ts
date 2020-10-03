@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { StashItem } from "constants/salvage-guide/stash";
+import { StashItem } from "constants/stash";
 import { StashService } from "app/services/stash.service";
 
 @Component({

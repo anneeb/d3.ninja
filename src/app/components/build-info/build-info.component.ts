@@ -1,17 +1,20 @@
 import { Component, OnInit } from "@angular/core";
-import { StashItem } from "constants/salvage-guide/stash";
-import { BuildItemMap, HeroItemSlots } from "constants/salvage-guide/builds";
+import { BuildItemMap, HeroItemSlots } from "constants/builds";
+import { StashItem } from "constants/stash";
 import { ItemSlot, BuildItemTag } from "constants/salvage-guide/types";
 import { BuildsService } from "app/services/builds.service";
 import { UiService } from "app/services/ui.service";
 
-type BuildInfoTag = { label: string; color: string };
-type BuildInfoItem = {
+interface BuildInfoTag {
+  label: string;
+  color: string;
+}
+interface BuildInfoItem {
   id: string;
   tags: BuildInfoTag[];
   isCube: boolean;
   isItemSelected: (item: StashItem) => boolean;
-};
+}
 
 @Component({
   selector: "app-build-info",

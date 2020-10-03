@@ -1,11 +1,7 @@
 import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
 
-import {
-  stashItems,
-  SelectedStashItem,
-  StashItemMap,
-} from "constants/salvage-guide/stash";
+import { stashItems, SelectedStashItem, StashItemMap } from "constants/stash";
 import { BaseService } from "app/services/base-service";
 
 @Injectable({

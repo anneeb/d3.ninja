@@ -1,13 +1,9 @@
 import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
 
-import {
-  buildItems,
-  buildItemSort,
-  BuildItemMap,
-} from "constants/salvage-guide/builds";
+import { buildItems, buildItemSort, BuildItemMap } from "constants/builds";
+import { SelectedStashItem } from "constants/stash";
 import { itemsByBuild } from "constants/salvage-guide/salvage-guide";
-import { SelectedStashItem } from "constants/salvage-guide/stash";
 import { BaseService } from "app/services/base-service";
 import { StashService } from "app/services/stash.service";
 

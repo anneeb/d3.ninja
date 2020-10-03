@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from "@angular/core";
 import classNames from "classnames";
-import { StashItem } from "constants/salvage-guide/stash";
-import { BuildItem, BuildIcon } from "constants/salvage-guide/builds";
+import { BuildItem, BuildIcon } from "constants/builds";
+import { StashItem } from "constants/stash";
 import { BuildsService } from "app/services/builds.service";
 import { UiService } from "app/services/ui.service";
 
