@@ -45,11 +45,11 @@
           handleOptionChange($event, 'tagOptions', option.value)
         "
       >
-        {{ option.value }}
+        {{ option.value || "none" }}
       </mat-chip>
     </mat-chip-list>
     <h3>Varation</h3>
-    <mat-chip-list class="app-builds-dialog__options" multiple="true">
+    <mat-chip-list class="app-builds-dialog__options">
       <mat-chip
         *ngFor="let option of variationOptions"
         #chip="matChip"
@@ -64,7 +64,7 @@
       </mat-chip>
     </mat-chip-list>
     <h3>Outdated</h3>
-    <mat-chip-list class="app-builds-dialog__options" multiple="true">
+    <mat-chip-list class="app-builds-dialog__options">
       <mat-chip
         *ngFor="let option of outdatedOptions"
         #chip="matChip"

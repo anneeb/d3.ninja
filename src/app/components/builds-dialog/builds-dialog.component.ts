@@ -10,7 +10,7 @@ import {
   buildSortByOptions,
   buildCharacterOptions,
   buildTagOptions,
-  buildToggleOption,
+  buildToggleOptions,
   BuildSortBy,
   BuildToggle,
 } from "constants/filters";
@@ -60,22 +60,32 @@ export class BuildsDialogComponent implements OnInit {
 
     this.characterOptions = buildCharacterOptions.map((value) => ({
       value,
-      isSelected: characters.includes(value),
+      isSelected:
+        characters.length === buildCharacterOptions.length
+          ? false
+          : characters.includes(value),
     }));
 
     this.tagOptions = buildTagOptions.map((value) => ({
       value,
-      isSelected: tags.includes(value),
+      isSelected:
+        tags.length === buildTagOptions.length ? false : tags.includes(value),
     }));
 
-    this.variationOptions = buildToggleOption.map((value) => ({
+    this.variationOptions = buildToggleOptions.map((value) => ({
       value,
-      isSelected: variation.includes(value),
+      isSelected:
+        variation.length === buildToggleOptions.length
+          ? false
+          : variation.includes(value),
     }));
 
-    this.outdatedOptions = buildToggleOption.map((value) => ({
+    this.outdatedOptions = buildToggleOptions.map((value) => ({
       value,
-      isSelected: outdated.includes(value),
+      isSelected:
+        outdated.length === buildToggleOptions.length
+          ? false
+          : outdated.includes(value),
     }));
   }
 
@@ -89,33 +99,44 @@ export class BuildsDialogComponent implements OnInit {
       | "outdatedOptions",
     optionValue: string
   ) => {
-    if (
-      this[optionType].find(({ value }) => value === optionValue).isSelected !==
-      event.selected
-    ) {
-      this[optionType] = this[optionType].map(({ value, isSelected }) => ({
-        value,
-        isSelected: value === optionValue ? event.selected : isSelected,
-      }));
-    }
+    this[optionType].find(({ value }) => value === optionValue).isSelected =
+      event.selected;
+    // if (
+    //   option.isSelected !==
+    //   event.selected
+    // ) {
+    //   option.isSelected =
+    //   this[optionType] = this[optionType].map(({ value, isSelected }) => ({
+    //     value,
+    //     isSelected: value === optionValue ? event.selected : isSelected,
+    //   }));
+    // }
   };
 
   handleApplyClick = () => {
     this.buildService.updateSortAndFilter({
       sortBy: this.sortByOptions.find(({ isSelected }) => isSelected)
         .value as BuildSortBy,
-      characters: this.characterOptions
-        .filter(({ isSelected }) => isSelected)
-        .map(({ value }) => value as BuildCharacter),
-      tags: this.tagOptions
-        .filter(({ isSelected }) => isSelected)
-        .map(({ value }) => value),
-      variation: this.variationOptions
-        .filter(({ isSelected }) => isSelected)
-        .map(({ value }) => value as BuildToggle),
-      outdated: this.outdatedOptions
-        .filter(({ isSelected }) => isSelected)
-        .map(({ value }) => value as BuildToggle),
+      characters: this.characterOptions.some(({ isSelected }) => isSelected)
+        ? this.characterOptions
+            .filter(({ isSelected }) => isSelected)
+            .map(({ value }) => value as BuildCharacter)
+        : buildCharacterOptions,
+      tags: this.tagOptions.some(({ isSelected }) => isSelected)
+        ? this.tagOptions
+            .filter(({ isSelected }) => isSelected)
+            .map(({ value }) => value)
+        : buildTagOptions,
+      variation: this.variationOptions.some(({ isSelected }) => isSelected)
+        ? this.variationOptions
+            .filter(({ isSelected }) => isSelected)
+            .map(({ value }) => value as BuildToggle)
+        : buildToggleOptions,
+      outdated: this.outdatedOptions.some(({ isSelected }) => isSelected)
+        ? this.outdatedOptions
+            .filter(({ isSelected }) => isSelected)
+            .map(({ value }) => value as BuildToggle)
+        : buildToggleOptions,
     });
     this.dialogRef.close();
   };

@@ -22,7 +22,7 @@ export const buildCharacterOptions = Object.values(BuildCharacter);
 
 export const buildTagOptions = Object.values(buildTags)
   .reduce<string[]>((acc, { subLabel }) => {
-    if (subLabel && !acc.includes(subLabel)) {
+    if (!acc.includes(subLabel)) {
       acc.push(subLabel);
     }
     return acc;
@@ -40,7 +40,7 @@ export enum BuildToggle {
   "NO" = "No",
 }
 
-export const buildToggleOption = Object.values(BuildToggle);
+export const buildToggleOptions = Object.values(BuildToggle);
 
 export interface BuildSortAndFilter {
   sortBy: BuildSortBy;
@@ -54,8 +54,8 @@ export const defaultBuildSortAndFilter: BuildSortAndFilter = {
   sortBy: buildSortByOptions[0],
   characters: buildCharacterOptions,
   tags: buildTagOptions,
-  variation: buildToggleOption,
-  outdated: buildToggleOption,
+  variation: buildToggleOptions,
+  outdated: buildToggleOptions,
 };
 
 export function buildItemFilter(
@@ -69,7 +69,7 @@ export function buildItemFilter(
     item.isOutdated ? BuildToggle.YES : BuildToggle.NO
   );
   const characterMatch = characters.includes(item.character);
-  const tagMatch = !item.subLabel || tags.includes(item.subLabel);
+  const tagMatch = tags.includes(item.subLabel);
   return variationMatch && outdatedMatch && characterMatch && tagMatch;
 }
 
