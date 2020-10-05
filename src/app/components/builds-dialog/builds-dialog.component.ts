@@ -10,9 +10,9 @@ import {
   buildSortByOptions,
   buildCharacterOptions,
   buildTagOptions,
-  buildToggleOptions,
+  BuildOutdatedOptions,
   BuildSortBy,
-  BuildToggle,
+  BuildOutdated,
 } from "constants/filters";
 import { BuildCharacter } from "constants/salvage-guide/types";
 
@@ -30,7 +30,6 @@ export class BuildsDialogComponent implements OnInit {
   sortByOptions: DialogOption[] = [];
   characterOptions: DialogOption[] = [];
   tagOptions: DialogOption[] = [];
-  variationOptions: DialogOption[] = [];
   outdatedOptions: DialogOption[] = [];
 
   constructor(
@@ -50,7 +49,6 @@ export class BuildsDialogComponent implements OnInit {
     sortBy,
     characters,
     tags,
-    variation,
     outdated,
   } = defaultBuildSortAndFilter) {
     this.sortByOptions = buildSortByOptions.map((value) => ({
@@ -72,18 +70,10 @@ export class BuildsDialogComponent implements OnInit {
         tags.length === buildTagOptions.length ? false : tags.includes(value),
     }));
 
-    this.variationOptions = buildToggleOptions.map((value) => ({
+    this.outdatedOptions = BuildOutdatedOptions.map((value) => ({
       value,
       isSelected:
-        variation.length === buildToggleOptions.length
-          ? false
-          : variation.includes(value),
-    }));
-
-    this.outdatedOptions = buildToggleOptions.map((value) => ({
-      value,
-      isSelected:
-        outdated.length === buildToggleOptions.length
+        outdated.length === BuildOutdatedOptions.length
           ? false
           : outdated.includes(value),
     }));
@@ -95,22 +85,11 @@ export class BuildsDialogComponent implements OnInit {
       | "sortByOptions"
       | "characterOptions"
       | "tagOptions"
-      | "variationOptions"
       | "outdatedOptions",
     optionValue: string
   ) => {
     this[optionType].find(({ value }) => value === optionValue).isSelected =
       event.selected;
-    // if (
-    //   option.isSelected !==
-    //   event.selected
-    // ) {
-    //   option.isSelected =
-    //   this[optionType] = this[optionType].map(({ value, isSelected }) => ({
-    //     value,
-    //     isSelected: value === optionValue ? event.selected : isSelected,
-    //   }));
-    // }
   };
 
   handleApplyClick = () => {
@@ -127,16 +106,11 @@ export class BuildsDialogComponent implements OnInit {
             .filter(({ isSelected }) => isSelected)
             .map(({ value }) => value)
         : buildTagOptions,
-      variation: this.variationOptions.some(({ isSelected }) => isSelected)
-        ? this.variationOptions
-            .filter(({ isSelected }) => isSelected)
-            .map(({ value }) => value as BuildToggle)
-        : buildToggleOptions,
       outdated: this.outdatedOptions.some(({ isSelected }) => isSelected)
         ? this.outdatedOptions
             .filter(({ isSelected }) => isSelected)
-            .map(({ value }) => value as BuildToggle)
-        : buildToggleOptions,
+            .map(({ value }) => value as BuildOutdated)
+        : BuildOutdatedOptions,
     });
     this.dialogRef.close();
   };

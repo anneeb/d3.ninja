@@ -35,42 +35,37 @@ export const buildTagOptions = Object.values(buildTags)
       : 0
   );
 
-export enum BuildToggle {
+export enum BuildOutdated {
   "YES" = "Yes",
   "NO" = "No",
 }
 
-export const buildToggleOptions = Object.values(BuildToggle);
+export const BuildOutdatedOptions = Object.values(BuildOutdated);
 
 export interface BuildSortAndFilter {
   sortBy: BuildSortBy;
   characters: BuildCharacter[];
   tags: string[];
-  variation: BuildToggle[];
-  outdated: BuildToggle[];
+  outdated: BuildOutdated[];
 }
 
 export const defaultBuildSortAndFilter: BuildSortAndFilter = {
   sortBy: buildSortByOptions[0],
   characters: buildCharacterOptions,
   tags: buildTagOptions,
-  variation: buildToggleOptions,
-  outdated: buildToggleOptions,
+  outdated: [BuildOutdated.NO],
 };
 
 export function buildItemFilter(
   item: BuildItem,
-  { characters, tags, variation, outdated }: BuildSortAndFilter
+  { characters, tags, outdated }: BuildSortAndFilter
 ) {
-  const variationMatch = variation.includes(
-    item.isVariation ? BuildToggle.YES : BuildToggle.NO
-  );
-  const outdatedMatch = outdated.includes(
-    item.isOutdated ? BuildToggle.YES : BuildToggle.NO
-  );
   const characterMatch = characters.includes(item.character);
   const tagMatch = tags.includes(item.subLabel);
-  return variationMatch && outdatedMatch && characterMatch && tagMatch;
+  const outdatedMatch = outdated.includes(
+    item.isOutdated ? BuildOutdated.YES : BuildOutdated.NO
+  );
+  return characterMatch && tagMatch && outdatedMatch;
 }
 
 export function buildItemSort(

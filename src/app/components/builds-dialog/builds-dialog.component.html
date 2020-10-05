@@ -48,21 +48,6 @@
         {{ option.value || "none" }}
       </mat-chip>
     </mat-chip-list>
-    <h3>Varation</h3>
-    <mat-chip-list class="app-builds-dialog__options">
-      <mat-chip
-        *ngFor="let option of variationOptions"
-        #chip="matChip"
-        color="accent"
-        [selected]="option.isSelected"
-        (click)="chip.toggleSelected()"
-        (selectionChange)="
-          handleOptionChange($event, 'variationOptions', option.value)
-        "
-      >
-        {{ option.value }}
-      </mat-chip>
-    </mat-chip-list>
     <h3>Outdated</h3>
     <mat-chip-list class="app-builds-dialog__options">
       <mat-chip
