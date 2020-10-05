@@ -3,7 +3,7 @@
     *ngFor="let itemId of itemIds"
     [itemId]="itemId"
   ></app-builds-card>
-  <div *ngIf="isSortingItems" class="app-builds-cards__spinner">
+  <div *ngIf="isProcessingItems" class="app-builds-cards__spinner">
     <mat-spinner color="accent"></mat-spinner>
   </div>
 </div>

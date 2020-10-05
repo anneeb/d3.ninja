@@ -7,7 +7,6 @@ import { UiService } from "app/services/ui.service";
   selector: "app-home",
   templateUrl: "./home.component.html",
   styleUrls: ["./home.component.scss"],
-  providers: [UiService, StashService, BuildsService],
 })
 export class HomeComponent implements OnInit {
   isStashDrawerOpen: boolean = true;

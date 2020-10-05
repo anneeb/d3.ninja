@@ -5,13 +5,9 @@ import { ItemSlot, BuildItemTag } from "constants/salvage-guide/types";
 import { BuildsService } from "app/services/builds.service";
 import { UiService } from "app/services/ui.service";
 
-interface BuildInfoTag {
-  label: string;
-  color: string;
-}
 interface BuildInfoItem {
   id: string;
-  tags: BuildInfoTag[];
+  tags: string[];
   isCube: boolean;
   isItemSelected: (item: StashItem) => boolean;
 }
@@ -98,8 +94,8 @@ export class BuildInfoComponent implements OnInit {
                 };
               }
 
-              if (!tagItems[itemId].tags.some((tag) => tag.label === itemTag)) {
-                tagItems[itemId].tags.push({ label: itemTag, color: "" });
+              if (!tagItems[itemId].tags.some((tag) => tag === itemTag)) {
+                tagItems[itemId].tags.push(itemTag);
               }
             });
           }

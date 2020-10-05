@@ -1,8 +1,15 @@
 import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
 
-import { buildItems, buildItemSort, BuildItemMap } from "constants/builds";
+import { buildItems, BuildItemMap } from "constants/builds";
 import { SelectedStashItem } from "constants/stash";
+import {
+  BuildSortAndFilter,
+  defaultBuildSortAndFilter,
+  buildItemFilter,
+  buildItemSort,
+  buildSortByArgs,
+} from "constants/filters";
 import { itemsByBuild } from "constants/salvage-guide/salvage-guide";
 import { BaseService } from "app/services/base-service";
 import { StashService } from "app/services/stash.service";
@@ -13,15 +20,23 @@ import { StashService } from "app/services/stash.service";
 export class BuildsService extends BaseService {
   private stashService: StashService;
   private items = new BehaviorSubject(buildItems);
-  private isSortingItems = new BehaviorSubject(false);
-  private sortedItems = new BehaviorSubject(Object.keys(buildItems));
-  private isPendingSortItems: boolean;
-  private sortItemsTimeout: NodeJS.Timeout;
+  private sortAndFilter = new BehaviorSubject<BuildSortAndFilter>(
+    defaultBuildSortAndFilter
+  );
+  private isProcessingItems = new BehaviorSubject(false);
+  private processedItems = new BehaviorSubject(
+    Object.values(this.items.getValue())
+      .sort(buildItemSort("score", true))
+      .map((item) => item.id)
+  );
+  private isPendingProcessItems: boolean;
+  private processItemsTimeout: NodeJS.Timeout;
 
   constructor() {
     super();
 
-    this.getItems().subscribe(() => this.debouncedSortItems());
+    this.getItems().subscribe(() => this.debouncedProcessItems());
+    this.getSortAndFilter().subscribe(() => this.debouncedProcessItems());
   }
 
   setStashService(stashService: StashService) {
@@ -39,45 +54,73 @@ export class BuildsService extends BaseService {
     return super.setBehaviorSubjectValue(this.items, items);
   }
 
-  getIsSortingItems() {
-    return super.getBehaviorSubjectValue(this.isSortingItems);
+  getSortAndFilter() {
+    return super.getBehaviorSubjectValue(this.sortAndFilter);
   }
 
-  private setIsSortingItems(isSortingItems: boolean) {
-    return super.setBehaviorSubjectValue(this.isSortingItems, isSortingItems);
+  private setSortAndFilter(sortAndFilter: BuildSortAndFilter) {
+    console.log("setting", sortAndFilter);
+    super.setBehaviorSubjectValue(this.sortAndFilter, sortAndFilter);
+    console.log(this.sortAndFilter.getValue());
   }
 
-  private debouncedSortItems() {
-    if (this.isPendingSortItems) {
-      clearTimeout(this.sortItemsTimeout);
+  updateSortAndFilter(update: Partial<BuildSortAndFilter>) {
+    console.log({ ...this.sortAndFilter.getValue(), ...update });
+    this.setSortAndFilter({
+      ...this.sortAndFilter.getValue(),
+      ...update,
+    });
+  }
+
+  getIsProcessingItems() {
+    return super.getBehaviorSubjectValue(this.isProcessingItems);
+  }
+
+  private setIsProcessingItems(isProcessingItems: boolean) {
+    return super.setBehaviorSubjectValue(
+      this.isProcessingItems,
+      isProcessingItems
+    );
+  }
+
+  private debouncedProcessItems() {
+    if (this.isPendingProcessItems) {
+      clearTimeout(this.processItemsTimeout);
     }
 
-    this.isPendingSortItems = true;
-    this.sortItemsTimeout = setTimeout(() => this.delayedSortItems(), 1000);
+    this.isPendingProcessItems = true;
+    this.processItemsTimeout = setTimeout(
+      () => this.delayedProcessItems(),
+      1000
+    );
   }
 
-  private delayedSortItems() {
-    this.isPendingSortItems = false;
-    this.setIsSortingItems(true);
-    setTimeout(() => this.syncSortedItems(), 500);
+  private delayedProcessItems() {
+    this.isPendingProcessItems = false;
+    this.setIsProcessingItems(true);
+    setTimeout(() => this.processItems(), 500);
   }
 
-  getSortedItems() {
-    return super.getBehaviorSubjectValue(this.sortedItems);
+  getProcessedItems() {
+    return super.getBehaviorSubjectValue(this.processedItems);
   }
 
-  private setSortedItems(items: string[]) {
-    return super.setBehaviorSubjectValue(this.sortedItems, items);
+  private setProcessedItems(items: string[]) {
+    return super.setBehaviorSubjectValue(this.processedItems, items);
   }
 
-  private syncSortedItems() {
-    this.setSortedItems(
+  private processItems() {
+    const sortAndFilter = this.sortAndFilter.getValue();
+    console.log(sortAndFilter);
+    console.log(buildSortByArgs[sortAndFilter.sortBy]);
+    this.setProcessedItems(
       Object.values(this.items.getValue())
-        .sort(buildItemSort("score", true))
+        .filter((item) => buildItemFilter(item, sortAndFilter))
+        .sort(buildItemSort(...buildSortByArgs[sortAndFilter.sortBy]))
         .map((item) => item.id)
     );
-    if (!this.isPendingSortItems) {
-      this.setIsSortingItems(false);
+    if (!this.isPendingProcessItems) {
+      this.setIsProcessingItems(false);
     }
   }
 

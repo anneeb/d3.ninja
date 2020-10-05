@@ -9,7 +9,7 @@ import { UiService } from "app/services/ui.service";
 })
 export class BuildsCardsComponent implements OnInit {
   itemIds: string[] = [];
-  isSortingItems: boolean;
+  isProcessingItems: boolean;
   scrollElementId: string;
 
   constructor(
@@ -18,7 +18,7 @@ export class BuildsCardsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.buildService.getSortedItems().subscribe((items) => {
+    this.buildService.getProcessedItems().subscribe((items) => {
       this.itemIds = items;
 
       if (this.scrollElementId) {
@@ -26,8 +26,8 @@ export class BuildsCardsComponent implements OnInit {
       }
     });
 
-    this.buildService.getIsSortingItems().subscribe((isSortingItems) => {
-      this.isSortingItems = isSortingItems;
+    this.buildService.getIsProcessingItems().subscribe((isProcessingItems) => {
+      this.isProcessingItems = isProcessingItems;
     });
 
     this.uiService.getLastClickedBuild().subscribe((buildId) => {

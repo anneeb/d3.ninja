@@ -5,15 +5,28 @@
     </h1>
 
     <mat-chip-list>
-      <mat-chip color="accent" selected="true">{{ character }}</mat-chip>
+      <mat-chip
+        color="accent"
+        disableRipple="true"
+        selected="true"
+        selectable="false"
+        >{{ character }}</mat-chip
+      >
       <mat-chip
         *ngIf="isVariation"
         class="app-build-info__variation-tag"
         color="primary"
+        disableRipple="true"
         selected="true"
+        selectable="false"
         >{{ subLabel }}</mat-chip
       >
-      <mat-chip *ngIf="isOutdated" color="warn" selected="true"
+      <mat-chip
+        *ngIf="isOutdated"
+        color="warn"
+        disableRipple="true"
+        selected="true"
+        selectable="false"
         >Outdated</mat-chip
       >
     </mat-chip-list>
@@ -42,9 +55,10 @@
           <mat-chip
             *ngFor="let tag of item.tags"
             class="app-build-info__tag"
-            [color]="tag.color"
+            disableRipple="true"
             selected="true"
-            >{{ tag.label }}</mat-chip
+            selectable="false"
+            >{{ tag }}</mat-chip
           >
         </mat-chip-list>
       </mat-list-item>
