@@ -1,0 +1,88 @@
+<div class="app-builds-dialog">
+  <h1 mat-dialog-title>Sort and Filter</h1>
+  <div mat-dialog-content>
+    <h2>Sort By</h2>
+    <mat-chip-list class="app-builds-dialog__options">
+      <mat-chip
+        *ngFor="let option of sortByOptions"
+        #chip="matChip"
+        color="accent"
+        [selected]="option.isSelected"
+        (click)="chip.select()"
+        (selectionChange)="
+          handleOptionChange($event, 'sortByOptions', option.value)
+        "
+      >
+        {{ option.value }}
+      </mat-chip>
+    </mat-chip-list>
+    <mat-divider class="app-builds-dialog__divider"></mat-divider>
+    <h2>Filter</h2>
+    <h3>Characters</h3>
+    <mat-chip-list class="app-builds-dialog__options" multiple="true">
+      <mat-chip
+        *ngFor="let option of characterOptions"
+        #chip="matChip"
+        color="accent"
+        [selected]="option.isSelected"
+        (click)="chip.toggleSelected()"
+        (selectionChange)="
+          handleOptionChange($event, 'characterOptions', option.value)
+        "
+      >
+        {{ option.value }}
+      </mat-chip>
+    </mat-chip-list>
+    <h3>Tags</h3>
+    <mat-chip-list class="app-builds-dialog__options" multiple="true">
+      <mat-chip
+        *ngFor="let option of tagOptions"
+        #chip="matChip"
+        color="accent"
+        [selected]="option.isSelected"
+        (click)="chip.toggleSelected()"
+        (selectionChange)="
+          handleOptionChange($event, 'tagOptions', option.value)
+        "
+      >
+        {{ option.value }}
+      </mat-chip>
+    </mat-chip-list>
+    <h3>Varation</h3>
+    <mat-chip-list class="app-builds-dialog__options" multiple="true">
+      <mat-chip
+        *ngFor="let option of variationOptions"
+        #chip="matChip"
+        color="accent"
+        [selected]="option.isSelected"
+        (click)="chip.toggleSelected()"
+        (selectionChange)="
+          handleOptionChange($event, 'variationOptions', option.value)
+        "
+      >
+        {{ option.value }}
+      </mat-chip>
+    </mat-chip-list>
+    <h3>Outdated</h3>
+    <mat-chip-list class="app-builds-dialog__options" multiple="true">
+      <mat-chip
+        *ngFor="let option of outdatedOptions"
+        #chip="matChip"
+        color="accent"
+        [selected]="option.isSelected"
+        (click)="chip.toggleSelected()"
+        (selectionChange)="
+          handleOptionChange($event, 'outdatedOptions', option.value)
+        "
+      >
+        {{ option.value }}
+      </mat-chip>
+    </mat-chip-list>
+  </div>
+  <div mat-dialog-actions class="app-builds-dialog__actions">
+    <button mat-button (click)="handleCancelClick()">Cancel</button>
+    <button mat-flat-button color="primary" (click)="handleApplyClick()">
+      Apply
+    </button>
+  </div>
+</div>

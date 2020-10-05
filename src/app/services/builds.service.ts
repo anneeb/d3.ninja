@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
 
-import { buildItems, BuildItemMap } from "constants/builds";
+import { buildItems, BuildItemMap, baseBuilds } from "constants/builds";
 import { SelectedStashItem } from "constants/stash";
 import {
   BuildSortAndFilter,
@@ -59,13 +59,10 @@ export class BuildsService extends BaseService {
   }
 
   private setSortAndFilter(sortAndFilter: BuildSortAndFilter) {
-    console.log("setting", sortAndFilter);
     super.setBehaviorSubjectValue(this.sortAndFilter, sortAndFilter);
-    console.log(this.sortAndFilter.getValue());
   }
 
   updateSortAndFilter(update: Partial<BuildSortAndFilter>) {
-    console.log({ ...this.sortAndFilter.getValue(), ...update });
     this.setSortAndFilter({
       ...this.sortAndFilter.getValue(),
       ...update,
@@ -111,8 +108,6 @@ export class BuildsService extends BaseService {
 
   private processItems() {
     const sortAndFilter = this.sortAndFilter.getValue();
-    console.log(sortAndFilter);
-    console.log(buildSortByArgs[sortAndFilter.sortBy]);
     this.setProcessedItems(
       Object.values(this.items.getValue())
         .filter((item) => buildItemFilter(item, sortAndFilter))
@@ -141,6 +136,11 @@ export class BuildsService extends BaseService {
       BuildItemMap
     >((acc, [key, build]) => {
       const allBuildItems = Object.keys(itemsByBuild[key]);
+      if (baseBuilds[build.label] !== key) {
+        allBuildItems.push(
+          ...Object.keys(itemsByBuild[baseBuilds[build.label]])
+        );
+      }
 
       if (
         !hasSelectedItems ||

@@ -1,0 +1,19 @@
+.app-builds-dialog {
+  &__actions {
+    justify-content: flex-end;
+  }
+
+  &__divider {
+    margin-bottom: 10px;
+  }
+
+  &__options {
+    ::ng-deep .mat-chip-list-wrapper {
+      margin-bottom: 10px;
+    }
+
+    ::ng-deep .mat-chip {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,6 +1,9 @@
 <div class="app-builds-panel">
   <mat-toolbar color="accent" class="app-builds-panel__header">
     <span>Builds</span>
+    <button mat-icon-button (click)="handleFilterIconClick()">
+      <mat-icon>filter_list</mat-icon>
+    </button>
   </mat-toolbar>
   <app-builds-cards></app-builds-cards>
 </div>

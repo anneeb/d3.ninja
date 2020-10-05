@@ -5,6 +5,7 @@
 
   &__header {
     flex: none;
+    justify-content: space-between;
   }
 
   > *:not(.app-builds-panel__header) {
