@@ -38,9 +38,9 @@ export enum ItemSlot {
 }
 
 export enum ItemCubeSlot {
-  "ARMOR" = "Armor",
-  "WEAPON" = "Weapon",
-  "JEWELRY" = "Jewelry",
+  "ARMOR" = "armor",
+  "WEAPON" = "weapon",
+  "JEWELRY" = "jewelry",
 }
 
 export interface Item {
@@ -107,3 +107,5 @@ export interface ItemsByBuild {
 export interface TagsById {
   [id: string]: BuildItemTag[];
 }
+
+export type StashItemVersions = string[][];

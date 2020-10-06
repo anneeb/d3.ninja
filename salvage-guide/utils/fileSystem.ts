@@ -14,6 +14,18 @@ export async function makeDirectory(directory: string) {
   );
 }
 
+export async function readFile(target: string) {
+  return new Promise<string>((res, rej) =>
+    fs.readFile(target, "utf-8", (err, data) => {
+      if (err) {
+        rej(err);
+      } else {
+        res(data);
+      }
+    })
+  );
+}
+
 export async function writeFile(target: string, data: string) {
   return new Promise<string>((res, rej) =>
     fs.writeFile(target, data, (err) => {

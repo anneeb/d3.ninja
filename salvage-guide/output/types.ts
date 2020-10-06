@@ -107,3 +107,5 @@ export interface ItemsByBuild {
 export interface TagsById {
   [id: string]: BuildItemTag[];
 }
+
+export type StashItemVersions = string[][];
