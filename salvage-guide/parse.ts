@@ -5,7 +5,6 @@ import * as ora from "ora";
 import * as path from "path";
 
 import {
-  ItemColor,
   ItemSlot,
   ItemsById,
   BuildCharacter,
@@ -134,7 +133,7 @@ async function getParsed(): Promise<ParsedData> {
       label: item.label,
       link: item.link,
       img: `http://media.blizzard.com/d3/icons/items/small/${itemData.icon}.png`,
-      color: itemData.color,
+      isSet: itemData.color === "green",
       slots: itemData.slots.filter((slot: ItemSlot) =>
         new Set(Object.values(ItemSlot)).has(slot)
       ),
@@ -187,11 +186,7 @@ function replaceEnums(
 
 async function saveFile(results: ParsedData) {
   const itemsById = replaceEnums(
-    replaceEnums(
-      JSON.stringify(results.itemsById, null, 2),
-      ItemColor,
-      "ItemColor"
-    ),
+    JSON.stringify(results.itemsById, null, 2),
     ItemSlot,
     "ItemSlot"
   );
@@ -210,7 +205,6 @@ async function saveFile(results: ParsedData) {
   const data = `// Last updated on ${new Date().toLocaleString()}
 
 import {
-  ItemColor,
   ItemSlot,
   ItemsById,
   BuildCharacter,

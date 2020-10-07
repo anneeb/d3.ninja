@@ -1,7 +1,13 @@
 .app-stash-item-toggle {
+  margin-left: 10px;
+
   &__tag {
     min-height: 24px;
     padding: 5px 8px;
     cursor: pointer;
+
+    &--disabled {
+      cursor: default;
+    }
   }
 }

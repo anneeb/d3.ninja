@@ -35,16 +35,13 @@ export class StashItemComponent implements OnInit {
   ngOnInit(): void {
     this.stashService.getItems().subscribe((itemMap) => {
       this.item = itemMap[this.itemId];
-      this.className = classNames(
-        "app-stash-item",
-        `app-stash-item--${this.item.color}`,
-        {
-          "app-stash-item--selected": this.isItemSelected
-            ? this.isItemSelected(this.item)
-            : this.item.isSelected || this.item.isCubeSelected,
-          "app-stash-item--clickable": this.isClickable,
-        }
-      );
+      this.className = classNames("app-stash-item", {
+        "app-stash-item--is-set": this.item.isSet,
+        "app-stash-item--selected": this.isItemSelected
+          ? this.isItemSelected(this.item)
+          : this.item.isSelected || this.item.isCubeSelected,
+        "app-stash-item--clickable": this.isClickable,
+      });
     });
   }
 

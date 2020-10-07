@@ -1,7 +1,8 @@
 <div class="app-stash-item-toggle">
   <mat-chip
     *ngIf="value"
-    class="app-stash-item-toggle__tag"
+    [class]="tagClassName"
+    [disabled]="isSet"
     color="primary"
     selected="true"
     selectable="false"

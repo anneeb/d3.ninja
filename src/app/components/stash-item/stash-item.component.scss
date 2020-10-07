@@ -5,11 +5,25 @@
   align-items: center;
 
   a {
+    color: $app-stash-item-orange;
     text-decoration: none;
     white-space: normal;
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+
+  img {
+    background-color: $app-stash-item-orange;
+  }
+
+  &--is-set {
+    a {
+      color: $app-stash-item-green;
+    }
+    img {
+      background-color: $app-stash-item-green;
     }
   }
 
@@ -38,24 +52,6 @@
   &--selected {
     img {
       opacity: 1;
-    }
-  }
-
-  &--green {
-    a {
-      color: $app-stash-item-green;
-    }
-    img {
-      background-color: $app-stash-item-green;
-    }
-  }
-
-  &--orange {
-    a {
-      color: $app-stash-item-orange;
-    }
-    img {
-      background-color: $app-stash-item-orange;
     }
   }
 }

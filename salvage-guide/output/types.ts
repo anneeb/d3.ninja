@@ -11,11 +11,6 @@ export interface RawBuildData {
   tags: string;
 }
 
-export enum ItemColor {
-  "GREEN" = "green",
-  "ORANGE" = "orange",
-}
-
 export enum ItemSlot {
   "HEAD" = "head",
   "SHOULDERS" = "shoulders",
@@ -48,8 +43,8 @@ export interface Item {
   label: string;
   link: string;
   img: string;
-  color: ItemColor;
   slots: ItemSlot[];
+  isSet: boolean;
   isTwoHanded: boolean;
 }
 

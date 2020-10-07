@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from "@angular/core";
+import classNames from "classnames";
+
 import { StashItem } from "constants/stash";
 import { StashService } from "app/services/stash.service";
 
@@ -10,13 +12,18 @@ import { StashService } from "app/services/stash.service";
 export class StashQuickAddItemComponent implements OnInit {
   @Input()
   itemId: string;
+
   item: StashItem;
+  className: string;
 
   constructor(private stashService: StashService) {}
 
   ngOnInit(): void {
     this.stashService.getItems().subscribe((itemMap) => {
       this.item = itemMap[this.itemId];
+      this.className = classNames("app-stash-quick-add-item", {
+        "app-stash-quick-add-item--is-set": this.item.isSet,
+      });
     });
   }
 

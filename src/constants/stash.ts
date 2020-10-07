@@ -8,7 +8,7 @@ export interface StashItem extends Item {
 
 export type SelectedStashItem = Pick<
   StashItem,
-  "id" | "isSelected" | "isCubeSelected"
+  "id" | "isSet" | "isSelected" | "isCubeSelected"
 >;
 
 export interface StashItemMap {
@@ -26,3 +26,5 @@ export const stashItems = Object.values(itemsById).reduce<StashItemMap>(
   }),
   {}
 );
+
+console.log(stashItems);
