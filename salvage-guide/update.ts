@@ -151,7 +151,8 @@ async function saveFile(results: RawItemData[]) {
 
 import { RawItemData } from "./types";
 
-export const RAW_SALVAGE_GUIDE: RawItemData[] = \n${itemData};`;
+export const RAW_SALVAGE_GUIDE: RawItemData[] = \n${itemData};
+`;
 
   return saveFileToDirectory(SAVE_DIR, "raw-salvage-guide.ts", data);
 }

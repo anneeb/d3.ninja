@@ -223,7 +223,8 @@ export const tagsById: TagsById = \n${tagsById};
 
 export const itemsByBuild: ItemsByBuild = \n${itemsByBuild};
 
-export const buildsByItem: BuildsByItem = \n${buildsByItem};`;
+export const buildsByItem: BuildsByItem = \n${buildsByItem};
+`;
 
   return saveFileToDirectory(SAVE_DIR, "salvage-guide.ts", data);
 }

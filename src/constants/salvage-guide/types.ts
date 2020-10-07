@@ -103,4 +103,4 @@ export interface TagsById {
   [id: string]: BuildItemTag[];
 }
 
-export type StashItemVersions = string[][];
+export type StashItemVersion = [string[], string[]];
