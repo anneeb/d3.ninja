@@ -1,7 +1,10 @@
 import { Component, OnInit } from "@angular/core";
+import { ActivatedRoute, Router } from "@angular/router";
+import { first, skip } from "rxjs/operators";
 import { BuildsService } from "app/services/builds.service";
 import { StashService } from "app/services/stash.service";
 import { UiService } from "app/services/ui.service";
+import { decodeStashItems, encodeStashItems } from "utils/stash-encoder";
 
 @Component({
   selector: "app-home",
@@ -15,6 +18,8 @@ export class HomeComponent implements OnInit {
   buildIcon: string = "chevron_right";
 
   constructor(
+    private activatedRoute: ActivatedRoute,
+    private router: Router,
     private uiService: UiService,
     private stashService: StashService,
     private buildService: BuildsService
@@ -22,6 +27,25 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.buildService.setStashService(this.stashService);
+
+    this.activatedRoute.queryParamMap.pipe(first()).subscribe((paramMap) => {
+      const stash = paramMap.get("stash");
+      if (stash) {
+        const selectedItems = decodeStashItems(stash);
+        this.stashService.updateIsItemsSelected(selectedItems);
+      }
+    });
+
+    this.stashService
+      .getItems()
+      .pipe(skip(1))
+      .subscribe((items) => {
+        const stash = encodeStashItems(items);
+        this.router.navigate([], {
+          relativeTo: this.activatedRoute,
+          queryParams: { stash },
+        });
+      });
 
     this.uiService.getIsStashDrawerOpen().subscribe((isStashDrawerOpen) => {
       this.isStashDrawerOpen = isStashDrawerOpen;

@@ -67,8 +67,9 @@ export class StashService extends BaseService {
   private syncSelectedItems() {
     const selectedItems = Object.values(this.items.getValue())
       .filter((item) => item.isSelected || item.isCubeSelected)
-      .map(({ id, isSelected, isCubeSelected }) => ({
+      .map(({ id, isSet, isSelected, isCubeSelected }) => ({
         id,
+        isSet,
         isSelected,
         isCubeSelected,
       }));
@@ -104,6 +105,10 @@ export class StashService extends BaseService {
       isCubeSelected = true;
     }
 
+    if (prevItems[itemId].isSet) {
+      isCubeSelected = false;
+    }
+
     const updatedItems: StashItemMap = {
       ...prevItems,
       [itemId]: {
@@ -112,6 +117,25 @@ export class StashService extends BaseService {
         isCubeSelected,
       },
     };
+    setTimeout(() => this.setItems(updatedItems), 0);
+  }
+
+  updateIsItemsSelected(selectedItems: SelectedStashItem[]) {
+    const prevItems = this.items.getValue();
+    const updatedItems: StashItemMap = {
+      ...prevItems,
+    };
+
+    selectedItems.forEach(({ id, isSelected, isCubeSelected }) => {
+      if (updatedItems[id]) {
+        updatedItems[id] = {
+          ...prevItems[id],
+          isSelected,
+          isCubeSelected,
+        };
+      }
+    });
+
     setTimeout(() => this.setItems(updatedItems), 0);
   }
 }
