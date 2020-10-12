@@ -1,0 +1,32 @@
+<div class="app-build-info-slots">
+  <ng-container *ngFor="let slot of slots">
+    <mat-divider></mat-divider>
+    <div mat-subheader class="app-build-info-slots__section-header">
+      {{ slot.label }}
+    </div>
+    <mat-list-item
+      *ngFor="let item of slot.items"
+      class="app-build-info-slots__item"
+    >
+      <app-stash-item
+        class="app-build-info-slots__stash-item"
+        [itemId]="item.id"
+        isClickable="true"
+        [isCube]="item.isCube"
+        [isItemSelected]="item.isItemSelected"
+        showLabel="true"
+        [onImageClick]="handleStashItemClick"
+      ></app-stash-item>
+      <mat-chip-list class="app-build-info-slots__tags">
+        <mat-chip
+          *ngFor="let tag of item.tags"
+          class="app-build-info-slots__tag"
+          disableRipple="true"
+          selected="true"
+          selectable="false"
+          >{{ tag }}</mat-chip
+        >
+      </mat-chip-list>
+    </mat-list-item>
+  </ng-container>
+</div>

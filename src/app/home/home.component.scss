@@ -3,6 +3,10 @@
   flex-direction: column;
   height: 100%;
 
+  &__toolbar {
+    flex: 0;
+  }
+
   &__drawer-container {
     flex-grow: 1;
 

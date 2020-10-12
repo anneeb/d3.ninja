@@ -21,37 +21,16 @@
     }
   }
 
-  &__sections {
-    padding-bottom: 50px;
-    overflow: scroll;
-  }
-
-  &__section-header {
-    text-transform: uppercase;
-  }
-
   &__variation-tag {
     text-transform: capitalize;
   }
 
-  &__item ::ng-deep .mat-list-text {
-    flex-direction: row !important;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+  &__follower-tag {
+    margin: 10px 16px;
   }
 
-  &__stash-item {
-    flex: 1 1;
-  }
-
-  &__tags ::ng-deep .mat-chip-list-wrapper {
-    justify-content: flex-end;
-    text-transform: capitalize;
-  }
-
-  &__tag {
-    min-height: 24px;
-    padding: 5px 8px;
+  &__sections {
+    padding-bottom: 50px;
+    overflow: scroll;
   }
 }

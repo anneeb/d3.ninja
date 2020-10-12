@@ -6,6 +6,7 @@
 
     <mat-chip-list>
       <mat-chip
+        *ngIf="character"
         color="accent"
         disableRipple="true"
         selected="true"
@@ -33,35 +34,24 @@
   </div>
 
   <mat-list class="app-build-info__sections">
-    <ng-container *ngFor="let itemHeaders of itemHeaders">
-      <mat-divider></mat-divider>
-      <div mat-subheader class="app-build-info__section-header">
-        {{ itemHeaders.label }}
-      </div>
-      <mat-list-item
-        *ngFor="let item of itemHeaders.items"
-        class="app-build-info__item"
-      >
-        <app-stash-item
-          class="app-build-info__stash-item"
-          [itemId]="item.id"
-          isClickable="true"
-          [isCube]="item.isCube"
-          [isItemSelected]="item.isItemSelected"
-          showLabel="true"
-          [onImageClick]="handleStashItemClick"
-        ></app-stash-item>
-        <mat-chip-list class="app-build-info__tags">
-          <mat-chip
-            *ngFor="let tag of item.tags"
-            class="app-build-info__tag"
-            disableRipple="true"
-            selected="true"
-            selectable="false"
-            >{{ tag }}</mat-chip
-          >
-        </mat-chip-list>
-      </mat-list-item>
+    <ng-container *ngIf="followerItems">
+      <ng-container *ngFor="let followerItem of followerItems">
+        <mat-divider></mat-divider>
+        <mat-chip
+          class="app-build-info__follower-tag"
+          color="accent"
+          disableRipple="true"
+          selected="true"
+          selectable="false"
+          >{{ followerItem.label }}</mat-chip
+        >
+        <app-build-info-slots
+          [slots]="followerItem.slots"
+        ></app-build-info-slots>
+      </ng-container>
+    </ng-container>
+    <ng-container *ngIf="heroItems">
+      <app-build-info-slots [slots]="heroItems"></app-build-info-slots>
     </ng-container>
   </mat-list>
 </div>

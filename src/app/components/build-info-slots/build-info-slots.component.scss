@@ -1,0 +1,28 @@
+@import "../../../styles/variables.scss";
+
+.app-build-info-slots {
+  &__section-header {
+    text-transform: uppercase;
+  }
+
+  &__item ::ng-deep .mat-list-text {
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__stash-item {
+    flex: 1 1;
+  }
+
+  &__tags ::ng-deep .mat-chip-list-wrapper {
+    justify-content: flex-end;
+    text-transform: capitalize;
+  }
+
+  &__tag {
+    min-height: 24px;
+    padding: 5px 8px;
+  }
+}
