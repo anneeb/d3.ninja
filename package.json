@@ -11,7 +11,7 @@
     "salvage-guide:parse": "ts-node ./salvage-guide/parse",
     "salvage-guide:version": "ts-node ./salvage-guide/version",
     "salvage-guide:copy": "ts-node ./salvage-guide/copy",
-    "salvage-guide": "yarn run salvage-guide:update && salvage-guide:parse && salvage-guide:version && salvage-guide:copy"
+    "salvage-guide": "yarn run salvage-guide:update && yarn run salvage-guide:parse && yarn run salvage-guide:version && yarn run salvage-guide:copy"
   },
   "author": "Annee Barrett",
   "license": "MIT",

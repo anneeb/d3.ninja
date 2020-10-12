@@ -18,9 +18,9 @@ async function version() {
 
     try {
       const current = await readFile(path.resolve(SAVE_DIR, "versions.ts"));
-      data += `${current.split("\n").slice(1, -1).join("\n")} `;
+      data += `${current.split("\n").slice(1, -2).join("\n")}`;
     } catch (err) {
-      data += `\n\nimport { StashItemVersion } from "./types";\n\nexport const stashItemVersions: StashItemVersion[] = [\n  `;
+      data += `\n\nimport { StashItemVersion } from "./types";\n\nexport const stashItemVersions: StashItemVersion[] = [`;
     }
 
     const items = Object.values(itemsById)
@@ -39,7 +39,7 @@ async function version() {
         [[], []]
       );
 
-    data += `[\n${stringifyItems(items[0])}\n${stringifyItems(
+    data += `\n  [\n${stringifyItems(items[0])}\n${stringifyItems(
       items[1]
     )}\n  ],\n];\n`;
 

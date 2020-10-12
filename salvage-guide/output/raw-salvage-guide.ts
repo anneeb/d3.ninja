@@ -1,3 +1,5 @@
+// Last updated on 10/12/2020, 2:05:13 PM
+
 import { RawItemData } from "./types";
 
 export const RAW_SALVAGE_GUIDE: RawItemData[] = [
