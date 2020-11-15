@@ -17,4 +17,11 @@
     height: 100%;
     background-color: rgba($app-background-app-bar, 0.7);
   }
+
+  &__empty {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

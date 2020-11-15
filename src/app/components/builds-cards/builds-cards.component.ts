@@ -8,6 +8,7 @@ import { UiService } from "app/services/ui.service";
   styleUrls: ["./builds-cards.component.scss"],
 })
 export class BuildsCardsComponent implements OnInit {
+  hasItems: boolean = true;
   itemIds: string[] = [];
   isProcessingItems: boolean;
   scrollElementId: string;
@@ -19,6 +20,7 @@ export class BuildsCardsComponent implements OnInit {
 
   ngOnInit(): void {
     this.buildService.getProcessedItems().subscribe((items) => {
+      this.hasItems = Boolean(items.length);
       this.itemIds = items;
 
       if (this.scrollElementId) {
