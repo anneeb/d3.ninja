@@ -106,23 +106,34 @@ async function getParsed(): Promise<ParsedData> {
 
   const blizzardAccessToken = await getBlizzardAccessToken();
 
+  const failures = [];
+
   spinner.text = "Loading items";
   const results = await Promise.all(
     RAW_SALVAGE_GUIDE.map(async (item) => {
-      let itemPath = item.link.replace("https://us.diablo3.com/en/", "");
-      let itemData = await getItemData(itemPath, blizzardAccessToken);
+      try {
+        let itemPath = item.link.replace("https://us.diablo3.com/en/", "");
+        let itemData = await getItemData(itemPath, blizzardAccessToken);
 
-      if (itemData.itemProduced) {
-        itemPath = itemData.itemProduced.path;
-        itemData = await getItemData(itemPath, blizzardAccessToken);
+        if (itemData.itemProduced) {
+          itemPath = itemData.itemProduced.path;
+          itemData = await getItemData(itemPath, blizzardAccessToken);
+        }
+
+        return {
+          itemId: itemPath.slice(5),
+          itemData,
+        };
+      } catch (err) {
+        failures.push(err);
       }
-
-      return {
-        itemId: itemPath.slice(5),
-        itemData,
-      };
     })
   );
+
+  if (failures.length) {
+    spinner.fail(`Problem loading ${failures.length} items: ${failures}`);
+    throw new Error(JSON.stringify(failures, null, 2));
+  }
 
   spinner.succeed(`Loaded ${results.length} items`);
 

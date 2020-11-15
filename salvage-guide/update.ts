@@ -17,6 +17,22 @@ import { saveFileToDirectory } from "./utils/fileSystem";
 const SALVAGE_GUIDE_URL =
   "https://www.icy-veins.com/d3/legendary-item-salvage-guide";
 
+const BAD_ITEMS = {
+  "belt-of-the-trove-P2_Unique_Belt_008":
+    "belt-of-the-trove-P610_Unique_Belt_008",
+  "blade-of-the-tribes-P4_Unique_Mighty_2H_101":
+    "blade-of-the-tribes-P610_Unique_Mighty_2H_101",
+  "etched-sigil-P61_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002",
+  "fragment-of-destiny-P4_Unique_Wand_010":
+    "fragment-of-destiny-P610_Unique_Wand_010",
+  "gungdo-gear-P2_Unique_Bracer_006": "gungdo-gear-P610_Unique_Bracer_006",
+  "scrimshaw-Unique_Spear_004_p3": "scrimshaw-P610_Unique_Spear_004",
+  "the-mortal-drama-Unique_Flail_2H_101_x1":
+    "the-mortal-drama-P610_Unique_Flail_2H_101",
+  "the-twisted-sword-Unique_Sword_1H_107_x1":
+    "the-twisted-sword-P610_Unique_Sword_1H_107",
+};
+
 const SAVE_DIR = path.resolve(__dirname, "output");
 
 // helpers
@@ -71,6 +87,10 @@ async function getItemData(el: WebElement): Promise<RawItemData> {
     ]);
     label = linkText;
     link = linkRef.replace("http", "https");
+    const badItem = Object.keys(BAD_ITEMS).find((old) => link.includes(old));
+    if (badItem) {
+      link = link.replace(badItem, BAD_ITEMS[badItem]);
+    }
   } else {
     return null;
   }

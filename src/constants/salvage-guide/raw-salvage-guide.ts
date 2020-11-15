@@ -1,4 +1,4 @@
-// Last updated on 10/12/2020, 2:05:13 PM
+// Last updated on 11/15/2020, 5:23:18 PM
 
 import { RawItemData } from "./types";
 
@@ -1488,7 +1488,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
   },
   {
     "label": "Belt of the Trove",
-    "link": "https://us.diablo3.com/en/item/belt-of-the-trove-P2_Unique_Belt_008",
+    "link": "https://us.diablo3.com/en/item/belt-of-the-trove-P610_Unique_Belt_008",
     "buildsData": [
       {
         "id": "crusader-the-thrill-conquest-build-season-12-patch-2-6-1",
@@ -1578,7 +1578,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
   },
   {
     "label": "Blade of the Tribes",
-    "link": "https://us.diablo3.com/en/item/blade-of-the-tribes-P4_Unique_Mighty_2H_101",
+    "link": "https://us.diablo3.com/en/item/blade-of-the-tribes-P610_Unique_Mighty_2H_101",
     "buildsData": [
       {
         "id": "leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
@@ -4206,7 +4206,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
   },
   {
     "label": "Etched Sigil",
-    "link": "https://us.diablo3.com/en/item/etched-sigil-P61_Unique_Orb_002",
+    "link": "https://us.diablo3.com/en/item/etched-sigil-P610_Unique_Orb_002",
     "buildsData": [
       {
         "id": "wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
@@ -5034,7 +5034,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
   },
   {
     "label": "Fragment of Destiny",
-    "link": "https://us.diablo3.com/en/item/fragment-of-destiny-P4_Unique_Wand_010",
+    "link": "https://us.diablo3.com/en/item/fragment-of-destiny-P610_Unique_Wand_010",
     "buildsData": [
       {
         "id": "wizard-dmo-set-dungeon-guide",
@@ -5766,7 +5766,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
   },
   {
     "label": "Gungdo Gear",
-    "link": "https://us.diablo3.com/en/item/gungdo-gear-P2_Unique_Bracer_006",
+    "link": "https://us.diablo3.com/en/item/gungdo-gear-P610_Unique_Bracer_006",
     "buildsData": [
       {
         "id": "monk-sunwuko-exploding-palm-build-patch-2-4",
@@ -14082,7 +14082,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
   },
   {
     "label": "Scrimshaw",
-    "link": "https://us.diablo3.com/en/item/scrimshaw-Unique_Spear_004_p3",
+    "link": "https://us.diablo3.com/en/item/scrimshaw-P610_Unique_Spear_004",
     "buildsData": [
       {
         "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
@@ -17406,7 +17406,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
   },
   {
     "label": "The Mortal Drama",
-    "link": "https://us.diablo3.com/en/item/the-mortal-drama-Unique_Flail_2H_101_x1",
+    "link": "https://us.diablo3.com/en/item/the-mortal-drama-P610_Unique_Flail_2H_101",
     "buildsData": [
       {
         "id": "lon-bombardment-crusader-bis-gear-gems-paragon-points",
@@ -18084,7 +18084,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
   },
   {
     "label": "The Twisted Sword",
-    "link": "https://us.diablo3.com/en/item/the-twisted-sword-Unique_Sword_1H_107_x1",
+    "link": "https://us.diablo3.com/en/item/the-twisted-sword-P610_Unique_Sword_1H_107",
     "buildsData": [
       {
         "id": "wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1",

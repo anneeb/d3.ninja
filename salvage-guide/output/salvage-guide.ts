@@ -1,4 +1,4 @@
-// Last updated on 10/12/2020, 2:06:18 PM
+// Last updated on 11/15/2020, 5:23:34 PM
 
 import {
   ItemSlot,
@@ -365,11 +365,11 @@ export const itemsById: ItemsById =
     ],
     "isTwoHanded": false
   },
-  "belt-of-the-trove-P2_Unique_Belt_008": {
-    "id": "belt-of-the-trove-P2_Unique_Belt_008",
+  "belt-of-the-trove-P610_Unique_Belt_008": {
+    "id": "belt-of-the-trove-P610_Unique_Belt_008",
     "label": "Belt of the Trove",
-    "link": "https://us.diablo3.com/en/item/belt-of-the-trove-P2_Unique_Belt_008",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_belt_008_demonhunter_male.png",
+    "link": "https://us.diablo3.com/en/item/belt-of-the-trove-P610_Unique_Belt_008",
+    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_belt_008_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -410,11 +410,11 @@ export const itemsById: ItemsById =
     ],
     "isTwoHanded": true
   },
-  "blade-of-the-tribes-P4_Unique_Mighty_2H_101": {
-    "id": "blade-of-the-tribes-P4_Unique_Mighty_2H_101",
+  "blade-of-the-tribes-P610_Unique_Mighty_2H_101": {
+    "id": "blade-of-the-tribes-P610_Unique_Mighty_2H_101",
     "label": "Blade of the Tribes",
-    "link": "https://us.diablo3.com/en/item/blade-of-the-tribes-P4_Unique_Mighty_2H_101",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_mighty_2h_101_demonhunter_male.png",
+    "link": "https://us.diablo3.com/en/item/blade-of-the-tribes-P610_Unique_Mighty_2H_101",
+    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_mighty_2h_101_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1248,11 +1248,11 @@ export const itemsById: ItemsById =
     ],
     "isTwoHanded": false
   },
-  "etched-sigil-P61_Unique_Orb_002": {
-    "id": "etched-sigil-P61_Unique_Orb_002",
+  "etched-sigil-P610_Unique_Orb_002": {
+    "id": "etched-sigil-P610_Unique_Orb_002",
     "label": "Etched Sigil",
-    "link": "https://us.diablo3.com/en/item/etched-sigil-P61_Unique_Orb_002",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_orb_002_demonhunter_male.png",
+    "link": "https://us.diablo3.com/en/item/etched-sigil-P610_Unique_Orb_002",
+    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_orb_002_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -1543,11 +1543,11 @@ export const itemsById: ItemsById =
     ],
     "isTwoHanded": false
   },
-  "fragment-of-destiny-P4_Unique_Wand_010": {
-    "id": "fragment-of-destiny-P4_Unique_Wand_010",
+  "fragment-of-destiny-P610_Unique_Wand_010": {
+    "id": "fragment-of-destiny-P610_Unique_Wand_010",
     "label": "Fragment of Destiny",
-    "link": "https://us.diablo3.com/en/item/fragment-of-destiny-P4_Unique_Wand_010",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_wand_010_demonhunter_male.png",
+    "link": "https://us.diablo3.com/en/item/fragment-of-destiny-P610_Unique_Wand_010",
+    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_wand_010_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1800,11 +1800,11 @@ export const itemsById: ItemsById =
     ],
     "isTwoHanded": false
   },
-  "gungdo-gear-P2_Unique_Bracer_006": {
-    "id": "gungdo-gear-P2_Unique_Bracer_006",
+  "gungdo-gear-P610_Unique_Bracer_006": {
+    "id": "gungdo-gear-P610_Unique_Bracer_006",
     "label": "Gungdo Gear",
-    "link": "https://us.diablo3.com/en/item/gungdo-gear-P2_Unique_Bracer_006",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_bracer_006_demonhunter_male.png",
+    "link": "https://us.diablo3.com/en/item/gungdo-gear-P610_Unique_Bracer_006",
+    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_bracer_006_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -4170,11 +4170,11 @@ export const itemsById: ItemsById =
     ],
     "isTwoHanded": false
   },
-  "scrimshaw-Unique_Spear_004_p3": {
-    "id": "scrimshaw-Unique_Spear_004_p3",
+  "scrimshaw-P610_Unique_Spear_004": {
+    "id": "scrimshaw-P610_Unique_Spear_004",
     "label": "Scrimshaw",
-    "link": "https://us.diablo3.com/en/item/scrimshaw-Unique_Spear_004_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_spear_004_p3_demonhunter_male.png",
+    "link": "https://us.diablo3.com/en/item/scrimshaw-P610_Unique_Spear_004",
+    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_spear_004_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5099,11 +5099,11 @@ export const itemsById: ItemsById =
     ],
     "isTwoHanded": false
   },
-  "the-mortal-drama-Unique_Flail_2H_101_x1": {
-    "id": "the-mortal-drama-Unique_Flail_2H_101_x1",
+  "the-mortal-drama-P610_Unique_Flail_2H_101": {
+    "id": "the-mortal-drama-P610_Unique_Flail_2H_101",
     "label": "The Mortal Drama",
-    "link": "https://us.diablo3.com/en/item/the-mortal-drama-Unique_Flail_2H_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_flail_2h_101_x1_demonhunter_male.png",
+    "link": "https://us.diablo3.com/en/item/the-mortal-drama-P610_Unique_Flail_2H_101",
+    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_flail_2h_101_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5280,11 +5280,11 @@ export const itemsById: ItemsById =
     ],
     "isTwoHanded": false
   },
-  "the-twisted-sword-Unique_Sword_1H_107_x1": {
-    "id": "the-twisted-sword-Unique_Sword_1H_107_x1",
+  "the-twisted-sword-P610_Unique_Sword_1H_107": {
+    "id": "the-twisted-sword-P610_Unique_Sword_1H_107",
     "label": "The Twisted Sword",
-    "link": "https://us.diablo3.com/en/item/the-twisted-sword-Unique_Sword_1H_107_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_sword_1h_107_x1_demonhunter_male.png",
+    "link": "https://us.diablo3.com/en/item/the-twisted-sword-P610_Unique_Sword_1H_107",
+    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_sword_1h_107_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -8127,18 +8127,18 @@ export const tagsById: TagsById =
   "belt-of-transcendence-P2_Unique_Belt_02-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "belt-of-the-trove-P2_Unique_Belt_008-crusader-the-thrill-conquest-build-season-12-patch-2-6-1": [
+  "belt-of-the-trove-P610_Unique_Belt_008-crusader-the-thrill-conquest-build-season-12-patch-2-6-1": [
     BuildItemTag.BIS
   ],
-  "belt-of-the-trove-P2_Unique_Belt_008-invoker-thorns-crusader-bis-gear-gems-paragon-points": [
+  "belt-of-the-trove-P610_Unique_Belt_008-invoker-thorns-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE,
     BuildItemTag.VARIATION
   ],
-  "belt-of-the-trove-P2_Unique_Belt_008-lon-bombardment-crusader-bis-gear-gems-paragon-points": [
+  "belt-of-the-trove-P610_Unique_Belt_008-lon-bombardment-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
   ],
-  "belt-of-the-trove-P2_Unique_Belt_008-akkhan-bombardment-crusader-bis-gear-gems-paragon-points": [
+  "belt-of-the-trove-P610_Unique_Belt_008-akkhan-bombardment-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
   "binding-of-the-lost-P61_Unique_Belt_03-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points": [
@@ -8168,7 +8168,7 @@ export const tagsById: TagsById =
     BuildItemTag.ALT,
     BuildItemTag.CUBE
   ],
-  "blade-of-the-tribes-P4_Unique_Mighty_2H_101-leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points": [
+  "blade-of-the-tribes-P610_Unique_Mighty_2H_101-leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
   ],
@@ -9414,29 +9414,29 @@ export const tagsById: TagsById =
   "envious-blade-Unique_Dagger_103_x1-demon-hunter-shadow-set-dungeon-guide": [
     BuildItemTag.CUBE
   ],
-  "etched-sigil-P61_Unique_Orb_002-wizard-energy-twister-build-with-the-dmo-set-patch-2-4": [
+  "etched-sigil-P610_Unique_Orb_002-wizard-energy-twister-build-with-the-dmo-set-patch-2-4": [
     BuildItemTag.BIS,
     BuildItemTag.OUTDATED
   ],
-  "etched-sigil-P61_Unique_Orb_002-wizard-firebird-set-dungeon-guide": [
+  "etched-sigil-P610_Unique_Orb_002-wizard-firebird-set-dungeon-guide": [
     BuildItemTag.BIS
   ],
-  "etched-sigil-P61_Unique_Orb_002-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
+  "etched-sigil-P610_Unique_Orb_002-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "etched-sigil-P61_Unique_Orb_002-lod-star-pact-wizard-bis-gear-gems-paragon-points": [
+  "etched-sigil-P610_Unique_Orb_002-lod-star-pact-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "etched-sigil-P61_Unique_Orb_002-meteor-wizard-bis-gear-gems-paragon-points": [
+  "etched-sigil-P610_Unique_Orb_002-meteor-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
     BuildItemTag.VARIATION,
     BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
-  "etched-sigil-P61_Unique_Orb_002-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
+  "etched-sigil-P610_Unique_Orb_002-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "etched-sigil-P61_Unique_Orb_002-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
+  "etched-sigil-P610_Unique_Orb_002-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
   "eunjangdo-Unique_Dagger_104_x1-follower-skills-and-gearing-guide": [
@@ -9819,10 +9819,10 @@ export const tagsById: TagsById =
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
   ],
-  "fragment-of-destiny-P4_Unique_Wand_010-wizard-dmo-set-dungeon-guide": [
+  "fragment-of-destiny-P610_Unique_Wand_010-wizard-dmo-set-dungeon-guide": [
     BuildItemTag.BIS
   ],
-  "fragment-of-destiny-P4_Unique_Wand_010-lightning-arcane-torrent-wizard-spectral-blade-build": [
+  "fragment-of-destiny-P610_Unique_Wand_010-lightning-arcane-torrent-wizard-spectral-blade-build": [
     BuildItemTag.BIS
   ],
   "freeze-of-deflection-Unique_Shield_004_x1-follower-skills-and-gearing-guide": [
@@ -10150,18 +10150,18 @@ export const tagsById: TagsById =
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
   ],
-  "gungdo-gear-P2_Unique_Bracer_006-monk-sunwuko-exploding-palm-build-patch-2-4": [
+  "gungdo-gear-P610_Unique_Bracer_006-monk-sunwuko-exploding-palm-build-patch-2-4": [
     BuildItemTag.BIS,
     BuildItemTag.OUTDATED
   ],
-  "gungdo-gear-P2_Unique_Bracer_006-monk-ulianas-stratagem-set-dungeon-guide": [
+  "gungdo-gear-P610_Unique_Bracer_006-monk-ulianas-stratagem-set-dungeon-guide": [
     BuildItemTag.BIS
   ],
-  "gungdo-gear-P2_Unique_Bracer_006-inna-exploding-palm-monk-bis-gear-gems-paragon-points": [
+  "gungdo-gear-P610_Unique_Bracer_006-inna-exploding-palm-monk-bis-gear-gems-paragon-points": [
     BuildItemTag.ALT,
     BuildItemTag.CUBE
   ],
-  "gungdo-gear-P2_Unique_Bracer_006-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points": [
+  "gungdo-gear-P610_Unique_Bracer_006-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
   ],
@@ -14174,7 +14174,7 @@ export const tagsById: TagsById =
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
   ],
-  "scrimshaw-Unique_Spear_004_p3-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": [
+  "scrimshaw-P610_Unique_Spear_004-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
   ],
@@ -15813,11 +15813,11 @@ export const tagsById: TagsById =
     BuildItemTag.ALT,
     BuildItemTag.CUBE
   ],
-  "the-mortal-drama-Unique_Flail_2H_101_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points": [
+  "the-mortal-drama-P610_Unique_Flail_2H_101-lon-bombardment-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE,
     BuildItemTag.VARIATION
   ],
-  "the-mortal-drama-Unique_Flail_2H_101_x1-akkhan-bombardment-crusader-solo-progression-build": [
+  "the-mortal-drama-P610_Unique_Flail_2H_101-akkhan-bombardment-crusader-solo-progression-build": [
     BuildItemTag.CUBE
   ],
   "the-ninth-cirri-satchel-P69_Unique_Quiver_101-god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points": [
@@ -16145,15 +16145,15 @@ export const tagsById: TagsById =
   "the-travelers-pledge-Unique_Amulet_008_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "the-twisted-sword-Unique_Sword_1H_107_x1-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1": [
+  "the-twisted-sword-P610_Unique_Sword_1H_107-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1": [
     BuildItemTag.BIS,
     BuildItemTag.OUTDATED
   ],
-  "the-twisted-sword-Unique_Sword_1H_107_x1-wizard-energy-twister-build-with-the-dmo-set-patch-2-4": [
+  "the-twisted-sword-P610_Unique_Sword_1H_107-wizard-energy-twister-build-with-the-dmo-set-patch-2-4": [
     BuildItemTag.BIS,
     BuildItemTag.OUTDATED
   ],
-  "the-twisted-sword-Unique_Sword_1H_107_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
+  "the-twisted-sword-P610_Unique_Sword_1H_107-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.ALT,
     BuildItemTag.CUBE
   ],
@@ -17280,7 +17280,7 @@ export const itemsByBuild: ItemsByBuild =
   "wizard-firebird-set-dungeon-guide": {
     "aether-walker-P1_Wand_norm_unique_01": "aether-walker-P1_Wand_norm_unique_01-wizard-firebird-set-dungeon-guide",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-wizard-firebird-set-dungeon-guide",
-    "etched-sigil-P61_Unique_Orb_002": "etched-sigil-P61_Unique_Orb_002-wizard-firebird-set-dungeon-guide",
+    "etched-sigil-P610_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002-wizard-firebird-set-dungeon-guide",
     "firebirds-breast-Unique_Chest_Set_06_x1": "firebirds-breast-Unique_Chest_Set_06_x1-wizard-firebird-set-dungeon-guide",
     "firebirds-down-Unique_Pants_Set_06_x1": "firebirds-down-Unique_Pants_Set_06_x1-wizard-firebird-set-dungeon-guide",
     "firebirds-pinions-Unique_Shoulder_Set_06_x1": "firebirds-pinions-Unique_Shoulder_Set_06_x1-wizard-firebird-set-dungeon-guide",
@@ -17403,7 +17403,7 @@ export const itemsByBuild: ItemsByBuild =
   "crusader-the-thrill-conquest-build-season-12-patch-2-6-1": {
     "akarats-awakening-Unique_CruShield_104_x1": "akarats-awakening-Unique_CruShield_104_x1-crusader-the-thrill-conquest-build-season-12-patch-2-6-1",
     "aquila-cuirass-P4_Unique_Chest_012": "aquila-cuirass-P4_Unique_Chest_012-crusader-the-thrill-conquest-build-season-12-patch-2-6-1",
-    "belt-of-the-trove-P2_Unique_Belt_008": "belt-of-the-trove-P2_Unique_Belt_008-crusader-the-thrill-conquest-build-season-12-patch-2-6-1",
+    "belt-of-the-trove-P610_Unique_Belt_008": "belt-of-the-trove-P610_Unique_Belt_008-crusader-the-thrill-conquest-build-season-12-patch-2-6-1",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-crusader-the-thrill-conquest-build-season-12-patch-2-6-1",
     "death-watch-mantle-Unique_Shoulder_002_p2": "death-watch-mantle-Unique_Shoulder_002_p2-crusader-the-thrill-conquest-build-season-12-patch-2-6-1",
     "hack-Unique_Axe_1H_103_x1": "hack-Unique_Axe_1H_103_x1-crusader-the-thrill-conquest-build-season-12-patch-2-6-1",
@@ -17439,7 +17439,7 @@ export const itemsByBuild: ItemsByBuild =
   "invoker-thorns-crusader-bis-gear-gems-paragon-points": {
     "akarats-awakening-Unique_CruShield_104_x1": "akarats-awakening-Unique_CruShield_104_x1-invoker-thorns-crusader-bis-gear-gems-paragon-points",
     "aquila-cuirass-P4_Unique_Chest_012": "aquila-cuirass-P4_Unique_Chest_012-invoker-thorns-crusader-bis-gear-gems-paragon-points",
-    "belt-of-the-trove-P2_Unique_Belt_008": "belt-of-the-trove-P2_Unique_Belt_008-invoker-thorns-crusader-bis-gear-gems-paragon-points",
+    "belt-of-the-trove-P610_Unique_Belt_008": "belt-of-the-trove-P610_Unique_Belt_008-invoker-thorns-crusader-bis-gear-gems-paragon-points",
     "burden-of-the-invoker-Unique_Shoulder_Set_12_x1": "burden-of-the-invoker-Unique_Shoulder_Set_12_x1-invoker-thorns-crusader-bis-gear-gems-paragon-points",
     "captain-crimsons-silk-girdle-P66_Unique_Belt_012": "captain-crimsons-silk-girdle-P66_Unique_Belt_012-invoker-thorns-crusader-bis-gear-gems-paragon-points",
     "captain-crimsons-thrust-P66_Unique_Pants_012": "captain-crimsons-thrust-P66_Unique_Pants_012-invoker-thorns-crusader-bis-gear-gems-paragon-points",
@@ -17538,7 +17538,7 @@ export const itemsByBuild: ItemsByBuild =
     "ancient-parthan-defenders-Unique_Bracer_102_x1": "ancient-parthan-defenders-Unique_Bracer_102_x1-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
     "dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2": "dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
-    "etched-sigil-P61_Unique_Orb_002": "etched-sigil-P61_Unique_Orb_002-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
+    "etched-sigil-P610_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
     "fierce-gauntlets-Unique_Gloves_Set_02_p2": "fierce-gauntlets-Unique_Gloves_Set_02_p2-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
     "halo-of-arlyse-p2_Unique_Ring_Wizard_001": "halo-of-arlyse-p2_Unique_Ring_Wizard_001-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
     "harness-of-truth-Unique_Chest_Set_02_p2": "harness-of-truth-Unique_Chest_Set_02_p2-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
@@ -17551,7 +17551,7 @@ export const itemsByBuild: ItemsByBuild =
     "the-compass-rose-Unique_Ring_013_x1": "the-compass-rose-Unique_Ring_013_x1-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
     "the-furnace-Unique_Mace_2H_103_x1": "the-furnace-Unique_Mace_2H_103_x1-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
     "the-travelers-pledge-Unique_Amulet_008_x1": "the-travelers-pledge-Unique_Amulet_008_x1-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
-    "the-twisted-sword-Unique_Sword_1H_107_x1": "the-twisted-sword-Unique_Sword_1H_107_x1-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
+    "the-twisted-sword-P610_Unique_Sword_1H_107": "the-twisted-sword-P610_Unique_Sword_1H_107-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
     "the-witching-hour-Unique_Belt_009_x1": "the-witching-hour-Unique_Belt_009_x1-wizard-energy-twister-build-with-the-dmo-set-patch-2-4"
   },
   "zdps-crusader-support-build-with-cain-and-born-sets-patch-2-4": {
@@ -17660,7 +17660,7 @@ export const itemsByBuild: ItemsByBuild =
     "cindercoat-Unique_Chest_006_x1": "cindercoat-Unique_Chest_006_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "deathwish-P61_Unique_Sword_1H_112_x1": "deathwish-P61_Unique_Sword_1H_112_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-    "etched-sigil-P61_Unique_Orb_002": "etched-sigil-P61_Unique_Orb_002-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+    "etched-sigil-P610_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "hergbrashs-binding-P4_Unique_Belt_06": "hergbrashs-binding-P4_Unique_Belt_06-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "ice-climbers-Unique_Boots_008_x1": "ice-climbers-Unique_Boots_008_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
@@ -17688,7 +17688,7 @@ export const itemsByBuild: ItemsByBuild =
     "aquila-cuirass-P4_Unique_Chest_012": "aquila-cuirass-P4_Unique_Chest_012-lod-star-pact-wizard-bis-gear-gems-paragon-points",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-lod-star-pact-wizard-bis-gear-gems-paragon-points",
     "deathwish-P61_Unique_Sword_1H_112_x1": "deathwish-P61_Unique_Sword_1H_112_x1-lod-star-pact-wizard-bis-gear-gems-paragon-points",
-    "etched-sigil-P61_Unique_Orb_002": "etched-sigil-P61_Unique_Orb_002-lod-star-pact-wizard-bis-gear-gems-paragon-points",
+    "etched-sigil-P610_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002-lod-star-pact-wizard-bis-gear-gems-paragon-points",
     "fazulas-improbable-chain-P4_Unique_Belt_07": "fazulas-improbable-chain-P4_Unique_Belt_07-lod-star-pact-wizard-bis-gear-gems-paragon-points",
     "halo-of-arlyse-p2_Unique_Ring_Wizard_001": "halo-of-arlyse-p2_Unique_Ring_Wizard_001-lod-star-pact-wizard-bis-gear-gems-paragon-points",
     "illusory-boots-Unique_Boots_103_x1": "illusory-boots-Unique_Boots_103_x1-lod-star-pact-wizard-bis-gear-gems-paragon-points",
@@ -17785,7 +17785,7 @@ export const itemsByBuild: ItemsByBuild =
     "ancient-parthan-defenders-Unique_Bracer_102_x1": "ancient-parthan-defenders-Unique_Bracer_102_x1-meteor-wizard-bis-gear-gems-paragon-points",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-meteor-wizard-bis-gear-gems-paragon-points",
     "deathwish-P61_Unique_Sword_1H_112_x1": "deathwish-P61_Unique_Sword_1H_112_x1-meteor-wizard-bis-gear-gems-paragon-points",
-    "etched-sigil-P61_Unique_Orb_002": "etched-sigil-P61_Unique_Orb_002-meteor-wizard-bis-gear-gems-paragon-points",
+    "etched-sigil-P610_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002-meteor-wizard-bis-gear-gems-paragon-points",
     "firebirds-breast-Unique_Chest_Set_06_x1": "firebirds-breast-Unique_Chest_Set_06_x1-meteor-wizard-bis-gear-gems-paragon-points",
     "firebirds-down-Unique_Pants_Set_06_x1": "firebirds-down-Unique_Pants_Set_06_x1-meteor-wizard-bis-gear-gems-paragon-points",
     "firebirds-pinions-Unique_Shoulder_Set_06_x1": "firebirds-pinions-Unique_Shoulder_Set_06_x1-meteor-wizard-bis-gear-gems-paragon-points",
@@ -17848,7 +17848,7 @@ export const itemsByBuild: ItemsByBuild =
   "leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points": {
     "ancient-parthan-defenders-Unique_Bracer_102_x1": "ancient-parthan-defenders-Unique_Bracer_102_x1-leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
     "band-of-might-P61_Unique_Ring_05": "band-of-might-P61_Unique_Ring_05-leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
-    "blade-of-the-tribes-P4_Unique_Mighty_2H_101": "blade-of-the-tribes-P4_Unique_Mighty_2H_101-leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
+    "blade-of-the-tribes-P610_Unique_Mighty_2H_101": "blade-of-the-tribes-P610_Unique_Mighty_2H_101-leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
     "eyes-of-the-earth-Unique_Helm_Set_15_x1": "eyes-of-the-earth-Unique_Helm_Set_15_x1-leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
     "focus-Unique_Ring_Set_001_x1": "focus-Unique_Ring_Set_001_x1-leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
     "foundation-of-the-earth-Unique_Boots_Set_15_x1": "foundation-of-the-earth-Unique_Boots_Set_15_x1-leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
@@ -18275,7 +18275,7 @@ export const itemsByBuild: ItemsByBuild =
   },
   "lon-bombardment-crusader-bis-gear-gems-paragon-points": {
     "aquila-cuirass-P4_Unique_Chest_012": "aquila-cuirass-P4_Unique_Chest_012-lon-bombardment-crusader-bis-gear-gems-paragon-points",
-    "belt-of-the-trove-P2_Unique_Belt_008": "belt-of-the-trove-P2_Unique_Belt_008-lon-bombardment-crusader-bis-gear-gems-paragon-points",
+    "belt-of-the-trove-P610_Unique_Belt_008": "belt-of-the-trove-P610_Unique_Belt_008-lon-bombardment-crusader-bis-gear-gems-paragon-points",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-lon-bombardment-crusader-bis-gear-gems-paragon-points",
     "doombringer-Unique_Sword_1H_014_x1": "doombringer-Unique_Sword_1H_014_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points",
     "heart-of-iron-P4_Unique_Chest_018": "heart-of-iron-P4_Unique_Chest_018-lon-bombardment-crusader-bis-gear-gems-paragon-points",
@@ -18290,7 +18290,7 @@ export const itemsByBuild: ItemsByBuild =
     "strongarm-bracers-Unique_Bracer_007_x1": "strongarm-bracers-Unique_Bracer_007_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points",
     "swiftmount-Unique_Flail_1H_103_x1": "swiftmount-Unique_Flail_1H_103_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points",
     "the-flavor-of-time-P66_Unique_Amulet_001": "the-flavor-of-time-P66_Unique_Amulet_001-lon-bombardment-crusader-bis-gear-gems-paragon-points",
-    "the-mortal-drama-Unique_Flail_2H_101_x1": "the-mortal-drama-Unique_Flail_2H_101_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points",
+    "the-mortal-drama-P610_Unique_Flail_2H_101": "the-mortal-drama-P610_Unique_Flail_2H_101-lon-bombardment-crusader-bis-gear-gems-paragon-points",
     "the-wailing-host-Unique_Ring_014_x1": "the-wailing-host-Unique_Ring_014_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points"
   },
   "akkhan-bombardment-crusader-solo-progression-build": {
@@ -18301,7 +18301,7 @@ export const itemsByBuild: ItemsByBuild =
     "leorics-crown-Unique_Helm_002_p1": "leorics-crown-Unique_Helm_002_p1-akkhan-bombardment-crusader-solo-progression-build",
     "strongarm-bracers-Unique_Bracer_007_x1": "strongarm-bracers-Unique_Bracer_007_x1-akkhan-bombardment-crusader-solo-progression-build",
     "the-compass-rose-Unique_Ring_013_x1": "the-compass-rose-Unique_Ring_013_x1-akkhan-bombardment-crusader-solo-progression-build",
-    "the-mortal-drama-Unique_Flail_2H_101_x1": "the-mortal-drama-Unique_Flail_2H_101_x1-akkhan-bombardment-crusader-solo-progression-build",
+    "the-mortal-drama-P610_Unique_Flail_2H_101": "the-mortal-drama-P610_Unique_Flail_2H_101-akkhan-bombardment-crusader-solo-progression-build",
     "the-travelers-pledge-Unique_Amulet_008_x1": "the-travelers-pledge-Unique_Amulet_008_x1-akkhan-bombardment-crusader-solo-progression-build"
   },
   "spirit-barrage-mundunugu-wd-trash-killer-build": {
@@ -18406,7 +18406,7 @@ export const itemsByBuild: ItemsByBuild =
     "cosmic-strand-Unique_Orb_004_x1": "cosmic-strand-Unique_Orb_004_x1-wizard-dmo-set-dungeon-guide",
     "dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2": "dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2-wizard-dmo-set-dungeon-guide",
     "fierce-gauntlets-Unique_Gloves_Set_02_p2": "fierce-gauntlets-Unique_Gloves_Set_02_p2-wizard-dmo-set-dungeon-guide",
-    "fragment-of-destiny-P4_Unique_Wand_010": "fragment-of-destiny-P4_Unique_Wand_010-wizard-dmo-set-dungeon-guide",
+    "fragment-of-destiny-P610_Unique_Wand_010": "fragment-of-destiny-P610_Unique_Wand_010-wizard-dmo-set-dungeon-guide",
     "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-wizard-dmo-set-dungeon-guide",
     "harness-of-truth-Unique_Chest_Set_02_p2": "harness-of-truth-Unique_Chest_Set_02_p2-wizard-dmo-set-dungeon-guide",
     "ice-climbers-Unique_Boots_008_x1": "ice-climbers-Unique_Boots_008_x1-wizard-dmo-set-dungeon-guide",
@@ -18443,7 +18443,7 @@ export const itemsByBuild: ItemsByBuild =
     "firebirds-pinions-Unique_Shoulder_Set_06_x1": "firebirds-pinions-Unique_Shoulder_Set_06_x1-lightning-arcane-torrent-wizard-spectral-blade-build",
     "firebirds-tarsi-Unique_Boots_Set_06_x1": "firebirds-tarsi-Unique_Boots_Set_06_x1-lightning-arcane-torrent-wizard-spectral-blade-build",
     "focus-Unique_Ring_Set_001_x1": "focus-Unique_Ring_Set_001_x1-lightning-arcane-torrent-wizard-spectral-blade-build",
-    "fragment-of-destiny-P4_Unique_Wand_010": "fragment-of-destiny-P4_Unique_Wand_010-lightning-arcane-torrent-wizard-spectral-blade-build",
+    "fragment-of-destiny-P610_Unique_Wand_010": "fragment-of-destiny-P610_Unique_Wand_010-lightning-arcane-torrent-wizard-spectral-blade-build",
     "goldwrap-Unique_Belt_010_x1": "goldwrap-Unique_Belt_010_x1-lightning-arcane-torrent-wizard-spectral-blade-build",
     "pauldrons-of-the-skeleton-king-Unique_Shoulder_103_x1": "pauldrons-of-the-skeleton-king-Unique_Shoulder_103_x1-lightning-arcane-torrent-wizard-spectral-blade-build",
     "restraint-Unique_Ring_Set_002_x1": "restraint-Unique_Ring_Set_002_x1-lightning-arcane-torrent-wizard-spectral-blade-build",
@@ -18482,7 +18482,7 @@ export const itemsByBuild: ItemsByBuild =
     "ashnagarrs-blood-bracer-P4_Unique_Bracer_004": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "deathwish-P61_Unique_Sword_1H_112_x1": "deathwish-P61_Unique_Sword_1H_112_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-    "etched-sigil-P61_Unique_Orb_002": "etched-sigil-P61_Unique_Orb_002-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+    "etched-sigil-P610_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "ring-of-royal-grandeur-Unique_Ring_107_x1": "ring-of-royal-grandeur-Unique_Ring_107_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "serpents-sparker-P68_Unique_Wand_102": "serpents-sparker-P68_Unique_Wand_102-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
@@ -18514,7 +18514,7 @@ export const itemsByBuild: ItemsByBuild =
     "the-furnace-Unique_Mace_2H_103_x1": "the-furnace-Unique_Mace_2H_103_x1-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1",
     "the-shame-of-delsere-P4_Unique_Belt_02": "the-shame-of-delsere-P4_Unique_Belt_02-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1",
     "the-travelers-pledge-Unique_Amulet_008_x1": "the-travelers-pledge-Unique_Amulet_008_x1-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1",
-    "the-twisted-sword-Unique_Sword_1H_107_x1": "the-twisted-sword-Unique_Sword_1H_107_x1-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1"
+    "the-twisted-sword-P610_Unique_Sword_1H_107": "the-twisted-sword-P610_Unique_Sword_1H_107-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1"
   },
   "akkhan-condemn-crusader-bis-gear-gems-paragon-points": {
     "aughilds-power-P66_Unique_Shoulder_008": "aughilds-power-P66_Unique_Shoulder_008-akkhan-condemn-crusader-bis-gear-gems-paragon-points",
@@ -18889,7 +18889,7 @@ export const itemsByBuild: ItemsByBuild =
   },
   "akkhan-bombardment-crusader-bis-gear-gems-paragon-points": {
     "avarice-band-Unique_Ring_108_x1": "avarice-band-Unique_Ring_108_x1-akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-    "belt-of-the-trove-P2_Unique_Belt_008": "belt-of-the-trove-P2_Unique_Belt_008-akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
+    "belt-of-the-trove-P610_Unique_Belt_008": "belt-of-the-trove-P610_Unique_Belt_008-akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
     "breastplate-of-akkhan-Unique_Chest_Set_10_x1": "breastplate-of-akkhan-Unique_Chest_Set_10_x1-akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
     "cuisses-of-akkhan-Unique_Pants_Set_10_x1": "cuisses-of-akkhan-Unique_Pants_Set_10_x1-akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
     "flail-of-the-charge-P4_Unique_Flail_2H_Set_01_x1": "flail-of-the-charge-P4_Unique_Flail_2H_Set_01_x1-akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
@@ -19259,7 +19259,7 @@ export const itemsByBuild: ItemsByBuild =
   },
   "monk-ulianas-stratagem-set-dungeon-guide": {
     "band-of-the-rue-chambers-Unique_Ring_106_x1": "band-of-the-rue-chambers-Unique_Ring_106_x1-monk-ulianas-stratagem-set-dungeon-guide",
-    "gungdo-gear-P2_Unique_Bracer_006": "gungdo-gear-P2_Unique_Bracer_006-monk-ulianas-stratagem-set-dungeon-guide",
+    "gungdo-gear-P610_Unique_Bracer_006": "gungdo-gear-P610_Unique_Bracer_006-monk-ulianas-stratagem-set-dungeon-guide",
     "ingeom-Unique_Sword_1H_113_x1": "ingeom-Unique_Sword_1H_113_x1-monk-ulianas-stratagem-set-dungeon-guide",
     "leorics-crown-Unique_Helm_002_p1": "leorics-crown-Unique_Helm_002_p1-monk-ulianas-stratagem-set-dungeon-guide",
     "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-monk-ulianas-stratagem-set-dungeon-guide",
@@ -19340,7 +19340,7 @@ export const itemsByBuild: ItemsByBuild =
     "henris-perquisition-P2_mojo_norm_unique_02": "henris-perquisition-P2_mojo_norm_unique_02-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "jerams-bracers-P3_Unique_Bracer_106": "jerams-bracers-P3_Unique_Bracer_106-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "ring-of-emptiness-P42_Unique_Ring_Haunt": "ring-of-emptiness-P42_Unique_Ring_Haunt-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-    "scrimshaw-Unique_Spear_004_p3": "scrimshaw-Unique_Spear_004_p3-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+    "scrimshaw-P610_Unique_Spear_004": "scrimshaw-P610_Unique_Spear_004-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "the-compass-rose-Unique_Ring_013_x1": "the-compass-rose-Unique_Ring_013_x1-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "the-furnace-Unique_Mace_2H_103_x1": "the-furnace-Unique_Mace_2H_103_x1-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "the-grin-reaper-Unique_VoodooMask_002_x1": "the-grin-reaper-Unique_VoodooMask_002_x1-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
@@ -19353,7 +19353,7 @@ export const itemsByBuild: ItemsByBuild =
     "captain-crimsons-silk-girdle-P66_Unique_Belt_012": "captain-crimsons-silk-girdle-P66_Unique_Belt_012-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
     "captain-crimsons-thrust-P66_Unique_Pants_012": "captain-crimsons-thrust-P66_Unique_Pants_012-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
-    "gungdo-gear-P2_Unique_Bracer_006": "gungdo-gear-P2_Unique_Bracer_006-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
+    "gungdo-gear-P610_Unique_Bracer_006": "gungdo-gear-P610_Unique_Bracer_006-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
     "lions-claw-P1_fistWeapon_norm_unique_01": "lions-claw-P1_fistWeapon_norm_unique_01-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
     "ring-of-royal-grandeur-Unique_Ring_107_x1": "ring-of-royal-grandeur-Unique_Ring_107_x1-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
     "the-compass-rose-Unique_Ring_013_x1": "the-compass-rose-Unique_Ring_013_x1-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
@@ -19391,7 +19391,7 @@ export const itemsByBuild: ItemsByBuild =
     "bindings-of-the-lesser-gods-P4_Unique_Bracer_108": "bindings-of-the-lesser-gods-P4_Unique_Bracer_108-inna-exploding-palm-monk-bis-gear-gems-paragon-points",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-inna-exploding-palm-monk-bis-gear-gems-paragon-points",
     "flying-dragon-Unique_CombatStaff_2H_009_x1": "flying-dragon-Unique_CombatStaff_2H_009_x1-inna-exploding-palm-monk-bis-gear-gems-paragon-points",
-    "gungdo-gear-P2_Unique_Bracer_006": "gungdo-gear-P2_Unique_Bracer_006-inna-exploding-palm-monk-bis-gear-gems-paragon-points",
+    "gungdo-gear-P610_Unique_Bracer_006": "gungdo-gear-P610_Unique_Bracer_006-inna-exploding-palm-monk-bis-gear-gems-paragon-points",
     "innas-favor-Unique_Belt_007_x1": "innas-favor-Unique_Belt_007_x1-inna-exploding-palm-monk-bis-gear-gems-paragon-points",
     "innas-hold-P2_Unique_Gloves_04": "innas-hold-P2_Unique_Gloves_04-inna-exploding-palm-monk-bis-gear-gems-paragon-points",
     "innas-radiance-Unique_SpiritStone_009_x1": "innas-radiance-Unique_SpiritStone_009_x1-inna-exploding-palm-monk-bis-gear-gems-paragon-points",
@@ -19962,7 +19962,7 @@ export const itemsByBuild: ItemsByBuild =
   "monk-sunwuko-exploding-palm-build-patch-2-4": {
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-monk-sunwuko-exploding-palm-build-patch-2-4",
     "focus-Unique_Ring_Set_001_x1": "focus-Unique_Ring_Set_001_x1-monk-sunwuko-exploding-palm-build-patch-2-4",
-    "gungdo-gear-P2_Unique_Bracer_006": "gungdo-gear-P2_Unique_Bracer_006-monk-sunwuko-exploding-palm-build-patch-2-4",
+    "gungdo-gear-P610_Unique_Bracer_006": "gungdo-gear-P610_Unique_Bracer_006-monk-sunwuko-exploding-palm-build-patch-2-4",
     "innas-temperance-Unique_Pants_008_x1": "innas-temperance-Unique_Pants_008_x1-monk-sunwuko-exploding-palm-build-patch-2-4",
     "innas-vast-expanse-Unique_Chest_015_x1": "innas-vast-expanse-Unique_Chest_015_x1-monk-sunwuko-exploding-palm-build-patch-2-4",
     "leorics-crown-Unique_Helm_002_p1": "leorics-crown-Unique_Helm_002_p1-monk-sunwuko-exploding-palm-build-patch-2-4",
@@ -20114,7 +20114,7 @@ export const itemsByBuild: ItemsByBuild =
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2": "dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "deathwish-P61_Unique_Sword_1H_112_x1": "deathwish-P61_Unique_Sword_1H_112_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
-    "etched-sigil-P61_Unique_Orb_002": "etched-sigil-P61_Unique_Orb_002-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "etched-sigil-P610_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "fierce-gauntlets-Unique_Gloves_Set_02_p2": "fierce-gauntlets-Unique_Gloves_Set_02_p2-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "harness-of-truth-Unique_Chest_Set_02_p2": "harness-of-truth-Unique_Chest_Set_02_p2-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
@@ -20126,7 +20126,7 @@ export const itemsByBuild: ItemsByBuild =
     "striders-of-destiny-Unique_Boots_Set_02_p2": "striders-of-destiny-Unique_Boots_Set_02_p2-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "the-compass-rose-Unique_Ring_013_x1": "the-compass-rose-Unique_Ring_013_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "the-travelers-pledge-Unique_Amulet_008_x1": "the-travelers-pledge-Unique_Amulet_008_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
-    "the-twisted-sword-Unique_Sword_1H_107_x1": "the-twisted-sword-Unique_Sword_1H_107_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
+    "the-twisted-sword-P610_Unique_Sword_1H_107": "the-twisted-sword-P610_Unique_Sword_1H_107-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
   },
   "demon-hunter-natalyas-vengeance-set-dungeon-guide": {
     "dawn-P4_Unique_HandXBow_001": "dawn-P4_Unique_HandXBow_001-demon-hunter-natalyas-vengeance-set-dungeon-guide",
@@ -20706,11 +20706,11 @@ export const buildsByItem: BuildsByItem =
     "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points": "belt-of-transcendence-P2_Unique_Belt_02-helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
     "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": "belt-of-transcendence-P2_Unique_Belt_02-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points"
   },
-  "belt-of-the-trove-P2_Unique_Belt_008": {
-    "crusader-the-thrill-conquest-build-season-12-patch-2-6-1": "belt-of-the-trove-P2_Unique_Belt_008-crusader-the-thrill-conquest-build-season-12-patch-2-6-1",
-    "invoker-thorns-crusader-bis-gear-gems-paragon-points": "belt-of-the-trove-P2_Unique_Belt_008-invoker-thorns-crusader-bis-gear-gems-paragon-points",
-    "lon-bombardment-crusader-bis-gear-gems-paragon-points": "belt-of-the-trove-P2_Unique_Belt_008-lon-bombardment-crusader-bis-gear-gems-paragon-points",
-    "akkhan-bombardment-crusader-bis-gear-gems-paragon-points": "belt-of-the-trove-P2_Unique_Belt_008-akkhan-bombardment-crusader-bis-gear-gems-paragon-points"
+  "belt-of-the-trove-P610_Unique_Belt_008": {
+    "crusader-the-thrill-conquest-build-season-12-patch-2-6-1": "belt-of-the-trove-P610_Unique_Belt_008-crusader-the-thrill-conquest-build-season-12-patch-2-6-1",
+    "invoker-thorns-crusader-bis-gear-gems-paragon-points": "belt-of-the-trove-P610_Unique_Belt_008-invoker-thorns-crusader-bis-gear-gems-paragon-points",
+    "lon-bombardment-crusader-bis-gear-gems-paragon-points": "belt-of-the-trove-P610_Unique_Belt_008-lon-bombardment-crusader-bis-gear-gems-paragon-points",
+    "akkhan-bombardment-crusader-bis-gear-gems-paragon-points": "belt-of-the-trove-P610_Unique_Belt_008-akkhan-bombardment-crusader-bis-gear-gems-paragon-points"
   },
   "binding-of-the-lost-P61_Unique_Belt_03": {
     "uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points": "binding-of-the-lost-P61_Unique_Belt_03-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points"
@@ -20725,8 +20725,8 @@ export const buildsByItem: BuildsByItem =
     "akkhan-condemn-crusader-bis-gear-gems-paragon-points": "blade-of-prophecy-P61_Unique_Sword_2H_007_x1-akkhan-condemn-crusader-bis-gear-gems-paragon-points",
     "lod-condemn-crusader-bis-gear-gems-paragon-points": "blade-of-prophecy-P61_Unique_Sword_2H_007_x1-lod-condemn-crusader-bis-gear-gems-paragon-points"
   },
-  "blade-of-the-tribes-P4_Unique_Mighty_2H_101": {
-    "leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points": "blade-of-the-tribes-P4_Unique_Mighty_2H_101-leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points"
+  "blade-of-the-tribes-P610_Unique_Mighty_2H_101": {
+    "leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points": "blade-of-the-tribes-P610_Unique_Mighty_2H_101-leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points"
   },
   "bloodsong-mail-P6_Necro_Unique_Chest_21": {
     "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": "bloodsong-mail-P6_Necro_Unique_Chest_21-lod-skeletons-group-necromancer-bis-gear-gems-paragon-points"
@@ -21237,14 +21237,14 @@ export const buildsByItem: BuildsByItem =
   "envious-blade-Unique_Dagger_103_x1": {
     "demon-hunter-shadow-set-dungeon-guide": "envious-blade-Unique_Dagger_103_x1-demon-hunter-shadow-set-dungeon-guide"
   },
-  "etched-sigil-P61_Unique_Orb_002": {
-    "wizard-energy-twister-build-with-the-dmo-set-patch-2-4": "etched-sigil-P61_Unique_Orb_002-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
-    "wizard-firebird-set-dungeon-guide": "etched-sigil-P61_Unique_Orb_002-wizard-firebird-set-dungeon-guide",
-    "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": "etched-sigil-P61_Unique_Orb_002-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-    "lod-star-pact-wizard-bis-gear-gems-paragon-points": "etched-sigil-P61_Unique_Orb_002-lod-star-pact-wizard-bis-gear-gems-paragon-points",
-    "meteor-wizard-bis-gear-gems-paragon-points": "etched-sigil-P61_Unique_Orb_002-meteor-wizard-bis-gear-gems-paragon-points",
-    "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "etched-sigil-P61_Unique_Orb_002-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-    "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "etched-sigil-P61_Unique_Orb_002-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
+  "etched-sigil-P610_Unique_Orb_002": {
+    "wizard-energy-twister-build-with-the-dmo-set-patch-2-4": "etched-sigil-P610_Unique_Orb_002-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
+    "wizard-firebird-set-dungeon-guide": "etched-sigil-P610_Unique_Orb_002-wizard-firebird-set-dungeon-guide",
+    "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": "etched-sigil-P610_Unique_Orb_002-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+    "lod-star-pact-wizard-bis-gear-gems-paragon-points": "etched-sigil-P610_Unique_Orb_002-lod-star-pact-wizard-bis-gear-gems-paragon-points",
+    "meteor-wizard-bis-gear-gems-paragon-points": "etched-sigil-P610_Unique_Orb_002-meteor-wizard-bis-gear-gems-paragon-points",
+    "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "etched-sigil-P610_Unique_Orb_002-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+    "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "etched-sigil-P610_Unique_Orb_002-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
   },
   "eunjangdo-Unique_Dagger_104_x1": {
     "follower-skills-and-gearing-guide": "eunjangdo-Unique_Dagger_104_x1-follower-skills-and-gearing-guide"
@@ -21401,9 +21401,9 @@ export const buildsByItem: BuildsByItem =
     "crusader-seeker-of-the-light-set-dungeon-guide": "foundation-of-the-light-Unique_Boots_Set_03_p3-crusader-seeker-of-the-light-set-dungeon-guide",
     "blessed-hammer-crusader-bis-gear-gems-paragon-points": "foundation-of-the-light-Unique_Boots_Set_03_p3-blessed-hammer-crusader-bis-gear-gems-paragon-points"
   },
-  "fragment-of-destiny-P4_Unique_Wand_010": {
-    "wizard-dmo-set-dungeon-guide": "fragment-of-destiny-P4_Unique_Wand_010-wizard-dmo-set-dungeon-guide",
-    "lightning-arcane-torrent-wizard-spectral-blade-build": "fragment-of-destiny-P4_Unique_Wand_010-lightning-arcane-torrent-wizard-spectral-blade-build"
+  "fragment-of-destiny-P610_Unique_Wand_010": {
+    "wizard-dmo-set-dungeon-guide": "fragment-of-destiny-P610_Unique_Wand_010-wizard-dmo-set-dungeon-guide",
+    "lightning-arcane-torrent-wizard-spectral-blade-build": "fragment-of-destiny-P610_Unique_Wand_010-lightning-arcane-torrent-wizard-spectral-blade-build"
   },
   "freeze-of-deflection-Unique_Shield_004_x1": {
     "follower-skills-and-gearing-guide": "freeze-of-deflection-Unique_Shield_004_x1-follower-skills-and-gearing-guide"
@@ -21546,11 +21546,11 @@ export const buildsByItem: BuildsByItem =
     "crusader-seeker-of-the-light-set-dungeon-guide": "guard-of-johanna-Unique_Shield_103_x1-crusader-seeker-of-the-light-set-dungeon-guide",
     "blessed-hammer-crusader-bis-gear-gems-paragon-points": "guard-of-johanna-Unique_Shield_103_x1-blessed-hammer-crusader-bis-gear-gems-paragon-points"
   },
-  "gungdo-gear-P2_Unique_Bracer_006": {
-    "monk-sunwuko-exploding-palm-build-patch-2-4": "gungdo-gear-P2_Unique_Bracer_006-monk-sunwuko-exploding-palm-build-patch-2-4",
-    "monk-ulianas-stratagem-set-dungeon-guide": "gungdo-gear-P2_Unique_Bracer_006-monk-ulianas-stratagem-set-dungeon-guide",
-    "inna-exploding-palm-monk-bis-gear-gems-paragon-points": "gungdo-gear-P2_Unique_Bracer_006-inna-exploding-palm-monk-bis-gear-gems-paragon-points",
-    "uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points": "gungdo-gear-P2_Unique_Bracer_006-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points"
+  "gungdo-gear-P610_Unique_Bracer_006": {
+    "monk-sunwuko-exploding-palm-build-patch-2-4": "gungdo-gear-P610_Unique_Bracer_006-monk-sunwuko-exploding-palm-build-patch-2-4",
+    "monk-ulianas-stratagem-set-dungeon-guide": "gungdo-gear-P610_Unique_Bracer_006-monk-ulianas-stratagem-set-dungeon-guide",
+    "inna-exploding-palm-monk-bis-gear-gems-paragon-points": "gungdo-gear-P610_Unique_Bracer_006-inna-exploding-palm-monk-bis-gear-gems-paragon-points",
+    "uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points": "gungdo-gear-P610_Unique_Bracer_006-uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points"
   },
   "gyana-na-kashu-Unique_SpiritStone_004_x1": {
     "monk-the-thrill-conquest-build-season-12-patch-2-6-1": "gyana-na-kashu-Unique_SpiritStone_004_x1-monk-the-thrill-conquest-build-season-12-patch-2-6-1",
@@ -23112,8 +23112,8 @@ export const buildsByItem: BuildsByItem =
     "lod-ltk-monk-bis-gear-gems-paragon-points": "scarbringer-P61_Unique_Fist_013_x1-lod-ltk-monk-bis-gear-gems-paragon-points",
     "swk-ltk-monk-bis-gear-gems-paragon-points": "scarbringer-P61_Unique_Fist_013_x1-swk-ltk-monk-bis-gear-gems-paragon-points"
   },
-  "scrimshaw-Unique_Spear_004_p3": {
-    "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": "scrimshaw-Unique_Spear_004_p3-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points"
+  "scrimshaw-P610_Unique_Spear_004": {
+    "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": "scrimshaw-P610_Unique_Spear_004-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points"
   },
   "scythe-of-the-cycle-P61_Unique_Scythe1H_03": {
     "lod-singularity-necromancer-bis-gear-gems-paragon-points": "scythe-of-the-cycle-P61_Unique_Scythe1H_03-lod-singularity-necromancer-bis-gear-gems-paragon-points",
@@ -23748,9 +23748,9 @@ export const buildsByItem: BuildsByItem =
     "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": "the-magistrate-P68_Unique_WizardHat_103-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "the-magistrate-P68_Unique_WizardHat_103-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points"
   },
-  "the-mortal-drama-Unique_Flail_2H_101_x1": {
-    "lon-bombardment-crusader-bis-gear-gems-paragon-points": "the-mortal-drama-Unique_Flail_2H_101_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points",
-    "akkhan-bombardment-crusader-solo-progression-build": "the-mortal-drama-Unique_Flail_2H_101_x1-akkhan-bombardment-crusader-solo-progression-build"
+  "the-mortal-drama-P610_Unique_Flail_2H_101": {
+    "lon-bombardment-crusader-bis-gear-gems-paragon-points": "the-mortal-drama-P610_Unique_Flail_2H_101-lon-bombardment-crusader-bis-gear-gems-paragon-points",
+    "akkhan-bombardment-crusader-solo-progression-build": "the-mortal-drama-P610_Unique_Flail_2H_101-akkhan-bombardment-crusader-solo-progression-build"
   },
   "the-ninth-cirri-satchel-P69_Unique_Quiver_101": {
     "god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points": "the-ninth-cirri-satchel-P69_Unique_Quiver_101-god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points"
@@ -23877,10 +23877,10 @@ export const buildsByItem: BuildsByItem =
     "natalya-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": "the-travelers-pledge-Unique_Amulet_008_x1-natalya-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
     "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "the-travelers-pledge-Unique_Amulet_008_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
   },
-  "the-twisted-sword-Unique_Sword_1H_107_x1": {
-    "wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1": "the-twisted-sword-Unique_Sword_1H_107_x1-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1",
-    "wizard-energy-twister-build-with-the-dmo-set-patch-2-4": "the-twisted-sword-Unique_Sword_1H_107_x1-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
-    "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "the-twisted-sword-Unique_Sword_1H_107_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
+  "the-twisted-sword-P610_Unique_Sword_1H_107": {
+    "wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1": "the-twisted-sword-P610_Unique_Sword_1H_107-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1",
+    "wizard-energy-twister-build-with-the-dmo-set-patch-2-4": "the-twisted-sword-P610_Unique_Sword_1H_107-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
+    "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "the-twisted-sword-P610_Unique_Sword_1H_107-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
   },
   "the-undisputed-champion-P68_Unique_BarbBelt_006": {
     "frenzy-hotns-barbarian-bis-gear-gems-paragon-points": "the-undisputed-champion-P68_Unique_BarbBelt_006-frenzy-hotns-barbarian-bis-gear-gems-paragon-points"
