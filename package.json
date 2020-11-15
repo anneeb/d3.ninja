@@ -27,7 +27,7 @@
     "@types/simple-oauth2": "^4.1.0",
     "codelyzer": "^6.0.0",
     "fs-extra": "^9.0.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "ora": "^5.0.0",
     "selenium-webdriver": "^4.0.0-alpha.7",
     "simple-oauth2": "^4.1.0",
