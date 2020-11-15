@@ -2,8 +2,6 @@
 
 Identify what [Diablo III](https://us.diablo3.com/en-us/) builds you can play based on your stash.
 
----
-
 ## Setup
 
 ### Updating the Salvage Guide data
