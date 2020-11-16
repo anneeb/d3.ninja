@@ -342,8 +342,6 @@ function getBaseBuildsAndTags(buildsByLabel: BuildsByLabel) {
     });
   });
 
-  console.log(baseBuilds);
-
   return {
     baseBuilds,
     buildTags,
@@ -476,5 +474,3 @@ export const buildItems = Object.values(getBuildsByLabel(buildsById)).reduce<
 
   return acc;
 }, {});
-
-console.log(buildItems);

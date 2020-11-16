@@ -26,5 +26,3 @@ export const stashItems = Object.values(itemsById).reduce<StashItemMap>(
   }),
   {}
 );
-
-console.log(stashItems);
