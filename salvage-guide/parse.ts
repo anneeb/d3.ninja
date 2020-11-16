@@ -143,7 +143,7 @@ async function getParsed(): Promise<ParsedData> {
       id: itemId,
       label: item.label,
       link: item.link,
-      img: `http://media.blizzard.com/d3/icons/items/small/${itemData.icon}.png`,
+      img: `https://blzmedia-a.akamaihd.net/d3/icons/items/small/${itemData.icon}.png`,
       isSet: itemData.color === "green",
       slots: itemData.slots.filter((slot: ItemSlot) =>
         new Set(Object.values(ItemSlot)).has(slot)

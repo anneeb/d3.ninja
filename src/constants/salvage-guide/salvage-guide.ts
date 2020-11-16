@@ -17,7 +17,7 @@ export const itemsById: ItemsById =
     "id": "accursed-visage-Unique_Helm_Set_03_p2",
     "label": "Accursed Visage",
     "link": "https://us.diablo3.com/en/item/accursed-visage-Unique_Helm_Set_03_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_03_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_03_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -28,7 +28,7 @@ export const itemsById: ItemsById =
     "id": "aether-walker-P1_Wand_norm_unique_01",
     "label": "Aether Walker",
     "link": "https://us.diablo3.com/en/item/aether-walker-P1_Wand_norm_unique_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p1_wand_norm_unique_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p1_wand_norm_unique_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -40,7 +40,7 @@ export const itemsById: ItemsById =
     "id": "ahavarion-spear-of-lycander-Unique_Staff_101_x1",
     "label": "Ahavarion, Spear of Lycander",
     "link": "https://us.diablo3.com/en/item/ahavarion-spear-of-lycander-Unique_Staff_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_staff_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_staff_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -52,7 +52,7 @@ export const itemsById: ItemsById =
     "id": "akarats-awakening-Unique_CruShield_104_x1",
     "label": "Akarat's Awakening",
     "link": "https://us.diablo3.com/en/item/akarats-awakening-Unique_CruShield_104_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_crushield_104_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_crushield_104_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -63,7 +63,7 @@ export const itemsById: ItemsById =
     "id": "akkhans-leniency-P65_flail2H_norm_unique_01",
     "label": "Akkhan's Leniency",
     "link": "https://us.diablo3.com/en/item/akkhans-leniency-P65_flail2H_norm_unique_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p65_flail2h_norm_unique_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p65_flail2h_norm_unique_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -75,7 +75,7 @@ export const itemsById: ItemsById =
     "id": "akkhans-manacles-P4_Unique_Bracer_103",
     "label": "Akkhan's Manacles",
     "link": "https://us.diablo3.com/en/item/akkhans-manacles-P4_Unique_Bracer_103",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_bracer_103_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_bracer_103_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -86,7 +86,7 @@ export const itemsById: ItemsById =
     "id": "ambos-pride-P67_Unique_Mighty_1H_012",
     "label": "Ambo's Pride",
     "link": "https://us.diablo3.com/en/item/ambos-pride-P67_Unique_Mighty_1H_012",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_mighty_1h_012_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_mighty_1h_012_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -98,7 +98,7 @@ export const itemsById: ItemsById =
     "id": "ancient-parthan-defenders-Unique_Bracer_102_x1",
     "label": "Ancient Parthan Defenders",
     "link": "https://us.diablo3.com/en/item/ancient-parthan-defenders-Unique_Bracer_102_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_bracer_102_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_bracer_102_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -109,7 +109,7 @@ export const itemsById: ItemsById =
     "id": "andariels-visage-Unique_Helm_003_p2",
     "label": "Andariel's Visage",
     "link": "https://us.diablo3.com/en/item/andariels-visage-Unique_Helm_003_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_003_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_003_p2_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -120,7 +120,7 @@ export const itemsById: ItemsById =
     "id": "antique-vintage-boots-P69_Unique_Boots_Set_06",
     "label": "Antique Vintage Boots",
     "link": "https://us.diablo3.com/en/item/antique-vintage-boots-P69_Unique_Boots_Set_06",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_boots_set_06_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_boots_set_06_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -131,7 +131,7 @@ export const itemsById: ItemsById =
     "id": "aquila-cuirass-P4_Unique_Chest_012",
     "label": "Aquila Cuirass",
     "link": "https://us.diablo3.com/en/item/aquila-cuirass-P4_Unique_Chest_012",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_chest_012_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_chest_012_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.TORSO
@@ -142,7 +142,7 @@ export const itemsById: ItemsById =
     "id": "arachyrs-carapace-Unique_Chest_Set_02_p3",
     "label": "Arachyr's Carapace",
     "link": "https://us.diablo3.com/en/item/arachyrs-carapace-Unique_Chest_Set_02_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_02_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_02_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -153,7 +153,7 @@ export const itemsById: ItemsById =
     "id": "arachyrs-claws-Unique_Gloves_Set_02_p3",
     "label": "Arachyr's Claws",
     "link": "https://us.diablo3.com/en/item/arachyrs-claws-Unique_Gloves_Set_02_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_02_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_02_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -164,7 +164,7 @@ export const itemsById: ItemsById =
     "id": "arachyrs-legs-Unique_Pants_Set_02_p3",
     "label": "Arachyr's Legs",
     "link": "https://us.diablo3.com/en/item/arachyrs-legs-Unique_Pants_Set_02_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_02_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_02_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -175,7 +175,7 @@ export const itemsById: ItemsById =
     "id": "arachyrs-mantle-Unique_Shoulder_Set_02_p3",
     "label": "Arachyr's Mantle",
     "link": "https://us.diablo3.com/en/item/arachyrs-mantle-Unique_Shoulder_Set_02_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_02_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_02_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -186,7 +186,7 @@ export const itemsById: ItemsById =
     "id": "arachyrs-stride-Unique_Boots_Set_02_p3",
     "label": "Arachyr's Stride",
     "link": "https://us.diablo3.com/en/item/arachyrs-stride-Unique_Boots_Set_02_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_02_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_02_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -197,7 +197,7 @@ export const itemsById: ItemsById =
     "id": "arachyrs-visage-Unique_Helm_Set_02_p3",
     "label": "Arachyr's Visage",
     "link": "https://us.diablo3.com/en/item/arachyrs-visage-Unique_Helm_Set_02_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_02_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_02_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -208,7 +208,7 @@ export const itemsById: ItemsById =
     "id": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004",
     "label": "Ashnagarr's Blood Bracer",
     "link": "https://us.diablo3.com/en/item/ashnagarrs-blood-bracer-P4_Unique_Bracer_004",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_bracer_004_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_bracer_004_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -219,7 +219,7 @@ export const itemsById: ItemsById =
     "id": "aughilds-power-P66_Unique_Shoulder_008",
     "label": "Aughild's Power",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/aughilds-power",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_shoulder_008_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_shoulder_008_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -230,7 +230,7 @@ export const itemsById: ItemsById =
     "id": "aughilds-search-P66_Unique_Bracer_009",
     "label": "Aughild's Search",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/aughilds-search",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_bracer_009_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_bracer_009_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.BRACERS
@@ -241,7 +241,7 @@ export const itemsById: ItemsById =
     "id": "augustines-panacea-P41_Unique_Quiver_001",
     "label": "Augustine's Panacea",
     "link": "https://us.diablo3.com/en/item/augustines-panacea-P41_Unique_Quiver_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p41_unique_quiver_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p41_unique_quiver_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -252,7 +252,7 @@ export const itemsById: ItemsById =
     "id": "avarice-band-Unique_Ring_108_x1",
     "label": "Avarice Band",
     "link": "https://us.diablo3.com/en/item/avarice-band-Unique_Ring_108_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_108_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_108_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -264,7 +264,7 @@ export const itemsById: ItemsById =
     "id": "azurewrath-P3_Unique_Sword_1H_012",
     "label": "Azurewrath",
     "link": "https://us.diablo3.com/en/item/azurewrath-P3_Unique_Sword_1H_012",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p3_unique_sword_1h_012_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p3_unique_sword_1h_012_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -276,7 +276,7 @@ export const itemsById: ItemsById =
     "id": "bakuli-jungle-wraps-P61_Unique_Belt_007",
     "label": "Bakuli Jungle Wraps",
     "link": "https://us.diablo3.com/en/item/bakuli-jungle-wraps-P61_Unique_Belt_007",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_belt_007_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_belt_007_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -287,7 +287,7 @@ export const itemsById: ItemsById =
     "id": "balance-P61_Unique_CombatStaff_2H_001",
     "label": "Balance",
     "link": "https://us.diablo3.com/en/item/balance-P61_Unique_CombatStaff_2H_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_combatstaff_2h_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_combatstaff_2h_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -299,7 +299,7 @@ export const itemsById: ItemsById =
     "id": "balefire-caster-Unique_HandXBow_004_p1",
     "label": "Balefire Caster",
     "link": "https://us.diablo3.com/en/item/balefire-caster-Unique_HandXBow_004_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_handxbow_004_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_handxbow_004_p1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -311,7 +311,7 @@ export const itemsById: ItemsById =
     "id": "band-of-might-P61_Unique_Ring_05",
     "label": "Band of Might",
     "link": "https://us.diablo3.com/en/item/band-of-might-P61_Unique_Ring_05",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_ring_05_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_ring_05_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -323,7 +323,7 @@ export const itemsById: ItemsById =
     "id": "band-of-the-rue-chambers-Unique_Ring_106_x1",
     "label": "Band of the Rue Chambers",
     "link": "https://us.diablo3.com/en/item/band-of-the-rue-chambers-Unique_Ring_106_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_106_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_106_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -335,7 +335,7 @@ export const itemsById: ItemsById =
     "id": "bastions-revered-P68_Unique_Mighty_2H_004",
     "label": "Bastion's Revered",
     "link": "https://us.diablo3.com/en/item/bastions-revered-P68_Unique_Mighty_2H_004",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_mighty_2h_004_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_mighty_2h_004_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -347,7 +347,7 @@ export const itemsById: ItemsById =
     "id": "bazubands-of-justice-P67_Unique_Gloves_Set_02",
     "label": "Bazubands of Justice",
     "link": "https://us.diablo3.com/en/item/bazubands-of-justice-P67_Unique_Gloves_Set_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_gloves_set_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_gloves_set_02_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -358,7 +358,7 @@ export const itemsById: ItemsById =
     "id": "belt-of-transcendence-P2_Unique_Belt_02",
     "label": "Belt of Transcendence",
     "link": "https://us.diablo3.com/en/item/belt-of-transcendence-P2_Unique_Belt_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_belt_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_belt_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -369,7 +369,7 @@ export const itemsById: ItemsById =
     "id": "belt-of-the-trove-P610_Unique_Belt_008",
     "label": "Belt of the Trove",
     "link": "https://us.diablo3.com/en/item/belt-of-the-trove-P610_Unique_Belt_008",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_belt_008_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p610_unique_belt_008_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -380,7 +380,7 @@ export const itemsById: ItemsById =
     "id": "binding-of-the-lost-P61_Unique_Belt_03",
     "label": "Binding of the Lost",
     "link": "https://us.diablo3.com/en/item/binding-of-the-lost-P61_Unique_Belt_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_belt_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_belt_03_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -391,7 +391,7 @@ export const itemsById: ItemsById =
     "id": "bindings-of-the-lesser-gods-P4_Unique_Bracer_108",
     "label": "Bindings of the Lesser Gods",
     "link": "https://us.diablo3.com/en/item/bindings-of-the-lesser-gods-P4_Unique_Bracer_108",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_bracer_108_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_bracer_108_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -402,7 +402,7 @@ export const itemsById: ItemsById =
     "id": "blade-of-prophecy-P61_Unique_Sword_2H_007_x1",
     "label": "Blade of Prophecy",
     "link": "https://us.diablo3.com/en/item/blade-of-prophecy-P61_Unique_Sword_2H_007_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_sword_2h_007_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_sword_2h_007_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -414,7 +414,7 @@ export const itemsById: ItemsById =
     "id": "blade-of-the-tribes-P610_Unique_Mighty_2H_101",
     "label": "Blade of the Tribes",
     "link": "https://us.diablo3.com/en/item/blade-of-the-tribes-P610_Unique_Mighty_2H_101",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_mighty_2h_101_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p610_unique_mighty_2h_101_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -426,7 +426,7 @@ export const itemsById: ItemsById =
     "id": "bloodsong-mail-P6_Necro_Unique_Chest_21",
     "label": "Bloodsong Mail",
     "link": "https://us.diablo3.com/en/item/bloodsong-mail-P6_Necro_Unique_Chest_21",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_unique_chest_21_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_unique_chest_21_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.TORSO
@@ -437,7 +437,7 @@ export const itemsById: ItemsById =
     "id": "bloodtide-blade-P65_Unique_Scythe2H_02",
     "label": "Bloodtide Blade",
     "link": "https://us.diablo3.com/en/item/bloodtide-blade-P65_Unique_Scythe2H_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p65_unique_scythe2h_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p65_unique_scythe2h_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -449,7 +449,7 @@ export const itemsById: ItemsById =
     "id": "bombardiers-rucksack-Unique_Quiver_102_x1",
     "label": "Bombardier's Rucksack",
     "link": "https://us.diablo3.com/en/item/bombardiers-rucksack-Unique_Quiver_102_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_quiver_102_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_quiver_102_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -460,7 +460,7 @@ export const itemsById: ItemsById =
     "id": "bone-ringer-P6_Unique_Phylactery_02",
     "label": "Bone Ringer",
     "link": "https://us.diablo3.com/en/item/bone-ringer-P6_Unique_Phylactery_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_phylactery_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_phylactery_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -471,7 +471,7 @@ export const itemsById: ItemsById =
     "id": "borns-frozen-soul-Unique_Chest_025_x1",
     "label": "Born's Frozen Soul",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/borns-frozen-soul",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_025_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_025_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -482,7 +482,7 @@ export const itemsById: ItemsById =
     "id": "borns-furious-wrath-Unique_Sword_1H_018_x1",
     "label": "Born's Furious Wrath",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/borns-furious-wrath",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_sword_1h_018_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_sword_1h_018_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -494,7 +494,7 @@ export const itemsById: ItemsById =
     "id": "borns-privilege-Unique_Shoulder_006_x1",
     "label": "Born's Privilege",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/borns-privilege",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_006_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_006_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -505,7 +505,7 @@ export const itemsById: ItemsById =
     "id": "bracer-of-fury-P61_Unique_Bracer_104",
     "label": "Bracer of Fury",
     "link": "https://us.diablo3.com/en/item/bracer-of-fury-P61_Unique_Bracer_104",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_bracer_104_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_bracer_104_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -516,7 +516,7 @@ export const itemsById: ItemsById =
     "id": "bracers-of-destruction-P67_Unique_Bracer_100",
     "label": "Bracers of Destruction",
     "link": "https://us.diablo3.com/en/item/bracers-of-destruction-P67_Unique_Bracer_100",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_bracer_100_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_bracer_100_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -527,7 +527,7 @@ export const itemsById: ItemsById =
     "id": "bracers-of-the-first-men-P61_Unique_Bracer_105",
     "label": "Bracers of the First Men",
     "link": "https://us.diablo3.com/en/item/bracers-of-the-first-men-P61_Unique_Bracer_105",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_bracer_105_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_bracer_105_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -538,7 +538,7 @@ export const itemsById: ItemsById =
     "id": "breastplate-of-akkhan-Unique_Chest_Set_10_x1",
     "label": "Breastplate of Akkhan",
     "link": "https://us.diablo3.com/en/item/breastplate-of-akkhan-Unique_Chest_Set_10_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_10_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_10_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -549,7 +549,7 @@ export const itemsById: ItemsById =
     "id": "brigandine-of-valor-P67_Unique_Chest_Set_01",
     "label": "Brigandine of Valor",
     "link": "https://us.diablo3.com/en/item/brigandine-of-valor-P67_Unique_Chest_Set_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_chest_set_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_chest_set_01_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -560,7 +560,7 @@ export const itemsById: ItemsById =
     "id": "briggs-wrath-P6_Unique_Ring_02",
     "label": "Briggs' Wrath",
     "link": "https://us.diablo3.com/en/item/briggs-wrath-P6_Unique_Ring_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_ring_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_ring_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -572,7 +572,7 @@ export const itemsById: ItemsById =
     "id": "bulkathoss-solemn-vow-Unique_Mighty_1H_010_x1",
     "label": "Bul-Kathos's Solemn Vow",
     "link": "https://us.diablo3.com/en/item/bulkathoss-solemn-vow-Unique_Mighty_1H_010_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mighty_1h_010_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mighty_1h_010_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -584,7 +584,7 @@ export const itemsById: ItemsById =
     "id": "bulkathoss-warrior-blood-Unique_Mighty_1H_011_x1",
     "label": "Bul-Kathos's Warrior Blood",
     "link": "https://us.diablo3.com/en/item/bulkathoss-warrior-blood-Unique_Mighty_1H_011_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mighty_1h_011_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mighty_1h_011_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -596,7 +596,7 @@ export const itemsById: ItemsById =
     "id": "burden-of-the-invoker-Unique_Shoulder_Set_12_x1",
     "label": "Burden of the Invoker",
     "link": "https://us.diablo3.com/en/item/burden-of-the-invoker-Unique_Shoulder_Set_12_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_12_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_12_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -607,7 +607,7 @@ export const itemsById: ItemsById =
     "id": "burizado-kyanon-Unique_XBow_011_x1",
     "label": "Buriza-Do Kyanon",
     "link": "https://us.diablo3.com/en/item/burizado-kyanon-Unique_XBow_011_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_xbow_011_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_xbow_011_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_HAND,
@@ -619,7 +619,7 @@ export const itemsById: ItemsById =
     "id": "cage-of-the-hellborn-Unique_Chest_Set_03_p2",
     "label": "Cage of the Hellborn",
     "link": "https://us.diablo3.com/en/item/cage-of-the-hellborn-Unique_Chest_Set_03_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_03_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_03_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -630,7 +630,7 @@ export const itemsById: ItemsById =
     "id": "cains-habit-P66_Unique_Pants_010",
     "label": "Cain's Habit",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/cains-habit",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_pants_010_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_pants_010_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -641,7 +641,7 @@ export const itemsById: ItemsById =
     "id": "cains-scrivener-P66_Unique_Gloves_015",
     "label": "Cain's Scrivener",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/cains-scriviner",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_gloves_015_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_gloves_015_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -652,7 +652,7 @@ export const itemsById: ItemsById =
     "id": "calamity-Unique_HandXBow_012_x1",
     "label": "Calamity",
     "link": "https://us.diablo3.com/en/item/calamity-Unique_HandXBow_012_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_handxbow_012_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_handxbow_012_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -664,7 +664,7 @@ export const itemsById: ItemsById =
     "id": "cams-rebuttal-Unique_Sword_2H_102_x1",
     "label": "Cam's Rebuttal",
     "link": "https://us.diablo3.com/en/item/cams-rebuttal-Unique_Sword_2H_102_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_sword_2h_102_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_sword_2h_102_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -676,7 +676,7 @@ export const itemsById: ItemsById =
     "id": "captain-crimsons-silk-girdle-P66_Unique_Belt_012",
     "label": "Captain Crimson's Silk Girdle",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/captain-crimsons-silk-girdle",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_belt_012_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_belt_012_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.WAIST
@@ -687,7 +687,7 @@ export const itemsById: ItemsById =
     "id": "captain-crimsons-thrust-P66_Unique_Pants_012",
     "label": "Captain Crimson's Thrust",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/captain-crimsons-thrust",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_pants_012_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_pants_012_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -698,7 +698,7 @@ export const itemsById: ItemsById =
     "id": "captain-crimsons-waders-P66_Unique_Boots_017",
     "label": "Captain Crimson's Waders",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/captain-crimsons-waders",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_boots_017_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_boots_017_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -709,7 +709,7 @@ export const itemsById: ItemsById =
     "id": "carnevil-P65_Unique_VoodooMask_101_x1",
     "label": "Carnevil",
     "link": "https://us.diablo3.com/en/item/carnevil-P65_Unique_VoodooMask_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p65_unique_voodoomask_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p65_unique_voodoomask_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -720,7 +720,7 @@ export const itemsById: ItemsById =
     "id": "cesars-memento-P61_Unique_Bracer_107",
     "label": "Cesar's Memento",
     "link": "https://us.diablo3.com/en/item/cesars-memento-P61_Unique_Bracer_107",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_bracer_107_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_bracer_107_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -731,7 +731,7 @@ export const itemsById: ItemsById =
     "id": "chain-of-shadows-P4_Unique_Belt_01",
     "label": "Chain of Shadows",
     "link": "https://us.diablo3.com/en/item/chain-of-shadows-P4_Unique_Belt_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_belt_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_belt_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -742,7 +742,7 @@ export const itemsById: ItemsById =
     "id": "chantodos-force-Unique_Orb_011_x1",
     "label": "Chantodo's Force",
     "link": "https://us.diablo3.com/en/item/chantodos-force-Unique_Orb_011_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_orb_011_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_orb_011_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -753,7 +753,7 @@ export const itemsById: ItemsById =
     "id": "chantodos-will-Unique_Wand_012_x1",
     "label": "Chantodo's Will",
     "link": "https://us.diablo3.com/en/item/chantodos-will-Unique_Wand_012_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_wand_012_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_wand_012_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -765,7 +765,7 @@ export const itemsById: ItemsById =
     "id": "chausses-of-valor-P67_Unique_Pants_Set_01",
     "label": "Chausses of Valor",
     "link": "https://us.diablo3.com/en/item/chausses-of-valor-P67_Unique_Pants_Set_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_pants_set_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_pants_set_01_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -776,7 +776,7 @@ export const itemsById: ItemsById =
     "id": "chilaniks-chain-Unique_BarbBelt_101_x1",
     "label": "Chilanik's Chain",
     "link": "https://us.diablo3.com/en/item/chilaniks-chain-Unique_BarbBelt_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_barbbelt_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_barbbelt_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -787,7 +787,7 @@ export const itemsById: ItemsById =
     "id": "cindercoat-Unique_Chest_006_x1",
     "label": "Cindercoat",
     "link": "https://us.diablo3.com/en/item/cindercoat-Unique_Chest_006_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_006_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_006_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.TORSO
@@ -798,7 +798,7 @@ export const itemsById: ItemsById =
     "id": "circle-of-nailujs-evol-P6_Unique_Ring_01",
     "label": "Circle of Nailuj's Evol",
     "link": "https://us.diablo3.com/en/item/circle-of-nailujs-evol-P6_Unique_Ring_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_ring_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_ring_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -810,7 +810,7 @@ export const itemsById: ItemsById =
     "id": "claws-of-savages-P68_Unique_Gloves_Set_05",
     "label": "Claws of Savages",
     "link": "https://us.diablo3.com/en/item/claws-of-savages-P68_Unique_Gloves_Set_05",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_gloves_set_05_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_gloves_set_05_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -821,7 +821,7 @@ export const itemsById: ItemsById =
     "id": "coils-of-the-first-spider-P3_Unique_Bracer_107",
     "label": "Coils of the First Spider",
     "link": "https://us.diablo3.com/en/item/coils-of-the-first-spider-P3_Unique_Bracer_107",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p3_unique_bracer_107_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p3_unique_bracer_107_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -832,7 +832,7 @@ export const itemsById: ItemsById =
     "id": "cold-cathode-trousers-P69_Unique_Pants_Set_06",
     "label": "Cold Cathode Trousers",
     "link": "https://us.diablo3.com/en/item/cold-cathode-trousers-P69_Unique_Pants_Set_06",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_pants_set_06_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_pants_set_06_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -843,7 +843,7 @@ export const itemsById: ItemsById =
     "id": "convention-of-elements-P2_Unique_Ring_04",
     "label": "Convention of Elements",
     "link": "https://us.diablo3.com/en/item/convention-of-elements-P2_Unique_Ring_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_ring_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_ring_04_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -855,7 +855,7 @@ export const itemsById: ItemsById =
     "id": "corpsewhisper-pauldrons-P6_Necro_Unique_Shoulders_21",
     "label": "Corpsewhisper Pauldrons",
     "link": "https://us.diablo3.com/en/item/corpsewhisper-pauldrons-P6_Necro_Unique_Shoulders_21",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_unique_shoulders_21_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_unique_shoulders_21_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.SHOULDERS
@@ -866,7 +866,7 @@ export const itemsById: ItemsById =
     "id": "corruption-Unique_Shoulder_007_x1",
     "label": "Corruption",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/corruption",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_007_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_007_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.SHOULDERS
@@ -877,7 +877,7 @@ export const itemsById: ItemsById =
     "id": "cosmic-strand-Unique_Orb_004_x1",
     "label": "Cosmic Strand",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/cosmic-strand",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_orb_004_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_orb_004_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -888,7 +888,7 @@ export const itemsById: ItemsById =
     "id": "crashing-rain-P2_Unique_Belt_01",
     "label": "Crashing Rain",
     "link": "https://us.diablo3.com/en/item/crashing-rain-P2_Unique_Belt_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_belt_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_belt_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -899,7 +899,7 @@ export const itemsById: ItemsById =
     "id": "crown-of-valor-P67_Unique_Helm_Set_01",
     "label": "Crown of Valor",
     "link": "https://us.diablo3.com/en/item/crown-of-valor-P67_Unique_Helm_Set_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_helm_set_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_helm_set_01_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -910,7 +910,7 @@ export const itemsById: ItemsById =
     "id": "crown-of-the-invoker-Unique_Helm_Set_12_x1",
     "label": "Crown of the Invoker",
     "link": "https://us.diablo3.com/en/item/crown-of-the-invoker-Unique_Helm_Set_12_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_12_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_12_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -921,7 +921,7 @@ export const itemsById: ItemsById =
     "id": "crown-of-the-light-Unique_Helm_Set_03_p3",
     "label": "Crown of the Light",
     "link": "https://us.diablo3.com/en/item/crown-of-the-light-Unique_Helm_Set_03_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_03_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_03_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -932,7 +932,7 @@ export const itemsById: ItemsById =
     "id": "crystal-fist-P41_Unique_Fist_008",
     "label": "Crystal Fist",
     "link": "https://us.diablo3.com/en/item/crystal-fist-P41_Unique_Fist_008",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p41_unique_fist_008_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p41_unique_fist_008_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -944,7 +944,7 @@ export const itemsById: ItemsById =
     "id": "cuirass-of-the-wastes-Unique_Chest_Set_01_p2",
     "label": "Cuirass of the Wastes",
     "link": "https://us.diablo3.com/en/item/cuirass-of-the-wastes-Unique_Chest_Set_01_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_01_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_01_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -955,7 +955,7 @@ export const itemsById: ItemsById =
     "id": "cuisses-of-akkhan-Unique_Pants_Set_10_x1",
     "label": "Cuisses of Akkhan",
     "link": "https://us.diablo3.com/en/item/cuisses-of-akkhan-Unique_Pants_Set_10_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_10_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_10_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -966,7 +966,7 @@ export const itemsById: ItemsById =
     "id": "danettas-revenge-Unique_HandXBow_002_x1",
     "label": "Danetta's Revenge",
     "link": "https://us.diablo3.com/en/item/danettas-revenge-Unique_HandXBow_002_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_handxbow_002_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_handxbow_002_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -978,7 +978,7 @@ export const itemsById: ItemsById =
     "id": "danettas-spite-Unique_HandXBow_001_x1",
     "label": "Danetta's Spite",
     "link": "https://us.diablo3.com/en/item/danettas-spite-Unique_HandXBow_001_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_handxbow_001_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_handxbow_001_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -990,7 +990,7 @@ export const itemsById: ItemsById =
     "id": "darklight-P67_Unique_Flail_1H_106",
     "label": "Darklight",
     "link": "https://us.diablo3.com/en/item/darklight-P67_Unique_Flail_1H_106",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_flail_1h_106_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_flail_1h_106_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1002,7 +1002,7 @@ export const itemsById: ItemsById =
     "id": "dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2",
     "label": "Dashing Pauldrons of Despair",
     "link": "https://us.diablo3.com/en/item/dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_02_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_02_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -1013,7 +1013,7 @@ export const itemsById: ItemsById =
     "id": "dawn-P4_Unique_HandXBow_001",
     "label": "Dawn",
     "link": "https://us.diablo3.com/en/item/dawn-P4_Unique_HandXBow_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_handxbow_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_handxbow_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1025,7 +1025,7 @@ export const itemsById: ItemsById =
     "id": "dayntees-binding-P61_Unique_Belt_01",
     "label": "Dayntee's Binding",
     "link": "https://us.diablo3.com/en/item/dayntees-binding-P61_Unique_Belt_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_belt_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_belt_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -1036,7 +1036,7 @@ export const itemsById: ItemsById =
     "id": "dead-mans-legacy-P61_Unique_Quiver_007",
     "label": "Dead Man's Legacy",
     "link": "https://us.diablo3.com/en/item/dead-mans-legacy-P61_Unique_Quiver_007",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_quiver_007_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_quiver_007_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -1047,7 +1047,7 @@ export const itemsById: ItemsById =
     "id": "deadly-rebirth-Unique_CeremonialDagger_003_x1",
     "label": "Deadly Rebirth",
     "link": "https://us.diablo3.com/en/item/deadly-rebirth-Unique_CeremonialDagger_003_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ceremonialdagger_003_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ceremonialdagger_003_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1059,7 +1059,7 @@ export const itemsById: ItemsById =
     "id": "death-watch-mantle-Unique_Shoulder_002_p2",
     "label": "Death Watch Mantle",
     "link": "https://us.diablo3.com/en/item/death-watch-mantle-Unique_Shoulder_002_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_002_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_002_p2_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.SHOULDERS
@@ -1070,7 +1070,7 @@ export const itemsById: ItemsById =
     "id": "deathwish-P61_Unique_Sword_1H_112_x1",
     "label": "Deathwish",
     "link": "https://us.diablo3.com/en/item/deathwish-P61_Unique_Sword_1H_112_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_sword_1h_112_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_sword_1h_112_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1082,7 +1082,7 @@ export const itemsById: ItemsById =
     "id": "decree-of-justice-P67_Unique_Helm_Set_02",
     "label": "Decree of Justice",
     "link": "https://us.diablo3.com/en/item/decree-of-justice-P67_Unique_Helm_Set_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_helm_set_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_helm_set_02_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -1093,7 +1093,7 @@ export const itemsById: ItemsById =
     "id": "defender-of-westmarch-Unique_Shield_101_p2",
     "label": "Defender of Westmarch",
     "link": "https://us.diablo3.com/en/item/defender-of-westmarch-Unique_Shield_101_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shield_101_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shield_101_p2_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -1104,7 +1104,7 @@ export const itemsById: ItemsById =
     "id": "denial-P61_Unique_Shield_007",
     "label": "Denial",
     "link": "https://us.diablo3.com/en/item/denial-P61_Unique_Shield_007",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_shield_007_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_shield_007_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -1115,7 +1115,7 @@ export const itemsById: ItemsById =
     "id": "depth-diggers-Unique_Pants_006_p1",
     "label": "Depth Diggers",
     "link": "https://us.diablo3.com/en/item/depth-diggers-Unique_Pants_006_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_006_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_006_p1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEGS
@@ -1126,7 +1126,7 @@ export const itemsById: ItemsById =
     "id": "devastator-Unique_Mace_1H_009_x1",
     "label": "Devastator",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/devastator",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mace_1h_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mace_1h_009_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1138,7 +1138,7 @@ export const itemsById: ItemsById =
     "id": "doombringer-Unique_Sword_1H_014_x1",
     "label": "Doombringer",
     "link": "https://us.diablo3.com/en/item/doombringer-Unique_Sword_1H_014_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_sword_1h_014_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_sword_1h_014_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1150,7 +1150,7 @@ export const itemsById: ItemsById =
     "id": "drakons-lesson-P4_Unique_Bracer_110",
     "label": "Drakon's Lesson",
     "link": "https://us.diablo3.com/en/item/drakons-lesson-P4_Unique_Bracer_110",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_bracer_110_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_bracer_110_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -1161,7 +1161,7 @@ export const itemsById: ItemsById =
     "id": "dystopian-goggles-P69_Unique_Helm_Set_06",
     "label": "Dystopian Goggles",
     "link": "https://us.diablo3.com/en/item/dystopian-goggles-P69_Unique_Helm_Set_06",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_helm_set_06_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_helm_set_06_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -1172,7 +1172,7 @@ export const itemsById: ItemsById =
     "id": "echoing-fury-P66_Unique_Mace_1H_001",
     "label": "Echoing Fury",
     "link": "https://us.diablo3.com/en/item/echoing-fury-P66_Unique_Mace_1H_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_mace_1h_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_mace_1h_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1184,7 +1184,7 @@ export const itemsById: ItemsById =
     "id": "eightdemon-boots-Unique_Boots_Set_08_x1",
     "label": "Eight-Demon Boots",
     "link": "https://us.diablo3.com/en/item/eightdemon-boots-Unique_Boots_Set_08_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_08_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_08_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -1195,7 +1195,7 @@ export const itemsById: ItemsById =
     "id": "elegant-pants-P69_Necro_Set_5_Pants",
     "label": "Elegant Pants",
     "link": "https://us.diablo3.com/en/item/elegant-pants-P69_Necro_Set_5_Pants",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_necro_set_5_pants_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_necro_set_5_pants_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -1206,7 +1206,7 @@ export const itemsById: ItemsById =
     "id": "elusive-ring-P4_Unique_Ring_02",
     "label": "Elusive Ring",
     "link": "https://us.diablo3.com/en/item/elusive-ring-P4_Unique_Ring_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_ring_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_ring_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -1218,7 +1218,7 @@ export const itemsById: ItemsById =
     "id": "emimeis-duffel-P69_Unique_Quiver_103",
     "label": "Emimei's Duffel",
     "link": "https://us.diablo3.com/en/item/emimeis-duffel-P69_Unique_Quiver_103",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_quiver_103_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_quiver_103_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -1229,7 +1229,7 @@ export const itemsById: ItemsById =
     "id": "enchanting-favor-x1_FollowerItem_Templar_Legendary_01",
     "label": "Enchanting Favor",
     "link": "https://us.diablo3.com/en/item/enchanting-favor-x1_FollowerItem_Templar_Legendary_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/x1_followeritem_templar_legendary_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/x1_followeritem_templar_legendary_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.FOLLOWER_SPECIAL
@@ -1240,7 +1240,7 @@ export const itemsById: ItemsById =
     "id": "envious-blade-Unique_Dagger_103_x1",
     "label": "Envious Blade",
     "link": "https://us.diablo3.com/en/item/envious-blade-Unique_Dagger_103_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_dagger_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_dagger_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1252,7 +1252,7 @@ export const itemsById: ItemsById =
     "id": "etched-sigil-P610_Unique_Orb_002",
     "label": "Etched Sigil",
     "link": "https://us.diablo3.com/en/item/etched-sigil-P610_Unique_Orb_002",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_orb_002_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p610_unique_orb_002_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -1263,7 +1263,7 @@ export const itemsById: ItemsById =
     "id": "eunjangdo-Unique_Dagger_104_x1",
     "label": "Eun-jang-do",
     "link": "https://us.diablo3.com/en/item/eunjangdo-Unique_Dagger_104_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_dagger_104_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_dagger_104_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1275,7 +1275,7 @@ export const itemsById: ItemsById =
     "id": "extravagant-shoes-P69_Necro_Set_5_Boots",
     "label": "Extravagant Shoes",
     "link": "https://us.diablo3.com/en/item/extravagant-shoes-P69_Necro_Set_5_Boots",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_necro_set_5_boots_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_necro_set_5_boots_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -1286,7 +1286,7 @@ export const itemsById: ItemsById =
     "id": "eye-of-etlich-Unique_Amulet_014_x1",
     "label": "Eye of Etlich",
     "link": "https://us.diablo3.com/en/item/eye-of-etlich-Unique_Amulet_014_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_014_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_014_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -1297,7 +1297,7 @@ export const itemsById: ItemsById =
     "id": "eye-of-peshkov-Unique_SpiritStone_103_x1",
     "label": "Eye of Peshkov",
     "link": "https://us.diablo3.com/en/item/eye-of-peshkov-Unique_SpiritStone_103_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_spiritstone_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_spiritstone_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -1308,7 +1308,7 @@ export const itemsById: ItemsById =
     "id": "eyes-of-the-earth-Unique_Helm_Set_15_x1",
     "label": "Eyes of the Earth",
     "link": "https://us.diablo3.com/en/item/eyes-of-the-earth-Unique_Helm_Set_15_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_15_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_15_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -1319,7 +1319,7 @@ export const itemsById: ItemsById =
     "id": "faithful-memory-P61_Unique_Sword_2H_012_x1",
     "label": "Faithful Memory",
     "link": "https://us.diablo3.com/en/item/faithful-memory-P61_Unique_Sword_2H_012_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_sword_2h_012_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_sword_2h_012_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1331,7 +1331,7 @@ export const itemsById: ItemsById =
     "id": "fate-of-the-fell-P61_Unique_Flail_2H_103_x1",
     "label": "Fate of the Fell",
     "link": "https://us.diablo3.com/en/item/fate-of-the-fell-P61_Unique_Flail_2H_103_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_flail_2h_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_flail_2h_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1343,7 +1343,7 @@ export const itemsById: ItemsById =
     "id": "fazulas-improbable-chain-P4_Unique_Belt_07",
     "label": "Fazula's Improbable Chain",
     "link": "https://us.diablo3.com/en/item/fazulas-improbable-chain-P4_Unique_Belt_07",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_belt_07_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_belt_07_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -1354,7 +1354,7 @@ export const itemsById: ItemsById =
     "id": "fiendish-grips-Unique_Gloves_Set_03_p2",
     "label": "Fiendish Grips",
     "link": "https://us.diablo3.com/en/item/fiendish-grips-Unique_Gloves_Set_03_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_03_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_03_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -1365,7 +1365,7 @@ export const itemsById: ItemsById =
     "id": "fierce-gauntlets-Unique_Gloves_Set_02_p2",
     "label": "Fierce Gauntlets",
     "link": "https://us.diablo3.com/en/item/fierce-gauntlets-Unique_Gloves_Set_02_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_02_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_02_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -1376,7 +1376,7 @@ export const itemsById: ItemsById =
     "id": "firebirds-breast-Unique_Chest_Set_06_x1",
     "label": "Firebird's Breast",
     "link": "https://us.diablo3.com/en/item/firebirds-breast-Unique_Chest_Set_06_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_06_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_06_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -1387,7 +1387,7 @@ export const itemsById: ItemsById =
     "id": "firebirds-down-Unique_Pants_Set_06_x1",
     "label": "Firebird's Down",
     "link": "https://us.diablo3.com/en/item/firebirds-down-Unique_Pants_Set_06_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_06_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_06_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -1398,7 +1398,7 @@ export const itemsById: ItemsById =
     "id": "firebirds-pinions-Unique_Shoulder_Set_06_x1",
     "label": "Firebird's Pinions",
     "link": "https://us.diablo3.com/en/item/firebirds-pinions-Unique_Shoulder_Set_06_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_06_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_06_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -1409,7 +1409,7 @@ export const itemsById: ItemsById =
     "id": "firebirds-plume-Unique_Helm_Set_06_x1",
     "label": "Firebird's Plume",
     "link": "https://us.diablo3.com/en/item/firebirds-plume-Unique_Helm_Set_06_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_06_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_06_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -1420,7 +1420,7 @@ export const itemsById: ItemsById =
     "id": "firebirds-talons-Unique_Gloves_Set_06_x1",
     "label": "Firebird's Talons",
     "link": "https://us.diablo3.com/en/item/firebirds-talons-Unique_Gloves_Set_06_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_06_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_06_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -1431,7 +1431,7 @@ export const itemsById: ItemsById =
     "id": "firebirds-tarsi-Unique_Boots_Set_06_x1",
     "label": "Firebird's Tarsi",
     "link": "https://us.diablo3.com/en/item/firebirds-tarsi-Unique_Boots_Set_06_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_06_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_06_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -1442,7 +1442,7 @@ export const itemsById: ItemsById =
     "id": "fists-of-thunder-Unique_Gloves_Set_08_x1",
     "label": "Fists of Thunder",
     "link": "https://us.diablo3.com/en/item/fists-of-thunder-Unique_Gloves_Set_08_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_08_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_08_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -1453,7 +1453,7 @@ export const itemsById: ItemsById =
     "id": "fjord-cutter-P67_Unique_Mighty_1H_006",
     "label": "Fjord Cutter",
     "link": "https://us.diablo3.com/en/item/fjord-cutter-P67_Unique_Mighty_1H_006",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_mighty_1h_006_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_mighty_1h_006_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1465,7 +1465,7 @@ export const itemsById: ItemsById =
     "id": "flail-of-the-ascended-P4_Unique_Flail_2H_002",
     "label": "Flail of the Ascended",
     "link": "https://us.diablo3.com/en/item/flail-of-the-ascended-P4_Unique_Flail_2H_002",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_flail_2h_002_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_flail_2h_002_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1477,7 +1477,7 @@ export const itemsById: ItemsById =
     "id": "flail-of-the-charge-P4_Unique_Flail_2H_Set_01_x1",
     "label": "Flail of the Charge",
     "link": "https://us.diablo3.com/en/item/flail-of-the-charge-P4_Unique_Flail_2H_Set_01_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_flail_2h_set_01_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_flail_2h_set_01_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1489,7 +1489,7 @@ export const itemsById: ItemsById =
     "id": "flying-dragon-Unique_CombatStaff_2H_009_x1",
     "label": "Flying Dragon",
     "link": "https://us.diablo3.com/en/item/flying-dragon-Unique_CombatStaff_2H_009_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_combatstaff_2h_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_combatstaff_2h_009_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1501,7 +1501,7 @@ export const itemsById: ItemsById =
     "id": "focus-Unique_Ring_Set_001_x1",
     "label": "Focus",
     "link": "https://us.diablo3.com/en/item/focus-Unique_Ring_Set_001_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_set_001_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_set_001_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -1513,7 +1513,7 @@ export const itemsById: ItemsById =
     "id": "fortress-ballista-P4_Unique_HandXBow_02",
     "label": "Fortress Ballista",
     "link": "https://us.diablo3.com/en/item/fortress-ballista-P4_Unique_HandXBow_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_handxbow_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_handxbow_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1525,7 +1525,7 @@ export const itemsById: ItemsById =
     "id": "foundation-of-the-earth-Unique_Boots_Set_15_x1",
     "label": "Foundation of the Earth",
     "link": "https://us.diablo3.com/en/item/foundation-of-the-earth-Unique_Boots_Set_15_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_15_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_15_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -1536,7 +1536,7 @@ export const itemsById: ItemsById =
     "id": "foundation-of-the-light-Unique_Boots_Set_03_p3",
     "label": "Foundation of the Light",
     "link": "https://us.diablo3.com/en/item/foundation-of-the-light-Unique_Boots_Set_03_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_03_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_03_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -1547,7 +1547,7 @@ export const itemsById: ItemsById =
     "id": "fragment-of-destiny-P610_Unique_Wand_010",
     "label": "Fragment of Destiny",
     "link": "https://us.diablo3.com/en/item/fragment-of-destiny-P610_Unique_Wand_010",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_wand_010_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p610_unique_wand_010_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1559,7 +1559,7 @@ export const itemsById: ItemsById =
     "id": "freeze-of-deflection-Unique_Shield_004_x1",
     "label": "Freeze of Deflection",
     "link": "https://us.diablo3.com/en/item/freeze-of-deflection-Unique_Shield_004_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shield_004_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shield_004_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -1570,7 +1570,7 @@ export const itemsById: ItemsById =
     "id": "frostburn-P41_Unique_Gloves_002",
     "label": "Frostburn",
     "link": "https://us.diablo3.com/en/item/frostburn-P41_Unique_Gloves_002",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p41_unique_gloves_002_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p41_unique_gloves_002_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HANDS
@@ -1581,7 +1581,7 @@ export const itemsById: ItemsById =
     "id": "frydehrs-wrath-P61_CruShield_norm_unique_01",
     "label": "Frydehr's Wrath",
     "link": "https://us.diablo3.com/en/item/frydehrs-wrath-P61_CruShield_norm_unique_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_crushield_norm_unique_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_crushield_norm_unique_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -1592,7 +1592,7 @@ export const itemsById: ItemsById =
     "id": "fury-of-the-ancients-P67_Unique_Shoulder_102",
     "label": "Fury of the Ancients",
     "link": "https://us.diablo3.com/en/item/fury-of-the-ancients-P67_Unique_Shoulder_102",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_shoulder_102_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_shoulder_102_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.SHOULDERS
@@ -1603,7 +1603,7 @@ export const itemsById: ItemsById =
     "id": "fury-of-the-vanished-peak-P61_Unique_Mighty_2H_006",
     "label": "Fury of the Vanished Peak",
     "link": "https://us.diablo3.com/en/item/fury-of-the-vanished-peak-P61_Unique_Mighty_2H_006",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_mighty_2h_006_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_mighty_2h_006_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1615,7 +1615,7 @@ export const itemsById: ItemsById =
     "id": "gabriels-vambraces-P3_Unique_Bracer_101",
     "label": "Gabriel's Vambraces",
     "link": "https://us.diablo3.com/en/item/gabriels-vambraces-P3_Unique_Bracer_101",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p3_unique_bracer_101_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p3_unique_bracer_101_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -1626,7 +1626,7 @@ export const itemsById: ItemsById =
     "id": "galvanized-vest-P69_Unique_Chest_Set_06",
     "label": "Galvanized Vest",
     "link": "https://us.diablo3.com/en/item/galvanized-vest-P69_Unique_Chest_Set_06",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_chest_set_06_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_chest_set_06_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -1637,7 +1637,7 @@ export const itemsById: ItemsById =
     "id": "gas-powered-automail-forearm-P69_Unique_Gloves_Set_06",
     "label": "Gas Powered Automail Forearm",
     "link": "https://us.diablo3.com/en/item/gas-powered-automail-forearm-P69_Unique_Gloves_Set_06",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_gloves_set_06_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_gloves_set_06_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -1648,7 +1648,7 @@ export const itemsById: ItemsById =
     "id": "gauntlet-of-the-wastes-Unique_Gloves_Set_01_p2",
     "label": "Gauntlet of the Wastes",
     "link": "https://us.diablo3.com/en/item/gauntlet-of-the-wastes-Unique_Gloves_Set_01_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_01_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_01_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -1659,7 +1659,7 @@ export const itemsById: ItemsById =
     "id": "gauntlets-of-akkhan-Unique_Gloves_Set_10_x1",
     "label": "Gauntlets of Akkhan",
     "link": "https://us.diablo3.com/en/item/gauntlets-of-akkhan-Unique_Gloves_Set_10_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_10_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_10_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -1670,7 +1670,7 @@ export const itemsById: ItemsById =
     "id": "gauntlets-of-valor-P67_Unique_Gloves_Set_01",
     "label": "Gauntlets of Valor",
     "link": "https://us.diablo3.com/en/item/gauntlets-of-valor-P67_Unique_Gloves_Set_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_gloves_set_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_gloves_set_01_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -1681,7 +1681,7 @@ export const itemsById: ItemsById =
     "id": "gazing-demise-P68_Unique_Mojo_003",
     "label": "Gazing Demise",
     "link": "https://us.diablo3.com/en/item/gazing-demise-P68_Unique_Mojo_003",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_mojo_003_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_mojo_003_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -1692,7 +1692,7 @@ export const itemsById: ItemsById =
     "id": "girdle-of-giants-P61_Unique_BarbBelt_EQ",
     "label": "Girdle of Giants",
     "link": "https://us.diablo3.com/en/item/girdle-of-giants-P61_Unique_BarbBelt_EQ",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_barbbelt_eq_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_barbbelt_eq_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -1703,7 +1703,7 @@ export const itemsById: ItemsById =
     "id": "glamorous-gigot-P69_Necro_Set_5_Shoulders",
     "label": "Glamorous Gigot",
     "link": "https://us.diablo3.com/en/item/glamorous-gigot-P69_Necro_Set_5_Shoulders",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_necro_set_5_shoulders_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_necro_set_5_shoulders_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -1714,7 +1714,7 @@ export const itemsById: ItemsById =
     "id": "gloves-of-worship-Unique_Gloves_103_x1",
     "label": "Gloves of Worship",
     "link": "https://us.diablo3.com/en/item/gloves-of-worship-Unique_Gloves_103_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HANDS
@@ -1725,7 +1725,7 @@ export const itemsById: ItemsById =
     "id": "golden-flense-P61_Unique_Flail_2H_104",
     "label": "Golden Flense",
     "link": "https://us.diablo3.com/en/item/golden-flense-P61_Unique_Flail_2H_104",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_flail_2h_104_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_flail_2h_104_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1737,7 +1737,7 @@ export const itemsById: ItemsById =
     "id": "golden-scourge-Unique_Flail_1H_101_x1",
     "label": "Golden Scourge",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/golden-scourge",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_flail_1h_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_flail_1h_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1749,7 +1749,7 @@ export const itemsById: ItemsById =
     "id": "goldwrap-Unique_Belt_010_x1",
     "label": "Goldwrap",
     "link": "https://us.diablo3.com/en/item/goldwrap-Unique_Belt_010_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_belt_010_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_belt_010_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -1760,7 +1760,7 @@ export const itemsById: ItemsById =
     "id": "golemskin-breeches-P61_Necro_Unique_Pants_21",
     "label": "Golemskin Breeches",
     "link": "https://us.diablo3.com/en/item/golemskin-breeches-P61_Necro_Unique_Pants_21",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_necro_unique_pants_21_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_necro_unique_pants_21_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEGS
@@ -1771,7 +1771,7 @@ export const itemsById: ItemsById =
     "id": "grasps-of-essence-P69_Necro_Unique_Gloves_22",
     "label": "Grasps of Essence",
     "link": "https://us.diablo3.com/en/item/grasps-of-essence-P69_Necro_Unique_Gloves_22",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_necro_unique_gloves_22_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_necro_unique_gloves_22_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HANDS
@@ -1782,7 +1782,7 @@ export const itemsById: ItemsById =
     "id": "greaves-of-valor-P67_Unique_Boots_Set_01",
     "label": "Greaves of Valor",
     "link": "https://us.diablo3.com/en/item/greaves-of-valor-P67_Unique_Boots_Set_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_boots_set_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_boots_set_01_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -1793,7 +1793,7 @@ export const itemsById: ItemsById =
     "id": "guard-of-johanna-Unique_Shield_103_x1",
     "label": "Guard of Johanna",
     "link": "https://us.diablo3.com/en/item/guard-of-johanna-Unique_Shield_103_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shield_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shield_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -1804,7 +1804,7 @@ export const itemsById: ItemsById =
     "id": "gungdo-gear-P610_Unique_Bracer_006",
     "label": "Gungdo Gear",
     "link": "https://us.diablo3.com/en/item/gungdo-gear-P610_Unique_Bracer_006",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_bracer_006_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p610_unique_bracer_006_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -1815,7 +1815,7 @@ export const itemsById: ItemsById =
     "id": "gyana-na-kashu-Unique_SpiritStone_004_x1",
     "label": "Gyana Na Kashu",
     "link": "https://us.diablo3.com/en/item/gyana-na-kashu-Unique_SpiritStone_004_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_spiritstone_004_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_spiritstone_004_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -1826,7 +1826,7 @@ export const itemsById: ItemsById =
     "id": "gyrfalcons-foote-P61_Unique_Flail_1H_105_x1",
     "label": "Gyrfalcon's Foote",
     "link": "https://us.diablo3.com/en/item/gyrfalcons-foote-P61_Unique_Flail_1H_105_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_flail_1h_105_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_flail_1h_105_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1838,7 +1838,7 @@ export const itemsById: ItemsById =
     "id": "hack-Unique_Axe_1H_103_x1",
     "label": "Hack",
     "link": "https://us.diablo3.com/en/item/hack-Unique_Axe_1H_103_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_axe_1h_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_axe_1h_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -1850,7 +1850,7 @@ export const itemsById: ItemsById =
     "id": "halcyons-ascent-Unique_Amulet_109_x1_210",
     "label": "Halcyon's Ascent",
     "link": "https://us.diablo3.com/en/item/halcyons-ascent-Unique_Amulet_109_x1_210",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_109_x1_210_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_109_x1_210_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -1861,7 +1861,7 @@ export const itemsById: ItemsById =
     "id": "halo-of-arlyse-p2_Unique_Ring_Wizard_001",
     "label": "Halo of Arlyse",
     "link": "https://us.diablo3.com/en/item/halo-of-arlyse-p2_Unique_Ring_Wizard_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_ring_wizard_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_ring_wizard_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -1873,7 +1873,7 @@ export const itemsById: ItemsById =
     "id": "halo-of-karini-P61_Unique_Ring_03",
     "label": "Halo of Karini",
     "link": "https://us.diablo3.com/en/item/halo-of-karini-P61_Unique_Ring_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_ring_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_ring_03_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -1885,7 +1885,7 @@ export const itemsById: ItemsById =
     "id": "hammer-jammers-P4_Unique_Pants_002",
     "label": "Hammer Jammers",
     "link": "https://us.diablo3.com/en/item/hammer-jammers-P4_Unique_Pants_002",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_pants_002_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_pants_002_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEGS
@@ -1896,7 +1896,7 @@ export const itemsById: ItemsById =
     "id": "harness-of-truth-Unique_Chest_Set_02_p2",
     "label": "Harness of Truth",
     "link": "https://us.diablo3.com/en/item/harness-of-truth-Unique_Chest_Set_02_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_02_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_02_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -1907,7 +1907,7 @@ export const itemsById: ItemsById =
     "id": "harrington-waistguard-Unique_Belt_105_x1",
     "label": "Harrington Waistguard",
     "link": "https://us.diablo3.com/en/item/harrington-waistguard-Unique_Belt_105_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_belt_105_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_belt_105_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -1918,7 +1918,7 @@ export const itemsById: ItemsById =
     "id": "haunted-visions-P69_Unique_Amulet_02",
     "label": "Haunted Visions",
     "link": "https://us.diablo3.com/en/item/haunted-visions-P69_Unique_Amulet_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_amulet_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_amulet_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -1929,7 +1929,7 @@ export const itemsById: ItemsById =
     "id": "heart-of-iron-P4_Unique_Chest_018",
     "label": "Heart of Iron",
     "link": "https://us.diablo3.com/en/item/heart-of-iron-P4_Unique_Chest_018",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_chest_018_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_chest_018_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.TORSO
@@ -1940,7 +1940,7 @@ export const itemsById: ItemsById =
     "id": "heart-of-the-crashing-wave-Unique_Chest_Set_08_x1",
     "label": "Heart of the Crashing Wave",
     "link": "https://us.diablo3.com/en/item/heart-of-the-crashing-wave-Unique_Chest_Set_08_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_08_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_08_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -1951,7 +1951,7 @@ export const itemsById: ItemsById =
     "id": "heart-of-the-light-Unique_Chest_Set_03_p3",
     "label": "Heart of the Light",
     "link": "https://us.diablo3.com/en/item/heart-of-the-light-Unique_Chest_Set_03_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_03_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_03_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -1962,7 +1962,7 @@ export const itemsById: ItemsById =
     "id": "heel-of-savages-P68_Unique_Boots_Set_05",
     "label": "Heel of Savages",
     "link": "https://us.diablo3.com/en/item/heel-of-savages-P68_Unique_Boots_Set_05",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_boots_set_05_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_boots_set_05_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -1973,7 +1973,7 @@ export const itemsById: ItemsById =
     "id": "hell-walkers-Unique_Boots_Set_03_p2",
     "label": "Hell Walkers",
     "link": "https://us.diablo3.com/en/item/hell-walkers-Unique_Boots_Set_03_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_03_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_03_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -1984,7 +1984,7 @@ export const itemsById: ItemsById =
     "id": "hellcat-waistguard-P43_Unique_Belt_005_x1",
     "label": "Hellcat Waistguard",
     "link": "https://us.diablo3.com/en/item/hellcat-waistguard-P43_Unique_Belt_005_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p43_unique_belt_005_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p43_unique_belt_005_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -1995,7 +1995,7 @@ export const itemsById: ItemsById =
     "id": "hellfire-amulet-x1_Amulet_norm_unique_25",
     "label": "Hellfire Amulet of Strength",
     "link": "https://us.diablo3.com/en/artisan/jeweler/recipe/hellfire-amulet-of-strength",
-    "img": "http://media.blizzard.com/d3/icons/items/small/x1_amulet_norm_unique_25_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/x1_amulet_norm_unique_25_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -2006,7 +2006,7 @@ export const itemsById: ItemsById =
     "id": "hellfire-ring-Unique_Ring_024_104",
     "label": "Hellfire Ring of Strength",
     "link": "https://us.diablo3.com/en/artisan/jeweler/recipe/hellfire-ring-of-strength",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_024_104_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_024_104_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -2018,7 +2018,7 @@ export const itemsById: ItemsById =
     "id": "hellrack-Unique_XBow_002_x1",
     "label": "Hellrack",
     "link": "https://us.diablo3.com/en/item/hellrack-Unique_XBow_002_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_xbow_002_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_xbow_002_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_HAND,
@@ -2030,7 +2030,7 @@ export const itemsById: ItemsById =
     "id": "helltooth-gauntlets-Unique_Gloves_Set_16_x1",
     "label": "Helltooth Gauntlets",
     "link": "https://us.diablo3.com/en/item/helltooth-gauntlets-Unique_Gloves_Set_16_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_16_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_16_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -2041,7 +2041,7 @@ export const itemsById: ItemsById =
     "id": "helltooth-greaves-Unique_Boots_Set_16_x1",
     "label": "Helltooth Greaves",
     "link": "https://us.diablo3.com/en/item/helltooth-greaves-Unique_Boots_Set_16_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_16_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_16_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -2052,7 +2052,7 @@ export const itemsById: ItemsById =
     "id": "helltooth-leg-guards-Unique_Pants_Set_16_x1",
     "label": "Helltooth Leg Guards",
     "link": "https://us.diablo3.com/en/item/helltooth-leg-guards-Unique_Pants_Set_16_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_16_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_16_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -2063,7 +2063,7 @@ export const itemsById: ItemsById =
     "id": "helltooth-mantle-Unique_Shoulder_Set_16_x1",
     "label": "Helltooth Mantle",
     "link": "https://us.diablo3.com/en/item/helltooth-mantle-Unique_Shoulder_Set_16_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_16_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_16_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -2074,7 +2074,7 @@ export const itemsById: ItemsById =
     "id": "helltooth-mask-Unique_Helm_Set_16_x1",
     "label": "Helltooth Mask",
     "link": "https://us.diablo3.com/en/item/helltooth-mask-Unique_Helm_Set_16_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_16_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_16_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -2085,7 +2085,7 @@ export const itemsById: ItemsById =
     "id": "helltooth-tunic-Unique_Chest_Set_16_x1",
     "label": "Helltooth Tunic",
     "link": "https://us.diablo3.com/en/item/helltooth-tunic-Unique_Chest_Set_16_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_16_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_16_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -2096,7 +2096,7 @@ export const itemsById: ItemsById =
     "id": "helm-of-akkhan-Unique_Helm_Set_10_x1",
     "label": "Helm of Akkhan",
     "link": "https://us.diablo3.com/en/item/helm-of-akkhan-Unique_Helm_Set_10_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_10_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_10_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -2107,7 +2107,7 @@ export const itemsById: ItemsById =
     "id": "helm-of-the-wastes-Unique_Helm_Set_01_p2",
     "label": "Helm of the Wastes",
     "link": "https://us.diablo3.com/en/item/helm-of-the-wastes-Unique_Helm_Set_01_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_01_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_01_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -2118,7 +2118,7 @@ export const itemsById: ItemsById =
     "id": "henris-perquisition-P2_mojo_norm_unique_02",
     "label": "Henri's Perquisition",
     "link": "https://us.diablo3.com/en/item/henris-perquisition-P2_mojo_norm_unique_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_mojo_norm_unique_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_mojo_norm_unique_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -2129,7 +2129,7 @@ export const itemsById: ItemsById =
     "id": "hergbrashs-binding-P4_Unique_Belt_06",
     "label": "Hergbrash's Binding",
     "link": "https://us.diablo3.com/en/item/hergbrashs-binding-P4_Unique_Belt_06",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_belt_06_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_belt_06_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -2140,7 +2140,7 @@ export const itemsById: ItemsById =
     "id": "hexing-pants-of-mr-yan-Unique_Pants_101_x1",
     "label": "Hexing Pants of Mr. Yan",
     "link": "https://us.diablo3.com/en/item/hexing-pants-of-mr-yan-Unique_Pants_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEGS
@@ -2151,7 +2151,7 @@ export const itemsById: ItemsById =
     "id": "holy-point-shot-P69_Unique_Quiver_004",
     "label": "Holy Point Shot",
     "link": "https://us.diablo3.com/en/item/holy-point-shot-P69_Unique_Quiver_004",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_quiver_004_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_quiver_004_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -2162,7 +2162,7 @@ export const itemsById: ItemsById =
     "id": "homing-pads-Unique_Shoulder_001_x1",
     "label": "Homing Pads",
     "link": "https://us.diablo3.com/en/item/homing-pads-Unique_Shoulder_001_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_001_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_001_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.SHOULDERS
@@ -2173,7 +2173,7 @@ export const itemsById: ItemsById =
     "id": "hunters-wrath-P69_Unique_Belt_005",
     "label": "Hunter's Wrath",
     "link": "https://us.diablo3.com/en/item/hunters-wrath-P69_Unique_Belt_005",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_belt_005_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_belt_005_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -2184,7 +2184,7 @@ export const itemsById: ItemsById =
     "id": "ice-climbers-Unique_Boots_008_x1",
     "label": "Ice Climbers",
     "link": "https://us.diablo3.com/en/item/ice-climbers-Unique_Boots_008_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_008_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_008_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.FEET
@@ -2195,7 +2195,7 @@ export const itemsById: ItemsById =
     "id": "illusory-boots-Unique_Boots_103_x1",
     "label": "Illusory Boots",
     "link": "https://us.diablo3.com/en/item/illusory-boots-Unique_Boots_103_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.FEET
@@ -2206,7 +2206,7 @@ export const itemsById: ItemsById =
     "id": "immortal-kings-boulder-breaker-Unique_Mighty_2H_010_x1",
     "label": "Immortal King's Boulder Breaker",
     "link": "https://us.diablo3.com/en/item/immortal-kings-boulder-breaker-Unique_Mighty_2H_010_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mighty_2h_010_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mighty_2h_010_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2218,7 +2218,7 @@ export const itemsById: ItemsById =
     "id": "immortal-kings-eternal-reign-Unique_Chest_013_x1",
     "label": "Immortal King's Eternal Reign",
     "link": "https://us.diablo3.com/en/item/immortal-kings-eternal-reign-Unique_Chest_013_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_013_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_013_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -2229,7 +2229,7 @@ export const itemsById: ItemsById =
     "id": "immortal-kings-irons-Unique_Gloves_008_x1",
     "label": "Immortal King's Irons",
     "link": "https://us.diablo3.com/en/item/immortal-kings-irons-Unique_Gloves_008_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_008_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_008_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -2240,7 +2240,7 @@ export const itemsById: ItemsById =
     "id": "immortal-kings-stature-P2_Unique_Pants_02",
     "label": "Immortal King's Stature",
     "link": "https://us.diablo3.com/en/item/immortal-kings-stature-P2_Unique_Pants_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_pants_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_pants_02_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -2251,7 +2251,7 @@ export const itemsById: ItemsById =
     "id": "immortal-kings-stride-Unique_Boots_012_x1",
     "label": "Immortal King's Stride",
     "link": "https://us.diablo3.com/en/item/immortal-kings-stride-Unique_Boots_012_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_012_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_012_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -2262,7 +2262,7 @@ export const itemsById: ItemsById =
     "id": "immortal-kings-tribal-binding-Unique_BarbBelt_009_x1",
     "label": "Immortal King's Tribal Binding",
     "link": "https://us.diablo3.com/en/item/immortal-kings-tribal-binding-Unique_BarbBelt_009_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_barbbelt_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_barbbelt_009_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.WAIST
@@ -2273,7 +2273,7 @@ export const itemsById: ItemsById =
     "id": "immortal-kings-triumph-Unique_Helm_008_x1",
     "label": "Immortal King's Triumph",
     "link": "https://us.diablo3.com/en/item/immortal-kings-triumph-Unique_Helm_008_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_008_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_008_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -2284,7 +2284,7 @@ export const itemsById: ItemsById =
     "id": "inariuss-conviction-P6_Necro_Set_3_Chest",
     "label": "Inarius's Conviction",
     "link": "https://us.diablo3.com/en/item/inariuss-conviction-P6_Necro_Set_3_Chest",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_3_chest_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_3_chest_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -2295,7 +2295,7 @@ export const itemsById: ItemsById =
     "id": "inariuss-martyrdom-P6_Necro_Set_3_Shoulders",
     "label": "Inarius's Martyrdom",
     "link": "https://us.diablo3.com/en/item/inariuss-martyrdom-P6_Necro_Set_3_Shoulders",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_3_shoulders_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_3_shoulders_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -2306,7 +2306,7 @@ export const itemsById: ItemsById =
     "id": "inariuss-perseverance-P6_Necro_Set_3_Boots",
     "label": "Inarius's Perseverance",
     "link": "https://us.diablo3.com/en/item/inariuss-perseverance-P6_Necro_Set_3_Boots",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_3_boots_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_3_boots_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -2317,7 +2317,7 @@ export const itemsById: ItemsById =
     "id": "inariuss-reticence-P6_Necro_Set_3_Pants",
     "label": "Inarius's Reticence",
     "link": "https://us.diablo3.com/en/item/inariuss-reticence-P6_Necro_Set_3_Pants",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_3_pants_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_3_pants_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -2328,7 +2328,7 @@ export const itemsById: ItemsById =
     "id": "inariuss-understanding-P6_Necro_Set_3_Helm",
     "label": "Inarius's Understanding",
     "link": "https://us.diablo3.com/en/item/inariuss-understanding-P6_Necro_Set_3_Helm",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_3_helm_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_3_helm_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -2339,7 +2339,7 @@ export const itemsById: ItemsById =
     "id": "inariuss-will-P6_Necro_Set_3_Gloves",
     "label": "Inarius's Will",
     "link": "https://us.diablo3.com/en/item/inariuss-will-P6_Necro_Set_3_Gloves",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_3_gloves_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_3_gloves_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -2350,7 +2350,7 @@ export const itemsById: ItemsById =
     "id": "incense-torch-of-the-grand-temple-P61_Unique_CombatStaff_2H_003_x1",
     "label": "Incense Torch of the Grand Temple",
     "link": "https://us.diablo3.com/en/item/incense-torch-of-the-grand-temple-P61_Unique_CombatStaff_2H_003_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_combatstaff_2h_003_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_combatstaff_2h_003_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2362,7 +2362,7 @@ export const itemsById: ItemsById =
     "id": "ingeom-Unique_Sword_1H_113_x1",
     "label": "In-geom",
     "link": "https://us.diablo3.com/en/item/ingeom-Unique_Sword_1H_113_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_sword_1h_113_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_sword_1h_113_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2374,7 +2374,7 @@ export const itemsById: ItemsById =
     "id": "innas-favor-Unique_Belt_007_x1",
     "label": "Inna's Favor",
     "link": "https://us.diablo3.com/en/item/innas-favor-Unique_Belt_007_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_belt_007_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_belt_007_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.WAIST
@@ -2385,7 +2385,7 @@ export const itemsById: ItemsById =
     "id": "innas-hold-P2_Unique_Gloves_04",
     "label": "Inna's Hold",
     "link": "https://us.diablo3.com/en/item/innas-hold-P2_Unique_Gloves_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_gloves_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_gloves_04_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -2396,7 +2396,7 @@ export const itemsById: ItemsById =
     "id": "innas-radiance-Unique_SpiritStone_009_x1",
     "label": "Inna's Radiance",
     "link": "https://us.diablo3.com/en/item/innas-radiance-Unique_SpiritStone_009_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_spiritstone_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_spiritstone_009_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -2407,7 +2407,7 @@ export const itemsById: ItemsById =
     "id": "innas-reach-Unique_CombatStaff_2H_001_x1",
     "label": "Inna's Reach",
     "link": "https://us.diablo3.com/en/item/innas-reach-Unique_CombatStaff_2H_001_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_combatstaff_2h_001_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_combatstaff_2h_001_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2419,7 +2419,7 @@ export const itemsById: ItemsById =
     "id": "innas-sandals-P2_Unique_Boots_02",
     "label": "Inna's Sandals",
     "link": "https://us.diablo3.com/en/item/innas-sandals-P2_Unique_Boots_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_boots_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_boots_02_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -2430,7 +2430,7 @@ export const itemsById: ItemsById =
     "id": "innas-temperance-Unique_Pants_008_x1",
     "label": "Inna's Temperance",
     "link": "https://us.diablo3.com/en/item/innas-temperance-Unique_Pants_008_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_008_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_008_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -2441,7 +2441,7 @@ export const itemsById: ItemsById =
     "id": "innas-vast-expanse-Unique_Chest_015_x1",
     "label": "Inna's Vast Expanse",
     "link": "https://us.diablo3.com/en/item/innas-vast-expanse-Unique_Chest_015_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_015_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_015_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -2452,7 +2452,7 @@ export const itemsById: ItemsById =
     "id": "iron-rose-P65_Unique_Phylactery_04",
     "label": "Iron Rose",
     "link": "https://us.diablo3.com/en/item/iron-rose-P65_Unique_Phylactery_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p65_unique_phylactery_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p65_unique_phylactery_04_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -2463,7 +2463,7 @@ export const itemsById: ItemsById =
     "id": "irontoe-mudsputters-Unique_Boots_104_x1",
     "label": "Irontoe Mudsputters",
     "link": "https://us.diablo3.com/en/item/irontoe-mudsputters-Unique_Boots_104_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_104_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_104_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.FEET
@@ -2474,7 +2474,7 @@ export const itemsById: ItemsById =
     "id": "jade-harvesters-courage-Unique_Pants_Set_09_x1",
     "label": "Jade Harvester's Courage",
     "link": "https://us.diablo3.com/en/item/jade-harvesters-courage-Unique_Pants_Set_09_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_09_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_09_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -2485,7 +2485,7 @@ export const itemsById: ItemsById =
     "id": "jade-harvesters-joy-Unique_Shoulder_Set_09_x1",
     "label": "Jade Harvester's Joy",
     "link": "https://us.diablo3.com/en/item/jade-harvesters-joy-Unique_Shoulder_Set_09_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_09_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_09_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -2496,7 +2496,7 @@ export const itemsById: ItemsById =
     "id": "jade-harvesters-mercy-Unique_Gloves_Set_09_x1",
     "label": "Jade Harvester's Mercy",
     "link": "https://us.diablo3.com/en/item/jade-harvesters-mercy-Unique_Gloves_Set_09_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_09_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_09_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -2507,7 +2507,7 @@ export const itemsById: ItemsById =
     "id": "jade-harvesters-peace-Unique_Chest_Set_09_x1",
     "label": "Jade Harvester's Peace",
     "link": "https://us.diablo3.com/en/item/jade-harvesters-peace-Unique_Chest_Set_09_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_09_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_09_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -2518,7 +2518,7 @@ export const itemsById: ItemsById =
     "id": "jade-harvesters-swiftness-Unique_Boots_Set_09_x1",
     "label": "Jade Harvester's Swiftness",
     "link": "https://us.diablo3.com/en/item/jade-harvesters-swiftness-Unique_Boots_Set_09_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_09_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_09_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -2529,7 +2529,7 @@ export const itemsById: ItemsById =
     "id": "jade-harvesters-wisdom-Unique_Helm_Set_09_x1",
     "label": "Jade Harvester's Wisdom",
     "link": "https://us.diablo3.com/en/item/jade-harvesters-wisdom-Unique_Helm_Set_09_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_09_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_09_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -2540,7 +2540,7 @@ export const itemsById: ItemsById =
     "id": "jekangbord-P65_Unique_CruShield_102_x1",
     "label": "Jekangbord",
     "link": "https://us.diablo3.com/en/item/jekangbord-P65_Unique_CruShield_102_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p65_unique_crushield_102_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p65_unique_crushield_102_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -2551,7 +2551,7 @@ export const itemsById: ItemsById =
     "id": "jerams-bracers-P3_Unique_Bracer_106",
     "label": "Jeram's Bracers",
     "link": "https://us.diablo3.com/en/item/jerams-bracers-P3_Unique_Bracer_106",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p3_unique_bracer_106_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p3_unique_bracer_106_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -2562,7 +2562,7 @@ export const itemsById: ItemsById =
     "id": "jesseth-skullscythe-P6_Unique_Scythe1H_04",
     "label": "Jesseth Skullscythe",
     "link": "https://us.diablo3.com/en/item/jesseth-skullscythe-P6_Unique_Scythe1H_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_scythe1h_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_scythe1h_04_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2574,7 +2574,7 @@ export const itemsById: ItemsById =
     "id": "jesseth-skullshield-P6_Unique_Shield_01",
     "label": "Jesseth Skullshield",
     "link": "https://us.diablo3.com/en/item/jesseth-skullshield-P6_Unique_Shield_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_shield_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_shield_01_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -2585,7 +2585,7 @@ export const itemsById: ItemsById =
     "id": "johannas-argument-P1_flail1H_norm_unique_01",
     "label": "Johanna's Argument",
     "link": "https://us.diablo3.com/en/item/johannas-argument-P1_flail1H_norm_unique_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p1_flail1h_norm_unique_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p1_flail1h_norm_unique_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2597,7 +2597,7 @@ export const itemsById: ItemsById =
     "id": "justice-lantern-P4_Unique_Ring_03",
     "label": "Justice Lantern",
     "link": "https://us.diablo3.com/en/item/justice-lantern-P4_Unique_Ring_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_ring_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_ring_03_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -2609,7 +2609,7 @@ export const itemsById: ItemsById =
     "id": "karleis-point-P61_Unique_Dagger_101_x1",
     "label": "Karlei's Point",
     "link": "https://us.diablo3.com/en/item/karleis-point-P61_Unique_Dagger_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_dagger_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_dagger_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2621,7 +2621,7 @@ export const itemsById: ItemsById =
     "id": "khassetts-cord-of-righteousness-P42_Crusader_FoH_Belt",
     "label": "Khassett's Cord of Righteousness",
     "link": "https://us.diablo3.com/en/item/khassetts-cord-of-righteousness-P42_Crusader_FoH_Belt",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p42_crusader_foh_belt_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p42_crusader_foh_belt_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -2632,7 +2632,7 @@ export const itemsById: ItemsById =
     "id": "krelms-buff-belt-Unique_Belt_Set_02_x1",
     "label": "Krelm's Buff Belt",
     "link": "https://us.diablo3.com/en/item/krelms-buff-belt-Unique_Belt_Set_02_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_belt_set_02_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_belt_set_02_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.WAIST
@@ -2643,7 +2643,7 @@ export const itemsById: ItemsById =
     "id": "kridershot-Unique_Bow_101_x1",
     "label": "Kridershot",
     "link": "https://us.diablo3.com/en/item/kridershot-Unique_Bow_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_bow_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_bow_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_HAND,
@@ -2655,7 +2655,7 @@ export const itemsById: ItemsById =
     "id": "krysbins-sentence-P6_Unique_Ring_03",
     "label": "Krysbin's Sentence",
     "link": "https://us.diablo3.com/en/item/krysbins-sentence-P6_Unique_Ring_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_ring_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_ring_03_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -2667,7 +2667,7 @@ export const itemsById: ItemsById =
     "id": "kyoshiros-blade-P4_Unique_Fist_102",
     "label": "Kyoshiro's Blade",
     "link": "https://us.diablo3.com/en/item/kyoshiros-blade-P4_Unique_Fist_102",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_fist_102_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_fist_102_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2679,7 +2679,7 @@ export const itemsById: ItemsById =
     "id": "kyoshiros-soul-P4_Unique_Belt_05",
     "label": "Kyoshiro's Soul",
     "link": "https://us.diablo3.com/en/item/kyoshiros-soul-P4_Unique_Belt_05",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_belt_05_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_belt_05_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -2690,7 +2690,7 @@ export const itemsById: ItemsById =
     "id": "lacuni-prowlers-Unique_Bracer_005_x1",
     "label": "Lacuni Prowlers",
     "link": "https://us.diablo3.com/en/item/lacuni-prowlers-Unique_Bracer_005_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_bracer_005_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_bracer_005_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -2701,7 +2701,7 @@ export const itemsById: ItemsById =
     "id": "lakumbas-ornament-P4_Unique_Bracer_102",
     "label": "Lakumba's Ornament",
     "link": "https://us.diablo3.com/en/item/lakumbas-ornament-P4_Unique_Bracer_102",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_bracer_102_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_bracer_102_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -2712,7 +2712,7 @@ export const itemsById: ItemsById =
     "id": "lamellars-of-justice-P67_Unique_Chest_Set_02",
     "label": "Lamellars of Justice",
     "link": "https://us.diablo3.com/en/item/lamellars-of-justice-P67_Unique_Chest_Set_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_chest_set_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_chest_set_02_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -2723,7 +2723,7 @@ export const itemsById: ItemsById =
     "id": "lamentation-P67_Unique_BarbBelt_005",
     "label": "Lamentation",
     "link": "https://us.diablo3.com/en/item/lamentation-P67_Unique_BarbBelt_005",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_barbbelt_005_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_barbbelt_005_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -2734,7 +2734,7 @@ export const itemsById: ItemsById =
     "id": "last-breath-P4_Unique_CeremonialDagger_008",
     "label": "Last Breath",
     "link": "https://us.diablo3.com/en/item/last-breath-P4_Unique_CeremonialDagger_008",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_ceremonialdagger_008_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_ceremonialdagger_008_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2746,7 +2746,7 @@ export const itemsById: ItemsById =
     "id": "lavishing-gloves-P69_Necro_Set_5_Gloves",
     "label": "Lavishing Gloves",
     "link": "https://us.diablo3.com/en/item/lavishing-gloves-P69_Necro_Set_5_Gloves",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_necro_set_5_gloves_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_necro_set_5_gloves_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -2757,7 +2757,7 @@ export const itemsById: ItemsById =
     "id": "lefebvres-soliloquy-P4_Unique_Shoulder_101",
     "label": "Lefebvre's Soliloquy",
     "link": "https://us.diablo3.com/en/item/lefebvres-soliloquy-P4_Unique_Shoulder_101",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_shoulder_101_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_shoulder_101_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.SHOULDERS
@@ -2768,7 +2768,7 @@ export const itemsById: ItemsById =
     "id": "leg-guards-of-mystery-Unique_Pants_Set_02_p2",
     "label": "Leg Guards of Mystery",
     "link": "https://us.diablo3.com/en/item/leg-guards-of-mystery-Unique_Pants_Set_02_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_02_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_02_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -2779,7 +2779,7 @@ export const itemsById: ItemsById =
     "id": "legers-disdain-P61_Unique_Phylactery_03",
     "label": "Leger's Disdain",
     "link": "https://us.diablo3.com/en/item/legers-disdain-P61_Unique_Phylactery_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_phylactery_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_phylactery_03_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -2790,7 +2790,7 @@ export const itemsById: ItemsById =
     "id": "leggings-of-savages-P68_Unique_Pants_Set_05",
     "label": "Leggings of Savages",
     "link": "https://us.diablo3.com/en/item/leggings-of-savages-P68_Unique_Pants_Set_05",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_pants_set_05_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_pants_set_05_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -2801,7 +2801,7 @@ export const itemsById: ItemsById =
     "id": "leonine-bow-of-hashir-P69_Unique_Bow_103",
     "label": "Leonine Bow of Hashir",
     "link": "https://us.diablo3.com/en/item/leonine-bow-of-hashir-P69_Unique_Bow_103",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_bow_103_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_bow_103_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_HAND,
@@ -2813,7 +2813,7 @@ export const itemsById: ItemsById =
     "id": "leorics-crown-Unique_Helm_002_p1",
     "label": "Leoric's Crown",
     "link": "https://us.diablo3.com/en/item/leorics-crown-Unique_Helm_002_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_002_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_002_p1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -2824,7 +2824,7 @@ export const itemsById: ItemsById =
     "id": "leorics-signet-Unique_Ring_002_x1",
     "label": "Leoric's Signet",
     "link": "https://us.diablo3.com/en/item/leorics-signet-Unique_Ring_002_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_002_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_002_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -2836,7 +2836,7 @@ export const itemsById: ItemsById =
     "id": "lidless-wall-Unique_Shield_008_x1",
     "label": "Lidless Wall",
     "link": "https://us.diablo3.com/en/item/lidless-wall-Unique_Shield_008_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shield_008_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shield_008_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -2847,7 +2847,7 @@ export const itemsById: ItemsById =
     "id": "lions-claw-P1_fistWeapon_norm_unique_01",
     "label": "Lion's Claw",
     "link": "https://us.diablo3.com/en/item/lions-claw-P1_fistWeapon_norm_unique_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p1_fistweapon_norm_unique_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p1_fistweapon_norm_unique_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2859,7 +2859,7 @@ export const itemsById: ItemsById =
     "id": "litany-of-the-undaunted-Unique_Ring_015_x1",
     "label": "Litany of the Undaunted",
     "link": "https://us.diablo3.com/en/item/litany-of-the-undaunted-Unique_Ring_015_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_015_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_015_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -2871,7 +2871,7 @@ export const itemsById: ItemsById =
     "id": "little-rogue-Unique_Sword_1H_Set_03_x1",
     "label": "Little Rogue",
     "link": "https://us.diablo3.com/en/item/little-rogue-Unique_Sword_1H_Set_03_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_sword_1h_set_03_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_sword_1h_set_03_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2883,7 +2883,7 @@ export const itemsById: ItemsById =
     "id": "lord-greenstones-fan-P61_Unique_Dagger_102_x1",
     "label": "Lord Greenstone's Fan",
     "link": "https://us.diablo3.com/en/item/lord-greenstones-fan-P61_Unique_Dagger_102_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_dagger_102_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_dagger_102_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2895,7 +2895,7 @@ export const itemsById: ItemsById =
     "id": "lornelles-sunstone-P6_Unique_Ring_04",
     "label": "Lornelle's Sunstone",
     "link": "https://us.diablo3.com/en/item/lornelles-sunstone-P6_Unique_Ring_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_ring_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_ring_04_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -2907,7 +2907,7 @@ export const itemsById: ItemsById =
     "id": "lost-time-P61_Unique_Phylactery_01",
     "label": "Lost Time",
     "link": "https://us.diablo3.com/en/item/lost-time-P61_Unique_Phylactery_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_phylactery_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_phylactery_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -2918,7 +2918,7 @@ export const itemsById: ItemsById =
     "id": "lut-socks-Unique_Boots_009_x1",
     "label": "Lut Socks",
     "link": "https://us.diablo3.com/en/item/lut-socks-Unique_Boots_009_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_009_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.FEET
@@ -2929,7 +2929,7 @@ export const itemsById: ItemsById =
     "id": "luxurious-bauta-P69_Necro_Set_5_Helm",
     "label": "Luxurious Bauta",
     "link": "https://us.diablo3.com/en/item/luxurious-bauta-P69_Necro_Set_5_Helm",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_necro_set_5_helm_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_necro_set_5_helm_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -2940,7 +2940,7 @@ export const itemsById: ItemsById =
     "id": "magefist-P41_Unique_Gloves_014",
     "label": "Magefist",
     "link": "https://us.diablo3.com/en/item/magefist-P41_Unique_Gloves_014",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p41_unique_gloves_014_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p41_unique_gloves_014_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HANDS
@@ -2951,7 +2951,7 @@ export const itemsById: ItemsById =
     "id": "maltorius-petrified-spike-P61_Unique_Scythe2H_01",
     "label": "Maltorius' Petrified Spike",
     "link": "https://us.diablo3.com/en/item/maltorius-petrified-spike-P61_Unique_Scythe2H_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_scythe2h_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_scythe2h_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2963,7 +2963,7 @@ export const itemsById: ItemsById =
     "id": "manajumas-carving-knife-Unique_CeremonialDagger_009_x1",
     "label": "Manajuma's Carving Knife",
     "link": "https://us.diablo3.com/en/item/manajumas-carving-knife-Unique_CeremonialDagger_009_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ceremonialdagger_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ceremonialdagger_009_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -2975,7 +2975,7 @@ export const itemsById: ItemsById =
     "id": "manajumas-gory-fetch-Unique_Mojo_010_x1",
     "label": "Manajuma's Gory Fetch",
     "link": "https://us.diablo3.com/en/item/manajumas-gory-fetch-Unique_Mojo_010_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mojo_010_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mojo_010_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -2986,7 +2986,7 @@ export const itemsById: ItemsById =
     "id": "manald-heal-P43_Unique_Ring_021_x1",
     "label": "Manald Heal",
     "link": "https://us.diablo3.com/en/item/manald-heal-P43_Unique_Ring_021_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p43_unique_ring_021_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p43_unique_ring_021_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -2998,7 +2998,7 @@ export const itemsById: ItemsById =
     "id": "manticore-P61_Unique_XBow_001",
     "label": "Manticore",
     "link": "https://us.diablo3.com/en/item/manticore-P61_Unique_XBow_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_xbow_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_xbow_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_HAND,
@@ -3010,7 +3010,7 @@ export const itemsById: ItemsById =
     "id": "mantle-of-channeling-P4_Unique_Shoulder_103",
     "label": "Mantle of Channeling",
     "link": "https://us.diablo3.com/en/item/mantle-of-channeling-P4_Unique_Shoulder_103",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_shoulder_103_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_shoulder_103_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3021,7 +3021,7 @@ export const itemsById: ItemsById =
     "id": "mantle-of-the-upsidedown-sinners-Unique_Shoulder_Set_08_x1",
     "label": "Mantle of the Upside-Down Sinners",
     "link": "https://us.diablo3.com/en/item/mantle-of-the-upsidedown-sinners-Unique_Shoulder_Set_08_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_08_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_08_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3032,7 +3032,7 @@ export const itemsById: ItemsById =
     "id": "maras-kaleidoscope-Unique_Amulet_015_x1",
     "label": "Mara's Kaleidoscope",
     "link": "https://us.diablo3.com/en/item/maras-kaleidoscope-Unique_Amulet_015_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_015_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_015_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -3043,7 +3043,7 @@ export const itemsById: ItemsById =
     "id": "marauders-carapace-Unique_Chest_Set_07_x1",
     "label": "Marauder's Carapace",
     "link": "https://us.diablo3.com/en/item/marauders-carapace-Unique_Chest_Set_07_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_07_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_07_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -3054,7 +3054,7 @@ export const itemsById: ItemsById =
     "id": "marauders-encasement-Unique_Pants_Set_07_x1",
     "label": "Marauder's Encasement",
     "link": "https://us.diablo3.com/en/item/marauders-encasement-Unique_Pants_Set_07_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_07_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_07_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -3065,7 +3065,7 @@ export const itemsById: ItemsById =
     "id": "marauders-gloves-Unique_Gloves_Set_07_x1",
     "label": "Marauder's Gloves",
     "link": "https://us.diablo3.com/en/item/marauders-gloves-Unique_Gloves_Set_07_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_07_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_07_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -3076,7 +3076,7 @@ export const itemsById: ItemsById =
     "id": "marauders-spines-Unique_Shoulder_Set_07_x1",
     "label": "Marauder's Spines",
     "link": "https://us.diablo3.com/en/item/marauders-spines-Unique_Shoulder_Set_07_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_07_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_07_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3087,7 +3087,7 @@ export const itemsById: ItemsById =
     "id": "marauders-treads-Unique_Boots_Set_07_x1",
     "label": "Marauder's Treads",
     "link": "https://us.diablo3.com/en/item/marauders-treads-Unique_Boots_Set_07_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_07_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_07_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -3098,7 +3098,7 @@ export const itemsById: ItemsById =
     "id": "marauders-visage-Unique_Helm_Set_07_x1",
     "label": "Marauder's Visage",
     "link": "https://us.diablo3.com/en/item/marauders-visage-Unique_Helm_Set_07_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_07_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_07_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -3109,7 +3109,7 @@ export const itemsById: ItemsById =
     "id": "markings-of-savages-P68_Unique_Chest_Set_05",
     "label": "Markings of Savages",
     "link": "https://us.diablo3.com/en/item/markings-of-savages-P68_Unique_Chest_Set_05",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_chest_set_05_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_chest_set_05_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -3120,7 +3120,7 @@ export const itemsById: ItemsById =
     "id": "mask-of-jeram-P61_Unique_VoodooMask_102_x1",
     "label": "Mask of Jeram",
     "link": "https://us.diablo3.com/en/item/mask-of-jeram-P61_Unique_VoodooMask_102_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_voodoomask_102_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_voodoomask_102_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -3131,7 +3131,7 @@ export const itemsById: ItemsById =
     "id": "mask-of-the-searing-sky-Unique_Helm_Set_08_x1",
     "label": "Mask of the Searing Sky",
     "link": "https://us.diablo3.com/en/item/mask-of-the-searing-sky-Unique_Helm_Set_08_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_08_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_08_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -3142,7 +3142,7 @@ export const itemsById: ItemsById =
     "id": "maximus-Unique_Sword_2H_010_x1",
     "label": "Maximus",
     "link": "https://us.diablo3.com/en/item/maximus-Unique_Sword_2H_010_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_sword_2h_010_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_sword_2h_010_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -3154,7 +3154,7 @@ export const itemsById: ItemsById =
     "id": "mechanical-pauldrons-P69_Unique_Shoulder_Set_06",
     "label": "Mechanical Pauldrons",
     "link": "https://us.diablo3.com/en/item/mechanical-pauldrons-P69_Unique_Shoulder_Set_06",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_shoulder_set_06_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_shoulder_set_06_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3165,7 +3165,7 @@ export const itemsById: ItemsById =
     "id": "messerschmidts-reaver-P66_Unique_Axe_2H_011",
     "label": "Messerschmidt's Reaver",
     "link": "https://us.diablo3.com/en/item/messerschmidts-reaver-P66_Unique_Axe_2H_011",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_axe_2h_011_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_axe_2h_011_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -3177,7 +3177,7 @@ export const itemsById: ItemsById =
     "id": "mirrors-of-justice-P67_Unique_Shoulder_Set_02",
     "label": "Mirrors of Justice",
     "link": "https://us.diablo3.com/en/item/mirrors-of-justice-P67_Unique_Shoulder_Set_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_shoulder_set_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_shoulder_set_02_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3188,7 +3188,7 @@ export const itemsById: ItemsById =
     "id": "moribund-gauntlets-P6_Necro_Unique_Gloves_21",
     "label": "Moribund Gauntlets",
     "link": "https://us.diablo3.com/en/item/moribund-gauntlets-P6_Necro_Unique_Gloves_21",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_unique_gloves_21_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_unique_gloves_21_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HANDS
@@ -3199,7 +3199,7 @@ export const itemsById: ItemsById =
     "id": "morticks-brace-P2_Unique_Bracer_003",
     "label": "Mortick's Brace",
     "link": "https://us.diablo3.com/en/item/morticks-brace-P2_Unique_Bracer_003",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_bracer_003_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_bracer_003_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -3210,7 +3210,7 @@ export const itemsById: ItemsById =
     "id": "mountain-of-the-light-Unique_Shoulder_Set_03_p3",
     "label": "Mountain of the Light",
     "link": "https://us.diablo3.com/en/item/mountain-of-the-light-Unique_Shoulder_Set_03_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_03_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_03_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3221,7 +3221,7 @@ export const itemsById: ItemsById =
     "id": "mountains-of-justice-P67_Unique_Pants_Set_02",
     "label": "Mountains of Justice",
     "link": "https://us.diablo3.com/en/item/mountains-of-justice-P67_Unique_Pants_Set_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_pants_set_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_pants_set_02_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -3232,7 +3232,7 @@ export const itemsById: ItemsById =
     "id": "mundunugus-dance-P68_Unique_Boots_Set_04",
     "label": "Mundunugu's Dance",
     "link": "https://us.diablo3.com/en/item/mundunugus-dance-P68_Unique_Boots_Set_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_boots_set_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_boots_set_04_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -3243,7 +3243,7 @@ export const itemsById: ItemsById =
     "id": "mundunugus-decoration-P68_Unique_Pants_Set_04",
     "label": "Mundunugu's Decoration",
     "link": "https://us.diablo3.com/en/item/mundunugus-decoration-P68_Unique_Pants_Set_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_pants_set_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_pants_set_04_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -3254,7 +3254,7 @@ export const itemsById: ItemsById =
     "id": "mundunugus-descendant-P68_Unique_Shoulder_Set_04",
     "label": "Mundunugu's Descendant",
     "link": "https://us.diablo3.com/en/item/mundunugus-descendant-P68_Unique_Shoulder_Set_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_shoulder_set_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_shoulder_set_04_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3265,7 +3265,7 @@ export const itemsById: ItemsById =
     "id": "mundunugus-headdress-P68_Unique_Helm_Set_04",
     "label": "Mundunugu's Headdress",
     "link": "https://us.diablo3.com/en/item/mundunugus-headdress-P68_Unique_Helm_Set_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_helm_set_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_helm_set_04_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -3276,7 +3276,7 @@ export const itemsById: ItemsById =
     "id": "mundunugus-rhythm-P68_Unique_Gloves_Set_04",
     "label": "Mundunugu's Rhythm",
     "link": "https://us.diablo3.com/en/item/mundunugus-rhythm-P68_Unique_Gloves_Set_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_gloves_set_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_gloves_set_04_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -3287,7 +3287,7 @@ export const itemsById: ItemsById =
     "id": "mundunugus-robe-P68_Unique_Chest_Set_04",
     "label": "Mundunugu's Robe",
     "link": "https://us.diablo3.com/en/item/mundunugus-robe-P68_Unique_Chest_Set_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_chest_set_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_chest_set_04_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -3298,7 +3298,7 @@ export const itemsById: ItemsById =
     "id": "mykens-ball-of-hate-Unique_Orb_102_x1",
     "label": "Myken's Ball of Hate",
     "link": "https://us.diablo3.com/en/item/mykens-ball-of-hate-Unique_Orb_102_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_orb_102_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_orb_102_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -3309,7 +3309,7 @@ export const itemsById: ItemsById =
     "id": "nagelring-Unique_Ring_018_p2",
     "label": "Nagelring",
     "link": "https://us.diablo3.com/en/item/nagelring-Unique_Ring_018_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_018_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_018_p2_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -3321,7 +3321,7 @@ export const itemsById: ItemsById =
     "id": "natalyas-bloody-footprints-Unique_Boots_011_x1",
     "label": "Natalya's Bloody Footprints",
     "link": "https://us.diablo3.com/en/item/natalyas-bloody-footprints-Unique_Boots_011_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_011_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_011_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -3332,7 +3332,7 @@ export const itemsById: ItemsById =
     "id": "natalyas-embrace-Unique_Cloak_006_x1",
     "label": "Natalya's Embrace",
     "link": "https://us.diablo3.com/en/item/natalyas-embrace-Unique_Cloak_006_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_cloak_006_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_cloak_006_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -3343,7 +3343,7 @@ export const itemsById: ItemsById =
     "id": "natalyas-leggings-P2_Unique_Pants_01",
     "label": "Natalya's Leggings",
     "link": "https://us.diablo3.com/en/item/natalyas-leggings-P2_Unique_Pants_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_pants_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_pants_01_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -3354,7 +3354,7 @@ export const itemsById: ItemsById =
     "id": "natalyas-reflection-Unique_Ring_011_x1",
     "label": "Natalya's Reflection",
     "link": "https://us.diablo3.com/en/item/natalyas-reflection-Unique_Ring_011_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_011_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_011_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -3366,7 +3366,7 @@ export const itemsById: ItemsById =
     "id": "natalyas-sight-Unique_Helm_009_x1",
     "label": "Natalya's Sight",
     "link": "https://us.diablo3.com/en/item/natalyas-sight-Unique_Helm_009_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_009_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -3377,7 +3377,7 @@ export const itemsById: ItemsById =
     "id": "natalyas-slayer-Unique_HandXBow_003_x1",
     "label": "Natalya's Slayer",
     "link": "https://us.diablo3.com/en/item/natalyas-slayer-Unique_HandXBow_003_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_handxbow_003_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_handxbow_003_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -3389,7 +3389,7 @@ export const itemsById: ItemsById =
     "id": "natalyas-touch-P2_Unique_Gloves_01",
     "label": "Natalya's Touch",
     "link": "https://us.diablo3.com/en/item/natalyas-touch-P2_Unique_Gloves_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_gloves_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_gloves_01_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -3400,7 +3400,7 @@ export const itemsById: ItemsById =
     "id": "nayrs-black-death-P61_Unique_Scythe2H_04",
     "label": "Nayr's Black Death",
     "link": "https://us.diablo3.com/en/item/nayrs-black-death-P61_Unique_Scythe2H_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_scythe2h_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_scythe2h_04_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -3412,7 +3412,7 @@ export const itemsById: ItemsById =
     "id": "nemesis-bracers-Unique_Bracer_106_x1",
     "label": "Nemesis Bracers",
     "link": "https://us.diablo3.com/en/item/nemesis-bracers-Unique_Bracer_106_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_bracer_106_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_bracer_106_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -3423,7 +3423,7 @@ export const itemsById: ItemsById =
     "id": "nilfurs-boast-P61_Unique_Boots_01",
     "label": "Nilfur's Boast",
     "link": "https://us.diablo3.com/en/item/nilfurs-boast-P61_Unique_Boots_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_boots_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_boots_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.FEET
@@ -3434,7 +3434,7 @@ export const itemsById: ItemsById =
     "id": "oathkeeper-P4_Unique_Mighty_1H_104",
     "label": "Oathkeeper",
     "link": "https://us.diablo3.com/en/item/oathkeeper-P4_Unique_Mighty_1H_104",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_mighty_1h_104_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_mighty_1h_104_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -3446,7 +3446,7 @@ export const itemsById: ItemsById =
     "id": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2",
     "label": "Obsidian Ring of the Zodiac",
     "link": "https://us.diablo3.com/en/item/obsidian-ring-of-the-zodiac-Unique_Ring_023_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_023_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_023_p2_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -3458,7 +3458,7 @@ export const itemsById: ItemsById =
     "id": "oculus-ring-Unique_Ring_017_p4",
     "label": "Oculus Ring",
     "link": "https://us.diablo3.com/en/item/oculus-ring-Unique_Ring_017_p4",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_017_p4_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_017_p4_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -3470,7 +3470,7 @@ export const itemsById: ItemsById =
     "id": "odysseys-end-P69_Unique_Bow_102",
     "label": "Odyssey's End",
     "link": "https://us.diablo3.com/en/item/odysseys-end-P69_Unique_Bow_102",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_bow_102_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_bow_102_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_HAND,
@@ -3482,7 +3482,7 @@ export const itemsById: ItemsById =
     "id": "orb-of-infinite-depth-P61_Unique_Orb_004",
     "label": "Orb of Infinite Depth",
     "link": "https://us.diablo3.com/en/item/orb-of-infinite-depth-P61_Unique_Orb_004",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_orb_004_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_orb_004_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -3493,7 +3493,7 @@ export const itemsById: ItemsById =
     "id": "overwhelming-desire-Unique_Amulet_106_x1",
     "label": "Overwhelming Desire",
     "link": "https://us.diablo3.com/en/item/overwhelming-desire-Unique_Amulet_106_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_106_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_106_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -3504,7 +3504,7 @@ export const itemsById: ItemsById =
     "id": "pauldrons-of-akkhan-Unique_Shoulder_Set_10_x1",
     "label": "Pauldrons of Akkhan",
     "link": "https://us.diablo3.com/en/item/pauldrons-of-akkhan-Unique_Shoulder_Set_10_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_10_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_10_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3515,7 +3515,7 @@ export const itemsById: ItemsById =
     "id": "pauldrons-of-the-skeleton-king-Unique_Shoulder_103_x1",
     "label": "Pauldrons of the Skeleton King",
     "link": "https://us.diablo3.com/en/item/pauldrons-of-the-skeleton-king-Unique_Shoulder_103_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3526,7 +3526,7 @@ export const itemsById: ItemsById =
     "id": "pauldrons-of-the-wastes-Unique_Shoulder_Set_01_p2",
     "label": "Pauldrons of the Wastes",
     "link": "https://us.diablo3.com/en/item/pauldrons-of-the-wastes-Unique_Shoulder_Set_01_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_01_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_01_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3537,7 +3537,7 @@ export const itemsById: ItemsById =
     "id": "pestilence-battle-boots-P6_Necro_Set_4_Boots",
     "label": "Pestilence Battle Boots",
     "link": "https://us.diablo3.com/en/item/pestilence-battle-boots-P6_Necro_Set_4_Boots",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_4_boots_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_4_boots_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -3548,7 +3548,7 @@ export const itemsById: ItemsById =
     "id": "pestilence-defense-P6_Necro_Set_4_Shoulders",
     "label": "Pestilence Defense",
     "link": "https://us.diablo3.com/en/item/pestilence-defense-P6_Necro_Set_4_Shoulders",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_4_shoulders_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_4_shoulders_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3559,7 +3559,7 @@ export const itemsById: ItemsById =
     "id": "pestilence-gloves-P6_Necro_Set_4_Gloves",
     "label": "Pestilence Gloves",
     "link": "https://us.diablo3.com/en/item/pestilence-gloves-P6_Necro_Set_4_Gloves",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_4_gloves_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_4_gloves_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -3570,7 +3570,7 @@ export const itemsById: ItemsById =
     "id": "pestilence-incantations-P6_Necro_Set_4_Pants",
     "label": "Pestilence Incantations",
     "link": "https://us.diablo3.com/en/item/pestilence-incantations-P6_Necro_Set_4_Pants",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_4_pants_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_4_pants_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -3581,7 +3581,7 @@ export const itemsById: ItemsById =
     "id": "pestilence-mask-P6_Necro_Set_4_Helm",
     "label": "Pestilence Mask",
     "link": "https://us.diablo3.com/en/item/pestilence-mask-P6_Necro_Set_4_Helm",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_4_helm_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_4_helm_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -3592,7 +3592,7 @@ export const itemsById: ItemsById =
     "id": "pestilence-robe-P6_Necro_Set_4_Chest",
     "label": "Pestilence Robe",
     "link": "https://us.diablo3.com/en/item/pestilence-robe-P6_Necro_Set_4_Chest",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_4_chest_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_4_chest_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -3603,7 +3603,7 @@ export const itemsById: ItemsById =
     "id": "pig-sticker-Unique_Dagger_007_x1",
     "label": "Pig Sticker",
     "link": "https://us.diablo3.com/en/item/pig-sticker-Unique_Dagger_007_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_dagger_007_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_dagger_007_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -3615,7 +3615,7 @@ export const itemsById: ItemsById =
     "id": "pintos-pride-P4_Unique_Bracer_105",
     "label": "Pinto's Pride",
     "link": "https://us.diablo3.com/en/item/pintos-pride-P4_Unique_Bracer_105",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_bracer_105_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_bracer_105_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -3626,7 +3626,7 @@ export const itemsById: ItemsById =
     "id": "piro-marella-Unique_CruShield_101_x1",
     "label": "Piro Marella",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/piro-marella",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_crushield_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_crushield_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -3637,7 +3637,7 @@ export const itemsById: ItemsById =
     "id": "pox-faulds-Unique_Pants_007_p2",
     "label": "Pox Faulds",
     "link": "https://us.diablo3.com/en/item/pox-faulds-Unique_Pants_007_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_007_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_007_p2_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEGS
@@ -3648,7 +3648,7 @@ export const itemsById: ItemsById =
     "id": "pride-of-cassius-Unique_BarbBelt_002_x1",
     "label": "Pride of Cassius",
     "link": "https://us.diablo3.com/en/item/pride-of-cassius-Unique_BarbBelt_002_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_barbbelt_002_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_barbbelt_002_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -3659,7 +3659,7 @@ export const itemsById: ItemsById =
     "id": "pride-of-the-invoker-Unique_Gloves_Set_12_x1",
     "label": "Pride of the Invoker",
     "link": "https://us.diablo3.com/en/item/pride-of-the-invoker-Unique_Gloves_Set_12_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_12_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_12_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -3670,7 +3670,7 @@ export const itemsById: ItemsById =
     "id": "prides-fall-Unique_Helm_103_x1",
     "label": "Pride's Fall",
     "link": "https://us.diablo3.com/en/item/prides-fall-Unique_Helm_103_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -3681,7 +3681,7 @@ export const itemsById: ItemsById =
     "id": "pull-of-the-earth-Unique_Gloves_Set_15_x1",
     "label": "Pull of the Earth",
     "link": "https://us.diablo3.com/en/item/pull-of-the-earth-Unique_Gloves_Set_15_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_15_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_15_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -3692,7 +3692,7 @@ export const itemsById: ItemsById =
     "id": "quetzalcoatl-Unique_VoodooMask_005_x1",
     "label": "Quetzalcoatl",
     "link": "https://us.diablo3.com/en/item/quetzalcoatl-Unique_VoodooMask_005_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_voodoomask_005_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_voodoomask_005_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -3703,7 +3703,7 @@ export const itemsById: ItemsById =
     "id": "rabid-strike-P43_Unique_Fist_003_x1",
     "label": "Rabid Strike",
     "link": "https://us.diablo3.com/en/item/rabid-strike-P43_Unique_Fist_003_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p43_unique_fist_003_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p43_unique_fist_003_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -3715,7 +3715,7 @@ export const itemsById: ItemsById =
     "id": "raekors-breeches-Unique_Pants_Set_05_x1",
     "label": "Raekor's Breeches",
     "link": "https://us.diablo3.com/en/item/raekors-breeches-Unique_Pants_Set_05_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_05_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_05_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -3726,7 +3726,7 @@ export const itemsById: ItemsById =
     "id": "raekors-burden-Unique_Shoulder_Set_05_x1",
     "label": "Raekor's Burden",
     "link": "https://us.diablo3.com/en/item/raekors-burden-Unique_Shoulder_Set_05_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_05_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_05_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3737,7 +3737,7 @@ export const itemsById: ItemsById =
     "id": "raekors-heart-Unique_Chest_Set_05_x1",
     "label": "Raekor's Heart",
     "link": "https://us.diablo3.com/en/item/raekors-heart-Unique_Chest_Set_05_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_05_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_05_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -3748,7 +3748,7 @@ export const itemsById: ItemsById =
     "id": "raekors-striders-Unique_Boots_Set_05_x1",
     "label": "Raekor's Striders",
     "link": "https://us.diablo3.com/en/item/raekors-striders-Unique_Boots_Set_05_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_05_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_05_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -3759,7 +3759,7 @@ export const itemsById: ItemsById =
     "id": "raekors-will-Unique_Helm_Set_05_x1",
     "label": "Raekor's Will",
     "link": "https://us.diablo3.com/en/item/raekors-will-Unique_Helm_Set_05_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_05_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_05_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -3770,7 +3770,7 @@ export const itemsById: ItemsById =
     "id": "raekors-wraps-Unique_Gloves_Set_05_x1",
     "label": "Raekor's Wraps",
     "link": "https://us.diablo3.com/en/item/raekors-wraps-Unique_Gloves_Set_05_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_05_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_05_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -3781,7 +3781,7 @@ export const itemsById: ItemsById =
     "id": "ranslors-folly-P61_Unique_Bracer_108_x1",
     "label": "Ranslor's Folly",
     "link": "https://us.diablo3.com/en/item/ranslors-folly-P61_Unique_Bracer_108_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_bracer_108_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_bracer_108_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -3792,7 +3792,7 @@ export const itemsById: ItemsById =
     "id": "rathmas-macabre-vambraces-P6_Necro_Set_1_Gloves",
     "label": "Rathma's Macabre Vambraces",
     "link": "https://us.diablo3.com/en/item/rathmas-macabre-vambraces-P6_Necro_Set_1_Gloves",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_1_gloves_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_1_gloves_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -3803,7 +3803,7 @@ export const itemsById: ItemsById =
     "id": "rathmas-ossified-sabatons-P6_Necro_Set_1_Boots",
     "label": "Rathma's Ossified Sabatons",
     "link": "https://us.diablo3.com/en/item/rathmas-ossified-sabatons-P6_Necro_Set_1_Boots",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_1_boots_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_1_boots_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -3814,7 +3814,7 @@ export const itemsById: ItemsById =
     "id": "rathmas-ribcage-plate-P6_Necro_Set_1_Chest",
     "label": "Rathma's Ribcage Plate",
     "link": "https://us.diablo3.com/en/item/rathmas-ribcage-plate-P6_Necro_Set_1_Chest",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_1_chest_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_1_chest_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -3825,7 +3825,7 @@ export const itemsById: ItemsById =
     "id": "rathmas-skeletal-legplates-P6_Necro_Set_1_Pants",
     "label": "Rathma's Skeletal Legplates",
     "link": "https://us.diablo3.com/en/item/rathmas-skeletal-legplates-P6_Necro_Set_1_Pants",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_1_pants_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_1_pants_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -3836,7 +3836,7 @@ export const itemsById: ItemsById =
     "id": "rathmas-skull-helm-P6_Necro_Set_1_Helm",
     "label": "Rathma's Skull Helm",
     "link": "https://us.diablo3.com/en/item/rathmas-skull-helm-P6_Necro_Set_1_Helm",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_1_helm_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_1_helm_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -3847,7 +3847,7 @@ export const itemsById: ItemsById =
     "id": "rathmas-spikes-P6_Necro_Set_1_Shoulders",
     "label": "Rathma's Spikes",
     "link": "https://us.diablo3.com/en/item/rathmas-spikes-P6_Necro_Set_1_Shoulders",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_1_shoulders_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_1_shoulders_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3858,7 +3858,7 @@ export const itemsById: ItemsById =
     "id": "razeths-volition-P69_Necro_Unique_Shoulders_22",
     "label": "Razeth's Volition",
     "link": "https://us.diablo3.com/en/item/razeths-volition-P69_Necro_Unique_Shoulders_22",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_necro_unique_shoulders_22_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_necro_unique_shoulders_22_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.SHOULDERS
@@ -3869,7 +3869,7 @@ export const itemsById: ItemsById =
     "id": "reapers-wraps-Unique_Bracer_103_x1",
     "label": "Reaper's Wraps",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/reapers-wraps",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_bracer_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_bracer_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -3880,7 +3880,7 @@ export const itemsById: ItemsById =
     "id": "rechels-ring-of-larceny-Unique_Ring_104_x1",
     "label": "Rechel's Ring of Larceny",
     "link": "https://us.diablo3.com/en/item/rechels-ring-of-larceny-Unique_Ring_104_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_104_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_104_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -3892,7 +3892,7 @@ export const itemsById: ItemsById =
     "id": "reilenas-shadowhook-P6_Unique_Scythe2H_03",
     "label": "Reilena's Shadowhook",
     "link": "https://us.diablo3.com/en/item/reilenas-shadowhook-P6_Unique_Scythe2H_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_scythe2h_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_scythe2h_03_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -3904,7 +3904,7 @@ export const itemsById: ItemsById =
     "id": "remorseless-P67_Unique_Mighty_1H_102",
     "label": "Remorseless",
     "link": "https://us.diablo3.com/en/item/remorseless-P67_Unique_Mighty_1H_102",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_mighty_1h_102_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_mighty_1h_102_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -3916,7 +3916,7 @@ export const itemsById: ItemsById =
     "id": "renewal-of-the-invoker-Unique_Pants_Set_12_x1",
     "label": "Renewal of the Invoker",
     "link": "https://us.diablo3.com/en/item/renewal-of-the-invoker-Unique_Pants_Set_12_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_12_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_12_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -3927,7 +3927,7 @@ export const itemsById: ItemsById =
     "id": "requiem-cereplate-P6_Necro_Unique_Chest_22",
     "label": "Requiem Cereplate",
     "link": "https://us.diablo3.com/en/item/requiem-cereplate-P6_Necro_Unique_Chest_22",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_unique_chest_22_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_unique_chest_22_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.TORSO
@@ -3938,7 +3938,7 @@ export const itemsById: ItemsById =
     "id": "restraint-Unique_Ring_Set_002_x1",
     "label": "Restraint",
     "link": "https://us.diablo3.com/en/item/restraint-Unique_Ring_Set_002_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_set_002_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_set_002_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -3950,7 +3950,7 @@ export const itemsById: ItemsById =
     "id": "ring-of-emptiness-P42_Unique_Ring_Haunt",
     "label": "Ring of Emptiness",
     "link": "https://us.diablo3.com/en/item/ring-of-emptiness-P42_Unique_Ring_Haunt",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p42_unique_ring_haunt_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p42_unique_ring_haunt_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -3962,7 +3962,7 @@ export const itemsById: ItemsById =
     "id": "ring-of-royal-grandeur-Unique_Ring_107_x1",
     "label": "Ring of Royal Grandeur",
     "link": "https://us.diablo3.com/en/item/ring-of-royal-grandeur-Unique_Ring_107_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_107_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_107_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -3974,7 +3974,7 @@ export const itemsById: ItemsById =
     "id": "rivera-dancers-P4_Unique_Boots_001",
     "label": "Rivera Dancers",
     "link": "https://us.diablo3.com/en/item/rivera-dancers-P4_Unique_Boots_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_boots_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_boots_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.FEET
@@ -3985,7 +3985,7 @@ export const itemsById: ItemsById =
     "id": "rolands-bearing-Unique_Chest_Set_01_p1",
     "label": "Roland's Bearing",
     "link": "https://us.diablo3.com/en/item/rolands-bearing-Unique_Chest_Set_01_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_01_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_01_p1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -3996,7 +3996,7 @@ export const itemsById: ItemsById =
     "id": "rolands-determination-Unique_Pants_Set_01_p1",
     "label": "Roland's Determination",
     "link": "https://us.diablo3.com/en/item/rolands-determination-Unique_Pants_Set_01_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_01_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_01_p1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -4007,7 +4007,7 @@ export const itemsById: ItemsById =
     "id": "rolands-grasp-Unique_Gloves_Set_01_p1",
     "label": "Roland's Grasp",
     "link": "https://us.diablo3.com/en/item/rolands-grasp-Unique_Gloves_Set_01_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_01_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_01_p1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -4018,7 +4018,7 @@ export const itemsById: ItemsById =
     "id": "rolands-mantle-Unique_Shoulder_Set_01_p1",
     "label": "Roland's Mantle",
     "link": "https://us.diablo3.com/en/item/rolands-mantle-Unique_Shoulder_Set_01_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_01_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_01_p1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -4029,7 +4029,7 @@ export const itemsById: ItemsById =
     "id": "rolands-stride-Unique_Boots_Set_01_p1",
     "label": "Roland's Stride",
     "link": "https://us.diablo3.com/en/item/rolands-stride-Unique_Boots_Set_01_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_01_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_01_p1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -4040,7 +4040,7 @@ export const itemsById: ItemsById =
     "id": "rolands-visage-Unique_Helm_Set_01_p1",
     "label": "Roland's Visage",
     "link": "https://us.diablo3.com/en/item/rolands-visage-Unique_Helm_Set_01_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_01_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_01_p1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -4051,7 +4051,7 @@ export const itemsById: ItemsById =
     "id": "rondals-locket-Unique_Amulet_009_x1",
     "label": "Rondal's Locket",
     "link": "https://us.diablo3.com/en/item/rondals-locket-Unique_Amulet_009_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_009_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -4062,7 +4062,7 @@ export const itemsById: ItemsById =
     "id": "sabaton-of-the-wastes-Unique_Boots_Set_01_p2",
     "label": "Sabaton of the Wastes",
     "link": "https://us.diablo3.com/en/item/sabaton-of-the-wastes-Unique_Boots_Set_01_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_01_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_01_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -4073,7 +4073,7 @@ export const itemsById: ItemsById =
     "id": "sabatons-of-akkhan-Unique_Boots_Set_10_x1",
     "label": "Sabatons of Akkhan",
     "link": "https://us.diablo3.com/en/item/sabatons-of-akkhan-Unique_Boots_Set_10_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_10_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_10_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -4084,7 +4084,7 @@ export const itemsById: ItemsById =
     "id": "sacred-harness-P3_Unique_Belt_01",
     "label": "Sacred Harness",
     "link": "https://us.diablo3.com/en/item/sacred-harness-P3_Unique_Belt_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p3_unique_belt_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p3_unique_belt_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -4095,7 +4095,7 @@ export const itemsById: ItemsById =
     "id": "sacred-harvester-P1_CeremonialDagger_norm_unique_01",
     "label": "Sacred Harvester",
     "link": "https://us.diablo3.com/en/item/sacred-harvester-P1_CeremonialDagger_norm_unique_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p1_ceremonialdagger_norm_unique_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p1_ceremonialdagger_norm_unique_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4107,7 +4107,7 @@ export const itemsById: ItemsById =
     "id": "sages-apogee-Unique_Helm_016_x1",
     "label": "Sage's Apogee",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/sages-apogee",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_016_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_016_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -4118,7 +4118,7 @@ export const itemsById: ItemsById =
     "id": "sages-passage-Unique_Boots_018_x1",
     "label": "Sage's Passage",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/sages-passage",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_018_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_018_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -4129,7 +4129,7 @@ export const itemsById: ItemsById =
     "id": "sages-purchase-Unique_Gloves_017_x1",
     "label": "Sage's Purchase",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/sages-purchase",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_017_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_017_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -4140,7 +4140,7 @@ export const itemsById: ItemsById =
     "id": "sages-ribbon-P66_Unique_Belt_016",
     "label": "Sage's Ribbon",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/sages-ribbon",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_belt_016_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_belt_016_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.WAIST
@@ -4151,7 +4151,7 @@ export const itemsById: ItemsById =
     "id": "scales-of-the-dancing-serpent-Unique_Pants_Set_08_x1",
     "label": "Scales of the Dancing Serpent",
     "link": "https://us.diablo3.com/en/item/scales-of-the-dancing-serpent-Unique_Pants_Set_08_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_08_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_08_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -4162,7 +4162,7 @@ export const itemsById: ItemsById =
     "id": "scarbringer-P61_Unique_Fist_013_x1",
     "label": "Scarbringer",
     "link": "https://us.diablo3.com/en/item/scarbringer-P61_Unique_Fist_013_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_fist_013_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_fist_013_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4174,7 +4174,7 @@ export const itemsById: ItemsById =
     "id": "scrimshaw-P610_Unique_Spear_004",
     "label": "Scrimshaw",
     "link": "https://us.diablo3.com/en/item/scrimshaw-P610_Unique_Spear_004",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_spear_004_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p610_unique_spear_004_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4186,7 +4186,7 @@ export const itemsById: ItemsById =
     "id": "scythe-of-the-cycle-P61_Unique_Scythe1H_03",
     "label": "Scythe of the Cycle",
     "link": "https://us.diablo3.com/en/item/scythe-of-the-cycle-P61_Unique_Scythe1H_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_scythe1h_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_scythe1h_03_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4198,7 +4198,7 @@ export const itemsById: ItemsById =
     "id": "serpents-sparker-P68_Unique_Wand_102",
     "label": "Serpent's Sparker",
     "link": "https://us.diablo3.com/en/item/serpents-sparker-P68_Unique_Wand_102",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_wand_102_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_wand_102_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4210,7 +4210,7 @@ export const itemsById: ItemsById =
     "id": "shackles-of-the-invoker-Unique_Bracer_Set_12_x1",
     "label": "Shackles of the Invoker",
     "link": "https://us.diablo3.com/en/item/shackles-of-the-invoker-Unique_Bracer_Set_12_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_bracer_set_12_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_bracer_set_12_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.BRACERS
@@ -4221,7 +4221,7 @@ export const itemsById: ItemsById =
     "id": "shenlongs-fist-of-legend-Unique_Fist_011_x1",
     "label": "Shenlong's Fist of Legend",
     "link": "https://us.diablo3.com/en/item/shenlongs-fist-of-legend-Unique_Fist_011_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_fist_011_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_fist_011_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4233,7 +4233,7 @@ export const itemsById: ItemsById =
     "id": "shenlongs-relentless-assault-Unique_Fist_010_x1",
     "label": "Shenlong's Relentless Assault",
     "link": "https://us.diablo3.com/en/item/shenlongs-relentless-assault-Unique_Fist_010_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_fist_010_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_fist_010_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4245,7 +4245,7 @@ export const itemsById: ItemsById =
     "id": "shi-mizus-haori-Unique_Chest_101_x1",
     "label": "Shi Mizu's Haori",
     "link": "https://us.diablo3.com/en/item/shi-mizus-haori-Unique_Chest_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.TORSO
@@ -4256,7 +4256,7 @@ export const itemsById: ItemsById =
     "id": "shield-of-fury-P61_Unique_Shield_106_x1",
     "label": "Shield of Fury",
     "link": "https://us.diablo3.com/en/item/shield-of-fury-P61_Unique_Shield_106_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_shield_106_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_shield_106_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -4267,7 +4267,7 @@ export const itemsById: ItemsById =
     "id": "shield-of-the-steed-P4_Unique_Shield_Set_01_x1",
     "label": "Shield of the Steed",
     "link": "https://us.diablo3.com/en/item/shield-of-the-steed-P4_Unique_Shield_Set_01_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_shield_set_01_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_shield_set_01_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -4278,7 +4278,7 @@ export const itemsById: ItemsById =
     "id": "shrouded-mask-Unique_Helm_Set_02_p2",
     "label": "Shrouded Mask",
     "link": "https://us.diablo3.com/en/item/shrouded-mask-Unique_Helm_Set_02_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_02_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_02_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -4289,7 +4289,7 @@ export const itemsById: ItemsById =
     "id": "shukranis-triumph-Unique_Mojo_102_x1",
     "label": "Shukrani's Triumph",
     "link": "https://us.diablo3.com/en/item/shukranis-triumph-Unique_Mojo_102_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mojo_102_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mojo_102_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -4300,7 +4300,7 @@ export const itemsById: ItemsById =
     "id": "sin-seekers-P65_Unique_Quiver_001",
     "label": "Sin Seekers",
     "link": "https://us.diablo3.com/en/item/sin-seekers-P65_Unique_Quiver_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p65_unique_quiver_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p65_unique_quiver_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -4311,7 +4311,7 @@ export const itemsById: ItemsById =
     "id": "skeleton-key-x1_FollowerItem_Scoundrel_Legendary_01",
     "label": "Skeleton Key",
     "link": "https://us.diablo3.com/en/item/skeleton-key-x1_FollowerItem_Scoundrel_Legendary_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/x1_followeritem_scoundrel_legendary_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/x1_followeritem_scoundrel_legendary_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.FOLLOWER_SPECIAL
@@ -4322,7 +4322,7 @@ export const itemsById: ItemsById =
     "id": "skulars-salvation-P4_Unique_Bracer_101",
     "label": "Skular's Salvation",
     "link": "https://us.diablo3.com/en/item/skulars-salvation-P4_Unique_Bracer_101",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_bracer_101_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_bracer_101_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -4333,7 +4333,7 @@ export const itemsById: ItemsById =
     "id": "skull-grasp-P61_Unique_Ring_02",
     "label": "Skull Grasp",
     "link": "https://us.diablo3.com/en/item/skull-grasp-P61_Unique_Ring_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_ring_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_ring_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -4345,7 +4345,7 @@ export const itemsById: ItemsById =
     "id": "skull-of-savages-P68_Unique_Helm_Set_05",
     "label": "Skull of Savages",
     "link": "https://us.diablo3.com/en/item/skull-of-savages-P68_Unique_Helm_Set_05",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_helm_set_05_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_helm_set_05_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -4356,7 +4356,7 @@ export const itemsById: ItemsById =
     "id": "smoking-thurible-x1_FollowerItem_Enchantress_Legendary_01",
     "label": "Smoking Thurible",
     "link": "https://us.diablo3.com/en/item/smoking-thurible-x1_FollowerItem_Enchantress_Legendary_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/x1_followeritem_enchantress_legendary_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/x1_followeritem_enchantress_legendary_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.FOLLOWER_SPECIAL
@@ -4367,7 +4367,7 @@ export const itemsById: ItemsById =
     "id": "solanium-Unique_Mace_1H_102_x1",
     "label": "Solanium",
     "link": "https://us.diablo3.com/en/item/solanium-Unique_Mace_1H_102_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mace_1h_102_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mace_1h_102_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4379,7 +4379,7 @@ export const itemsById: ItemsById =
     "id": "sophisticated-vest-P69_Necro_Set_5_Chest",
     "label": "Sophisticated Vest",
     "link": "https://us.diablo3.com/en/item/sophisticated-vest-P69_Necro_Set_5_Chest",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_necro_set_5_chest_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_necro_set_5_chest_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -4390,7 +4390,7 @@ export const itemsById: ItemsById =
     "id": "spaulders-of-valor-P67_Unique_Shoulder_Set_01",
     "label": "Spaulders of Valor",
     "link": "https://us.diablo3.com/en/item/spaulders-of-valor-P67_Unique_Shoulder_Set_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_shoulder_set_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_shoulder_set_01_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -4401,7 +4401,7 @@ export const itemsById: ItemsById =
     "id": "spear-of-jairo-P6_Unique_Spear_01",
     "label": "Spear of Jairo",
     "link": "https://us.diablo3.com/en/item/spear-of-jairo-P6_Unique_Spear_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_spear_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_spear_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4413,7 +4413,7 @@ export const itemsById: ItemsById =
     "id": "spines-of-savages-P68_Unique_Shoulder_Set_05",
     "label": "Spines of Savages",
     "link": "https://us.diablo3.com/en/item/spines-of-savages-P68_Unique_Shoulder_Set_05",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_shoulder_set_05_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_shoulder_set_05_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -4424,7 +4424,7 @@ export const itemsById: ItemsById =
     "id": "spines-of-seething-hatred-Unique_Quiver_005_p1",
     "label": "Spines of Seething Hatred",
     "link": "https://us.diablo3.com/en/item/spines-of-seething-hatred-Unique_Quiver_005_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_quiver_005_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_quiver_005_p1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -4435,7 +4435,7 @@ export const itemsById: ItemsById =
     "id": "spires-of-the-earth-Unique_Shoulder_Set_15_x1",
     "label": "Spires of the Earth",
     "link": "https://us.diablo3.com/en/item/spires-of-the-earth-Unique_Shoulder_Set_15_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_15_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_15_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -4446,7 +4446,7 @@ export const itemsById: ItemsById =
     "id": "spirit-guards-P61_Unique_Bracer_109",
     "label": "Spirit Guards",
     "link": "https://us.diablo3.com/en/item/spirit-guards-P61_Unique_Bracer_109",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_bracer_109_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_bracer_109_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -4457,7 +4457,7 @@ export const itemsById: ItemsById =
     "id": "spirit-of-the-earth-Unique_Chest_Set_15_x1",
     "label": "Spirit of the Earth",
     "link": "https://us.diablo3.com/en/item/spirit-of-the-earth-Unique_Chest_Set_15_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_15_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_15_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -4468,7 +4468,7 @@ export const itemsById: ItemsById =
     "id": "spite-P66_Unique_Mojo_002",
     "label": "Spite",
     "link": "https://us.diablo3.com/en/artisan/blacksmith/recipe/spite",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_mojo_002_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_mojo_002_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -4479,7 +4479,7 @@ export const itemsById: ItemsById =
     "id": "squirts-necklace-P66_Unique_Amulet_010",
     "label": "Squirt's Necklace",
     "link": "https://us.diablo3.com/en/item/squirts-necklace-P66_Unique_Amulet_010",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_amulet_010_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_amulet_010_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -4490,7 +4490,7 @@ export const itemsById: ItemsById =
     "id": "st-archews-gage-Unique_Gloves_101_p2",
     "label": "St. Archew's Gage",
     "link": "https://us.diablo3.com/en/item/st-archews-gage-Unique_Gloves_101_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_101_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_101_p2_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HANDS
@@ -4501,7 +4501,7 @@ export const itemsById: ItemsById =
     "id": "staff-of-chiroptera-P61_Unique_Staff_001",
     "label": "Staff of Chiroptera",
     "link": "https://us.diablo3.com/en/item/staff-of-chiroptera-P61_Unique_Staff_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_staff_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_staff_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4513,7 +4513,7 @@ export const itemsById: ItemsById =
     "id": "standoff-P61_Unique_Polearm_01",
     "label": "Standoff",
     "link": "https://us.diablo3.com/en/item/standoff-P61_Unique_Polearm_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_polearm_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_polearm_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4525,7 +4525,7 @@ export const itemsById: ItemsById =
     "id": "starfire-P42_Unique_Wand_003_x1",
     "label": "Starfire",
     "link": "https://us.diablo3.com/en/item/starfire-P42_Unique_Wand_003_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p42_unique_wand_003_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p42_unique_wand_003_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4537,7 +4537,7 @@ export const itemsById: ItemsById =
     "id": "starmetal-kukri-Unique_CeremonialDagger_101_x1",
     "label": "Starmetal Kukri",
     "link": "https://us.diablo3.com/en/item/starmetal-kukri-Unique_CeremonialDagger_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ceremonialdagger_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ceremonialdagger_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4549,7 +4549,7 @@ export const itemsById: ItemsById =
     "id": "steuarts-greaves-P61_Necro_Unique_Boots_21",
     "label": "Steuart's Greaves",
     "link": "https://us.diablo3.com/en/item/steuarts-greaves-P61_Necro_Unique_Boots_21",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_necro_unique_boots_21_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_necro_unique_boots_21_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.FEET
@@ -4560,7 +4560,7 @@ export const itemsById: ItemsById =
     "id": "stone-gauntlets-P66_Unique_Gloves_007",
     "label": "Stone Gauntlets",
     "link": "https://us.diablo3.com/en/item/stone-gauntlets-P66_Unique_Gloves_007",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_gloves_007_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_gloves_007_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HANDS
@@ -4571,7 +4571,7 @@ export const itemsById: ItemsById =
     "id": "stone-of-jordan-P69_Unique_Ring_019",
     "label": "Stone of Jordan",
     "link": "https://us.diablo3.com/en/item/stone-of-jordan-P69_Unique_Ring_019",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_ring_019_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_ring_019_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -4583,7 +4583,7 @@ export const itemsById: ItemsById =
     "id": "stormshield-Unique_Shield_009_x1",
     "label": "Stormshield",
     "link": "https://us.diablo3.com/en/item/stormshield-Unique_Shield_009_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shield_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shield_009_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -4594,7 +4594,7 @@ export const itemsById: ItemsById =
     "id": "striders-of-destiny-Unique_Boots_Set_02_p2",
     "label": "Striders of Destiny",
     "link": "https://us.diablo3.com/en/item/striders-of-destiny-Unique_Boots_Set_02_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_02_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_02_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -4605,7 +4605,7 @@ export const itemsById: ItemsById =
     "id": "string-of-ears-P4_Unique_Belt_03",
     "label": "String of Ears",
     "link": "https://us.diablo3.com/en/item/string-of-ears-P4_Unique_Belt_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_belt_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_belt_03_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -4616,7 +4616,7 @@ export const itemsById: ItemsById =
     "id": "strongarm-bracers-Unique_Bracer_007_x1",
     "label": "Strongarm Bracers",
     "link": "https://us.diablo3.com/en/item/strongarm-bracers-Unique_Bracer_007_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_bracer_007_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_bracer_007_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -4627,7 +4627,7 @@ export const itemsById: ItemsById =
     "id": "suwong-diviner-Unique_Staff_104_x1",
     "label": "SuWong Diviner",
     "link": "https://us.diablo3.com/en/item/suwong-diviner-Unique_Staff_104_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_staff_104_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_staff_104_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4639,7 +4639,7 @@ export const itemsById: ItemsById =
     "id": "sun-keeper-Unique_Mace_1H_011_x1",
     "label": "Sun Keeper",
     "link": "https://us.diablo3.com/en/item/sun-keeper-Unique_Mace_1H_011_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mace_1h_011_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mace_1h_011_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4651,7 +4651,7 @@ export const itemsById: ItemsById =
     "id": "sunwukos-balance-Unique_Shoulder_Set_11_x1",
     "label": "Sunwuko's Balance",
     "link": "https://us.diablo3.com/en/item/sunwukos-balance-Unique_Shoulder_Set_11_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_11_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_11_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -4662,7 +4662,7 @@ export const itemsById: ItemsById =
     "id": "sunwukos-crown-Unique_Helm_Set_11_x1",
     "label": "Sunwuko's Crown",
     "link": "https://us.diablo3.com/en/item/sunwukos-crown-Unique_Helm_Set_11_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_11_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_11_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -4673,7 +4673,7 @@ export const itemsById: ItemsById =
     "id": "sunwukos-leggings-Unique_Pants_Set_11_x1",
     "label": "Sunwuko's Leggings",
     "link": "https://us.diablo3.com/en/item/sunwukos-leggings-Unique_Pants_Set_11_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_11_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_11_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -4684,7 +4684,7 @@ export const itemsById: ItemsById =
     "id": "sunwukos-paws-Unique_Gloves_Set_11_x1",
     "label": "Sunwuko's Paws",
     "link": "https://us.diablo3.com/en/item/sunwukos-paws-Unique_Gloves_Set_11_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_11_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_11_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -4695,7 +4695,7 @@ export const itemsById: ItemsById =
     "id": "sunwukos-shines-Unique_Amulet_Set_11_x1",
     "label": "Sunwuko's Shines",
     "link": "https://us.diablo3.com/en/item/sunwukos-shines-Unique_Amulet_Set_11_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_set_11_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_set_11_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.NECK
@@ -4706,7 +4706,7 @@ export const itemsById: ItemsById =
     "id": "sunwukos-soul-Unique_Chest_Set_11_x1",
     "label": "Sunwuko's Soul",
     "link": "https://us.diablo3.com/en/item/sunwukos-soul-Unique_Chest_Set_11_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_11_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_11_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -4717,7 +4717,7 @@ export const itemsById: ItemsById =
     "id": "swamp-land-waders-P41_Unique_Pants_001",
     "label": "Swamp Land Waders",
     "link": "https://us.diablo3.com/en/item/swamp-land-waders-P41_Unique_Pants_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p41_unique_pants_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p41_unique_pants_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEGS
@@ -4728,7 +4728,7 @@ export const itemsById: ItemsById =
     "id": "swiftmount-Unique_Flail_1H_103_x1",
     "label": "Swiftmount",
     "link": "https://us.diablo3.com/en/item/swiftmount-Unique_Flail_1H_103_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_flail_1h_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_flail_1h_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4740,7 +4740,7 @@ export const itemsById: ItemsById =
     "id": "sword-of-ill-will-P4_Unique_Sword_1H_01",
     "label": "Sword of Ill Will",
     "link": "https://us.diablo3.com/en/item/sword-of-ill-will-P4_Unique_Sword_1H_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_sword_1h_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_sword_1h_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4752,7 +4752,7 @@ export const itemsById: ItemsById =
     "id": "tal-rashas-allegiance-Unique_Amulet_007_x1",
     "label": "Tal Rasha's Allegiance",
     "link": "https://us.diablo3.com/en/item/tal-rashas-allegiance-Unique_Amulet_007_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_007_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_007_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.NECK
@@ -4763,7 +4763,7 @@ export const itemsById: ItemsById =
     "id": "tal-rashas-brace-Unique_Belt_006_x1",
     "label": "Tal Rasha's Brace",
     "link": "https://us.diablo3.com/en/item/tal-rashas-brace-Unique_Belt_006_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_belt_006_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_belt_006_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.WAIST
@@ -4774,7 +4774,7 @@ export const itemsById: ItemsById =
     "id": "tal-rashas-grasp-P2_Unique_Gloves_02",
     "label": "Tal Rasha's Grasp",
     "link": "https://us.diablo3.com/en/item/tal-rashas-grasp-P2_Unique_Gloves_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_gloves_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_gloves_02_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -4785,7 +4785,7 @@ export const itemsById: ItemsById =
     "id": "tal-rashas-guise-of-wisdom-Unique_Helm_010_x1",
     "label": "Tal Rasha's Guise of Wisdom",
     "link": "https://us.diablo3.com/en/item/tal-rashas-guise-of-wisdom-Unique_Helm_010_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_010_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_010_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -4796,7 +4796,7 @@ export const itemsById: ItemsById =
     "id": "tal-rashas-relentless-pursuit-Unique_Chest_014_x1",
     "label": "Tal Rasha's Relentless Pursuit",
     "link": "https://us.diablo3.com/en/item/tal-rashas-relentless-pursuit-Unique_Chest_014_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_014_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_014_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -4807,7 +4807,7 @@ export const itemsById: ItemsById =
     "id": "tal-rashas-stride-P2_Unique_Pants_03",
     "label": "Tal Rasha's Stride",
     "link": "https://us.diablo3.com/en/item/tal-rashas-stride-P2_Unique_Pants_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_pants_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_pants_03_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -4818,7 +4818,7 @@ export const itemsById: ItemsById =
     "id": "tal-rashas-unwavering-glare-Unique_Orb_012_x1",
     "label": "Tal Rasha's Unwavering Glare",
     "link": "https://us.diablo3.com/en/item/tal-rashas-unwavering-glare-Unique_Orb_012_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_orb_012_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_orb_012_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -4829,7 +4829,7 @@ export const itemsById: ItemsById =
     "id": "talisman-of-akkhan-P43_AkkhanSet_Amulet",
     "label": "Talisman of Akkhan",
     "link": "https://us.diablo3.com/en/item/talisman-of-akkhan-P43_AkkhanSet_Amulet",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p43_akkhanset_amulet_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p43_akkhanset_amulet_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.NECK
@@ -4840,7 +4840,7 @@ export const itemsById: ItemsById =
     "id": "talisman-of-aranoch-Unique_Amulet_012_x1",
     "label": "Talisman of Aranoch",
     "link": "https://us.diablo3.com/en/item/talisman-of-aranoch-Unique_Amulet_012_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_012_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_012_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -4851,7 +4851,7 @@ export const itemsById: ItemsById =
     "id": "tasker-and-theo-Unique_Gloves_003_x1",
     "label": "Tasker and Theo",
     "link": "https://us.diablo3.com/en/item/tasker-and-theo-Unique_Gloves_003_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_003_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_003_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HANDS
@@ -4862,7 +4862,7 @@ export const itemsById: ItemsById =
     "id": "tasset-of-the-wastes-Unique_Pants_Set_01_p2",
     "label": "Tasset of the Wastes",
     "link": "https://us.diablo3.com/en/item/tasset-of-the-wastes-Unique_Pants_Set_01_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_01_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_01_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -4873,7 +4873,7 @@ export const itemsById: ItemsById =
     "id": "the-barber-P68_Unique_Dagger_003",
     "label": "The Barber",
     "link": "https://us.diablo3.com/en/item/the-barber-P68_Unique_Dagger_003",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_dagger_003_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_dagger_003_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4885,7 +4885,7 @@ export const itemsById: ItemsById =
     "id": "the-burning-axe-of-sankis-Unique_Axe_1H_007_x1",
     "label": "The Burning Axe of Sankis",
     "link": "https://us.diablo3.com/en/item/the-burning-axe-of-sankis-Unique_Axe_1H_007_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_axe_1h_007_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_axe_1h_007_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4897,7 +4897,7 @@ export const itemsById: ItemsById =
     "id": "the-cloak-of-the-garwulf-Unique_Cloak_002_p1",
     "label": "The Cloak of the Garwulf",
     "link": "https://us.diablo3.com/en/item/the-cloak-of-the-garwulf-Unique_Cloak_002_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_cloak_002_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_cloak_002_p1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.TORSO
@@ -4908,7 +4908,7 @@ export const itemsById: ItemsById =
     "id": "the-compass-rose-Unique_Ring_013_x1",
     "label": "The Compass Rose",
     "link": "https://us.diablo3.com/en/item/the-compass-rose-Unique_Ring_013_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_013_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_013_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -4920,7 +4920,7 @@ export const itemsById: ItemsById =
     "id": "the-crudest-boots-P1_Unique_Boots_010",
     "label": "The Crudest Boots",
     "link": "https://us.diablo3.com/en/item/the-crudest-boots-P1_Unique_Boots_010",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p1_unique_boots_010_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p1_unique_boots_010_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.FEET
@@ -4931,7 +4931,7 @@ export const itemsById: ItemsById =
     "id": "the-dagger-of-darts-P65_CeremonialDagger_norm_unique_02",
     "label": "The Dagger of Darts",
     "link": "https://us.diablo3.com/en/item/the-dagger-of-darts-P65_CeremonialDagger_norm_unique_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p65_ceremonialdagger_norm_unique_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p65_ceremonialdagger_norm_unique_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4943,7 +4943,7 @@ export const itemsById: ItemsById =
     "id": "the-ess-of-johan-Unique_Amulet_104_x1",
     "label": "The Ess of Johan",
     "link": "https://us.diablo3.com/en/item/the-ess-of-johan-Unique_Amulet_104_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_104_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_104_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -4954,7 +4954,7 @@ export const itemsById: ItemsById =
     "id": "the-executioner-P66_Unique_Axe_2H_003",
     "label": "The Executioner",
     "link": "https://us.diablo3.com/en/item/the-executioner-P66_Unique_Axe_2H_003",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_axe_2h_003_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_axe_2h_003_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -4966,7 +4966,7 @@ export const itemsById: ItemsById =
     "id": "the-eye-of-the-storm-Unique_SpiritStone_006_x1",
     "label": "The Eye of the Storm",
     "link": "https://us.diablo3.com/en/item/the-eye-of-the-storm-Unique_SpiritStone_006_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_spiritstone_006_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_spiritstone_006_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -4977,7 +4977,7 @@ export const itemsById: ItemsById =
     "id": "the-final-witness-Unique_CruShield_107_x1",
     "label": "The Final Witness",
     "link": "https://us.diablo3.com/en/item/the-final-witness-Unique_CruShield_107_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_crushield_107_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_crushield_107_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -4988,7 +4988,7 @@ export const itemsById: ItemsById =
     "id": "the-fist-of-azturrasq-P61_Unique_Fist_009_x1",
     "label": "The Fist of Az'Turrasq",
     "link": "https://us.diablo3.com/en/item/the-fist-of-azturrasq-P61_Unique_Fist_009_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_fist_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_fist_009_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5000,7 +5000,7 @@ export const itemsById: ItemsById =
     "id": "the-flavor-of-time-P66_Unique_Amulet_001",
     "label": "The Flavor of Time",
     "link": "https://us.diablo3.com/en/item/the-flavor-of-time-P66_Unique_Amulet_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p66_unique_amulet_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p66_unique_amulet_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -5011,7 +5011,7 @@ export const itemsById: ItemsById =
     "id": "the-flow-of-eternity-P41_Unique_CombatStaff_2H_005",
     "label": "The Flow of Eternity",
     "link": "https://us.diablo3.com/en/item/the-flow-of-eternity-P41_Unique_CombatStaff_2H_005",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p41_unique_combatstaff_2h_005_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p41_unique_combatstaff_2h_005_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5023,7 +5023,7 @@ export const itemsById: ItemsById =
     "id": "the-furnace-Unique_Mace_2H_103_x1",
     "label": "The Furnace",
     "link": "https://us.diablo3.com/en/item/the-furnace-Unique_Mace_2H_103_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mace_2h_103_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mace_2h_103_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5035,7 +5035,7 @@ export const itemsById: ItemsById =
     "id": "the-gavel-of-judgment-P61_Unique_Mighty_2H_001",
     "label": "The Gavel of Judgment",
     "link": "https://us.diablo3.com/en/item/the-gavel-of-judgment-P61_Unique_Mighty_2H_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_mighty_2h_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_mighty_2h_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5047,7 +5047,7 @@ export const itemsById: ItemsById =
     "id": "the-grand-vizier-P61_Unique_Staff_009",
     "label": "The Grand Vizier",
     "link": "https://us.diablo3.com/en/item/the-grand-vizier-P61_Unique_Staff_009",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_staff_009_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_staff_009_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5059,7 +5059,7 @@ export const itemsById: ItemsById =
     "id": "the-grin-reaper-Unique_VoodooMask_002_x1",
     "label": "The Grin Reaper",
     "link": "https://us.diablo3.com/en/item/the-grin-reaper-Unique_VoodooMask_002_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_voodoomask_002_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_voodoomask_002_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -5070,7 +5070,7 @@ export const itemsById: ItemsById =
     "id": "the-johnstone-P6_Unique_Amulet_01",
     "label": "The Johnstone",
     "link": "https://us.diablo3.com/en/item/the-johnstone-P6_Unique_Amulet_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_amulet_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_amulet_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -5081,7 +5081,7 @@ export const itemsById: ItemsById =
     "id": "the-laws-of-seph-Unique_SpiritStone_101_x1",
     "label": "The Laws of Seph",
     "link": "https://us.diablo3.com/en/item/the-laws-of-seph-Unique_SpiritStone_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_spiritstone_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_spiritstone_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -5092,7 +5092,7 @@ export const itemsById: ItemsById =
     "id": "the-magistrate-P68_Unique_WizardHat_103",
     "label": "The Magistrate",
     "link": "https://us.diablo3.com/en/item/the-magistrate-P68_Unique_WizardHat_103",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_wizardhat_103_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_wizardhat_103_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -5103,7 +5103,7 @@ export const itemsById: ItemsById =
     "id": "the-mortal-drama-P610_Unique_Flail_2H_101",
     "label": "The Mortal Drama",
     "link": "https://us.diablo3.com/en/item/the-mortal-drama-P610_Unique_Flail_2H_101",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_flail_2h_101_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p610_unique_flail_2h_101_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5115,7 +5115,7 @@ export const itemsById: ItemsById =
     "id": "the-ninth-cirri-satchel-P69_Unique_Quiver_101",
     "label": "The Ninth Cirri Satchel",
     "link": "https://us.diablo3.com/en/item/the-ninth-cirri-satchel-P69_Unique_Quiver_101",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p69_unique_quiver_101_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p69_unique_quiver_101_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -5126,7 +5126,7 @@ export const itemsById: ItemsById =
     "id": "the-shadows-bane-Unique_Chest_Set_14_x1",
     "label": "The Shadow's Bane",
     "link": "https://us.diablo3.com/en/item/the-shadows-bane-Unique_Chest_Set_14_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_14_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_14_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -5137,7 +5137,7 @@ export const itemsById: ItemsById =
     "id": "the-shadows-burden-Unique_Shoulder_Set_14_x1",
     "label": "The Shadow's Burden",
     "link": "https://us.diablo3.com/en/item/the-shadows-burden-Unique_Shoulder_Set_14_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_14_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_14_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -5148,7 +5148,7 @@ export const itemsById: ItemsById =
     "id": "the-shadows-coil-Unique_Pants_Set_14_x1",
     "label": "The Shadow's Coil",
     "link": "https://us.diablo3.com/en/item/the-shadows-coil-Unique_Pants_Set_14_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_14_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_14_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -5159,7 +5159,7 @@ export const itemsById: ItemsById =
     "id": "the-shadows-grasp-Unique_Gloves_Set_14_x1",
     "label": "The Shadow's Grasp",
     "link": "https://us.diablo3.com/en/item/the-shadows-grasp-Unique_Gloves_Set_14_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_14_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_14_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -5170,7 +5170,7 @@ export const itemsById: ItemsById =
     "id": "the-shadows-heels-Unique_Boots_Set_14_x1",
     "label": "The Shadow's Heels",
     "link": "https://us.diablo3.com/en/item/the-shadows-heels-Unique_Boots_Set_14_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_14_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_14_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -5181,7 +5181,7 @@ export const itemsById: ItemsById =
     "id": "the-shadows-mask-Unique_Helm_Set_14_x1",
     "label": "The Shadow's Mask",
     "link": "https://us.diablo3.com/en/item/the-shadows-mask-Unique_Helm_Set_14_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_14_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_14_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -5192,7 +5192,7 @@ export const itemsById: ItemsById =
     "id": "the-shame-of-delsere-P4_Unique_Belt_02",
     "label": "The Shame of Delsere",
     "link": "https://us.diablo3.com/en/item/the-shame-of-delsere-P4_Unique_Belt_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_belt_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_belt_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -5203,7 +5203,7 @@ export const itemsById: ItemsById =
     "id": "the-short-mans-finger-P61_Unique_Ring_01",
     "label": "The Short Man's Finger",
     "link": "https://us.diablo3.com/en/item/the-short-mans-finger-P61_Unique_Ring_01",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_ring_01_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_ring_01_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -5215,7 +5215,7 @@ export const itemsById: ItemsById =
     "id": "the-slanderer-Unique_Sword_1H_Set_02_x1",
     "label": "The Slanderer",
     "link": "https://us.diablo3.com/en/item/the-slanderer-Unique_Sword_1H_Set_02_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_sword_1h_set_02_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_sword_1h_set_02_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5227,7 +5227,7 @@ export const itemsById: ItemsById =
     "id": "the-star-of-azkaranth-Unique_Amulet_006_x1",
     "label": "The Star of Azkaranth",
     "link": "https://us.diablo3.com/en/item/the-star-of-azkaranth-Unique_Amulet_006_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_006_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_006_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -5238,7 +5238,7 @@ export const itemsById: ItemsById =
     "id": "the-sultan-of-blinding-sand-Unique_Sword_2H_008_x1",
     "label": "The Sultan of Blinding Sand",
     "link": "https://us.diablo3.com/en/item/the-sultan-of-blinding-sand-Unique_Sword_2H_008_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_sword_2h_008_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_sword_2h_008_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5250,7 +5250,7 @@ export const itemsById: ItemsById =
     "id": "the-swami-P3_Unique_WizardHat_003",
     "label": "The Swami",
     "link": "https://us.diablo3.com/en/item/the-swami-P3_Unique_WizardHat_003",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p3_unique_wizardhat_003_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p3_unique_wizardhat_003_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -5261,7 +5261,7 @@ export const itemsById: ItemsById =
     "id": "the-three-hundredth-spear-P4_Unique_Spear_002",
     "label": "The Three Hundredth Spear",
     "link": "https://us.diablo3.com/en/item/the-three-hundredth-spear-P4_Unique_Spear_002",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_spear_002_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_spear_002_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5273,7 +5273,7 @@ export const itemsById: ItemsById =
     "id": "the-travelers-pledge-Unique_Amulet_008_x1",
     "label": "The Traveler's Pledge",
     "link": "https://us.diablo3.com/en/item/the-travelers-pledge-Unique_Amulet_008_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_008_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_008_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.NECK
@@ -5284,7 +5284,7 @@ export const itemsById: ItemsById =
     "id": "the-twisted-sword-P610_Unique_Sword_1H_107",
     "label": "The Twisted Sword",
     "link": "https://us.diablo3.com/en/item/the-twisted-sword-P610_Unique_Sword_1H_107",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p610_unique_sword_1h_107_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p610_unique_sword_1h_107_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5296,7 +5296,7 @@ export const itemsById: ItemsById =
     "id": "the-undisputed-champion-P68_Unique_BarbBelt_006",
     "label": "The Undisputed Champion",
     "link": "https://us.diablo3.com/en/item/the-undisputed-champion-P68_Unique_BarbBelt_006",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_barbbelt_006_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_barbbelt_006_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -5307,7 +5307,7 @@ export const itemsById: ItemsById =
     "id": "the-wailing-host-Unique_Ring_014_x1",
     "label": "The Wailing Host",
     "link": "https://us.diablo3.com/en/item/the-wailing-host-Unique_Ring_014_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_014_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_014_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -5319,7 +5319,7 @@ export const itemsById: ItemsById =
     "id": "the-witching-hour-Unique_Belt_009_x1",
     "label": "The Witching Hour",
     "link": "https://us.diablo3.com/en/item/the-witching-hour-Unique_Belt_009_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_belt_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_belt_009_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -5330,7 +5330,7 @@ export const itemsById: ItemsById =
     "id": "thing-of-the-deep-P4_Unique_Mojo_002",
     "label": "Thing of the Deep",
     "link": "https://us.diablo3.com/en/item/thing-of-the-deep-P4_Unique_Mojo_002",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_mojo_002_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_mojo_002_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -5341,7 +5341,7 @@ export const itemsById: ItemsById =
     "id": "thunderfury-blessed-blade-of-the-windseeker-Unique_Sword_1H_101_x1",
     "label": "Thunderfury, Blessed Blade of the Windseeker",
     "link": "https://us.diablo3.com/en/item/thunderfury-blessed-blade-of-the-windseeker-Unique_Sword_1H_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_sword_1h_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_sword_1h_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5353,7 +5353,7 @@ export const itemsById: ItemsById =
     "id": "thundergods-vigor-Unique_BarbBelt_003_x1",
     "label": "Thundergod's Vigor",
     "link": "https://us.diablo3.com/en/item/thundergods-vigor-Unique_BarbBelt_003_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_barbbelt_003_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_barbbelt_003_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -5364,7 +5364,7 @@ export const itemsById: ItemsById =
     "id": "towers-of-the-light-Unique_Pants_Set_03_p3",
     "label": "Towers of the Light",
     "link": "https://us.diablo3.com/en/item/towers-of-the-light-Unique_Pants_Set_03_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_03_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_03_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -5375,7 +5375,7 @@ export const itemsById: ItemsById =
     "id": "tragouls-claws-P6_Necro_Set_2_Gloves",
     "label": "Trag'Oul's Claws",
     "link": "https://us.diablo3.com/en/item/tragouls-claws-P6_Necro_Set_2_Gloves",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_2_gloves_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_2_gloves_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -5386,7 +5386,7 @@ export const itemsById: ItemsById =
     "id": "tragouls-corroded-fang-P6_Unique_Scythe1H_02",
     "label": "Trag'Oul's Corroded Fang",
     "link": "https://us.diablo3.com/en/item/tragouls-corroded-fang-P6_Unique_Scythe1H_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_scythe1h_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_scythe1h_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5398,7 +5398,7 @@ export const itemsById: ItemsById =
     "id": "tragouls-guise-P6_Necro_Set_2_Helm",
     "label": "Trag'Oul's Guise",
     "link": "https://us.diablo3.com/en/item/tragouls-guise-P6_Necro_Set_2_Helm",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_2_helm_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_2_helm_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -5409,7 +5409,7 @@ export const itemsById: ItemsById =
     "id": "tragouls-heart-P6_Necro_Set_2_Shoulders",
     "label": "Trag'Oul's Heart",
     "link": "https://us.diablo3.com/en/item/tragouls-heart-P6_Necro_Set_2_Shoulders",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_2_shoulders_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_2_shoulders_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -5420,7 +5420,7 @@ export const itemsById: ItemsById =
     "id": "tragouls-hide-P6_Necro_Set_2_Pants",
     "label": "Trag'Oul's Hide",
     "link": "https://us.diablo3.com/en/item/tragouls-hide-P6_Necro_Set_2_Pants",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_2_pants_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_2_pants_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -5431,7 +5431,7 @@ export const itemsById: ItemsById =
     "id": "tragouls-scales-P6_Necro_Set_2_Chest",
     "label": "Trag'Oul's Scales",
     "link": "https://us.diablo3.com/en/item/tragouls-scales-P6_Necro_Set_2_Chest",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_2_chest_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_2_chest_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -5442,7 +5442,7 @@ export const itemsById: ItemsById =
     "id": "tragouls-stalwart-greaves-P6_Necro_Set_2_Boots",
     "label": "Trag'Oul's Stalwart Greaves",
     "link": "https://us.diablo3.com/en/item/tragouls-stalwart-greaves-P6_Necro_Set_2_Boots",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_necro_set_2_boots_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_necro_set_2_boots_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -5453,7 +5453,7 @@ export const itemsById: ItemsById =
     "id": "triumvirate-P61_Unique_Orb_003",
     "label": "Triumvirate",
     "link": "https://us.diablo3.com/en/item/triumvirate-P61_Unique_Orb_003",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_orb_003_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_orb_003_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -5464,7 +5464,7 @@ export const itemsById: ItemsById =
     "id": "typhons-abdomen-P68_Unique_Pants_Set_03",
     "label": "Typhon's Abdomen",
     "link": "https://us.diablo3.com/en/item/typhons-abdomen-P68_Unique_Pants_Set_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_pants_set_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_pants_set_03_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -5475,7 +5475,7 @@ export const itemsById: ItemsById =
     "id": "typhons-claws-P68_Unique_Gloves_Set_03",
     "label": "Typhon's Claws",
     "link": "https://us.diablo3.com/en/item/typhons-claws-P68_Unique_Gloves_Set_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_gloves_set_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_gloves_set_03_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -5486,7 +5486,7 @@ export const itemsById: ItemsById =
     "id": "typhons-frons-P68_Unique_Helm_Set_03",
     "label": "Typhon's Frons",
     "link": "https://us.diablo3.com/en/item/typhons-frons-P68_Unique_Helm_Set_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_helm_set_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_helm_set_03_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -5497,7 +5497,7 @@ export const itemsById: ItemsById =
     "id": "typhons-tarsus-P68_Unique_Boots_Set_03",
     "label": "Typhon's Tarsus",
     "link": "https://us.diablo3.com/en/item/typhons-tarsus-P68_Unique_Boots_Set_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_boots_set_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_boots_set_03_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -5508,7 +5508,7 @@ export const itemsById: ItemsById =
     "id": "typhons-thorax-P68_Unique_Chest_Set_03",
     "label": "Typhon's Thorax",
     "link": "https://us.diablo3.com/en/item/typhons-thorax-P68_Unique_Chest_Set_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_chest_set_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_chest_set_03_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -5519,7 +5519,7 @@ export const itemsById: ItemsById =
     "id": "typhons-tibia-P68_Unique_Shoulder_Set_03",
     "label": "Typhon's Tibia",
     "link": "https://us.diablo3.com/en/item/typhons-tibia-P68_Unique_Shoulder_Set_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p68_unique_shoulder_set_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p68_unique_shoulder_set_03_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -5530,7 +5530,7 @@ export const itemsById: ItemsById =
     "id": "tyraels-might-Unique_Chest_002_x1",
     "label": "Tyrael's Might",
     "link": "https://us.diablo3.com/en/item/tyraels-might-Unique_Chest_002_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_002_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_002_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.TORSO
@@ -5541,7 +5541,7 @@ export const itemsById: ItemsById =
     "id": "tzo-krins-gaze-Unique_SpiritStone_007_x1",
     "label": "Tzo Krin's Gaze",
     "link": "https://us.diablo3.com/en/item/tzo-krins-gaze-Unique_SpiritStone_007_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_spiritstone_007_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_spiritstone_007_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -5552,7 +5552,7 @@ export const itemsById: ItemsById =
     "id": "uhkapian-serpent-Unique_Mojo_008_x1",
     "label": "Uhkapian Serpent",
     "link": "https://us.diablo3.com/en/item/uhkapian-serpent-Unique_Mojo_008_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mojo_008_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mojo_008_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -5563,7 +5563,7 @@ export const itemsById: ItemsById =
     "id": "ulianas-burden-Unique_Pants_Set_01_p3",
     "label": "Uliana's Burden",
     "link": "https://us.diablo3.com/en/item/ulianas-burden-Unique_Pants_Set_01_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_01_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_01_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -5574,7 +5574,7 @@ export const itemsById: ItemsById =
     "id": "ulianas-destiny-Unique_Boots_Set_01_p3",
     "label": "Uliana's Destiny",
     "link": "https://us.diablo3.com/en/item/ulianas-destiny-Unique_Boots_Set_01_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_01_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_01_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -5585,7 +5585,7 @@ export const itemsById: ItemsById =
     "id": "ulianas-fury-Unique_Gloves_Set_01_p3",
     "label": "Uliana's Fury",
     "link": "https://us.diablo3.com/en/item/ulianas-fury-Unique_Gloves_Set_01_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_01_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_01_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -5596,7 +5596,7 @@ export const itemsById: ItemsById =
     "id": "ulianas-heart-Unique_Chest_Set_01_p3",
     "label": "Uliana's Heart",
     "link": "https://us.diablo3.com/en/item/ulianas-heart-Unique_Chest_Set_01_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_01_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_01_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -5607,7 +5607,7 @@ export const itemsById: ItemsById =
     "id": "ulianas-spirit-Unique_Helm_Set_01_p3",
     "label": "Uliana's Spirit",
     "link": "https://us.diablo3.com/en/item/ulianas-spirit-Unique_Helm_Set_01_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_01_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_01_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -5618,7 +5618,7 @@ export const itemsById: ItemsById =
     "id": "ulianas-strength-Unique_Shoulder_Set_01_p3",
     "label": "Uliana's Strength",
     "link": "https://us.diablo3.com/en/item/ulianas-strength-Unique_Shoulder_Set_01_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_01_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_01_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -5629,7 +5629,7 @@ export const itemsById: ItemsById =
     "id": "unholy-plates-Unique_Pants_Set_03_p2",
     "label": "Unholy Plates",
     "link": "https://us.diablo3.com/en/item/unholy-plates-Unique_Pants_Set_03_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_03_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_03_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -5640,7 +5640,7 @@ export const itemsById: ItemsById =
     "id": "unity-Unique_Ring_010_x1",
     "label": "Unity",
     "link": "https://us.diablo3.com/en/item/unity-Unique_Ring_010_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_010_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_010_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -5652,7 +5652,7 @@ export const itemsById: ItemsById =
     "id": "unsanctified-shoulders-Unique_Shoulder_Set_03_p2",
     "label": "Unsanctified Shoulders",
     "link": "https://us.diablo3.com/en/item/unsanctified-shoulders-Unique_Shoulder_Set_03_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_03_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_03_p2_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -5663,7 +5663,7 @@ export const itemsById: ItemsById =
     "id": "unstable-scepter-P61_Wand_norm_unique_02",
     "label": "Unstable Scepter",
     "link": "https://us.diablo3.com/en/item/unstable-scepter-P61_Wand_norm_unique_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_wand_norm_unique_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_wand_norm_unique_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5675,7 +5675,7 @@ export const itemsById: ItemsById =
     "id": "vallas-bequest-P43_Unique_HandXBow_005",
     "label": "Valla's Bequest",
     "link": "https://us.diablo3.com/en/item/vallas-bequest-P43_Unique_HandXBow_005",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p43_unique_handxbow_005_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p43_unique_handxbow_005_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5687,7 +5687,7 @@ export const itemsById: ItemsById =
     "id": "vambraces-of-sescheron-P4_Unique_Bracer_106",
     "label": "Vambraces of Sescheron",
     "link": "https://us.diablo3.com/en/item/vambraces-of-sescheron-P4_Unique_Bracer_106",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_bracer_106_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_bracer_106_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -5698,7 +5698,7 @@ export const itemsById: ItemsById =
     "id": "velvet-camaral-Unique_WizardHat_102_x1",
     "label": "Velvet Camaral",
     "link": "https://us.diablo3.com/en/item/velvet-camaral-Unique_WizardHat_102_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_wizardhat_102_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_wizardhat_102_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -5709,7 +5709,7 @@ export const itemsById: ItemsById =
     "id": "vengeful-wind-P67_fistWeapon_norm_unique_02",
     "label": "Vengeful Wind",
     "link": "https://us.diablo3.com/en/item/vengeful-wind-P67_fistWeapon_norm_unique_02",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_fistweapon_norm_unique_02_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_fistweapon_norm_unique_02_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5721,7 +5721,7 @@ export const itemsById: ItemsById =
     "id": "vigilante-belt-Unique_Belt_002_x1",
     "label": "Vigilante Belt",
     "link": "https://us.diablo3.com/en/item/vigilante-belt-Unique_Belt_002_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_belt_002_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_belt_002_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -5732,7 +5732,7 @@ export const itemsById: ItemsById =
     "id": "vile-hive-P4_Unique_Mojo_001",
     "label": "Vile Hive",
     "link": "https://us.diablo3.com/en/item/vile-hive-P4_Unique_Mojo_001",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_mojo_001_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_mojo_001_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -5743,7 +5743,7 @@ export const itemsById: ItemsById =
     "id": "vile-ward-Unique_Shoulder_003_p1",
     "label": "Vile Ward",
     "link": "https://us.diablo3.com/en/item/vile-ward-Unique_Shoulder_003_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_003_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_003_p1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.SHOULDERS
@@ -5754,7 +5754,7 @@ export const itemsById: ItemsById =
     "id": "visage-of-gunes-P4_Unique_Helm_103",
     "label": "Visage of Gunes",
     "link": "https://us.diablo3.com/en/item/visage-of-gunes-P4_Unique_Helm_103",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_helm_103_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_helm_103_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.HEAD
@@ -5765,7 +5765,7 @@ export const itemsById: ItemsById =
     "id": "votoyias-spiker-Unique_Shield_104_x1",
     "label": "Vo'Toyias Spiker",
     "link": "https://us.diablo3.com/en/item/votoyias-spiker-Unique_Shield_104_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shield_104_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shield_104_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -5776,7 +5776,7 @@ export const itemsById: ItemsById =
     "id": "voos-juicer-P4_Unique_Dagger_002",
     "label": "Voo's Juicer",
     "link": "https://us.diablo3.com/en/item/voos-juicer-P4_Unique_Dagger_002",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_dagger_002_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_dagger_002_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5788,7 +5788,7 @@ export const itemsById: ItemsById =
     "id": "vyrs-astonishing-aura-Unique_Chest_Set_13_x1",
     "label": "Vyr's Astonishing Aura",
     "link": "https://us.diablo3.com/en/item/vyrs-astonishing-aura-Unique_Chest_Set_13_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_set_13_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_set_13_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -5799,7 +5799,7 @@ export const itemsById: ItemsById =
     "id": "vyrs-fantastic-finery-Unique_Pants_Set_13_x1",
     "label": "Vyr's Fantastic Finery",
     "link": "https://us.diablo3.com/en/item/vyrs-fantastic-finery-Unique_Pants_Set_13_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_13_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_13_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -5810,7 +5810,7 @@ export const itemsById: ItemsById =
     "id": "vyrs-grasping-gauntlets-Unique_Gloves_Set_13_x1",
     "label": "Vyr's Grasping Gauntlets",
     "link": "https://us.diablo3.com/en/item/vyrs-grasping-gauntlets-Unique_Gloves_Set_13_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_13_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_13_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -5821,7 +5821,7 @@ export const itemsById: ItemsById =
     "id": "vyrs-proud-pauldrons-Unique_Shoulder_Set_13_x1",
     "label": "Vyr's Proud Pauldrons",
     "link": "https://us.diablo3.com/en/item/vyrs-proud-pauldrons-Unique_Shoulder_Set_13_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_shoulder_set_13_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_shoulder_set_13_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.SHOULDERS
@@ -5832,7 +5832,7 @@ export const itemsById: ItemsById =
     "id": "vyrs-sightless-skull-Unique_Helm_Set_13_x1",
     "label": "Vyr's Sightless Skull",
     "link": "https://us.diablo3.com/en/item/vyrs-sightless-skull-Unique_Helm_Set_13_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_helm_set_13_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_helm_set_13_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
@@ -5843,7 +5843,7 @@ export const itemsById: ItemsById =
     "id": "vyrs-swaggering-stance-Unique_Boots_Set_13_x1",
     "label": "Vyr's Swaggering Stance",
     "link": "https://us.diablo3.com/en/item/vyrs-swaggering-stance-Unique_Boots_Set_13_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_13_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_13_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -5854,7 +5854,7 @@ export const itemsById: ItemsById =
     "id": "wand-of-woh-P61_Unique_Wand_101_x1",
     "label": "Wand of Woh",
     "link": "https://us.diablo3.com/en/item/wand-of-woh-P61_Unique_Wand_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_wand_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_wand_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5866,7 +5866,7 @@ export const itemsById: ItemsById =
     "id": "warzechian-armguards-Unique_Bracer_101_x1",
     "label": "Warzechian Armguards",
     "link": "https://us.diablo3.com/en/item/warzechian-armguards-Unique_Bracer_101_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_bracer_101_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_bracer_101_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -5877,7 +5877,7 @@ export const itemsById: ItemsById =
     "id": "weight-of-the-earth-Unique_Pants_Set_15_x1",
     "label": "Weight of the Earth",
     "link": "https://us.diablo3.com/en/item/weight-of-the-earth-Unique_Pants_Set_15_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_pants_set_15_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_pants_set_15_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -5888,7 +5888,7 @@ export const itemsById: ItemsById =
     "id": "wilkens-reach-P4_Unique_Mojo_003",
     "label": "Wilken's Reach",
     "link": "https://us.diablo3.com/en/item/wilkens-reach-P4_Unique_Mojo_003",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_mojo_003_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_mojo_003_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -5899,7 +5899,7 @@ export const itemsById: ItemsById =
     "id": "will-of-the-light-Unique_Gloves_Set_03_p3",
     "label": "Will of the Light",
     "link": "https://us.diablo3.com/en/item/will-of-the-light-Unique_Gloves_Set_03_p3",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_gloves_set_03_p3_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_gloves_set_03_p3_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -5910,7 +5910,7 @@ export const itemsById: ItemsById =
     "id": "windforce-Unique_Bow_009_x1",
     "label": "Windforce",
     "link": "https://us.diablo3.com/en/item/windforce-Unique_Bow_009_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_bow_009_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_bow_009_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_HAND,
@@ -5922,7 +5922,7 @@ export const itemsById: ItemsById =
     "id": "wisdom-of-kalan-P6_Unique_Amulet_03",
     "label": "Wisdom of Kalan",
     "link": "https://us.diablo3.com/en/item/wisdom-of-kalan-P6_Unique_Amulet_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p6_unique_amulet_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p6_unique_amulet_03_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -5933,7 +5933,7 @@ export const itemsById: ItemsById =
     "id": "wojahnni-assaulter-P65_Unique_Xbow_102",
     "label": "Wojahnni Assaulter",
     "link": "https://us.diablo3.com/en/item/wojahnni-assaulter-P65_Unique_Xbow_102",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p65_unique_xbow_102_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p65_unique_xbow_102_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_HAND,
@@ -5945,7 +5945,7 @@ export const itemsById: ItemsById =
     "id": "won-khim-lau-P67_Unique_Fist_006",
     "label": "Won Khim Lau",
     "link": "https://us.diablo3.com/en/item/won-khim-lau-P67_Unique_Fist_006",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p67_unique_fist_006_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p67_unique_fist_006_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5957,7 +5957,7 @@ export const itemsById: ItemsById =
     "id": "wormwood-P2_Unique_Staff_003",
     "label": "Wormwood",
     "link": "https://us.diablo3.com/en/item/wormwood-P2_Unique_Staff_003",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_staff_003_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_staff_003_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5969,7 +5969,7 @@ export const itemsById: ItemsById =
     "id": "wraps-of-clarity-P61_Unique_Bracer_103",
     "label": "Wraps of Clarity",
     "link": "https://us.diablo3.com/en/item/wraps-of-clarity-P61_Unique_Bracer_103",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_bracer_103_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_bracer_103_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.BRACERS
@@ -5980,7 +5980,7 @@ export const itemsById: ItemsById =
     "id": "wrath-of-the-bone-king-Unique_Mace_2H_012_p1",
     "label": "Wrath of the Bone King",
     "link": "https://us.diablo3.com/en/item/wrath-of-the-bone-king-Unique_Mace_2H_012_p1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mace_2h_012_p1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mace_2h_012_p1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.RIGHT_HAND,
@@ -5992,7 +5992,7 @@ export const itemsById: ItemsById =
     "id": "wyrdward-Unique_Ring_102_p2",
     "label": "Wyrdward",
     "link": "https://us.diablo3.com/en/item/wyrdward-Unique_Ring_102_p2",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_102_p2_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_102_p2_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -6004,7 +6004,7 @@ export const itemsById: ItemsById =
     "id": "xephirian-amulet-Unique_Amulet_004_x1",
     "label": "Xephirian Amulet",
     "link": "https://us.diablo3.com/en/item/xephirian-amulet-Unique_Amulet_004_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_amulet_004_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_amulet_004_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.NECK
@@ -6015,7 +6015,7 @@ export const itemsById: ItemsById =
     "id": "yangs-recurve-P61_Unique_Bow_104_x1",
     "label": "Yang's Recurve",
     "link": "https://us.diablo3.com/en/item/yangs-recurve-P61_Unique_Bow_104_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p61_unique_bow_104_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p61_unique_bow_104_x1_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.LEFT_HAND,
@@ -6027,7 +6027,7 @@ export const itemsById: ItemsById =
     "id": "zeal-of-the-invoker-Unique_Boots_Set_12_x1",
     "label": "Zeal of the Invoker",
     "link": "https://us.diablo3.com/en/item/zeal-of-the-invoker-Unique_Boots_Set_12_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_set_12_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_set_12_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -6038,7 +6038,7 @@ export const itemsById: ItemsById =
     "id": "zoeys-secret-P4_Unique_Belt_04",
     "label": "Zoey's Secret",
     "link": "https://us.diablo3.com/en/item/zoeys-secret-P4_Unique_Belt_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p4_unique_belt_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p4_unique_belt_04_demonhunter_male.png",
     "isSet": false,
     "slots": [
       ItemSlot.WAIST
@@ -6049,7 +6049,7 @@ export const itemsById: ItemsById =
     "id": "zunimassas-cloth-P2_Unique_Pants_04",
     "label": "Zunimassa's Cloth",
     "link": "https://us.diablo3.com/en/item/zunimassas-cloth-P2_Unique_Pants_04",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_pants_04_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_pants_04_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
@@ -6060,7 +6060,7 @@ export const itemsById: ItemsById =
     "id": "zunimassas-finger-wraps-P2_Unique_Gloves_03",
     "label": "Zunimassa's Finger Wraps",
     "link": "https://us.diablo3.com/en/item/zunimassas-finger-wraps-P2_Unique_Gloves_03",
-    "img": "http://media.blizzard.com/d3/icons/items/small/p2_unique_gloves_03_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p2_unique_gloves_03_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HANDS
@@ -6071,7 +6071,7 @@ export const itemsById: ItemsById =
     "id": "zunimassas-marrow-Unique_Chest_016_x1",
     "label": "Zunimassa's Marrow",
     "link": "https://us.diablo3.com/en/item/zunimassas-marrow-Unique_Chest_016_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_chest_016_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_chest_016_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.TORSO
@@ -6082,7 +6082,7 @@ export const itemsById: ItemsById =
     "id": "zunimassas-pox-Unique_Ring_012_x1",
     "label": "Zunimassa's Pox",
     "link": "https://us.diablo3.com/en/item/zunimassas-pox-Unique_Ring_012_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_ring_012_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_ring_012_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.LEFT_FINGER,
@@ -6094,7 +6094,7 @@ export const itemsById: ItemsById =
     "id": "zunimassas-string-of-skulls-Unique_Mojo_011_x1",
     "label": "Zunimassa's String of Skulls",
     "link": "https://us.diablo3.com/en/item/zunimassas-string-of-skulls-Unique_Mojo_011_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_mojo_011_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_mojo_011_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.RIGHT_HAND
@@ -6105,7 +6105,7 @@ export const itemsById: ItemsById =
     "id": "zunimassas-trail-Unique_Boots_013_x1",
     "label": "Zunimassa's Trail",
     "link": "https://us.diablo3.com/en/item/zunimassas-trail-Unique_Boots_013_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_boots_013_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_boots_013_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.FEET
@@ -6116,7 +6116,7 @@ export const itemsById: ItemsById =
     "id": "zunimassas-vision-Unique_VoodooMask_007_x1",
     "label": "Zunimassa's Vision",
     "link": "https://us.diablo3.com/en/item/zunimassas-vision-Unique_VoodooMask_007_x1",
-    "img": "http://media.blizzard.com/d3/icons/items/small/unique_voodoomask_007_x1_demonhunter_male.png",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_voodoomask_007_x1_demonhunter_male.png",
     "isSet": true,
     "slots": [
       ItemSlot.HEAD
