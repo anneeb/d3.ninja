@@ -18,5 +18,6 @@
   "files": ["src/main.ts", "src/polyfills.ts"],
   "fullTemplateTypeCheck": true,
   "include": ["src/**/*.ts", "src/**/*.d.ts"],
+  "exclude": ["src/constants/salvage-guide/raw-salvage-guide.ts"],
   "strictTemplates": true
 }
