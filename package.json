@@ -14,7 +14,7 @@
     "salvage-guide": "yarn run salvage-guide:update && yarn run salvage-guide:parse && yarn run salvage-guide:version && yarn run salvage-guide:copy"
   },
   "author": "Annee Barrett",
-  "license": "MIT",
+  "license": "GPL 2.0",
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1000.6",
     "@angular/cli": "^10.0.6",
