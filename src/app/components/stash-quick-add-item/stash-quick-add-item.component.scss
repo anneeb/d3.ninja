@@ -1,12 +1,10 @@
 @import "../../../styles/variables.scss";
 
 .app-stash-quick-add-item {
-  &--green {
-    color: $app-stash-item-green;
-  }
+  color: $app-stash-item-orange;
 
-  &--orange {
-    color: $app-stash-item-orange;
+  &--is-set {
+    color: $app-stash-item-green;
   }
 
   ::ng-deep .mat-checkbox-inner-container {
