@@ -85,7 +85,7 @@ export function decodeStashItems(result: string) {
       id,
       isSet: false,
       isSelected: legendaryBinary[idx * 2] === "1",
-      isCubeSelected: legendaryBinary[idx * 2] === "1",
+      isCubeSelected: legendaryBinary[idx * 2 + 1] === "1",
     });
   });
 
