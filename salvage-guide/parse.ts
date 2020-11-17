@@ -249,7 +249,7 @@ async function parse() {
     console.log(`Saved salvage guide to ${target}`);
   } catch (err) {
     console.log(err);
-    process.exit(-1);
+    process.exit(1);
   }
 }
 

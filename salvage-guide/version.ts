@@ -47,7 +47,7 @@ async function version() {
     console.log(`Saved versions to ${target}`);
   } catch (err) {
     console.log(err);
-    process.exit(-1);
+    process.exit(1);
   }
 }
 

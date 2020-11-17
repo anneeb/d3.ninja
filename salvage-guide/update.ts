@@ -192,7 +192,7 @@ async function update() {
     await driver.quit();
   } catch (err) {
     console.log(err);
-    process.exit(-1);
+    process.exit(1);
   }
 }
 
