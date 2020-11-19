@@ -77,11 +77,9 @@ export class StashService extends BaseService {
   }
 
   updateSearch(search: string) {
-    setTimeout(() => {
-      if (this.search.getValue() !== search) {
-        this.setSearch(search);
-      }
-    }, 0);
+    if (this.search.getValue() !== search) {
+      this.setSearch(search);
+    }
   }
 
   updateIsItemSelected(

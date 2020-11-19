@@ -20,6 +20,7 @@ import { StashService } from "app/services/stash.service";
 export class BuildsService extends BaseService {
   private stashService: StashService;
   private items = new BehaviorSubject(buildItems);
+  private search = new BehaviorSubject<string>("");
   private sortAndFilter = new BehaviorSubject<BuildSortAndFilter>(
     defaultBuildSortAndFilter
   );
@@ -37,6 +38,7 @@ export class BuildsService extends BaseService {
 
     this.getItems().subscribe(() => this.debouncedProcessItems());
     this.getSortAndFilter().subscribe(() => this.debouncedProcessItems());
+    this.getSearch().subscribe(() => this.debouncedProcessItems());
   }
 
   setStashService(stashService: StashService) {
@@ -52,6 +54,20 @@ export class BuildsService extends BaseService {
 
   private setItems(items: BuildItemMap) {
     return super.setBehaviorSubjectValue(this.items, items);
+  }
+
+  getSearch() {
+    return super.getBehaviorSubjectValue(this.search);
+  }
+
+  private setSearch(search: string) {
+    super.setBehaviorSubjectValue(this.search, search);
+  }
+
+  updateSearch(search: string) {
+    if (this.search.getValue() !== search) {
+      this.setSearch(search);
+    }
   }
 
   getSortAndFilter() {
@@ -107,10 +123,11 @@ export class BuildsService extends BaseService {
   }
 
   private processItems() {
+    const search = this.search.getValue();
     const sortAndFilter = this.sortAndFilter.getValue();
     this.setProcessedItems(
       Object.values(this.items.getValue())
-        .filter((item) => buildItemFilter(item, sortAndFilter))
+        .filter((item) => buildItemFilter(item, search, sortAndFilter))
         .sort(buildItemSort(...buildSortByArgs[sortAndFilter.sortBy]))
         .map((item) => item.id)
     );

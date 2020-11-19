@@ -4,11 +4,11 @@
       *ngFor="let itemId of itemIds"
       [itemId]="itemId"
     ></app-builds-card>
-    <div *ngIf="isProcessingItems" class="app-builds-cards__spinner">
-      <mat-spinner color="accent"></mat-spinner>
-    </div>
   </ng-container>
   <ng-template #elseBlock
     ><h3 class="app-builds-cards__empty">No results</h3>
   </ng-template>
+  <div *ngIf="isProcessingItems" class="app-builds-cards__spinner">
+    <mat-spinner color="accent"></mat-spinner>
+  </div>
 </div>

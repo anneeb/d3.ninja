@@ -8,6 +8,24 @@
     justify-content: space-between;
   }
 
+  &__header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__search {
+    font-size: 12px;
+
+    ::ng-deep .mat-form-field-wrapper {
+      padding: 0;
+    }
+  }
+
+  &__filter {
+    margin: 0 12px;
+  }
+
   > *:not(.app-builds-panel__header) {
     flex: 1 1 auto;
     min-height: 0;

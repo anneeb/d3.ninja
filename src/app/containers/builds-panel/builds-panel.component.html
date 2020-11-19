@@ -1,9 +1,24 @@
 <div class="app-builds-panel">
   <mat-toolbar color="accent" class="app-builds-panel__header">
     <span>Builds</span>
-    <button mat-icon-button (click)="handleFilterIconClick()">
-      <mat-icon>filter_list</mat-icon>
-    </button>
+    <div class="app-builds-panel__header-left">
+      <mat-form-field class="app-builds-panel__search" appearance="outline">
+        <mat-label>Search Builds...</mat-label>
+        <input matInput type="search" [formControl]="searchControl" />
+        <button mat-icon-button matSuffix (click)="handleClearSearchClick()">
+          <mat-icon>{{ searchIcon }}</mat-icon>
+        </button>
+      </mat-form-field>
+      <button
+        mat-icon-button
+        matTooltip="Sort and Filter"
+        matTooltipShowDelay="500"
+        class="app-builds-panel__filter"
+        (click)="handleFilterIconClick()"
+      >
+        <mat-icon>tune</mat-icon>
+      </button>
+    </div>
   </mat-toolbar>
   <app-builds-cards></app-builds-cards>
 </div>

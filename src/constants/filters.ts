@@ -58,14 +58,16 @@ export const defaultBuildSortAndFilter: BuildSortAndFilter = {
 
 export function buildItemFilter(
   item: BuildItem,
+  search: string,
   { characters, tags, outdated }: BuildSortAndFilter
 ) {
+  const searchMatch = Boolean(item.search.match(new RegExp(search, "i")));
   const characterMatch = characters.includes(item.character);
   const tagMatch = tags.includes(item.subLabel);
   const outdatedMatch = outdated.includes(
     item.isOutdated ? BuildOutdated.YES : BuildOutdated.NO
   );
-  return characterMatch && tagMatch && outdatedMatch;
+  return searchMatch && characterMatch && tagMatch && outdatedMatch;
 }
 
 export function buildItemSort(

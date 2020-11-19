@@ -451,6 +451,7 @@ export type BuildItem = BuildWithItems &
   BuildTags & {
     icons: BuildIcon[];
     score: number;
+    search: string;
   };
 
 export interface BuildItemMap {
@@ -463,12 +464,37 @@ export const buildItems = Object.values(getBuildsByLabel(buildsById)).reduce<
   Object.values(builds).forEach((build) => {
     addBaseItemsToBuild(build, builds, baseBuilds);
     const icons = getBuildIcons(build);
+    const tags = buildTags[build.id];
+    const itemLabels = [];
+    if (build.heroItems) {
+      Object.values(build.heroItems).forEach((slots) =>
+        Object.values(slots).forEach((ids) =>
+          ids.forEach((id) => itemLabels.push(itemsById[id].label))
+        )
+      );
+    }
+    if (build.followersItems) {
+      Object.values(build.followersItems).forEach((follower) =>
+        Object.values(follower).forEach((slots) =>
+          Object.values(slots).forEach((ids) =>
+            ids.forEach((id) => itemLabels.push(itemsById[id].label))
+          )
+        )
+      );
+    }
+    const search = [
+      build.label,
+      build.character,
+      tags.subLabel,
+      ...itemLabels,
+    ].join(" ");
 
     acc[build.id] = {
       ...build,
-      ...buildTags[build.id],
+      ...tags,
       icons,
       score: 0,
+      search,
     };
   });
 
