@@ -11,16 +11,17 @@ import { StashService } from "app/services/stash.service";
 })
 export class StashQuickAddComponent implements OnInit {
   itemIds: string[] = [];
-  selectControl = new FormControl();
-  filterValue: Observable<string>;
+  searchControl = new FormControl();
+  searchValue: Observable<string>;
+  searchIcon: string = "search";
 
   constructor(private stashService: StashService) {
-    this.filterValue = this.selectControl.valueChanges.pipe(startWith(""));
+    this.searchValue = this.searchControl.valueChanges.pipe(startWith(""));
   }
 
   ngOnInit(): void {
-    this.filterValue.subscribe((filterValue) => {
-      this.handleFilterChange(filterValue);
+    this.searchValue.subscribe((searchValue) => {
+      this.handleSearchChange(searchValue);
     });
 
     this.stashService.getFilteredItems().subscribe((items) => {
@@ -28,7 +29,12 @@ export class StashQuickAddComponent implements OnInit {
     });
   }
 
-  handleFilterChange = (filter: string) => {
-    this.stashService.updateFilter(filter);
+  handleClearSearchClick(): void {
+    this.searchControl.setValue("");
+  }
+
+  handleSearchChange = (search: string) => {
+    this.searchIcon = search ? "close" : "search";
+    this.stashService.updateSearch(search);
   };
 }

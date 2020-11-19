@@ -22,11 +22,11 @@ export class HomeComponent implements OnInit {
     private router: Router,
     private uiService: UiService,
     private stashService: StashService,
-    private buildService: BuildsService
+    private buildsService: BuildsService
   ) {}
 
   ngOnInit(): void {
-    this.buildService.setStashService(this.stashService);
+    this.buildsService.setStashService(this.stashService);
 
     this.activatedRoute.queryParamMap.pipe(first()).subscribe((paramMap) => {
       const stash = paramMap.get("stash");

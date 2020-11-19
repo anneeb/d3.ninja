@@ -33,14 +33,14 @@ export class BuildsDialogComponent implements OnInit {
   outdatedOptions: DialogOption[] = [];
 
   constructor(
-    private buildService: BuildsService,
+    private buildsService: BuildsService,
     private dialogRef: MatDialogRef<BuildsDialogComponent>
   ) {
     this.setDialogValues(defaultBuildSortAndFilter);
   }
 
   ngOnInit(): void {
-    this.buildService.getSortAndFilter().subscribe((sortAndFilter) => {
+    this.buildsService.getSortAndFilter().subscribe((sortAndFilter) => {
       this.setDialogValues(sortAndFilter);
     });
   }
@@ -93,7 +93,7 @@ export class BuildsDialogComponent implements OnInit {
   };
 
   handleApplyClick = () => {
-    this.buildService.updateSortAndFilter({
+    this.buildsService.updateSortAndFilter({
       sortBy: this.sortByOptions.find(({ isSelected }) => isSelected)
         .value as BuildSortBy,
       characters: this.characterOptions.some(({ isSelected }) => isSelected)

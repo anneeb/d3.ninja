@@ -9,7 +9,7 @@ import { BaseService } from "app/services/base-service";
 })
 export class StashService extends BaseService {
   private items = new BehaviorSubject(stashItems);
-  private filter = new BehaviorSubject("");
+  private search = new BehaviorSubject("");
   private filteredItems = new BehaviorSubject(Object.keys(stashItems));
   private selectedItems = new BehaviorSubject([] as SelectedStashItem[]);
 
@@ -19,7 +19,7 @@ export class StashService extends BaseService {
     this.getItems().subscribe(() =>
       setTimeout(() => this.syncSelectedItems(), 0)
     );
-    this.getFilter().subscribe(() =>
+    this.getSearch().subscribe(() =>
       setTimeout(() => this.syncFilteredItems(), 0)
     );
   }
@@ -32,12 +32,12 @@ export class StashService extends BaseService {
     return super.setBehaviorSubjectValue(this.items, items);
   }
 
-  getFilter() {
-    return super.getBehaviorSubjectValue(this.filter);
+  getSearch() {
+    return super.getBehaviorSubjectValue(this.search);
   }
 
-  private setFilter(filter: string) {
-    return super.setBehaviorSubjectValue(this.filter, filter);
+  private setSearch(search: string) {
+    return super.setBehaviorSubjectValue(this.search, search);
   }
 
   getFilteredItems() {
@@ -49,9 +49,9 @@ export class StashService extends BaseService {
   }
 
   private syncFilteredItems() {
-    const filterMatch = new RegExp(this.filter.getValue(), "gi");
+    const searchMatch = new RegExp(this.search.getValue(), "gi");
     const filteredItems = Object.values(this.items.getValue())
-      .filter((item) => item.label.match(filterMatch))
+      .filter((item) => item.label.match(searchMatch))
       .map((item) => item.id);
     this.setFilteredItems(filteredItems);
   }
@@ -76,8 +76,12 @@ export class StashService extends BaseService {
     this.setSelectedItems(selectedItems);
   }
 
-  updateFilter(filter: string) {
-    setTimeout(() => this.setFilter(filter), 0);
+  updateSearch(search: string) {
+    setTimeout(() => {
+      if (this.search.getValue() !== search) {
+        this.setSearch(search);
+      }
+    }, 0);
   }
 
   updateIsItemSelected(

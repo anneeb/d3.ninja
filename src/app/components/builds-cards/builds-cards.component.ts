@@ -14,12 +14,12 @@ export class BuildsCardsComponent implements OnInit {
   scrollElementId: string;
 
   constructor(
-    private buildService: BuildsService,
+    private buildsService: BuildsService,
     private uiService: UiService
   ) {}
 
   ngOnInit(): void {
-    this.buildService.getProcessedItems().subscribe((items) => {
+    this.buildsService.getProcessedItems().subscribe((items) => {
       this.hasItems = Boolean(items.length);
       this.itemIds = items;
 
@@ -28,7 +28,7 @@ export class BuildsCardsComponent implements OnInit {
       }
     });
 
-    this.buildService.getIsProcessingItems().subscribe((isProcessingItems) => {
+    this.buildsService.getIsProcessingItems().subscribe((isProcessingItems) => {
       this.isProcessingItems = isProcessingItems;
     });
 

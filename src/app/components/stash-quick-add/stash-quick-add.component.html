@@ -3,8 +3,11 @@
     matInput
     type="text"
     placeholder="Search items..."
-    [formControl]="selectControl"
+    [formControl]="searchControl"
     [matAutocomplete]="autoComplete" />
+  <button mat-icon-button matSuffix (click)="handleClearSearchClick()">
+    <mat-icon>{{ searchIcon }}</mat-icon>
+  </button>
   <mat-autocomplete #autoComplete="matAutocomplete">
     <mat-option
       *ngFor="let itemId of itemIds"
