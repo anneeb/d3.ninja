@@ -14,13 +14,13 @@ async function version() {
   try {
     console.log("Versioning salvage guide...");
 
-    let data = `// Last updated on ${new Date().toLocaleString()}`;
+    let data = `// Last updated on ${new Date().toLocaleString()}\n\n`;
 
     try {
       const current = await readFile(path.resolve(SAVE_DIR, "versions.ts"));
-      data += `${current.split("\n").slice(1, -2).join("\n")}`;
+      data += `${current.split("\n").slice(2, -2).join("\n")}`;
     } catch (err) {
-      data += `\n\nimport { StashItemVersion } from "./types";\n\nexport const stashItemVersions: StashItemVersion[] = [`;
+      data += `import { StashItemVersion } from "./types";\n\nexport const stashItemVersions: StashItemVersion[] = [`;
     }
 
     const items = Object.values(itemsById)

@@ -1,4 +1,4 @@
-// Last updated on 11/15/2020, 5:23:18 PM
+// Last updated on 11/19/2020, 10:41:57 PM
 
 import { RawItemData } from "./types";
 
@@ -117,16 +117,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
-        "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
-        "label": "Aegis of Valor Fist of the Heavens Crusader",
-        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
         "id": "invoker-thorns-crusader-bis-gear-gems-paragon-points",
         "label": "Invoker Thorns Crusader",
         "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "Cube"
       }
     ]
   },
@@ -336,7 +330,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Singularity Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
-        "tags": "Alt"
+        "tags": "Alt + 1 variation"
       },
       {
         "id": "hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
@@ -357,9 +351,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -543,10 +537,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube + 1 variation"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "meteor-wizard-tal-rasha-build",
@@ -561,22 +561,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + Cube + 2 variations"
       },
       {
-        "id": "akkhan-bombardment-crusader-solo-progression-build",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-solo-progression-build",
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "Cube"
       },
       {
-        "id": "spirit-barrage-mundunugu-wd-trash-killer-build",
+        "id": "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
         "label": "Spirit Barrage Mundunugu WD",
-        "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-trash-killer-build",
-        "tags": "Cube"
-      },
-      {
-        "id": "spirit-barrage-mundunugu-wd-speed-farming-build",
-        "label": "Spirit Barrage Mundunugu WD",
-        "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-speed-farming-build",
-        "tags": "Cube"
+        "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
+        "tags": "Cube + 2 variations"
       },
       {
         "id": "lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
@@ -612,7 +606,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "support-necromancer-bis-gear-gems-paragon-points",
         "label": "Support Necromancer",
         "link": "https://www.icy-veins.com/d3/support-necromancer-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "tags": "BiS"
       },
       {
         "id": "akkhan-blessed-shield-crusader-bis-gear-gems-paragon-points",
@@ -624,6 +618,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
         "label": "Roland's Sweep Attack Crusader",
         "link": "https://www.icy-veins.com/d3/rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "lod-condemn-crusader-bis-gear-gems-paragon-points",
+        "label": "LoD Condemn Crusader",
+        "link": "https://www.icy-veins.com/d3/lod-condemn-crusader-bis-gear-gems-paragon-points",
         "tags": "Cube"
       },
       {
@@ -831,12 +831,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
-        "label": "Masquerade Bone Spear Necromancer",
-        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
         "id": "zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Zuni Carnevil Poison Dart Witch Doctor",
         "link": "https://www.icy-veins.com/d3/zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points",
@@ -870,12 +864,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "akkhan-condemn-crusader-bis-gear-gems-paragon-points",
         "label": "Akkhan Condemn Crusader",
         "link": "https://www.icy-veins.com/d3/akkhan-condemn-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
-        "id": "masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
-        "label": "Masquerade Bone Spear Necromancer",
-        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -1035,6 +1023,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "helltooth-acid-cloud-witch-doctor-speed-farming-build",
+        "label": "Helltooth Acid Cloud Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
         "id": "zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
         "label": "Zuni Carnevil Poison Dart Witch Doctor",
         "link": "https://www.icy-veins.com/d3/zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
@@ -1086,7 +1080,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-zombie-bears-witch-doctor-speed-farming-build",
         "label": "Helltooth Zombie Bears Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-speed-farming-build",
-        "tags": "Cube"
+        "tags": "BiS"
       },
       {
         "id": "lon-bombardment-crusader-speed-farming-build",
@@ -1113,10 +1107,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "Alt"
+        "id": "thorns-bombardment-crusader-speed-farming-build",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-speed-farming-build",
+        "tags": "BiS"
       },
       {
         "id": "spirit-barrage-mundunugu-wd-speed-farming-build",
@@ -1254,7 +1248,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
         "label": "Frenzy HotNS Barbarian",
         "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "Alt"
       },
       {
         "id": "poj-tempest-rush-monk-bis-gear-gems-paragon-points",
@@ -1290,7 +1284,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "swk-tempest-rush-monk-bis-gear-gems-paragon-points",
         "label": "SWK Tempest Rush Monk",
         "link": "https://www.icy-veins.com/d3/swk-tempest-rush-monk-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "tags": "Cube + 1 variation"
       }
     ]
   },
@@ -1335,10 +1329,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
-        "id": "seismic-slam-barbarian-speed-farming-build",
+        "id": "seismic-slam-barbarian-bis-gear-gems-paragon-points",
         "label": "Seismic Slam Barbarian",
-        "link": "https://www.icy-veins.com/d3/seismic-slam-barbarian-speed-farming-build",
-        "tags": "Cube"
+        "link": "https://www.icy-veins.com/d3/seismic-slam-barbarian-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
       },
       {
         "id": "hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
@@ -1365,10 +1359,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
-        "id": "support-barbarian-speed-farming-build",
+        "id": "support-barbarian-bis-gear-gems-paragon-points",
         "label": "Support Barbarian",
-        "link": "https://www.icy-veins.com/d3/support-barbarian-speed-farming-build",
-        "tags": "BiS"
+        "link": "https://www.icy-veins.com/d3/support-barbarian-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
       },
       {
         "id": "leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
@@ -1380,13 +1374,19 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "furious-charge-ik-raekor-barbarian-bis-gear-gems-paragon-points",
         "label": "Furious Charge IK/Raekor Barbarian",
         "link": "https://www.icy-veins.com/d3/furious-charge-ik-raekor-barbarian-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + Cube + 1 variation"
       },
       {
         "id": "hota-ik-barbarian-bis-gear-gems-paragon-points",
         "label": "HotA IK Barbarian",
         "link": "https://www.icy-veins.com/d3/hota-ik-barbarian-bis-gear-gems-paragon-points",
         "tags": "Alt + Cube"
+      },
+      {
+        "id": "frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points",
+        "label": "Frenzy Thorns LoN Barbarian",
+        "link": "https://www.icy-veins.com/d3/frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       }
     ]
   },
@@ -1477,12 +1477,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "tags": "BiS"
-      },
-      {
-        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "label": "Helltooth Zombie Bears Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
       }
     ]
   },
@@ -1509,10 +1503,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
       }
     ]
   },
@@ -1584,7 +1578,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
         "label": "Leap/Earthquake MotE Barbarian",
         "link": "https://www.icy-veins.com/d3/leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "Cube + 1 variation"
       }
     ]
   },
@@ -1653,9 +1647,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "link": "https://us.diablo3.com/en/item/bone-ringer-P6_Unique_Phylactery_02",
     "buildsData": [
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -1791,9 +1785,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
       },
       {
@@ -1837,6 +1831,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "LoD Corpse Explosion Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-corpse-explosion-necromancer-key-farming-build",
         "tags": "Alt"
+      },
+      {
+        "id": "masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
+        "label": "Masquerade Bone Spear Necromancer",
+        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       }
     ]
   },
@@ -1915,6 +1915,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Invoker Thorns Crusader",
         "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       }
     ]
   },
@@ -2091,22 +2097,28 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      },
+      {
         "id": "sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points",
         "label": "Sunwuko Wave of Light Monk",
         "link": "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-solo-progression-build",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-solo-progression-build",
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
         "id": "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
         "label": "Spirit Barrage Mundunugu WD",
         "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "support-monk-bis-gear-gems-paragon-points",
@@ -2118,7 +2130,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + 2 variations"
       },
       {
         "id": "unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
@@ -2130,6 +2142,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Jade Harvester Witch Doctor",
         "link": "https://www.icy-veins.com/d3/jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "support-necromancer-bis-gear-gems-paragon-points",
+        "label": "Support Necromancer",
+        "link": "https://www.icy-veins.com/d3/support-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -2217,16 +2235,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-solo-progression-build",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-solo-progression-build",
-        "tags": "BiS"
+        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
         "label": "Spirit Barrage Mundunugu WD",
         "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "support-monk-bis-gear-gems-paragon-points",
@@ -2238,7 +2256,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + 2 variations"
       },
       {
         "id": "unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
@@ -2301,9 +2319,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "support-necromancer-bis-gear-gems-paragon-points",
-        "label": "Support Necromancer",
-        "link": "https://www.icy-veins.com/d3/support-necromancer-bis-gear-gems-paragon-points",
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -2622,13 +2640,13 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Singularity Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS + 2 variations"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points",
         "label": "Rathma Skeletal Mages Necromancer",
         "link": "https://www.icy-veins.com/d3/rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points",
-        "tags": "Alt + Cube + 1 variation"
+        "tags": "Alt + Cube + 2 variations"
       },
       {
         "id": "trag-oul-blood-mages-necromancer-bis-gear-gems-paragon-points",
@@ -2659,6 +2677,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Firebats Witch Doctor",
         "link": "https://www.icy-veins.com/d3/witch-doctor-gargantuan-build-with-legacy-of-nightmares-patch-2-4-1",
         "tags": "BiS outdated"
+      },
+      {
+        "id": "arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Arachyr Firebats Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       }
     ]
   },
@@ -2808,7 +2832,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-ltk-monk-bis-gear-gems-paragon-points",
         "label": "LoD LTK Monk",
         "link": "https://www.icy-veins.com/d3/lod-ltk-monk-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + Cube"
       },
       {
         "id": "lod-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
@@ -2823,6 +2847,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt + Cube"
       },
       {
+        "id": "helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Gargantuan Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "lod-fok-demon-hunter-bis-gear-gems-paragon-points",
         "label": "LoD FoK Demon Hunter",
         "link": "https://www.icy-veins.com/d3/lod-fok-demon-hunter-bis-gear-gems-paragon-points",
@@ -2832,7 +2862,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Singularity Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
@@ -2907,6 +2937,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
+        "id": "swk-ltk-monk-bis-gear-gems-paragon-points",
+        "label": "SWK LTK Monk",
+        "link": "https://www.icy-veins.com/d3/swk-ltk-monk-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "multishot-marauder-demon-hunter-bis-gear-gems-paragon-points",
         "label": "Multishot Marauder Demon Hunter",
         "link": "https://www.icy-veins.com/d3/multishot-marauder-demon-hunter-bis-gear-gems-paragon-points",
@@ -2934,7 +2970,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-wol-monk-bis-gear-gems-paragon-points",
         "label": "LoD WoL Monk",
         "link": "https://www.icy-veins.com/d3/lod-wol-monk-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + Cube"
       },
       {
         "id": "frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
@@ -2953,6 +2989,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Masquerade Bone Spear Necromancer",
         "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Acid Cloud Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Zuni Carnevil Poison Dart Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "invoker-thorns-crusader-bis-gear-gems-paragon-points",
@@ -2985,9 +3033,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "Alt + Cube"
       },
       {
@@ -3015,6 +3063,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "meteor-wizard-bis-gear-gems-paragon-points",
         "label": "Meteor Wizard",
         "link": "https://www.icy-veins.com/d3/meteor-wizard-bis-gear-gems-paragon-points",
@@ -3036,19 +3090,19 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points",
         "label": "Sunwuko Wave of Light Monk",
         "link": "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
-        "id": "akkhan-bombardment-crusader-solo-progression-build",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-solo-progression-build",
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
         "id": "spirit-barrage-mundunugu-wd-trash-killer-build",
         "label": "Spirit Barrage Mundunugu WD",
         "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-trash-killer-build",
-        "tags": "Alt + Cube"
+        "tags": "BiS"
       },
       {
         "id": "helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
@@ -3105,6 +3159,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt + Cube"
       },
       {
+        "id": "unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
+        "label": "Unhallowed Essence Multishot Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points",
         "label": "Whirlwind GR Wastes Barbarian",
         "link": "https://www.icy-veins.com/d3/whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points",
@@ -3114,7 +3174,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
         "label": "LoD Rapid Fire Demon Hunter",
         "link": "https://www.icy-veins.com/d3/lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + Cube"
       },
       {
         "id": "natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
@@ -3126,7 +3186,13 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Jade Harvester Witch Doctor",
         "link": "https://www.icy-veins.com/d3/jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + Cube"
+      },
+      {
+        "id": "leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
+        "label": "Leap/Earthquake MotE Barbarian",
+        "link": "https://www.icy-veins.com/d3/leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "furious-charge-ik-raekor-barbarian-bis-gear-gems-paragon-points",
@@ -3174,7 +3240,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "natalya-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
         "label": "Natalya Rapid Fire Demon Hunter",
         "link": "https://www.icy-veins.com/d3/natalya-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
-        "tags": "Alt"
+        "tags": "Alt + Cube"
       },
       {
         "id": "lod-condemn-crusader-bis-gear-gems-paragon-points",
@@ -3228,7 +3294,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
-        "tags": "Cube + 2 variations"
+        "tags": "Cube + 3 variations"
       }
     ]
   },
@@ -3331,6 +3397,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "The Thrill Monk",
         "link": "https://www.icy-veins.com/d3/monk-the-thrill-conquest-build-season-12-patch-2-6-1",
         "tags": "BiS"
+      },
+      {
+        "id": "raiment-shenlong-generator-monk-bis-gear-gems-paragon-points",
+        "label": "Raiment Shenlong Generator Monk",
+        "link": "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "support-monk-bis-gear-gems-paragon-points",
+        "label": "Support Monk",
+        "link": "https://www.icy-veins.com/d3/support-monk-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       }
     ]
   },
@@ -3369,10 +3447,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "akkhan-blessed-shield-crusader-speed-farming-build",
@@ -3426,7 +3504,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
         "label": "Aegis of Valor Fist of the Heavens Crusader",
         "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "Cube + 1 variation"
       }
     ]
   },
@@ -3489,6 +3567,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
+        "id": "natalya-marauder-sentry-demon-hunter-bis-gear-gems-paragon-points",
+        "label": "Natalya Marauder Sentry Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/natalya-marauder-sentry-demon-hunter-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "lod-fok-demon-hunter-bis-gear-gems-paragon-points",
         "label": "LoD FoK Demon Hunter",
         "link": "https://www.icy-veins.com/d3/lod-fok-demon-hunter-bis-gear-gems-paragon-points",
@@ -3540,7 +3624,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
         "label": "Natalya Rain of Vengeance Demon Hunter",
         "link": "https://www.icy-veins.com/d3/natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "natalya-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
@@ -3633,9 +3717,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -3663,16 +3747,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "corpse-lance-necromancer-group-progression-build",
-        "label": "Corpse Lance Necromancer",
-        "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-group-progression-build",
-        "tags": "BiS"
-      },
-      {
         "id": "support-necromancer-bis-gear-gems-paragon-points",
         "label": "Support Necromancer",
         "link": "https://www.icy-veins.com/d3/support-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "Cube"
       },
       {
         "id": "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
@@ -3840,7 +3918,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
         "label": "Roland's Sweep Attack Crusader",
         "link": "https://www.icy-veins.com/d3/rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + Cube + 2 variations"
       }
     ]
   },
@@ -3882,7 +3960,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "raiment-shenlong-generator-monk-bis-gear-gems-paragon-points",
         "label": "Raiment Shenlong Generator Monk",
         "link": "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
+        "tags": "Cube + 2 variations"
       },
       {
         "id": "lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points",
@@ -3999,10 +4077,22 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt"
       },
       {
+        "id": "raiment-shenlong-generator-monk-speed-farming-build",
+        "label": "Raiment Shenlong Generator Monk",
+        "link": "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "LoD Carnevil DoD Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
         "label": "Frenzy HotNS Barbarian",
         "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
-        "tags": "Alt + 1 variation"
+        "tags": "Alt + 2 variations"
       },
       {
         "id": "zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points",
@@ -4011,9 +4101,27 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube + 1 variation"
       },
       {
+        "id": "generator-necromancer-speed-farming-build",
+        "label": "Generator Necromancer",
+        "link": "https://www.icy-veins.com/d3/generator-necromancer-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
         "id": "unhallowed-essence-grenades-demon-hunter-bis-gear-gems-paragon-points",
         "label": "Unhallowed Essence Grenades Demon Hunter",
         "link": "https://www.icy-veins.com/d3/unhallowed-essence-grenades-demon-hunter-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "shadow-impale-demon-hunter-speed-farming-build",
+        "label": "Shadow Impale Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/shadow-impale-demon-hunter-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "unhallowed-essence-multishot-demon-hunter-speed-farming-build",
+        "label": "Unhallowed Essence Multishot Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/unhallowed-essence-multishot-demon-hunter-speed-farming-build",
         "tags": "Cube"
       },
       {
@@ -4035,10 +4143,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
+        "id": "god-marauder-support-demon-hunter-bis-gear-gems-paragon-points",
+        "label": "GoD/Marauder Support Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/god-marauder-support-demon-hunter-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "hota-ik-barbarian-bis-gear-gems-paragon-points",
         "label": "HotA IK Barbarian",
         "link": "https://www.icy-veins.com/d3/hota-ik-barbarian-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       }
     ]
   },
@@ -4122,7 +4236,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-fok-demon-hunter-bis-gear-gems-paragon-points",
         "label": "LoD FoK Demon Hunter",
         "link": "https://www.icy-veins.com/d3/lod-fok-demon-hunter-bis-gear-gems-paragon-points",
-        "tags": "Alt"
+        "tags": "Alt + Cube"
       },
       {
         "id": "marauder-cluster-arrow-demon-hunter-bis-gear-gems-paragon-points",
@@ -4137,10 +4251,22 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt"
       },
       {
+        "id": "unhallowed-essence-grenades-demon-hunter-bis-gear-gems-paragon-points",
+        "label": "Unhallowed Essence Grenades Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/unhallowed-essence-grenades-demon-hunter-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "shadow-impale-demon-hunter-bis-gear-gems-paragon-points",
         "label": "Shadow Impale Demon Hunter",
         "link": "https://www.icy-veins.com/d3/shadow-impale-demon-hunter-bis-gear-gems-paragon-points",
-        "tags": "Alt + 1 variation"
+        "tags": "Alt + Cube + 1 variation"
+      },
+      {
+        "id": "god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points",
+        "label": "GoD Hungering Arrow Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
@@ -4159,6 +4285,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Natalya Rapid Fire Demon Hunter",
         "link": "https://www.icy-veins.com/d3/natalya-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "chakram-demon-hunter-bis-gear-gems-paragon-points",
+        "label": "Chakram Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/chakram-demon-hunter-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       }
     ]
   },
@@ -4701,15 +4833,39 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "link": "https://us.diablo3.com/en/item/flail-of-the-charge-P4_Unique_Flail_2H_Set_01_x1",
     "buildsData": [
       {
-        "id": "aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build",
+        "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
         "label": "Aegis of Valor Fist of the Heavens Crusader",
-        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build",
-        "tags": "BiS"
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
+        "id": "aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
+        "label": "Aegis of Valor Heaven's Fury Crusader",
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 2 variations"
+      },
+      {
+        "id": "akkhan-condemn-crusader-bis-gear-gems-paragon-points",
+        "label": "Akkhan Condemn Crusader",
+        "link": "https://www.icy-veins.com/d3/akkhan-condemn-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "invoker-thorns-crusader-bis-gear-gems-paragon-points",
+        "label": "Invoker Thorns Crusader",
+        "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
+        "label": "Roland's Sweep Attack Crusader",
+        "link": "https://www.icy-veins.com/d3/rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
       }
     ]
@@ -4749,10 +4905,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube + 1 variation"
       },
       {
-        "id": "inna-exploding-palm-monk-bis-gear-gems-paragon-points",
+        "id": "inna-exploding-palm-monk-mystic-ally-pets-build",
         "label": "Inna Exploding Palm Monk",
-        "link": "https://www.icy-veins.com/d3/inna-exploding-palm-monk-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
+        "link": "https://www.icy-veins.com/d3/inna-exploding-palm-monk-mystic-ally-pets-build",
+        "tags": "Cube"
       },
       {
         "id": "support-monk-bis-gear-gems-paragon-points",
@@ -4842,6 +4998,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "demon-hunter-embodiment-of-the-marauder-set-dungeon-guide",
         "label": "Demon Hunter Marauder Set Dungeon Guide",
         "link": "https://www.icy-veins.com/d3/demon-hunter-embodiment-of-the-marauder-set-dungeon-guide",
+        "tags": "BiS"
+      },
+      {
+        "id": "rend-wastes-barbarian-bis-gear-gems-paragon-points",
+        "label": "Rend Wastes Barbarian",
+        "link": "https://www.icy-veins.com/d3/rend-wastes-barbarian-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -4939,6 +5101,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Leap/Earthquake MotE Barbarian",
         "link": "https://www.icy-veins.com/d3/leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "furious-charge-ik-raekor-barbarian-bis-gear-gems-paragon-points",
+        "label": "Furious Charge IK/Raekor Barbarian",
+        "link": "https://www.icy-veins.com/d3/furious-charge-ik-raekor-barbarian-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       },
       {
         "id": "dmo-arcane-orbit-wizard-speed-farming-build",
@@ -5085,21 +5253,15 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Singularity Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
-        "tags": "Alt + Cube + 1 variation"
-      },
-      {
         "id": "lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points",
         "label": "LoD Spirit Barrage Witch Doctor",
         "link": "https://www.icy-veins.com/d3/lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points",
         "tags": "BiS + 2 variations"
       },
       {
-        "id": "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
+        "id": "spirit-barrage-mundunugu-wd-trash-killer-build",
         "label": "Spirit Barrage Mundunugu WD",
-        "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
+        "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-trash-killer-build",
         "tags": "Cube"
       }
     ]
@@ -5124,7 +5286,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "akkhan-condemn-crusader-bis-gear-gems-paragon-points",
         "label": "Akkhan Condemn Crusader",
         "link": "https://www.icy-veins.com/d3/akkhan-condemn-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + Cube + 1 variation"
       },
       {
         "id": "lod-condemn-crusader-bis-gear-gems-paragon-points",
@@ -5277,9 +5439,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
       },
       {
@@ -5333,6 +5495,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     ]
   },
   {
+    "label": "Gelmindor's Marrow Guards",
+    "link": "https://us.diablo3.com/en/item/gelmindors-marrow-guards-P610_Unique_Bracer_22",
+    "buildsData": [
+      {
+        "id": "masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
+        "label": "Masquerade Bone Spear Necromancer",
+        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      }
+    ]
+  },
+  {
     "label": "Girdle of Giants",
     "link": "https://us.diablo3.com/en/item/girdle-of-giants-P61_Unique_BarbBelt_EQ",
     "buildsData": [
@@ -5349,10 +5523,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "link": "https://us.diablo3.com/en/item/glamorous-gigot-P69_Necro_Set_5_Shoulders",
     "buildsData": [
       {
-        "id": "masquerade-bone-spear-necromancer-key-farming-build",
+        "id": "masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
         "label": "Masquerade Bone Spear Necromancer",
-        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build",
-        "tags": "BiS"
+        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
       }
     ]
   },
@@ -5373,12 +5547,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "Cube"
-      },
-      {
         "id": "spirit-barrage-mundunugu-wd-speed-farming-build",
         "label": "Spirit Barrage Mundunugu WD",
         "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-speed-farming-build",
@@ -5388,12 +5556,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "shadow-impale-demon-hunter-speed-farming-build",
         "label": "Shadow Impale Demon Hunter",
         "link": "https://www.icy-veins.com/d3/shadow-impale-demon-hunter-speed-farming-build",
-        "tags": "BiS"
-      },
-      {
-        "id": "support-necromancer-bis-gear-gems-paragon-points",
-        "label": "Support Necromancer",
-        "link": "https://www.icy-veins.com/d3/support-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       }
     ]
@@ -5412,7 +5574,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
         "label": "Roland's Sweep Attack Crusader",
         "link": "https://www.icy-veins.com/d3/rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + Cube + 2 variations"
       }
     ]
   },
@@ -5529,6 +5691,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "helltooth-acid-cloud-witch-doctor-speed-farming-build",
+        "label": "Helltooth Acid Cloud Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
         "id": "zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
         "label": "Zuni Carnevil Poison Dart Witch Doctor",
         "link": "https://www.icy-veins.com/d3/zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
@@ -5568,7 +5736,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-zombie-bears-witch-doctor-speed-farming-build",
         "label": "Helltooth Zombie Bears Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-speed-farming-build",
-        "tags": "BiS"
+        "tags": "Cube"
       },
       {
         "id": "trag-oul-blood-mages-necromancer-bis-gear-gems-paragon-points",
@@ -5586,12 +5754,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "sunwuko-wave-of-light-monk-speed-farming-build",
         "label": "Sunwuko Wave of Light Monk",
         "link": "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-speed-farming-build",
-        "tags": "Cube"
-      },
-      {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "Cube"
       },
       {
@@ -5691,9 +5853,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -6037,24 +6199,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "DMO Energy Twister Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS"
-      }
-    ]
-  },
-  {
-    "label": "Harrington Waistguard",
-    "link": "https://us.diablo3.com/en/item/harrington-waistguard-Unique_Belt_105_x1",
-    "buildsData": [
-      {
-        "id": "masquerade-bone-spear-necromancer-key-farming-build",
-        "label": "Masquerade Bone Spear Necromancer",
-        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build",
-        "tags": "Cube"
-      },
-      {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "Cube"
       }
     ]
   },
@@ -6582,7 +6726,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
@@ -6618,7 +6762,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
@@ -6666,12 +6810,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
-        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "label": "Helltooth Zombie Bears Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
       },
       {
@@ -6714,7 +6852,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
@@ -6756,7 +6894,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
@@ -6798,7 +6936,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
@@ -6837,10 +6975,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       },
       {
         "id": "akkhan-blessed-shield-crusader-bis-gear-gems-paragon-points",
@@ -6894,12 +7032,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Gargantuan Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
-        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "label": "Helltooth Zombie Bears Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -6975,10 +7107,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-singularity-necromancer-key-farming-build",
+        "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Singularity Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-key-farming-build",
-        "tags": "BiS"
+        "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
+        "tags": "BiS + 2 variations"
       },
       {
         "id": "rend-wastes-barbarian-speed-farming-build",
@@ -6993,9 +7125,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "Alt + Cube"
       },
       {
@@ -7134,6 +7266,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Corpse Explosion Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Singularity Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -7305,12 +7443,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt"
       },
       {
-        "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Singularity Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
         "id": "hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
         "label": "HotA GR LoD Barbarian",
         "link": "https://www.icy-veins.com/d3/hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
@@ -7365,9 +7497,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt + Cube + 1 variation"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -7929,6 +8061,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build",
+        "label": "Aegis of Valor Fist of the Heavens Crusader",
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
         "id": "aegis-of-valor-heavens-fury-crusader-speed-farming-build",
         "label": "Aegis of Valor Heaven's Fury Crusader",
         "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-speed-farming-build",
@@ -8001,6 +8139,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "masquerade-bone-spear-necromancer-key-farming-build",
+        "label": "Masquerade Bone Spear Necromancer",
+        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "helltooth-acid-cloud-witch-doctor-speed-farming-build",
+        "label": "Helltooth Acid Cloud Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
         "id": "invoker-thorns-crusader-speed-farming-build",
         "label": "Invoker Thorns Crusader",
         "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-speed-farming-build",
@@ -8011,6 +8161,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Firebird Wizard",
         "link": "https://www.icy-veins.com/d3/firebird-wizard-bis-gear-gems-paragon-points",
         "tags": "Cube + 1 variation"
+      },
+      {
+        "id": "blessed-hammer-crusader-speed-farming-build",
+        "label": "Blessed Hammer Crusader",
+        "link": "https://www.icy-veins.com/d3/blessed-hammer-crusader-speed-farming-build",
+        "tags": "Cube"
       },
       {
         "id": "explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
@@ -8037,6 +8193,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt + Cube"
       },
       {
+        "id": "helltooth-zombie-bears-witch-doctor-speed-farming-build",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
         "id": "lon-bombardment-crusader-speed-farming-build",
         "label": "LoN Bombardment Crusader",
         "link": "https://www.icy-veins.com/d3/lon-bombardment-crusader-speed-farming-build",
@@ -8061,9 +8223,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
+        "id": "thorns-bombardment-crusader-speed-farming-build",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-speed-farming-build",
         "tags": "Cube"
       },
       {
@@ -8112,7 +8274,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "jade-harvester-witch-doctor-speed-farming-build",
         "label": "Jade Harvester Witch Doctor",
         "link": "https://www.icy-veins.com/d3/jade-harvester-witch-doctor-speed-farming-build",
-        "tags": "BiS"
+        "tags": "BiS + Cube"
       },
       {
         "id": "leap-earthquake-mote-barbarian-speed-farming-build",
@@ -8154,6 +8316,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "swk-tempest-rush-monk-speed-farming-build",
         "label": "SWK Tempest Rush Monk",
         "link": "https://www.icy-veins.com/d3/swk-tempest-rush-monk-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "frenzy-thorns-lon-barbarian-speed-farming-build",
+        "label": "Frenzy Thorns LoN Barbarian",
+        "link": "https://www.icy-veins.com/d3/frenzy-thorns-lon-barbarian-speed-farming-build",
         "tags": "Cube"
       }
     ]
@@ -8281,6 +8449,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Raiment Shenlong Generator Monk",
         "link": "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-inna-shenlong-build",
         "tags": "BiS"
+      },
+      {
+        "id": "inna-exploding-palm-monk-bis-gear-gems-paragon-points",
+        "label": "Inna Exploding Palm Monk",
+        "link": "https://www.icy-veins.com/d3/inna-exploding-palm-monk-bis-gear-gems-paragon-points",
+        "tags": "BiS + 2 variations"
       },
       {
         "id": "sunwuko-wave-of-light-monk-inna-wave-of-light-build",
@@ -8526,12 +8700,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
-        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "label": "Helltooth Zombie Bears Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
       }
     ]
@@ -8562,7 +8730,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS + 2 variations"
+        "tags": "BiS + 3 variations"
       }
     ]
   },
@@ -8592,7 +8760,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS + 2 variations"
+        "tags": "BiS + 3 variations"
       }
     ]
   },
@@ -8634,6 +8802,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "rolands-shield-bash-crusader-speed-farming-build",
         "label": "Roland's Shield Bash Crusader",
         "link": "https://www.icy-veins.com/d3/rolands-shield-bash-crusader-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -8700,7 +8874,55 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Gargantuan Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "Alt + 1 variation"
+        "tags": "Alt + 2 variations"
+      },
+      {
+        "id": "zuni-gargantuan-witch-doctor-speed-farming-build",
+        "label": "Zuni Gargantuan Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/zuni-gargantuan-witch-doctor-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "helltooth-acid-cloud-witch-doctor-speed-farming-build",
+        "label": "Helltooth Acid Cloud Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
+        "label": "Zuni Carnevil Poison Dart Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "inarius-bone-storm-necromancer-speed-farming-build",
+        "label": "Inarius Bone Storm Necromancer",
+        "link": "https://www.icy-veins.com/d3/inarius-bone-storm-necromancer-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "unhallowed-essence-grenades-demon-hunter-speed-farming-build",
+        "label": "Unhallowed Essence Grenades Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/unhallowed-essence-grenades-demon-hunter-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "god-hungering-arrow-speed-farming-demon-hunter-build",
+        "label": "GoD Hungering Arrow Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/god-hungering-arrow-speed-farming-demon-hunter-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "demon-hunter-bolas-build-with-gears-of-dreadlands",
+        "label": "GoD Hungering Arrow Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/demon-hunter-bolas-build-with-gears-of-dreadlands",
+        "tags": "Cube"
+      },
+      {
+        "id": "chakram-demon-hunter-speed-farming-build",
+        "label": "Chakram Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/chakram-demon-hunter-speed-farming-build",
+        "tags": "Cube"
       }
     ]
   },
@@ -8781,9 +9003,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -8814,7 +9036,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS + 2 variations"
+        "tags": "BiS + 3 variations"
       },
       {
         "id": "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
@@ -8943,6 +9165,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
         "label": "Spirit Barrage Mundunugu WD",
         "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
@@ -9043,6 +9271,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "LoD WoL Monk",
         "link": "https://www.icy-veins.com/d3/lod-wol-monk-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "poj-tempest-rush-monk-bis-gear-gems-paragon-points",
+        "label": "PoJ Tempest Rush Monk",
+        "link": "https://www.icy-veins.com/d3/poj-tempest-rush-monk-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "swk-tempest-rush-monk-bis-gear-gems-paragon-points",
+        "label": "SWK Tempest Rush Monk",
+        "link": "https://www.icy-veins.com/d3/swk-tempest-rush-monk-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       }
     ]
   },
@@ -9097,12 +9337,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "LoD Poison Scythe Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-poison-scythe-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
-      },
-      {
-        "id": "masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
-        "label": "Masquerade Bone Spear Necromancer",
-        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS"
       },
       {
         "id": "generator-necromancer-bis-gear-gems-paragon-points",
@@ -9276,7 +9510,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Singularity Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS + 2 variations"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
@@ -9297,10 +9531,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "akkhan-bombardment-crusader-solo-progression-build",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-solo-progression-build",
-        "tags": "Cube"
+        "id": "thorns-bombardment-crusader-speed-farming-build",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-speed-farming-build",
+        "tags": "BiS"
       },
       {
         "id": "lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
@@ -9396,7 +9630,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
         "label": "Uliana Seven-Sided Strike Monk",
         "link": "https://www.icy-veins.com/d3/uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + Cube + 1 variation"
       }
     ]
   },
@@ -9519,9 +9753,21 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
+        "label": "Frenzy HotNS Barbarian",
+        "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      },
+      {
         "id": "support-barbarian-bis-gear-gems-paragon-points",
         "label": "Support Barbarian",
         "link": "https://www.icy-veins.com/d3/support-barbarian-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "hota-ik-barbarian-bis-gear-gems-paragon-points",
+        "label": "HotA IK Barbarian",
+        "link": "https://www.icy-veins.com/d3/hota-ik-barbarian-bis-gear-gems-paragon-points",
         "tags": "BiS"
       }
     ]
@@ -9597,10 +9843,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "masquerade-bone-spear-necromancer-key-farming-build",
+        "id": "masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
         "label": "Masquerade Bone Spear Necromancer",
-        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build",
-        "tags": "BiS"
+        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "inarius-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
@@ -9613,12 +9859,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Inarius Bone Storm Necromancer",
         "link": "https://www.icy-veins.com/d3/inarius-bone-storm-necromancer-bis-gear-gems-paragon-points",
         "tags": "Alt"
-      },
-      {
-        "id": "corpse-lance-necromancer-group-progression-build",
-        "label": "Corpse Lance Necromancer",
-        "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-group-progression-build",
-        "tags": "BiS"
       },
       {
         "id": "corpse-lance-necromancer-speed-farming-build",
@@ -9697,6 +9937,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "HotA GR LoD Barbarian",
         "link": "https://www.icy-veins.com/d3/hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "aegis-of-valor-heavens-fury-crusader-rgk-build",
+        "label": "Aegis of Valor Heaven's Fury Crusader",
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-rgk-build",
+        "tags": "Cube"
       },
       {
         "id": "lod-wol-monk-bis-gear-gems-paragon-points",
@@ -9859,6 +10105,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Zuni Gargantuan Witch Doctor",
         "link": "https://www.icy-veins.com/d3/zuni-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "rend-wastes-barbarian-bis-gear-gems-paragon-points",
+        "label": "Rend Wastes Barbarian",
+        "link": "https://www.icy-veins.com/d3/rend-wastes-barbarian-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "lightning-arcane-torrent-wizard-bis-gear-gems-paragon-points",
@@ -10248,7 +10500,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Gargantuan Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "Alt + Cube + 1 variation"
+        "tags": "Alt + Cube + 2 variations"
       },
       {
         "id": "zuni-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
@@ -10347,15 +10599,51 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
+        "id": "rend-wastes-barbarian-speed-farming-build",
+        "label": "Rend Wastes Barbarian",
+        "link": "https://www.icy-veins.com/d3/rend-wastes-barbarian-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "rolands-shield-bash-crusader-speed-farming-build",
+        "label": "Roland's Shield Bash Crusader",
+        "link": "https://www.icy-veins.com/d3/rolands-shield-bash-crusader-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "hota-raekor-barbarian-speed-farming-build",
+        "label": "HotA Raekor Barbarian",
+        "link": "https://www.icy-veins.com/d3/hota-raekor-barbarian-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
         "id": "corpse-lance-necromancer-speed-farming-build",
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-speed-farming-build",
         "tags": "Cube"
       },
       {
-        "id": "support-barbarian-speed-farming-build",
+        "id": "whirlwind-gr-wastes-barbarian-speed-farming-build",
+        "label": "Whirlwind GR Wastes Barbarian",
+        "link": "https://www.icy-veins.com/d3/whirlwind-gr-wastes-barbarian-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "support-barbarian-bis-gear-gems-paragon-points",
         "label": "Support Barbarian",
-        "link": "https://www.icy-veins.com/d3/support-barbarian-speed-farming-build",
+        "link": "https://www.icy-veins.com/d3/support-barbarian-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
+      },
+      {
+        "id": "leap-earthquake-mote-barbarian-speed-farming-build",
+        "label": "Leap/Earthquake MotE Barbarian",
+        "link": "https://www.icy-veins.com/d3/leap-earthquake-mote-barbarian-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "furious-charge-ik-raekor-barbarian-speed-farming-build",
+        "label": "Furious Charge IK/Raekor Barbarian",
+        "link": "https://www.icy-veins.com/d3/furious-charge-ik-raekor-barbarian-speed-farming-build",
         "tags": "Cube"
       },
       {
@@ -10389,9 +10677,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -10422,7 +10710,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
         "label": "Frenzy HotNS Barbarian",
         "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "Alt + 1 variation"
       },
       {
         "id": "whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points",
@@ -10496,12 +10784,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "label": "Mundunugu's Decoration",
     "link": "https://us.diablo3.com/en/item/mundunugus-decoration-P68_Unique_Pants_Set_04",
     "buildsData": [
-      {
-        "id": "spirit-barrage-mundunugu-wd-trash-killer-build",
-        "label": "Spirit Barrage Mundunugu WD",
-        "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-trash-killer-build",
-        "tags": "BiS"
-      },
       {
         "id": "spirit-barrage-mundunugu-wd-speed-farming-build",
         "label": "Spirit Barrage Mundunugu WD",
@@ -10905,10 +11187,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt + Cube"
       },
       {
-        "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
+        "id": "aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build",
         "label": "Aegis of Valor Fist of the Heavens Crusader",
-        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build",
+        "tags": "BiS"
       },
       {
         "id": "aegis-of-valor-heavens-fury-crusader-speed-farming-build",
@@ -11004,13 +11286,25 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "masquerade-bone-spear-necromancer-key-farming-build",
         "label": "Masquerade Bone Spear Necromancer",
         "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build",
-        "tags": "BiS"
+        "tags": "Cube"
+      },
+      {
+        "id": "helltooth-acid-cloud-witch-doctor-speed-farming-build",
+        "label": "Helltooth Acid Cloud Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-speed-farming-build",
+        "tags": "Cube"
       },
       {
         "id": "zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
         "label": "Zuni Carnevil Poison Dart Witch Doctor",
         "link": "https://www.icy-veins.com/d3/zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
         "tags": "BiS"
+      },
+      {
+        "id": "invoker-thorns-crusader-speed-farming-build",
+        "label": "Invoker Thorns Crusader",
+        "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-speed-farming-build",
+        "tags": "Cube"
       },
       {
         "id": "firebird-wizard-speed-farming-build",
@@ -11037,15 +11331,27 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
         "id": "lightning-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Lightning Archon Wizard",
         "link": "https://www.icy-veins.com/d3/lightning-archon-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "poj-tempest-rush-monk-speed-farming-build",
+        "label": "PoJ Tempest Rush Monk",
+        "link": "https://www.icy-veins.com/d3/poj-tempest-rush-monk-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "helltooth-zombie-bears-witch-doctor-speed-farming-build",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-speed-farming-build",
         "tags": "BiS"
       },
       {
@@ -11073,9 +11379,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
+        "id": "thorns-bombardment-crusader-speed-farming-build",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-speed-farming-build",
         "tags": "BiS"
       },
       {
@@ -11160,7 +11466,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "support-barbarian-bis-gear-gems-paragon-points",
         "label": "Support Barbarian",
         "link": "https://www.icy-veins.com/d3/support-barbarian-bis-gear-gems-paragon-points",
-        "tags": "Alt + 1 variation"
+        "tags": "Alt + 2 variations"
       },
       {
         "id": "jade-harvester-witch-doctor-speed-farming-build",
@@ -11185,6 +11491,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "DMO Arcane Orbit Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-arcane-orbit-wizard-speed-farming-build",
         "tags": "BiS"
+      },
+      {
+        "id": "support-necromancer-bis-gear-gems-paragon-points",
+        "label": "Support Necromancer",
+        "link": "https://www.icy-veins.com/d3/support-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "god-marauder-support-demon-hunter-bis-gear-gems-paragon-points",
@@ -11274,7 +11586,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
         "label": "Frenzy HotNS Barbarian",
         "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
-        "tags": "BiS + 2 variations"
+        "tags": "BiS + Cube + 3 variations"
       },
       {
         "id": "frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points",
@@ -11367,6 +11679,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt + Cube"
       },
       {
+        "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
+        "label": "Aegis of Valor Fist of the Heavens Crusader",
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
         "label": "HotA GR LoD Barbarian",
         "link": "https://www.icy-veins.com/d3/hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
@@ -11376,13 +11694,13 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
         "label": "Aegis of Valor Heaven's Fury Crusader",
         "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS"
       },
       {
         "id": "rend-wastes-barbarian-bis-gear-gems-paragon-points",
         "label": "Rend Wastes Barbarian",
         "link": "https://www.icy-veins.com/d3/rend-wastes-barbarian-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + Cube + 1 variation"
       },
       {
         "id": "rolands-shield-bash-crusader-bis-gear-gems-paragon-points",
@@ -11401,6 +11719,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "SWK LTK Monk",
         "link": "https://www.icy-veins.com/d3/swk-ltk-monk-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "hota-raekor-barbarian-bis-gear-gems-paragon-points",
+        "label": "HotA Raekor Barbarian",
+        "link": "https://www.icy-veins.com/d3/hota-raekor-barbarian-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "lod-wol-monk-bis-gear-gems-paragon-points",
@@ -11431,6 +11755,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "PoJ Tempest Rush Monk",
         "link": "https://www.icy-veins.com/d3/poj-tempest-rush-monk-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "inarius-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
+        "label": "Inarius Corpse Explosion Necromancer",
+        "link": "https://www.icy-veins.com/d3/inarius-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "sunwuko-wave-of-light-monk-inna-wave-of-light-build",
@@ -11529,6 +11859,24 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "link": "https://us.diablo3.com/en/item/odysseys-end-P69_Unique_Bow_102",
     "buildsData": [
       {
+        "id": "marauder-cluster-arrow-demon-hunter-bis-gear-gems-paragon-points",
+        "label": "Marauder Cluster Arrow Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/marauder-cluster-arrow-demon-hunter-bis-gear-gems-paragon-points",
+        "tags": "Cube + 2 variations"
+      },
+      {
+        "id": "multishot-marauder-demon-hunter-bis-gear-gems-paragon-points",
+        "label": "Multishot Marauder Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/multishot-marauder-demon-hunter-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
+      },
+      {
+        "id": "natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
+        "label": "Natalya Rain of Vengeance Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "god-marauder-support-demon-hunter-bis-gear-gems-paragon-points",
         "label": "GoD/Marauder Support Demon Hunter",
         "link": "https://www.icy-veins.com/d3/god-marauder-support-demon-hunter-bis-gear-gems-paragon-points",
@@ -11625,10 +11973,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "id": "thorns-bombardment-crusader-speed-farming-build",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-speed-farming-build",
+        "tags": "BiS"
       },
       {
         "id": "akkhan-blessed-shield-crusader-bis-gear-gems-paragon-points",
@@ -11727,9 +12075,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -11857,6 +12205,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS + 2 variations"
+      },
+      {
+        "id": "support-necromancer-bis-gear-gems-paragon-points",
+        "label": "Support Necromancer",
+        "link": "https://www.icy-veins.com/d3/support-necromancer-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       }
     ]
   },
@@ -11868,12 +12222,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "necromancer-pestilence-set-dungeon-guide",
         "label": "Necromancer Pestilence Set Dungeon Guide",
         "link": "https://www.icy-veins.com/d3/necromancer-pestilence-set-dungeon-guide",
-        "tags": "BiS"
-      },
-      {
-        "id": "corpse-lance-necromancer-group-progression-build",
-        "label": "Corpse Lance Necromancer",
-        "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-group-progression-build",
         "tags": "BiS"
       },
       {
@@ -11917,12 +12265,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS + 2 variations"
-      },
-      {
-        "id": "support-necromancer-bis-gear-gems-paragon-points",
-        "label": "Support Necromancer",
-        "link": "https://www.icy-veins.com/d3/support-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS"
       }
     ]
   },
@@ -11940,12 +12282,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "frenzy-hotns-barbarian-rgk-build",
         "label": "Frenzy HotNS Barbarian",
         "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-rgk-build",
-        "tags": "BiS"
-      },
-      {
-        "id": "invoker-thorns-crusader-bis-gear-gems-paragon-points",
-        "label": "Invoker Thorns Crusader",
-        "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -12111,12 +12447,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
-        "id": "aegis-of-valor-heavens-fury-crusader-rgk-build",
-        "label": "Aegis of Valor Heaven's Fury Crusader",
-        "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-rgk-build",
-        "tags": "Cube"
-      },
-      {
         "id": "multishot-marauder-demon-hunter-speed-farming-build",
         "label": "Multishot Marauder Demon Hunter",
         "link": "https://www.icy-veins.com/d3/multishot-marauder-demon-hunter-speed-farming-build",
@@ -12183,10 +12513,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "sunwuko-wave-of-light-monk-inna-wave-of-light-build",
+        "id": "sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points",
         "label": "Sunwuko Wave of Light Monk",
-        "link": "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-inna-wave-of-light-build",
-        "tags": "BiS"
+        "link": "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
       }
     ]
   },
@@ -12645,6 +12975,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt"
       },
       {
+        "id": "helltooth-zombie-bears-witch-doctor-speed-farming-build",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-speed-farming-build",
+        "tags": "Alt"
+      },
+      {
         "id": "spirit-barrage-mundunugu-wd-speed-farming-build",
         "label": "Spirit Barrage Mundunugu WD",
         "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-speed-farming-build",
@@ -12675,6 +13011,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "link": "https://us.diablo3.com/en/item/reilenas-shadowhook-P6_Unique_Scythe2H_03",
     "buildsData": [
       {
+        "id": "lod-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Corpse Explosion Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "lod-corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-corpse-lance-necromancer-bis-gear-gems-paragon-points",
@@ -12684,12 +13026,30 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Singularity Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
+        "tags": "Cube + 2 variations"
       },
       {
         "id": "rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points",
         "label": "Rathma Skeletal Mages Necromancer",
         "link": "https://www.icy-veins.com/d3/rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
+      },
+      {
+        "id": "lod-poison-scythe-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Poison Scythe Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-poison-scythe-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
+      },
+      {
+        "id": "masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
+        "label": "Masquerade Bone Spear Necromancer",
+        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "generator-necromancer-bis-gear-gems-paragon-points",
+        "label": "Generator Necromancer",
+        "link": "https://www.icy-veins.com/d3/generator-necromancer-bis-gear-gems-paragon-points",
         "tags": "Cube"
       },
       {
@@ -12702,7 +13062,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
+        "tags": "Cube + 3 variations"
       }
     ]
   },
@@ -12720,7 +13080,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "hota-ik-barbarian-bis-gear-gems-paragon-points",
         "label": "HotA IK Barbarian",
         "link": "https://www.icy-veins.com/d3/hota-ik-barbarian-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + Cube + 1 variation"
       }
     ]
   },
@@ -12843,6 +13203,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "rend-wastes-barbarian-bis-gear-gems-paragon-points",
+        "label": "Rend Wastes Barbarian",
+        "link": "https://www.icy-veins.com/d3/rend-wastes-barbarian-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "lightning-arcane-torrent-wizard-spectral-blade-build",
         "label": "Lightning Arcane Torrent Wizard",
         "link": "https://www.icy-veins.com/d3/lightning-arcane-torrent-wizard-spectral-blade-build",
@@ -12939,6 +13305,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
+        "id": "furious-charge-ik-raekor-barbarian-bis-gear-gems-paragon-points",
+        "label": "Furious Charge IK/Raekor Barbarian",
+        "link": "https://www.icy-veins.com/d3/furious-charge-ik-raekor-barbarian-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "dmo-arcane-orbit-wizard-speed-farming-build",
         "label": "DMO Arcane Orbit Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-arcane-orbit-wizard-speed-farming-build",
@@ -12984,7 +13356,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "tags": "Cube + 1 variation"
       },
       {
         "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
@@ -13116,7 +13488,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Gargantuan Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "tags": "Cube + 1 variation"
       },
       {
         "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
@@ -13185,10 +13557,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
-        "id": "masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
+        "id": "masquerade-bone-spear-necromancer-key-farming-build",
         "label": "Masquerade Bone Spear Necromancer",
-        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
+        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build",
+        "tags": "Cube"
       },
       {
         "id": "zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points",
@@ -13233,6 +13605,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube + 1 variation"
       },
       {
+        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
+      },
+      {
         "id": "meteor-wizard-speed-farming-build",
         "label": "Meteor Wizard",
         "link": "https://www.icy-veins.com/d3/meteor-wizard-speed-farming-build",
@@ -13251,16 +13629,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube + 2 variations"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "Cube + 1 variation"
       },
       {
         "id": "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
         "label": "Spirit Barrage Mundunugu WD",
         "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
+        "tags": "Cube + 2 variations"
       },
       {
         "id": "support-monk-bis-gear-gems-paragon-points",
@@ -13308,7 +13686,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
+        "tags": "Cube + 2 variations"
       },
       {
         "id": "unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
@@ -13605,12 +13983,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
-      },
-      {
         "id": "akkhan-blessed-shield-crusader-bis-gear-gems-paragon-points",
         "label": "Akkhan Blessed Shield Crusader",
         "link": "https://www.icy-veins.com/d3/akkhan-blessed-shield-crusader-bis-gear-gems-paragon-points",
@@ -13692,7 +14064,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points",
         "label": "LoD Spirit Barrage Witch Doctor",
         "link": "https://www.icy-veins.com/d3/lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "Alt + Cube"
+        "tags": "Alt + Cube + 1 variation"
       },
       {
         "id": "lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points",
@@ -13701,10 +14073,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt + Cube"
       },
       {
+        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
         "label": "Spirit Barrage Mundunugu WD",
         "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
-        "tags": "BiS + Cube + 2 variations"
+        "tags": "BiS + Cube + 3 variations"
       },
       {
         "id": "helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
@@ -13716,7 +14094,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Arachyr Firebats Witch Doctor",
         "link": "https://www.icy-veins.com/d3/arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + 2 variations"
       },
       {
         "id": "jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
@@ -13765,12 +14143,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Meteor Wizard",
         "link": "https://www.icy-veins.com/d3/meteor-wizard-speed-farming-build",
         "tags": "BiS"
-      },
-      {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "Alt"
       },
       {
         "id": "natalya-rain-of-vengeance-demon-hunter-speed-farming-build",
@@ -13857,10 +14229,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "Alt"
+        "id": "thorns-bombardment-crusader-speed-farming-build",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-speed-farming-build",
+        "tags": "BiS"
       },
       {
         "id": "unhallowed-essence-multishot-demon-hunter-speed-farming-build",
@@ -13941,12 +14313,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "Alt"
-      },
-      {
         "id": "natalya-rain-of-vengeance-demon-hunter-speed-farming-build",
         "label": "Natalya Rain of Vengeance Demon Hunter",
         "link": "https://www.icy-veins.com/d3/natalya-rain-of-vengeance-demon-hunter-speed-farming-build",
@@ -13998,6 +14364,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "sunwuko-wave-of-light-monk-speed-farming-build",
         "label": "Sunwuko Wave of Light Monk",
         "link": "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
+        "id": "thorns-bombardment-crusader-speed-farming-build",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-speed-farming-build",
         "tags": "BiS"
       },
       {
@@ -14115,10 +14487,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "trag-oul-blood-mages-necromancer-solo-progression-build",
+        "id": "trag-oul-blood-mages-necromancer-bis-gear-gems-paragon-points",
         "label": "Trag'Oul Blood Mages Necromancer",
-        "link": "https://www.icy-veins.com/d3/trag-oul-blood-mages-necromancer-solo-progression-build",
-        "tags": "Cube"
+        "link": "https://www.icy-veins.com/d3/trag-oul-blood-mages-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
       },
       {
         "id": "lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
@@ -14173,6 +14545,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Invoker Thorns Crusader",
         "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       }
     ]
   },
@@ -14197,6 +14575,24 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Raiment Shenlong Generator Monk",
         "link": "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-bis-gear-gems-paragon-points",
         "tags": "BiS + 2 variations"
+      },
+      {
+        "id": "inna-exploding-palm-monk-bis-gear-gems-paragon-points",
+        "label": "Inna Exploding Palm Monk",
+        "link": "https://www.icy-veins.com/d3/inna-exploding-palm-monk-bis-gear-gems-paragon-points",
+        "tags": "BiS + 2 variations"
+      },
+      {
+        "id": "poj-tempest-rush-monk-bis-gear-gems-paragon-points",
+        "label": "PoJ Tempest Rush Monk",
+        "link": "https://www.icy-veins.com/d3/poj-tempest-rush-monk-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
+        "label": "Uliana Seven-Sided Strike Monk",
+        "link": "https://www.icy-veins.com/d3/uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       }
     ]
   },
@@ -14221,6 +14617,24 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Raiment Shenlong Generator Monk",
         "link": "https://www.icy-veins.com/d3/raiment-shenlong-generator-monk-bis-gear-gems-paragon-points",
         "tags": "BiS + 2 variations"
+      },
+      {
+        "id": "inna-exploding-palm-monk-bis-gear-gems-paragon-points",
+        "label": "Inna Exploding Palm Monk",
+        "link": "https://www.icy-veins.com/d3/inna-exploding-palm-monk-bis-gear-gems-paragon-points",
+        "tags": "BiS + 2 variations"
+      },
+      {
+        "id": "poj-tempest-rush-monk-bis-gear-gems-paragon-points",
+        "label": "PoJ Tempest Rush Monk",
+        "link": "https://www.icy-veins.com/d3/poj-tempest-rush-monk-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
+        "label": "Uliana Seven-Sided Strike Monk",
+        "link": "https://www.icy-veins.com/d3/uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       }
     ]
   },
@@ -14244,7 +14658,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
         "label": "Aegis of Valor Heaven's Fury Crusader",
         "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS + 2 variations"
+        "tags": "BiS + Cube + 3 variations"
       }
     ]
   },
@@ -14253,15 +14667,39 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "link": "https://us.diablo3.com/en/item/shield-of-the-steed-P4_Unique_Shield_Set_01_x1",
     "buildsData": [
       {
-        "id": "aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build",
+        "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
         "label": "Aegis of Valor Fist of the Heavens Crusader",
-        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build",
-        "tags": "BiS"
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
+        "id": "aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
+        "label": "Aegis of Valor Heaven's Fury Crusader",
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 2 variations"
+      },
+      {
+        "id": "akkhan-condemn-crusader-bis-gear-gems-paragon-points",
+        "label": "Akkhan Condemn Crusader",
+        "link": "https://www.icy-veins.com/d3/akkhan-condemn-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "invoker-thorns-crusader-bis-gear-gems-paragon-points",
+        "label": "Invoker Thorns Crusader",
+        "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
+        "label": "Roland's Sweep Attack Crusader",
+        "link": "https://www.icy-veins.com/d3/rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
       }
     ]
@@ -14469,9 +14907,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "link": "https://us.diablo3.com/en/item/spear-of-jairo-P6_Unique_Spear_01",
     "buildsData": [
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       }
     ]
@@ -14571,10 +15009,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "inna-exploding-palm-monk-bis-gear-gems-paragon-points",
+        "id": "inna-exploding-palm-monk-mystic-ally-pets-build",
         "label": "Inna Exploding Palm Monk",
-        "link": "https://www.icy-veins.com/d3/inna-exploding-palm-monk-bis-gear-gems-paragon-points",
-        "tags": "Cube + 2 variations"
+        "link": "https://www.icy-veins.com/d3/inna-exploding-palm-monk-mystic-ally-pets-build",
+        "tags": "Alt + Cube"
       },
       {
         "id": "swk-ltk-monk-bis-gear-gems-paragon-points",
@@ -14622,7 +15060,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Gargantuan Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "tags": "Cube + 1 variation"
       },
       {
         "id": "zuni-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
@@ -14636,6 +15074,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "label": "Squirt's Necklace",
     "link": "https://us.diablo3.com/en/item/squirts-necklace-P66_Unique_Amulet_010",
     "buildsData": [
+      {
+        "id": "seismic-slam-barbarian-speed-farming-build",
+        "label": "Seismic Slam Barbarian",
+        "link": "https://www.icy-veins.com/d3/seismic-slam-barbarian-speed-farming-build",
+        "tags": "Cube"
+      },
       {
         "id": "lod-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Corpse Explosion Necromancer",
@@ -14673,6 +15117,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "swk-ltk-monk-speed-farming-build",
+        "label": "SWK LTK Monk",
+        "link": "https://www.icy-veins.com/d3/swk-ltk-monk-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
         "id": "multishot-marauder-demon-hunter-speed-farming-build",
         "label": "Multishot Marauder Demon Hunter",
         "link": "https://www.icy-veins.com/d3/multishot-marauder-demon-hunter-speed-farming-build",
@@ -14703,9 +15153,27 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube + 1 variation"
       },
       {
+        "id": "helltooth-zombie-bears-witch-doctor-speed-farming-build",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
         "id": "trag-oul-blood-mages-necromancer-bis-gear-gems-paragon-points",
         "label": "Trag'Oul Blood Mages Necromancer",
         "link": "https://www.icy-veins.com/d3/trag-oul-blood-mages-necromancer-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "sunwuko-wave-of-light-monk-speed-farming-build",
+        "label": "Sunwuko Wave of Light Monk",
+        "link": "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "spirit-barrage-mundunugu-wd-trash-killer-build",
+        "label": "Spirit Barrage Mundunugu WD",
+        "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-trash-killer-build",
         "tags": "BiS"
       },
       {
@@ -14721,6 +15189,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "shadow-impale-demon-hunter-group-progression-build",
+        "label": "Shadow Impale Demon Hunter",
+        "link": "https://www.icy-veins.com/d3/shadow-impale-demon-hunter-group-progression-build",
+        "tags": "Cube"
+      },
+      {
         "id": "demon-hunter-bolas-build-with-gears-of-dreadlands",
         "label": "GoD Hungering Arrow Demon Hunter",
         "link": "https://www.icy-veins.com/d3/demon-hunter-bolas-build-with-gears-of-dreadlands",
@@ -14730,7 +15204,13 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + 2 variations"
+      },
+      {
+        "id": "arachyr-firebats-witch-doctor-group-progression-build",
+        "label": "Arachyr Firebats Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/arachyr-firebats-witch-doctor-group-progression-build",
+        "tags": "Cube"
       },
       {
         "id": "unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
@@ -14773,6 +15253,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "LoD FoK Demon Hunter",
         "link": "https://www.icy-veins.com/d3/lod-fok-demon-hunter-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "lod-singularity-necromancer-speed-farming-build",
+        "label": "LoD Singularity Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-speed-farming-build",
+        "tags": "Cube"
       },
       {
         "id": "lod-star-pact-wizard-bis-gear-gems-paragon-points",
@@ -14895,9 +15381,21 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "inarius-corpse-explosion-necromancer-speed-farming-build",
+        "label": "Inarius Corpse Explosion Necromancer",
+        "link": "https://www.icy-veins.com/d3/inarius-corpse-explosion-necromancer-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
         "id": "inarius-bone-storm-necromancer-speed-farming-build",
         "label": "Inarius Bone Storm Necromancer",
         "link": "https://www.icy-veins.com/d3/inarius-bone-storm-necromancer-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
+        "id": "support-necromancer-bis-gear-gems-paragon-points",
+        "label": "Support Necromancer",
+        "link": "https://www.icy-veins.com/d3/support-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       }
     ]
@@ -14913,15 +15411,15 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt + Cube"
       },
       {
-        "id": "aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
-        "label": "Aegis of Valor Heaven's Fury Crusader",
-        "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
+        "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Singularity Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
         "tags": "Cube"
       },
       {
-        "id": "rend-wastes-barbarian-bis-gear-gems-paragon-points",
-        "label": "Rend Wastes Barbarian",
-        "link": "https://www.icy-veins.com/d3/rend-wastes-barbarian-bis-gear-gems-paragon-points",
+        "id": "aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
+        "label": "Aegis of Valor Heaven's Fury Crusader",
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
         "tags": "Cube"
       },
       {
@@ -14943,16 +15441,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "Alt"
-      },
-      {
-        "id": "poj-tempest-rush-monk-bis-gear-gems-paragon-points",
-        "label": "PoJ Tempest Rush Monk",
-        "link": "https://www.icy-veins.com/d3/poj-tempest-rush-monk-bis-gear-gems-paragon-points",
-        "tags": "Cube"
       },
       {
         "id": "lon-bombardment-crusader-bis-gear-gems-paragon-points",
@@ -15063,6 +15555,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "lod-ltk-monk-bis-gear-gems-paragon-points",
+        "label": "LoD LTK Monk",
+        "link": "https://www.icy-veins.com/d3/lod-ltk-monk-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "lod-corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-corpse-lance-necromancer-bis-gear-gems-paragon-points",
@@ -15078,6 +15576,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "aegis-of-valor-heavens-fury-crusader-speed-farming-build",
         "label": "Aegis of Valor Heaven's Fury Crusader",
         "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
+        "id": "aegis-of-valor-heavens-fury-crusader-rgk-build",
+        "label": "Aegis of Valor Heaven's Fury Crusader",
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-rgk-build",
         "tags": "BiS"
       },
       {
@@ -15117,9 +15621,21 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "lod-wol-monk-bis-gear-gems-paragon-points",
+        "label": "LoD WoL Monk",
+        "link": "https://www.icy-veins.com/d3/lod-wol-monk-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "frenzy-hotns-barbarian-speed-farming-build",
         "label": "Frenzy HotNS Barbarian",
         "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
+        "id": "helltooth-acid-cloud-witch-doctor-speed-farming-build",
+        "label": "Helltooth Acid Cloud Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-speed-farming-build",
         "tags": "BiS"
       },
       {
@@ -15141,9 +15657,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "helltooth-zombie-bears-witch-doctor-speed-farming-build",
-        "label": "Helltooth Zombie Bears Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-speed-farming-build",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -15159,9 +15675,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
+        "id": "thorns-bombardment-crusader-speed-farming-build",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-speed-farming-build",
         "tags": "BiS"
       },
       {
@@ -15387,6 +15903,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
+        "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
+        "label": "Aegis of Valor Fist of the Heavens Crusader",
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "lod-star-pact-wizard-bis-gear-gems-paragon-points",
         "label": "LoD Star Pact Wizard",
         "link": "https://www.icy-veins.com/d3/lod-star-pact-wizard-bis-gear-gems-paragon-points",
@@ -15402,12 +15924,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lon-bombardment-crusader-bis-gear-gems-paragon-points",
         "label": "LoN Bombardment Crusader",
         "link": "https://www.icy-veins.com/d3/lon-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
-        "id": "akkhan-bombardment-crusader-solo-progression-build",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-solo-progression-build",
         "tags": "BiS"
       },
       {
@@ -15462,7 +15978,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       }
     ]
   },
@@ -15705,12 +16221,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Singularity Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
-      },
-      {
         "id": "hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
         "label": "HotA GR LoD Barbarian",
         "link": "https://www.icy-veins.com/d3/hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
@@ -15801,16 +16311,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "invoker-thorns-crusader-speed-farming-build",
-        "label": "Invoker Thorns Crusader",
-        "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-speed-farming-build",
-        "tags": "BiS"
-      },
-      {
         "id": "lon-bombardment-crusader-bis-gear-gems-paragon-points",
         "label": "LoN Bombardment Crusader",
         "link": "https://www.icy-veins.com/d3/lon-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "akkhan-blessed-shield-crusader-speed-farming-build",
+        "label": "Akkhan Blessed Shield Crusader",
+        "link": "https://www.icy-veins.com/d3/akkhan-blessed-shield-crusader-speed-farming-build",
+        "tags": "Cube"
       }
     ]
   },
@@ -16191,10 +16701,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "akkhan-blessed-shield-crusader-speed-farming-build",
@@ -16248,7 +16758,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Gargantuan Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "Alt + Cube + 1 variation"
+        "tags": "Alt + Cube + 2 variations"
       },
       {
         "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
@@ -16272,7 +16782,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points",
         "label": "Rathma Skeletal Mages Necromancer",
         "link": "https://www.icy-veins.com/d3/rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
+        "tags": "Cube + 2 variations"
       },
       {
         "id": "trag-oul-blood-mages-necromancer-bis-gear-gems-paragon-points",
@@ -16338,7 +16848,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
         "label": "Spirit Barrage Mundunugu WD",
         "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
-        "tags": "Alt + 2 variations"
+        "tags": "Alt + Cube + 3 variations"
       }
     ]
   },
@@ -16350,6 +16860,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "hota-raekor-barbarian-speed-farming-build",
         "label": "HotA Raekor Barbarian",
         "link": "https://www.icy-veins.com/d3/hota-raekor-barbarian-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
+        "id": "frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
+        "label": "Frenzy HotNS Barbarian",
+        "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
         "tags": "BiS"
       }
     ]
@@ -16473,12 +16989,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
-        "label": "Aegis of Valor Fist of the Heavens Crusader",
-        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
         "id": "zuni-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Zuni Gargantuan Witch Doctor",
         "link": "https://www.icy-veins.com/d3/zuni-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
@@ -16593,16 +17103,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-solo-progression-build",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-solo-progression-build",
-        "tags": "BiS"
-      },
-      {
         "id": "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
         "label": "Spirit Barrage Mundunugu WD",
         "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS"
       },
       {
         "id": "helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
@@ -16629,16 +17133,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "corpse-lance-necromancer-group-progression-build",
-        "label": "Corpse Lance Necromancer",
-        "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-group-progression-build",
-        "tags": "BiS"
-      },
-      {
         "id": "arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Arachyr Firebats Witch Doctor",
         "link": "https://www.icy-veins.com/d3/arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Jade Harvester Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       },
       {
         "id": "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
@@ -16710,7 +17214,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "inna-exploding-palm-monk-bis-gear-gems-paragon-points",
         "label": "Inna Exploding Palm Monk",
         "link": "https://www.icy-veins.com/d3/inna-exploding-palm-monk-bis-gear-gems-paragon-points",
-        "tags": "BiS + 2 variations"
+        "tags": "BiS + Cube + 4 variations"
       },
       {
         "id": "lod-wol-monk-bis-gear-gems-paragon-points",
@@ -16793,18 +17297,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     ]
   },
   {
-    "label": "The Executioner",
-    "link": "https://us.diablo3.com/en/item/the-executioner-P66_Unique_Axe_2H_003",
-    "buildsData": [
-      {
-        "id": "support-barbarian-bis-gear-gems-paragon-points",
-        "label": "Support Barbarian",
-        "link": "https://www.icy-veins.com/d3/support-barbarian-bis-gear-gems-paragon-points",
-        "tags": "Cube"
-      }
-    ]
-  },
-  {
     "label": "The Eye of the Storm",
     "link": "https://us.diablo3.com/en/item/the-eye-of-the-storm-Unique_SpiritStone_006_x1",
     "buildsData": [
@@ -16854,7 +17346,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
         "label": "Uliana Seven-Sided Strike Monk",
         "link": "https://www.icy-veins.com/d3/uliana-seven-sided-strike-monk-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + Cube + 1 variation"
       }
     ]
   },
@@ -16893,10 +17385,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build",
+        "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
         "label": "Aegis of Valor Fist of the Heavens Crusader",
-        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build",
-        "tags": "BiS"
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
@@ -16974,7 +17466,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
@@ -16995,9 +17487,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -17005,12 +17497,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "PoJ Tempest Rush Monk",
         "link": "https://www.icy-veins.com/d3/poj-tempest-rush-monk-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
-      },
-      {
-        "id": "helltooth-zombie-bears-witch-doctor-speed-farming-build",
-        "label": "Helltooth Zombie Bears Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-speed-farming-build",
-        "tags": "BiS"
       },
       {
         "id": "lon-bombardment-crusader-bis-gear-gems-paragon-points",
@@ -17193,21 +17679,33 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
+        "id": "hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
+        "label": "HotA GR LoD Barbarian",
+        "link": "https://www.icy-veins.com/d3/hota-gr-lod-barbarian-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "zuni-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Zuni Gargantuan Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/zuni-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "akkhan-condemn-crusader-bis-gear-gems-paragon-points",
         "label": "Akkhan Condemn Crusader",
         "link": "https://www.icy-veins.com/d3/akkhan-condemn-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
-        "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
-        "label": "Helltooth Acid Cloud Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
+        "id": "rolands-shield-bash-crusader-bis-gear-gems-paragon-points",
+        "label": "Roland's Shield Bash Crusader",
+        "link": "https://www.icy-veins.com/d3/rolands-shield-bash-crusader-bis-gear-gems-paragon-points",
         "tags": "Cube"
       },
       {
-        "id": "invoker-thorns-crusader-bis-gear-gems-paragon-points",
-        "label": "Invoker Thorns Crusader",
-        "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-bis-gear-gems-paragon-points",
+        "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Acid Cloud Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
         "tags": "Cube"
       },
       {
@@ -17217,21 +17715,63 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
-        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "label": "Helltooth Zombie Bears Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "id": "blessed-hammer-crusader-bis-gear-gems-paragon-points",
+        "label": "Blessed Hammer Crusader",
+        "link": "https://www.icy-veins.com/d3/blessed-hammer-crusader-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "lon-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "LoN Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/lon-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "Cube + 1 variation"
+      },
+      {
+        "id": "helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Grasp Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
+        "label": "LoD Blessed Shield Crusader",
+        "link": "https://www.icy-veins.com/d3/lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "inarius-bone-storm-necromancer-bis-gear-gems-paragon-points",
+        "label": "Inarius Bone Storm Necromancer",
+        "link": "https://www.icy-veins.com/d3/inarius-bone-storm-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points",
+        "label": "Whirlwind GR Wastes Barbarian",
+        "link": "https://www.icy-veins.com/d3/whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Jade Harvester Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
         "label": "Leap/Earthquake MotE Barbarian",
         "link": "https://www.icy-veins.com/d3/leap-earthquake-mote-barbarian-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "tags": "BiS"
       },
       {
         "id": "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
         "label": "DMO Arcane Orbit Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "akkhan-blessed-shield-crusader-bis-gear-gems-paragon-points",
+        "label": "Akkhan Blessed Shield Crusader",
+        "link": "https://www.icy-veins.com/d3/akkhan-blessed-shield-crusader-bis-gear-gems-paragon-points",
         "tags": "Cube"
       },
       {
@@ -17331,12 +17871,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
-        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "label": "Helltooth Zombie Bears Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
-      },
-      {
         "id": "helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Grasp Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
@@ -17415,10 +17949,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube + 1 variation"
       },
       {
-        "id": "akkhan-bombardment-crusader-solo-progression-build",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-solo-progression-build",
-        "tags": "Cube"
+        "id": "thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "label": "Thorns Bombardment Crusader",
+        "link": "https://www.icy-veins.com/d3/thorns-bombardment-crusader-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
       }
     ]
   },
@@ -17673,9 +18207,21 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
+        "label": "Frenzy HotNS Barbarian",
+        "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      },
+      {
         "id": "support-barbarian-bis-gear-gems-paragon-points",
         "label": "Support Barbarian",
         "link": "https://www.icy-veins.com/d3/support-barbarian-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "hota-ik-barbarian-bis-gear-gems-paragon-points",
+        "label": "HotA IK Barbarian",
+        "link": "https://www.icy-veins.com/d3/hota-ik-barbarian-bis-gear-gems-paragon-points",
         "tags": "BiS"
       }
     ]
@@ -17871,12 +18417,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
-        "label": "Aegis of Valor Fist of the Heavens Crusader",
-        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
         "id": "zuni-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Zuni Gargantuan Witch Doctor",
         "link": "https://www.icy-veins.com/d3/zuni-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
@@ -17991,16 +18531,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "akkhan-bombardment-crusader-solo-progression-build",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-solo-progression-build",
-        "tags": "BiS"
-      },
-      {
         "id": "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
         "label": "Spirit Barrage Mundunugu WD",
         "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS"
       },
       {
         "id": "helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
@@ -18027,16 +18561,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 1 variation"
       },
       {
-        "id": "corpse-lance-necromancer-group-progression-build",
-        "label": "Corpse Lance Necromancer",
-        "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-group-progression-build",
-        "tags": "BiS"
-      },
-      {
         "id": "arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Arachyr Firebats Witch Doctor",
         "link": "https://www.icy-veins.com/d3/arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Jade Harvester Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       },
       {
         "id": "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
@@ -18351,12 +18885,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "spirit-barrage-mundunugu-wd-trash-killer-build",
-        "label": "Spirit Barrage Mundunugu WD",
-        "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-trash-killer-build",
-        "tags": "BiS"
-      },
-      {
         "id": "helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Grasp Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
@@ -18385,18 +18913,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Shadow Impale Demon Hunter",
         "link": "https://www.icy-veins.com/d3/shadow-impale-demon-hunter-group-progression-build",
         "tags": "BiS"
-      }
-    ]
-  },
-  {
-    "label": "Thing of the Deep",
-    "link": "https://us.diablo3.com/en/item/thing-of-the-deep-P4_Unique_Mojo_002",
-    "buildsData": [
-      {
-        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "label": "Helltooth Zombie Bears Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "Alt + 1 variation"
       }
     ]
   },
@@ -18504,13 +19020,25 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Corpse Explosion Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "lod-corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Corpse Lance Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "lod-singularity-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Singularity Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-singularity-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube + 1 variation"
+      },
+      {
+        "id": "rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points",
+        "label": "Rathma Skeletal Mages Necromancer",
+        "link": "https://www.icy-veins.com/d3/rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube + 2 variations"
       },
       {
         "id": "lod-poison-scythe-necromancer-bis-gear-gems-paragon-points",
@@ -18525,9 +19053,15 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "trag-oul-blood-mages-necromancer-solo-progression-build",
+        "label": "Trag'Oul Blood Mages Necromancer",
+        "link": "https://www.icy-veins.com/d3/trag-oul-blood-mages-necromancer-solo-progression-build",
         "tags": "Cube"
       },
       {
@@ -18537,16 +19071,22 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Blood Nova Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "inarius-bone-storm-necromancer-bis-gear-gems-paragon-points",
         "label": "Inarius Bone Storm Necromancer",
         "link": "https://www.icy-veins.com/d3/inarius-bone-storm-necromancer-bis-gear-gems-paragon-points",
         "tags": "Alt + Cube"
       },
       {
-        "id": "corpse-lance-necromancer-group-progression-build",
+        "id": "corpse-lance-necromancer-bis-gear-gems-paragon-points",
         "label": "Corpse Lance Necromancer",
-        "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-group-progression-build",
-        "tags": "BiS"
+        "link": "https://www.icy-veins.com/d3/corpse-lance-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube + 2 variations"
       },
       {
         "id": "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
@@ -19047,10 +19587,28 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "lod-corpse-lance-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Corpse Lance Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-corpse-lance-necromancer-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "lod-fok-demon-hunter-bis-gear-gems-paragon-points",
         "label": "LoD FoK Demon Hunter",
         "link": "https://www.icy-veins.com/d3/lod-fok-demon-hunter-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
+        "label": "Aegis of Valor Fist of the Heavens Crusader",
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
+        "label": "Aegis of Valor Heaven's Fury Crusader",
+        "link": "https://www.icy-veins.com/d3/aegis-of-valor-heavens-fury-crusader-bis-gear-gems-paragon-points",
+        "tags": "Alt"
       },
       {
         "id": "raiment-shenlong-generator-monk-bis-gear-gems-paragon-points",
@@ -19095,22 +19653,22 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "invoker-thorns-crusader-bis-gear-gems-paragon-points",
+        "label": "Invoker Thorns Crusader",
+        "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "generator-necromancer-bis-gear-gems-paragon-points",
         "label": "Generator Necromancer",
         "link": "https://www.icy-veins.com/d3/generator-necromancer-bis-gear-gems-paragon-points",
         "tags": "Alt"
       },
       {
-        "id": "lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "label": "LoD Thorns Skeletons Solo Necromancer",
-        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-solo-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
-        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "label": "Helltooth Zombie Bears Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "label": "LoD Thorns Skeletons Necromancer",
+        "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
+        "tags": "BiS + Cube"
       },
       {
         "id": "meteor-wizard-bis-gear-gems-paragon-points",
@@ -19122,12 +19680,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points",
         "label": "Sunwuko Wave of Light Monk",
         "link": "https://www.icy-veins.com/d3/sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
-        "id": "akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
-        "label": "Akkhan Bombardment Crusader",
-        "link": "https://www.icy-veins.com/d3/akkhan-bombardment-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -19265,6 +19817,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     ]
   },
   {
+    "label": "Ursua's Trodden Effigy",
+    "link": "https://us.diablo3.com/en/item/ursuas-trodden-effigy-P610_Unique_Mojo_001",
+    "buildsData": [
+      {
+        "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      }
+    ]
+  },
+  {
     "label": "Valla's Bequest",
     "link": "https://us.diablo3.com/en/item/vallas-bequest-P43_Unique_HandXBow_005",
     "buildsData": [
@@ -19284,7 +19848,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
         "label": "Frenzy HotNS Barbarian",
         "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
-        "tags": "Alt"
+        "tags": "BiS"
       },
       {
         "id": "frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points",
@@ -19485,10 +20049,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "link": "https://us.diablo3.com/en/item/voos-juicer-P4_Unique_Dagger_002",
     "buildsData": [
       {
-        "id": "lod-spirit-barrage-witch-doctor-group-progression-build",
+        "id": "lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points",
         "label": "LoD Spirit Barrage Witch Doctor",
-        "link": "https://www.icy-veins.com/d3/lod-spirit-barrage-witch-doctor-group-progression-build",
-        "tags": "BiS"
+        "link": "https://www.icy-veins.com/d3/lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points",
+        "tags": "Cube + 2 variations"
+      },
+      {
+        "id": "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
+        "label": "Spirit Barrage Mundunugu WD",
+        "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
+        "tags": "Alt + 1 variation"
       }
     ]
   },
@@ -19884,7 +20454,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "poj-tempest-rush-monk-bis-gear-gems-paragon-points",
         "label": "PoJ Tempest Rush Monk",
         "link": "https://www.icy-veins.com/d3/poj-tempest-rush-monk-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + Cube + 1 variation"
       },
       {
         "id": "swk-tempest-rush-monk-bis-gear-gems-paragon-points",
@@ -19898,6 +20468,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "label": "Wormwood",
     "link": "https://us.diablo3.com/en/item/wormwood-P2_Unique_Staff_003",
     "buildsData": [
+      {
+        "id": "helltooth-zombie-bears-witch-doctor-speed-farming-build",
+        "label": "Helltooth Zombie Bears Witch Doctor",
+        "link": "https://www.icy-veins.com/d3/helltooth-zombie-bears-witch-doctor-speed-farming-build",
+        "tags": "Cube"
+      },
       {
         "id": "arachyr-firebats-witch-doctor-speed-farming-build",
         "label": "Arachyr Firebats Witch Doctor",
