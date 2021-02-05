@@ -1,6 +1,6 @@
-import * as fs from "fs";
-import * as fse from "fs-extra";
-import * as path from "path";
+import fs from "fs";
+import fse from "fs-extra";
+import path from "path";
 
 export async function makeDirectory(directory: string) {
   return new Promise((res, rej) =>
@@ -8,7 +8,7 @@ export async function makeDirectory(directory: string) {
       if (err) {
         rej(err);
       } else {
-        res();
+        res(undefined);
       }
     })
   );
@@ -32,7 +32,7 @@ export async function writeFile(target: string, data: string) {
       if (err) {
         rej(err);
       } else {
-        res();
+        res(undefined);
       }
     })
   );

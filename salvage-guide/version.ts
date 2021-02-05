@@ -1,7 +1,9 @@
-import * as path from "path";
+import path from "path";
+import isEqual from "lodash.isequal";
 
 import { StashItemVersion } from "./output/types";
 import { itemsById } from "./output/salvage-guide";
+import { stashItemVersions } from "./output/versions";
 import { readFile, saveFileToDirectory } from "./utils/fileSystem";
 
 const SAVE_DIR = path.resolve(__dirname, "output");
@@ -13,15 +15,6 @@ function stringifyItems(items: string[]) {
 async function version() {
   try {
     console.log("Versioning salvage guide...");
-
-    let data = `// Last updated on ${new Date().toLocaleString()}\n\n`;
-
-    try {
-      const current = await readFile(path.resolve(SAVE_DIR, "versions.ts"));
-      data += `${current.split("\n").slice(2, -2).join("\n")}`;
-    } catch (err) {
-      data += `import { StashItemVersion } from "./types";\n\nexport const stashItemVersions: StashItemVersion[] = [`;
-    }
 
     const items = Object.values(itemsById)
       .sort((a, b) =>
@@ -38,6 +31,20 @@ async function version() {
         },
         [[], []]
       );
+
+    if (isEqual(stashItemVersions[stashItemVersions.length - 1], items)) {
+      console.log("No updates");
+      return;
+    }
+
+    let data = `// Last updated on ${new Date().toLocaleString()}\n\n`;
+
+    try {
+      const current = await readFile(path.resolve(SAVE_DIR, "versions.ts"));
+      data += `${current.split("\n").slice(2, -2).join("\n")}`;
+    } catch (err) {
+      data += `import { StashItemVersion } from "./types";\n\nexport const stashItemVersions: StashItemVersion[] = [`;
+    }
 
     data += `\n  [\n${stringifyItems(items[0])}\n${stringifyItems(
       items[1]

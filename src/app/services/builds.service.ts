@@ -149,9 +149,9 @@ export class BuildsService extends BaseService {
     });
 
     const hasSelectedItems = Boolean(stashedItems.size + cubedItems.size);
-    const updatedItems = Object.entries(this.items.getValue()).reduce<
-      BuildItemMap
-    >((acc, [key, build]) => {
+    const updatedItems = Object.entries(
+      this.items.getValue()
+    ).reduce<BuildItemMap>((acc, [key, build]) => {
       const allBuildItems = Object.keys(itemsByBuild[key]);
       if (baseBuilds[build.label] !== key) {
         allBuildItems.push(

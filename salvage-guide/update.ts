@@ -1,5 +1,6 @@
-import * as ora from "ora";
-import * as path from "path";
+import ora from "ora";
+import isEqual from "lodash.isequal";
+import path from "path";
 import {
   Builder,
   By,
@@ -8,11 +9,12 @@ import {
   until,
   WebElement,
 } from "selenium-webdriver";
-import { Options } from "selenium-webdriver/chrome";
+import { Options } from "selenium-webdriver/firefox";
 
 import { RawItemData, RawBuildData } from "./output/types";
 import { delay } from "./utils/delay";
 import { saveFileToDirectory } from "./utils/fileSystem";
+import { RAW_SALVAGE_GUIDE } from "./output/raw-salvage-guide";
 
 const SALVAGE_GUIDE_URL =
   "https://www.icy-veins.com/d3/legendary-item-salvage-guide";
@@ -39,7 +41,7 @@ const SAVE_DIR = path.resolve(__dirname, "output");
 async function getBuilder() {
   return await new Builder()
     .forBrowser("firefox")
-    .setChromeOptions(
+    .setFirefoxOptions(
       new Options().headless().windowSize({
         width: 800,
         height: 1200,
@@ -186,8 +188,13 @@ async function update() {
     await driver.wait(until.elementLocated(By.className("salvage_table")));
 
     const results = await getResults(driver);
-    const target = await saveFile(results);
-    console.log(`Saved raw salvage guide to ${target}`);
+
+    if (isEqual(results, RAW_SALVAGE_GUIDE)) {
+      console.log("No updates");
+    } else {
+      const target = await saveFile(results);
+      console.log(`Saved raw salvage guide to ${target}`);
+    }
 
     await driver.quit();
   } catch (err) {

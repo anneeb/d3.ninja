@@ -1,4 +1,4 @@
-// Last updated on 11/19/2020, 10:46:00 PM
+// Last updated on 2/4/2021, 9:34:52 PM
 
 import {
   ItemSlot,
@@ -1391,6 +1391,17 @@ export const itemsById: ItemsById =
     "isSet": true,
     "slots": [
       ItemSlot.LEGS
+    ],
+    "isTwoHanded": false
+  },
+  "firebirds-eye-Unique_Orb_Set_06_x1": {
+    "id": "firebirds-eye-Unique_Orb_Set_06_x1",
+    "label": "Firebird's Eye",
+    "link": "https://us.diablo3.com/en/item/firebirds-eye-Unique_Orb_Set_06_x1",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/unique_orb_set_06_x1_demonhunter_male.png",
+    "isSet": true,
+    "slots": [
+      ItemSlot.RIGHT_HAND
     ],
     "isTwoHanded": false
   },
@@ -5671,6 +5682,18 @@ export const itemsById: ItemsById =
     ],
     "isTwoHanded": false
   },
+  "valtheks-rebuke-P610_Unique_Staff_102": {
+    "id": "valtheks-rebuke-P610_Unique_Staff_102",
+    "label": "Valthek's Rebuke",
+    "link": "https://us.diablo3.com/en/item/valtheks-rebuke-P610_Unique_Staff_102",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p610_unique_staff_102_demonhunter_male.png",
+    "isSet": false,
+    "slots": [
+      ItemSlot.RIGHT_HAND,
+      ItemSlot.LEFT_HAND
+    ],
+    "isTwoHanded": true
+  },
   "vambraces-of-sescheron-P4_Unique_Bracer_106": {
     "id": "vambraces-of-sescheron-P4_Unique_Bracer_106",
     "label": "Vambraces of Sescheron",
@@ -5906,6 +5929,17 @@ export const itemsById: ItemsById =
     ],
     "isTwoHanded": true
   },
+  "winter-flurry-P610_Unique_Orb_005": {
+    "id": "winter-flurry-P610_Unique_Orb_005",
+    "label": "Winter Flurry",
+    "link": "https://us.diablo3.com/en/item/winter-flurry-P610_Unique_Orb_005",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p610_unique_orb_005_demonhunter_male.png",
+    "isSet": false,
+    "slots": [
+      ItemSlot.RIGHT_HAND
+    ],
+    "isTwoHanded": false
+  },
   "wisdom-of-kalan-P6_Unique_Amulet_03": {
     "id": "wisdom-of-kalan-P6_Unique_Amulet_03",
     "label": "Wisdom of Kalan",
@@ -5914,6 +5948,18 @@ export const itemsById: ItemsById =
     "isSet": false,
     "slots": [
       ItemSlot.NECK
+    ],
+    "isTwoHanded": false
+  },
+  "wizardspike-P610_Unique_Dagger_010": {
+    "id": "wizardspike-P610_Unique_Dagger_010",
+    "label": "Wizardspike",
+    "link": "https://us.diablo3.com/en/item/wizardspike-P610_Unique_Dagger_010",
+    "img": "https://blzmedia-a.akamaihd.net/d3/icons/items/small/p610_unique_dagger_010_demonhunter_male.png",
+    "isSet": false,
+    "slots": [
+      ItemSlot.RIGHT_HAND,
+      ItemSlot.LEFT_HAND
     ],
     "isTwoHanded": false
   },
@@ -6163,11 +6209,11 @@ export const buildsById: BuildsById =
     "label": "Lightning Arcane Torrent Wizard",
     "link": "https://www.icy-veins.com/d3/lightning-arcane-torrent-wizard-electrocute-build"
   },
-  "vyr-archon-wizard-speed-farming-build": {
-    "id": "vyr-archon-wizard-speed-farming-build",
+  "explosive-blast-farming-wizard-bis-gear-gems-paragon-points": {
+    "id": "explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
     "character": BuildCharacter.WIZARD,
-    "label": "Vyr Archon Wizard",
-    "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-speed-farming-build"
+    "label": "Explosive Blast Farming Wizard",
+    "link": "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-bis-gear-gems-paragon-points"
   },
   "lightning-archon-wizard-solo-progression-build": {
     "id": "lightning-archon-wizard-solo-progression-build",
@@ -6469,6 +6515,12 @@ export const buildsById: BuildsById =
     "label": "LoD Carnevil DoD Witch Doctor",
     "link": "https://www.icy-veins.com/d3/lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points"
   },
+  "explosive-blast-farming-wizard-greater-rifting-build": {
+    "id": "explosive-blast-farming-wizard-greater-rifting-build",
+    "character": BuildCharacter.WIZARD,
+    "label": "Explosive Blast Farming Wizard",
+    "link": "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-greater-rifting-build"
+  },
   "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": {
     "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "character": BuildCharacter.WITCH_DOCTOR,
@@ -6499,6 +6551,12 @@ export const buildsById: BuildsById =
     "label": "Spirit Barrage Mundunugu WD",
     "link": "https://www.icy-veins.com/d3/spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points"
   },
+  "lod-energy-twister-wizard-bis-gear-gems-paragon-points": {
+    "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "character": BuildCharacter.WIZARD,
+    "label": "LoD Energy Twister Wizard",
+    "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points"
+  },
   "natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points": {
     "id": "natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
     "character": BuildCharacter.DEMON_HUNTER,
@@ -6516,6 +6574,12 @@ export const buildsById: BuildsById =
     "character": BuildCharacter.CRUSADER,
     "label": "LoD Condemn Crusader",
     "link": "https://www.icy-veins.com/d3/lod-condemn-crusader-bis-gear-gems-paragon-points"
+  },
+  "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": {
+    "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "character": BuildCharacter.WIZARD,
+    "label": "LoD Frozen Orb Wizard",
+    "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "witch-doctor-arachyr-set-dungeon-guide": {
     "id": "witch-doctor-arachyr-set-dungeon-guide",
@@ -6547,17 +6611,17 @@ export const buildsById: BuildsById =
     "label": "Lightning Arcane Torrent Wizard",
     "link": "https://www.icy-veins.com/d3/lightning-arcane-torrent-wizard-spectral-blade-build"
   },
-  "explosive-blast-farming-wizard-greater-rifting-build": {
-    "id": "explosive-blast-farming-wizard-greater-rifting-build",
-    "character": BuildCharacter.WIZARD,
-    "label": "Explosive Blast Farming Wizard",
-    "link": "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-greater-rifting-build"
-  },
   "vyr-archon-wizard-bis-gear-gems-paragon-points": {
     "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
     "character": BuildCharacter.WIZARD,
     "label": "Vyr Archon Wizard",
     "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points"
+  },
+  "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": {
+    "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "character": BuildCharacter.WIZARD,
+    "label": "DMO Frozen Orb Wizard",
+    "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": {
     "id": "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
@@ -6703,6 +6767,12 @@ export const buildsById: BuildsById =
     "label": "Frenzy HotNS Barbarian",
     "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-speed-farming-build"
   },
+  "masquerade-bone-spear-necromancer-key-farming-build": {
+    "id": "masquerade-bone-spear-necromancer-key-farming-build",
+    "character": BuildCharacter.NECROMANCER,
+    "label": "Masquerade Bone Spear Necromancer",
+    "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build"
+  },
   "helltooth-acid-cloud-witch-doctor-speed-farming-build": {
     "id": "helltooth-acid-cloud-witch-doctor-speed-farming-build",
     "character": BuildCharacter.WITCH_DOCTOR,
@@ -6733,11 +6803,11 @@ export const buildsById: BuildsById =
     "label": "Blessed Hammer Crusader",
     "link": "https://www.icy-veins.com/d3/blessed-hammer-crusader-speed-farming-build"
   },
-  "explosive-blast-farming-wizard-bis-gear-gems-paragon-points": {
-    "id": "explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+  "vyr-archon-wizard-nephalem-rift-speed-farming-build": {
+    "id": "vyr-archon-wizard-nephalem-rift-speed-farming-build",
     "character": BuildCharacter.WIZARD,
-    "label": "Explosive Blast Farming Wizard",
-    "link": "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-bis-gear-gems-paragon-points"
+    "label": "Vyr Archon Wizard",
+    "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-nephalem-rift-speed-farming-build"
   },
   "generator-necromancer-speed-farming-build": {
     "id": "generator-necromancer-speed-farming-build",
@@ -7225,12 +7295,6 @@ export const buildsById: BuildsById =
     "label": "Generator Necromancer",
     "link": "https://www.icy-veins.com/d3/generator-necromancer-bis-gear-gems-paragon-points"
   },
-  "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": {
-    "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "character": BuildCharacter.WIZARD,
-    "label": "DMO Frozen Orb Wizard",
-    "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points"
-  },
   "spirit-barrage-mundunugu-wd-trash-killer-build": {
     "id": "spirit-barrage-mundunugu-wd-trash-killer-build",
     "character": BuildCharacter.WITCH_DOCTOR,
@@ -7285,6 +7349,12 @@ export const buildsById: BuildsById =
     "label": "Monk Inna Set Dungeon Guide",
     "link": "https://www.icy-veins.com/d3/monk-innas-mantra-set-dungeon-guide"
   },
+  "vyr-archon-wizard-greater-rift-speed-farming-build": {
+    "id": "vyr-archon-wizard-greater-rift-speed-farming-build",
+    "character": BuildCharacter.WIZARD,
+    "label": "Vyr Archon Wizard",
+    "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-greater-rift-speed-farming-build"
+  },
   "god-marauder-support-demon-hunter-bis-gear-gems-paragon-points": {
     "id": "god-marauder-support-demon-hunter-bis-gear-gems-paragon-points",
     "character": BuildCharacter.DEMON_HUNTER,
@@ -7326,12 +7396,6 @@ export const buildsById: BuildsById =
     "character": BuildCharacter.BARBARIAN,
     "label": "Frenzy HotNS Barbarian",
     "link": "https://www.icy-veins.com/d3/frenzy-hotns-barbarian-rgk-build"
-  },
-  "masquerade-bone-spear-necromancer-key-farming-build": {
-    "id": "masquerade-bone-spear-necromancer-key-farming-build",
-    "character": BuildCharacter.NECROMANCER,
-    "label": "Masquerade Bone Spear Necromancer",
-    "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build"
   },
   "corpse-lance-necromancer-speed-farming-build": {
     "id": "corpse-lance-necromancer-speed-farming-build",
@@ -7438,7 +7502,7 @@ export const tagsById: TagsById =
   "aether-walker-P1_Wand_norm_unique_01-lightning-arcane-torrent-wizard-electrocute-build": [
     BuildItemTag.BIS
   ],
-  "aether-walker-P1_Wand_norm_unique_01-vyr-archon-wizard-speed-farming-build": [
+  "aether-walker-P1_Wand_norm_unique_01-explosive-blast-farming-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
   "aether-walker-P1_Wand_norm_unique_01-lightning-archon-wizard-solo-progression-build": [
@@ -7508,7 +7572,7 @@ export const tagsById: TagsById =
     BuildItemTag.BIS
   ],
   "ancient-parthan-defenders-Unique_Bracer_102_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
+    BuildItemTag.ALT
   ],
   "ancient-parthan-defenders-Unique_Bracer_102_x1-lod-spirit-barrage-witch-doctor-group-progression-build": [
     BuildItemTag.CUBE
@@ -7677,6 +7741,9 @@ export const tagsById: TagsById =
     BuildItemTag.CUBE,
     BuildItemTag.VARIATION
   ],
+  "aquila-cuirass-P4_Unique_Chest_012-explosive-blast-farming-wizard-greater-rifting-build": [
+    BuildItemTag.CUBE
+  ],
   "aquila-cuirass-P4_Unique_Chest_012-lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
@@ -7709,6 +7776,9 @@ export const tagsById: TagsById =
   "aquila-cuirass-P4_Unique_Chest_012-inarius-bone-storm-necromancer-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
+  "aquila-cuirass-P4_Unique_Chest_012-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "aquila-cuirass-P4_Unique_Chest_012-natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
@@ -7728,6 +7798,9 @@ export const tagsById: TagsById =
     BuildItemTag.CUBE
   ],
   "aquila-cuirass-P4_Unique_Chest_012-lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
+  "aquila-cuirass-P4_Unique_Chest_012-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
   "aquila-cuirass-P4_Unique_Chest_012-chakram-demon-hunter-bis-gear-gems-paragon-points": [
@@ -7806,10 +7879,19 @@ export const tagsById: TagsById =
   "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-vyr-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
+  "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-meteor-wizard-tal-rasha-build": [
     BuildItemTag.BIS
   ],
   "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
+  "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
+  "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
   "aughilds-power-P66_Unique_Shoulder_008-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1": [
@@ -7910,6 +7992,9 @@ export const tagsById: TagsById =
   "avarice-band-Unique_Ring_108_x1-frenzy-hotns-barbarian-speed-farming-build": [
     BuildItemTag.BIS
   ],
+  "avarice-band-Unique_Ring_108_x1-masquerade-bone-spear-necromancer-key-farming-build": [
+    BuildItemTag.BIS
+  ],
   "avarice-band-Unique_Ring_108_x1-helltooth-acid-cloud-witch-doctor-speed-farming-build": [
     BuildItemTag.BIS
   ],
@@ -7928,7 +8013,7 @@ export const tagsById: TagsById =
   "avarice-band-Unique_Ring_108_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "avarice-band-Unique_Ring_108_x1-vyr-archon-wizard-speed-farming-build": [
+  "avarice-band-Unique_Ring_108_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build": [
     BuildItemTag.BIS
   ],
   "avarice-band-Unique_Ring_108_x1-generator-necromancer-speed-farming-build": [
@@ -8395,6 +8480,10 @@ export const tagsById: TagsById =
   "captain-crimsons-silk-girdle-P66_Unique_Belt_012-invoker-thorns-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
+  "captain-crimsons-silk-girdle-P66_Unique_Belt_012-vyr-archon-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS,
+    BuildItemTag.VARIATION
+  ],
   "captain-crimsons-silk-girdle-P66_Unique_Belt_012-poj-tempest-rush-monk-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
@@ -8468,6 +8557,10 @@ export const tagsById: TagsById =
   ],
   "captain-crimsons-thrust-P66_Unique_Pants_012-invoker-thorns-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
+  ],
+  "captain-crimsons-thrust-P66_Unique_Pants_012-vyr-archon-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS,
+    BuildItemTag.VARIATION
   ],
   "captain-crimsons-thrust-P66_Unique_Pants_012-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
@@ -8553,6 +8646,7 @@ export const tagsById: TagsById =
   ],
   "chantodos-force-Unique_Orb_011_x1-vyr-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
+    BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
   "chantodos-will-Unique_Wand_012_x1-wizard-vyr-set-dungeon-guide": [
@@ -8564,6 +8658,7 @@ export const tagsById: TagsById =
   ],
   "chantodos-will-Unique_Wand_012_x1-vyr-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
+    BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
   "chausses-of-valor-P67_Unique_Pants_Set_01-aegis-of-valor-fist-of-the-heavens-crusader-speed-farming-build": [
@@ -8614,6 +8709,9 @@ export const tagsById: TagsById =
   "cindercoat-Unique_Chest_006_x1-zdps-crusader-support-build-with-cain-and-born-sets-patch-2-4": [
     BuildItemTag.CUBE,
     BuildItemTag.OUTDATED
+  ],
+  "cindercoat-Unique_Chest_006_x1-wizard-firebird-set-dungeon-guide": [
+    BuildItemTag.BIS
   ],
   "cindercoat-Unique_Chest_006_x1-barbarian-the-thrill-conquest-build-season-12-patch-2-6-1": [
     BuildItemTag.BIS
@@ -8853,8 +8951,7 @@ export const tagsById: TagsById =
     BuildItemTag.VARIATION
   ],
   "convention-of-elements-P2_Unique_Ring_04-masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS,
-    BuildItemTag.VARIATION
+    BuildItemTag.BIS
   ],
   "convention-of-elements-P2_Unique_Ring_04-helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
@@ -8873,8 +8970,12 @@ export const tagsById: TagsById =
   "convention-of-elements-P2_Unique_Ring_04-blessed-hammer-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
+  "convention-of-elements-P2_Unique_Ring_04-explosive-blast-farming-wizard-greater-rifting-build": [
+    BuildItemTag.CUBE
+  ],
   "convention-of-elements-P2_Unique_Ring_04-vyr-archon-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
+    BuildItemTag.BIS,
+    BuildItemTag.VARIATION
   ],
   "convention-of-elements-P2_Unique_Ring_04-generator-necromancer-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
@@ -8952,6 +9053,9 @@ export const tagsById: TagsById =
     BuildItemTag.ALT,
     BuildItemTag.CUBE
   ],
+  "convention-of-elements-P2_Unique_Ring_04-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "convention-of-elements-P2_Unique_Ring_04-unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
@@ -9006,6 +9110,9 @@ export const tagsById: TagsById =
   "convention-of-elements-P2_Unique_Ring_04-lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
+  "convention-of-elements-P2_Unique_Ring_04-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "convention-of-elements-P2_Unique_Ring_04-frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
@@ -9030,6 +9137,9 @@ export const tagsById: TagsById =
   ],
   "cosmic-strand-Unique_Orb_004_x1-wizard-dmo-set-dungeon-guide": [
     BuildItemTag.BIS
+  ],
+  "cosmic-strand-Unique_Orb_004_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build": [
+    BuildItemTag.CUBE
   ],
   "crashing-rain-P2_Unique_Belt_01-demon-hunter-natalya-fire-build-with-rain-of-vengeance-patch-2-4": [
     BuildItemTag.BIS,
@@ -9271,7 +9381,7 @@ export const tagsById: TagsById =
     BuildItemTag.BIS
   ],
   "deathwish-P61_Unique_Sword_1H_112_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
+    BuildItemTag.CUBE
   ],
   "deathwish-P61_Unique_Sword_1H_112_x1-lod-star-pact-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
@@ -9283,10 +9393,16 @@ export const tagsById: TagsById =
     BuildItemTag.VARIATION
   ],
   "deathwish-P61_Unique_Sword_1H_112_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
+    BuildItemTag.CUBE
+  ],
+  "deathwish-P61_Unique_Sword_1H_112_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
   ],
   "deathwish-P61_Unique_Sword_1H_112_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
+    BuildItemTag.CUBE
+  ],
+  "deathwish-P61_Unique_Sword_1H_112_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
   ],
   "decree-of-justice-P67_Unique_Helm_Set_02-poj-tempest-rush-monk-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
@@ -9396,6 +9512,9 @@ export const tagsById: TagsById =
   "echoing-fury-P66_Unique_Mace_1H_001-zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE,
     BuildItemTag.VARIATION
+  ],
+  "echoing-fury-P66_Unique_Mace_1H_001-vyr-archon-wizard-greater-rift-speed-farming-build": [
+    BuildItemTag.CUBE
   ],
   "echoing-fury-P66_Unique_Mace_1H_001-generator-necromancer-speed-farming-build": [
     BuildItemTag.CUBE
@@ -9513,12 +9632,6 @@ export const tagsById: TagsById =
     BuildItemTag.BIS,
     BuildItemTag.OUTDATED
   ],
-  "etched-sigil-P610_Unique_Orb_002-wizard-firebird-set-dungeon-guide": [
-    BuildItemTag.BIS
-  ],
-  "etched-sigil-P610_Unique_Orb_002-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
-  ],
   "etched-sigil-P610_Unique_Orb_002-lod-star-pact-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
@@ -9528,7 +9641,7 @@ export const tagsById: TagsById =
     BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
-  "etched-sigil-P610_Unique_Orb_002-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
+  "etched-sigil-P610_Unique_Orb_002-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
   "etched-sigil-P610_Unique_Orb_002-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
@@ -9582,6 +9695,9 @@ export const tagsById: TagsById =
   ],
   "fazulas-improbable-chain-P4_Unique_Belt_07-vyr-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
+    BuildItemTag.CUBE,
+    BuildItemTag.VARIATION,
+    BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
   "fazulas-improbable-chain-P4_Unique_Belt_07-lightning-archon-wizard-bis-gear-gems-paragon-points": [
@@ -9632,9 +9748,6 @@ export const tagsById: TagsById =
   "fierce-gauntlets-Unique_Gloves_Set_02_p2-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "firebirds-breast-Unique_Chest_Set_06_x1-wizard-firebird-set-dungeon-guide": [
-    BuildItemTag.BIS
-  ],
   "firebirds-breast-Unique_Chest_Set_06_x1-firebird-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
@@ -9655,6 +9768,9 @@ export const tagsById: TagsById =
     BuildItemTag.BIS,
     BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
+  ],
+  "firebirds-eye-Unique_Orb_Set_06_x1-wizard-firebird-set-dungeon-guide": [
+    BuildItemTag.BIS
   ],
   "firebirds-pinions-Unique_Shoulder_Set_06_x1-wizard-firebird-set-dungeon-guide": [
     BuildItemTag.BIS
@@ -9943,6 +10059,12 @@ export const tagsById: TagsById =
   "fragment-of-destiny-P610_Unique_Wand_010-lightning-arcane-torrent-wizard-spectral-blade-build": [
     BuildItemTag.BIS
   ],
+  "fragment-of-destiny-P610_Unique_Wand_010-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
+  ],
+  "fragment-of-destiny-P610_Unique_Wand_010-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
+  ],
   "freeze-of-deflection-Unique_Shield_004_x1-follower-skills-and-gearing-guide": [
     BuildItemTag.BIS,
     BuildItemTag.TEMPLAR
@@ -10167,7 +10289,7 @@ export const tagsById: TagsById =
   "goldwrap-Unique_Belt_010_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
-  "goldwrap-Unique_Belt_010_x1-vyr-archon-wizard-speed-farming-build": [
+  "goldwrap-Unique_Belt_010_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build": [
     BuildItemTag.CUBE
   ],
   "goldwrap-Unique_Belt_010_x1-generator-necromancer-speed-farming-build": [
@@ -10345,6 +10467,10 @@ export const tagsById: TagsById =
   "halo-of-karini-P61_Unique_Ring_03-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
+  "halo-of-karini-P61_Unique_Ring_03-vyr-archon-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS,
+    BuildItemTag.VARIATION
+  ],
   "halo-of-karini-P61_Unique_Ring_03-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
@@ -10360,9 +10486,15 @@ export const tagsById: TagsById =
   "halo-of-karini-P61_Unique_Ring_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
+  "halo-of-karini-P61_Unique_Ring_03-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "halo-of-karini-P61_Unique_Ring_03-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.ALT,
     BuildItemTag.CUBE
+  ],
+  "halo-of-karini-P61_Unique_Ring_03-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
   ],
   "hammer-jammers-P4_Unique_Pants_002-crusader-seeker-of-the-light-set-dungeon-guide": [
     BuildItemTag.CUBE
@@ -10819,12 +10951,12 @@ export const tagsById: TagsById =
   "hergbrashs-binding-P4_Unique_Belt_06-wizard-firebird-set-dungeon-guide": [
     BuildItemTag.BIS
   ],
-  "hergbrashs-binding-P4_Unique_Belt_06-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.ALT
-  ],
   "hergbrashs-binding-P4_Unique_Belt_06-meteor-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
+  ],
+  "hergbrashs-binding-P4_Unique_Belt_06-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
   ],
   "hergbrashs-binding-P4_Unique_Belt_06-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
@@ -10940,6 +11072,12 @@ export const tagsById: TagsById =
   "ice-climbers-Unique_Boots_008_x1-lod-blessed-shield-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
+  "ice-climbers-Unique_Boots_008_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
+  "ice-climbers-Unique_Boots_008_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "ice-climbers-Unique_Boots_008_x1-frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points": [
     BuildItemTag.ALT,
     BuildItemTag.VARIATION
@@ -11047,9 +11185,6 @@ export const tagsById: TagsById =
   "illusory-boots-Unique_Boots_103_x1-lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "illusory-boots-Unique_Boots_103_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.CUBE
-  ],
   "illusory-boots-Unique_Boots_103_x1-lon-bombardment-crusader-speed-farming-build": [
     BuildItemTag.BIS
   ],
@@ -11069,8 +11204,14 @@ export const tagsById: TagsById =
   "illusory-boots-Unique_Boots_103_x1-lod-condemn-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
+  "illusory-boots-Unique_Boots_103_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
+  ],
   "illusory-boots-Unique_Boots_103_x1-lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
+  ],
+  "illusory-boots-Unique_Boots_103_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
   ],
   "illusory-boots-Unique_Boots_103_x1-frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
@@ -11352,9 +11493,6 @@ export const tagsById: TagsById =
   "ingeom-Unique_Sword_1H_113_x1-frenzy-hotns-barbarian-speed-farming-build": [
     BuildItemTag.BIS
   ],
-  "ingeom-Unique_Sword_1H_113_x1-masquerade-bone-spear-necromancer-key-farming-build": [
-    BuildItemTag.CUBE
-  ],
   "ingeom-Unique_Sword_1H_113_x1-helltooth-acid-cloud-witch-doctor-speed-farming-build": [
     BuildItemTag.CUBE
   ],
@@ -11369,9 +11507,10 @@ export const tagsById: TagsById =
     BuildItemTag.CUBE
   ],
   "ingeom-Unique_Sword_1H_113_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.CUBE
+    BuildItemTag.CUBE,
+    BuildItemTag.VARIATION
   ],
-  "ingeom-Unique_Sword_1H_113_x1-vyr-archon-wizard-speed-farming-build": [
+  "ingeom-Unique_Sword_1H_113_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build": [
     BuildItemTag.CUBE
   ],
   "ingeom-Unique_Sword_1H_113_x1-generator-necromancer-speed-farming-build": [
@@ -11714,6 +11853,9 @@ export const tagsById: TagsById =
   "krelms-buff-belt-Unique_Belt_Set_02_x1-demon-hunter-bolas-build-with-gears-of-dreadlands": [
     BuildItemTag.CUBE
   ],
+  "krelms-buff-belt-Unique_Belt_Set_02_x1-dmo-arcane-orbit-wizard-speed-farming-build": [
+    BuildItemTag.CUBE
+  ],
   "krelms-buff-belt-Unique_Belt_Set_02_x1-chakram-demon-hunter-speed-farming-build": [
     BuildItemTag.CUBE
   ],
@@ -12033,6 +12175,9 @@ export const tagsById: TagsById =
   "leorics-crown-Unique_Helm_002_p1-arachyr-firebats-witch-doctor-speed-farming-build": [
     BuildItemTag.CUBE
   ],
+  "leorics-crown-Unique_Helm_002_p1-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "leorics-crown-Unique_Helm_002_p1-support-barbarian-speed-farming-build": [
     BuildItemTag.BIS
   ],
@@ -12224,6 +12369,7 @@ export const tagsById: TagsById =
   ],
   "maltorius-petrified-spike-P61_Unique_Scythe2H_01-masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE,
+    BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
   "manajumas-carving-knife-Unique_CeremonialDagger_009_x1-witch-doctor-arachyr-set-dungeon-guide": [
@@ -12307,6 +12453,9 @@ export const tagsById: TagsById =
     BuildItemTag.CUBE,
     BuildItemTag.VARIATION
   ],
+  "mantle-of-channeling-P4_Unique_Shoulder_103-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "mantle-of-channeling-P4_Unique_Shoulder_103-whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
@@ -12319,8 +12468,8 @@ export const tagsById: TagsById =
   "mantle-of-channeling-P4_Unique_Shoulder_103-swk-tempest-rush-monk-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "mantle-of-channeling-P4_Unique_Shoulder_103-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.CUBE
+  "mantle-of-channeling-P4_Unique_Shoulder_103-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
   ],
   "mantle-of-the-upsidedown-sinners-Unique_Shoulder_Set_08_x1-monk-dashing-strike-cold-build-with-the-raiment-of-a-thousand-storms-set-patch-2-4": [
     BuildItemTag.BIS,
@@ -12537,6 +12686,12 @@ export const tagsById: TagsById =
     BuildItemTag.CUBE
   ],
   "messerschmidts-reaver-P66_Unique_Axe_2H_011-hota-raekor-barbarian-speed-farming-build": [
+    BuildItemTag.CUBE
+  ],
+  "messerschmidts-reaver-P66_Unique_Axe_2H_011-vyr-archon-wizard-greater-rift-speed-farming-build": [
+    BuildItemTag.CUBE
+  ],
+  "messerschmidts-reaver-P66_Unique_Axe_2H_011-vyr-archon-wizard-nephalem-rift-speed-farming-build": [
     BuildItemTag.CUBE
   ],
   "messerschmidts-reaver-P66_Unique_Axe_2H_011-corpse-lance-necromancer-speed-farming-build": [
@@ -12863,7 +13018,10 @@ export const tagsById: TagsById =
   "nemesis-bracers-Unique_Bracer_106_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "nemesis-bracers-Unique_Bracer_106_x1-vyr-archon-wizard-speed-farming-build": [
+  "nemesis-bracers-Unique_Bracer_106_x1-vyr-archon-wizard-greater-rift-speed-farming-build": [
+    BuildItemTag.BIS
+  ],
+  "nemesis-bracers-Unique_Bracer_106_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build": [
     BuildItemTag.BIS
   ],
   "nemesis-bracers-Unique_Bracer_106_x1-generator-necromancer-bis-gear-gems-paragon-points": [
@@ -13089,8 +13247,8 @@ export const tagsById: TagsById =
     BuildItemTag.CUBE,
     BuildItemTag.VARIATION
   ],
-  "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-vyr-archon-wizard-speed-farming-build": [
-    BuildItemTag.BIS
+  "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-vyr-archon-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
   ],
   "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-lightning-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
@@ -13188,13 +13346,6 @@ export const tagsById: TagsById =
   "orb-of-infinite-depth-P61_Unique_Orb_004-explosive-blast-farming-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
-  ],
-  "orb-of-infinite-depth-P61_Unique_Orb_004-vyr-archon-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.CUBE
-  ],
-  "orb-of-infinite-depth-P61_Unique_Orb_004-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.ALT,
-    BuildItemTag.CUBE
   ],
   "orb-of-infinite-depth-P61_Unique_Orb_004-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.ALT,
@@ -13438,6 +13589,9 @@ export const tagsById: TagsById =
   "prides-fall-Unique_Helm_103_x1-multishot-marauder-demon-hunter-speed-farming-build": [
     BuildItemTag.BIS
   ],
+  "prides-fall-Unique_Helm_103_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "pull-of-the-earth-Unique_Gloves_Set_15_x1-barbarian-might-of-the-earth-set-dungeon-guide": [
     BuildItemTag.BIS
   ],
@@ -13536,8 +13690,15 @@ export const tagsById: TagsById =
   "ranslors-folly-P61_Unique_Bracer_108_x1-wizard-the-thrill-conquest-build-season-12-patch-2-6-1": [
     BuildItemTag.BIS
   ],
+  "ranslors-folly-P61_Unique_Bracer_108_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
+  ],
   "ranslors-folly-P61_Unique_Bracer_108_x1-meteor-wizard-speed-farming-build": [
     BuildItemTag.BIS
+  ],
+  "ranslors-folly-P61_Unique_Bracer_108_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.ALT,
+    BuildItemTag.CUBE
   ],
   "ranslors-folly-P61_Unique_Bracer_108_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
@@ -14001,7 +14162,8 @@ export const tagsById: TagsById =
   "ring-of-royal-grandeur-Unique_Ring_107_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
-  "ring-of-royal-grandeur-Unique_Ring_107_x1-vyr-archon-wizard-speed-farming-build": [
+  "ring-of-royal-grandeur-Unique_Ring_107_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build": [
+    BuildItemTag.BIS,
     BuildItemTag.CUBE
   ],
   "ring-of-royal-grandeur-Unique_Ring_107_x1-generator-necromancer-bis-gear-gems-paragon-points": [
@@ -14460,14 +14622,14 @@ export const tagsById: TagsById =
     BuildItemTag.OUTDATED
   ],
   "serpents-sparker-P68_Unique_Wand_102-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.CUBE
+    BuildItemTag.BIS
   ],
   "serpents-sparker-P68_Unique_Wand_102-lightning-archon-wizard-group-progression-build": [
     BuildItemTag.ALT,
     BuildItemTag.CUBE
   ],
   "serpents-sparker-P68_Unique_Wand_102-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.CUBE
+    BuildItemTag.BIS
   ],
   "shackles-of-the-invoker-Unique_Bracer_Set_12_x1-crusader-invoker-set-dungeon-guide": [
     BuildItemTag.BIS
@@ -14757,7 +14919,7 @@ export const tagsById: TagsById =
     BuildItemTag.BIS
   ],
   "squirts-necklace-P66_Unique_Amulet_010-vyr-archon-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.CUBE,
+    BuildItemTag.BIS,
     BuildItemTag.VARIATION
   ],
   "squirts-necklace-P66_Unique_Amulet_010-helltooth-zombie-bears-witch-doctor-speed-farming-build": [
@@ -14792,6 +14954,9 @@ export const tagsById: TagsById =
   "squirts-necklace-P66_Unique_Amulet_010-arachyr-firebats-witch-doctor-group-progression-build": [
     BuildItemTag.CUBE
   ],
+  "squirts-necklace-P66_Unique_Amulet_010-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "squirts-necklace-P66_Unique_Amulet_010-unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
@@ -14800,6 +14965,9 @@ export const tagsById: TagsById =
     BuildItemTag.BIS
   ],
   "squirts-necklace-P66_Unique_Amulet_010-lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
+  "squirts-necklace-P66_Unique_Amulet_010-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
   "squirts-necklace-P66_Unique_Amulet_010-chakram-demon-hunter-bis-gear-gems-paragon-points": [
@@ -14915,6 +15083,9 @@ export const tagsById: TagsById =
     BuildItemTag.CUBE,
     BuildItemTag.VARIATION
   ],
+  "stone-gauntlets-P66_Unique_Gloves_007-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "stone-gauntlets-P66_Unique_Gloves_007-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
@@ -14925,6 +15096,9 @@ export const tagsById: TagsById =
     BuildItemTag.CUBE
   ],
   "stone-gauntlets-P66_Unique_Gloves_007-lod-condemn-crusader-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
+  "stone-gauntlets-P66_Unique_Gloves_007-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
   "stone-of-jordan-P69_Unique_Ring_019-wizard-firebird-set-dungeon-guide": [
@@ -15133,9 +15307,6 @@ export const tagsById: TagsById =
   "strongarm-bracers-Unique_Bracer_007_x1-lod-star-pact-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.ALT
   ],
-  "strongarm-bracers-Unique_Bracer_007_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
-  ],
   "strongarm-bracers-Unique_Bracer_007_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
@@ -15309,6 +15480,9 @@ export const tagsById: TagsById =
   "swamp-land-waders-P41_Unique_Pants_001-lod-blessed-shield-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
+  "swamp-land-waders-P41_Unique_Pants_001-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "swamp-land-waders-P41_Unique_Pants_001-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
@@ -15316,6 +15490,9 @@ export const tagsById: TagsById =
     BuildItemTag.BIS
   ],
   "swamp-land-waders-P41_Unique_Pants_001-lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
+  "swamp-land-waders-P41_Unique_Pants_001-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
   "swamp-land-waders-P41_Unique_Pants_001-frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points": [
@@ -15726,9 +15903,6 @@ export const tagsById: TagsById =
   "the-compass-rose-Unique_Ring_013_x1-blessed-hammer-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "the-compass-rose-Unique_Ring_013_x1-vyr-archon-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
-  ],
   "the-compass-rose-Unique_Ring_013_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
@@ -15947,6 +16121,12 @@ export const tagsById: TagsById =
   "the-flavor-of-time-P66_Unique_Amulet_001-blessed-hammer-crusader-speed-farming-build": [
     BuildItemTag.BIS
   ],
+  "the-flavor-of-time-P66_Unique_Amulet_001-vyr-archon-wizard-greater-rift-speed-farming-build": [
+    BuildItemTag.BIS
+  ],
+  "the-flavor-of-time-P66_Unique_Amulet_001-vyr-archon-wizard-nephalem-rift-speed-farming-build": [
+    BuildItemTag.BIS
+  ],
   "the-flavor-of-time-P66_Unique_Amulet_001-lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
@@ -16073,6 +16253,15 @@ export const tagsById: TagsById =
     BuildItemTag.CUBE
   ],
   "the-furnace-Unique_Mace_2H_103_x1-blessed-hammer-crusader-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
+  ],
+  "the-furnace-Unique_Mace_2H_103_x1-explosive-blast-farming-wizard-greater-rifting-build": [
+    BuildItemTag.CUBE
+  ],
+  "the-furnace-Unique_Mace_2H_103_x1-vyr-archon-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
+  ],
+  "the-furnace-Unique_Mace_2H_103_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
   "the-furnace-Unique_Mace_2H_103_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points": [
@@ -16264,13 +16453,22 @@ export const tagsById: TagsById =
   "the-shame-of-delsere-P4_Unique_Belt_02-lightning-arcane-torrent-wizard-electrocute-build": [
     BuildItemTag.BIS
   ],
+  "the-shame-of-delsere-P4_Unique_Belt_02-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "the-shame-of-delsere-P4_Unique_Belt_02-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.CUBE
+    BuildItemTag.BIS
   ],
   "the-shame-of-delsere-P4_Unique_Belt_02-meteor-wizard-star-pact-build": [
     BuildItemTag.BIS
   ],
+  "the-shame-of-delsere-P4_Unique_Belt_02-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "the-shame-of-delsere-P4_Unique_Belt_02-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
+  "the-shame-of-delsere-P4_Unique_Belt_02-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
   "the-short-mans-finger-P61_Unique_Ring_01-witch-doctor-gargantuan-build-with-legacy-of-nightmares-patch-2-4-1": [
@@ -16345,6 +16543,7 @@ export const tagsById: TagsById =
   ],
   "the-swami-P3_Unique_WizardHat_003-vyr-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE,
+    BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
   "the-swami-P3_Unique_WizardHat_003-lightning-archon-wizard-bis-gear-gems-paragon-points": [
@@ -16443,9 +16642,6 @@ export const tagsById: TagsById =
   "the-travelers-pledge-Unique_Amulet_008_x1-blessed-hammer-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "the-travelers-pledge-Unique_Amulet_008_x1-vyr-archon-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
-  ],
   "the-travelers-pledge-Unique_Amulet_008_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
@@ -16519,9 +16715,11 @@ export const tagsById: TagsById =
     BuildItemTag.BIS,
     BuildItemTag.OUTDATED
   ],
+  "the-twisted-sword-P610_Unique_Sword_1H_107-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "the-twisted-sword-P610_Unique_Sword_1H_107-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.ALT,
-    BuildItemTag.CUBE
+    BuildItemTag.BIS
   ],
   "the-undisputed-champion-P68_Unique_BarbBelt_006-frenzy-hotns-barbarian-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
@@ -16625,9 +16823,6 @@ export const tagsById: TagsById =
     BuildItemTag.ALT,
     BuildItemTag.VARIATION
   ],
-  "the-witching-hour-Unique_Belt_009_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
-  ],
   "the-witching-hour-Unique_Belt_009_x1-lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
@@ -16648,9 +16843,6 @@ export const tagsById: TagsById =
   "the-witching-hour-Unique_Belt_009_x1-zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
-  "the-witching-hour-Unique_Belt_009_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
-  ],
   "the-witching-hour-Unique_Belt_009_x1-helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
@@ -16658,9 +16850,6 @@ export const tagsById: TagsById =
     BuildItemTag.BIS
   ],
   "the-witching-hour-Unique_Belt_009_x1-lod-blessed-shield-crusader-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
-  ],
-  "the-witching-hour-Unique_Belt_009_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
   "the-witching-hour-Unique_Belt_009_x1-shadow-impale-demon-hunter-group-progression-build": [
@@ -16810,11 +16999,14 @@ export const tagsById: TagsById =
   "triumvirate-P61_Unique_Orb_003-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
+  "triumvirate-P61_Unique_Orb_003-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "typhons-abdomen-P68_Unique_Pants_Set_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
   "typhons-claws-P68_Unique_Gloves_Set_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
+    BuildItemTag.ALT
   ],
   "typhons-frons-P68_Unique_Helm_Set_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
@@ -17025,6 +17217,10 @@ export const tagsById: TagsById =
   "unity-Unique_Ring_010_x1-arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
   ],
+  "unity-Unique_Ring_010_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.ALT,
+    BuildItemTag.CUBE
+  ],
   "unity-Unique_Ring_010_x1-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
@@ -17036,6 +17232,10 @@ export const tagsById: TagsById =
   ],
   "unity-Unique_Ring_010_x1-lod-condemn-crusader-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
+  ],
+  "unity-Unique_Ring_010_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.ALT,
+    BuildItemTag.CUBE
   ],
   "unity-Unique_Ring_010_x1-follower-skills-and-gearing-guide": [
     BuildItemTag.BIS,
@@ -17075,12 +17275,21 @@ export const tagsById: TagsById =
   "unstable-scepter-P61_Wand_norm_unique_02-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
   ],
+  "unstable-scepter-P61_Wand_norm_unique_02-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "ursuas-trodden-effigy-P610_Unique_Mojo_001-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
     BuildItemTag.VARIATION
   ],
   "vallas-bequest-P43_Unique_HandXBow_005-god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
+  ],
+  "valtheks-rebuke-P610_Unique_Staff_102-lod-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
+  ],
+  "valtheks-rebuke-P610_Unique_Staff_102-dmo-energy-twister-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
   ],
   "vambraces-of-sescheron-P4_Unique_Bracer_106-frenzy-hotns-barbarian-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS
@@ -17181,6 +17390,7 @@ export const tagsById: TagsById =
   ],
   "vyrs-astonishing-aura-Unique_Chest_Set_13_x1-vyr-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
+    BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
   "vyrs-astonishing-aura-Unique_Chest_Set_13_x1-lightning-archon-wizard-bis-gear-gems-paragon-points": [
@@ -17193,6 +17403,7 @@ export const tagsById: TagsById =
   ],
   "vyrs-fantastic-finery-Unique_Pants_Set_13_x1-vyr-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
+    BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
   "vyrs-fantastic-finery-Unique_Pants_Set_13_x1-lightning-archon-wizard-bis-gear-gems-paragon-points": [
@@ -17205,6 +17416,7 @@ export const tagsById: TagsById =
   ],
   "vyrs-grasping-gauntlets-Unique_Gloves_Set_13_x1-vyr-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
+    BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
   "vyrs-grasping-gauntlets-Unique_Gloves_Set_13_x1-lightning-archon-wizard-bis-gear-gems-paragon-points": [
@@ -17217,6 +17429,7 @@ export const tagsById: TagsById =
   ],
   "vyrs-proud-pauldrons-Unique_Shoulder_Set_13_x1-vyr-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
+    BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
   "vyrs-proud-pauldrons-Unique_Shoulder_Set_13_x1-lightning-archon-wizard-bis-gear-gems-paragon-points": [
@@ -17228,7 +17441,8 @@ export const tagsById: TagsById =
     BuildItemTag.BIS
   ],
   "vyrs-sightless-skull-Unique_Helm_Set_13_x1-vyr-archon-wizard-bis-gear-gems-paragon-points": [
-    BuildItemTag.BIS
+    BuildItemTag.BIS,
+    BuildItemTag.VARIATION
   ],
   "vyrs-sightless-skull-Unique_Helm_Set_13_x1-lightning-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.ALT,
@@ -17240,6 +17454,7 @@ export const tagsById: TagsById =
   ],
   "vyrs-swaggering-stance-Unique_Boots_Set_13_x1-vyr-archon-wizard-bis-gear-gems-paragon-points": [
     BuildItemTag.BIS,
+    BuildItemTag.VARIATION,
     BuildItemTag.VARIATION
   ],
   "vyrs-swaggering-stance-Unique_Boots_Set_13_x1-lightning-archon-wizard-bis-gear-gems-paragon-points": [
@@ -17333,6 +17548,12 @@ export const tagsById: TagsById =
     BuildItemTag.ALT,
     BuildItemTag.SCOUNDREL
   ],
+  "winter-flurry-P610_Unique_Orb_005-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
+  "winter-flurry-P610_Unique_Orb_005-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.BIS
+  ],
   "wisdom-of-kalan-P6_Unique_Amulet_03-inarius-corpse-explosion-necromancer-speed-farming-build": [
     BuildItemTag.BIS
   ],
@@ -17343,6 +17564,12 @@ export const tagsById: TagsById =
   "wisdom-of-kalan-P6_Unique_Amulet_03-inarius-bone-storm-necromancer-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE,
     BuildItemTag.VARIATION
+  ],
+  "wizardspike-P610_Unique_Dagger_010-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
+  ],
+  "wizardspike-P610_Unique_Dagger_010-lod-frozen-orb-wizard-bis-gear-gems-paragon-points": [
+    BuildItemTag.CUBE
   ],
   "wojahnni-assaulter-P65_Unique_Xbow_102-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": [
     BuildItemTag.CUBE
@@ -17680,10 +17907,10 @@ export const itemsByBuild: ItemsByBuild =
   },
   "wizard-firebird-set-dungeon-guide": {
     "aether-walker-P1_Wand_norm_unique_01": "aether-walker-P1_Wand_norm_unique_01-wizard-firebird-set-dungeon-guide",
+    "cindercoat-Unique_Chest_006_x1": "cindercoat-Unique_Chest_006_x1-wizard-firebird-set-dungeon-guide",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-wizard-firebird-set-dungeon-guide",
-    "etched-sigil-P610_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002-wizard-firebird-set-dungeon-guide",
-    "firebirds-breast-Unique_Chest_Set_06_x1": "firebirds-breast-Unique_Chest_Set_06_x1-wizard-firebird-set-dungeon-guide",
     "firebirds-down-Unique_Pants_Set_06_x1": "firebirds-down-Unique_Pants_Set_06_x1-wizard-firebird-set-dungeon-guide",
+    "firebirds-eye-Unique_Orb_Set_06_x1": "firebirds-eye-Unique_Orb_Set_06_x1-wizard-firebird-set-dungeon-guide",
     "firebirds-pinions-Unique_Shoulder_Set_06_x1": "firebirds-pinions-Unique_Shoulder_Set_06_x1-wizard-firebird-set-dungeon-guide",
     "firebirds-plume-Unique_Helm_Set_06_x1": "firebirds-plume-Unique_Helm_Set_06_x1-wizard-firebird-set-dungeon-guide",
     "firebirds-talons-Unique_Gloves_Set_06_x1": "firebirds-talons-Unique_Gloves_Set_06_x1-wizard-firebird-set-dungeon-guide",
@@ -17713,14 +17940,26 @@ export const itemsByBuild: ItemsByBuild =
     "the-shame-of-delsere-P4_Unique_Belt_02": "the-shame-of-delsere-P4_Unique_Belt_02-lightning-arcane-torrent-wizard-electrocute-build",
     "velvet-camaral-Unique_WizardHat_102_x1": "velvet-camaral-Unique_WizardHat_102_x1-lightning-arcane-torrent-wizard-electrocute-build"
   },
-  "vyr-archon-wizard-speed-farming-build": {
-    "aether-walker-P1_Wand_norm_unique_01": "aether-walker-P1_Wand_norm_unique_01-vyr-archon-wizard-speed-farming-build",
-    "avarice-band-Unique_Ring_108_x1": "avarice-band-Unique_Ring_108_x1-vyr-archon-wizard-speed-farming-build",
-    "goldwrap-Unique_Belt_010_x1": "goldwrap-Unique_Belt_010_x1-vyr-archon-wizard-speed-farming-build",
-    "ingeom-Unique_Sword_1H_113_x1": "ingeom-Unique_Sword_1H_113_x1-vyr-archon-wizard-speed-farming-build",
-    "nemesis-bracers-Unique_Bracer_106_x1": "nemesis-bracers-Unique_Bracer_106_x1-vyr-archon-wizard-speed-farming-build",
-    "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-vyr-archon-wizard-speed-farming-build",
-    "ring-of-royal-grandeur-Unique_Ring_107_x1": "ring-of-royal-grandeur-Unique_Ring_107_x1-vyr-archon-wizard-speed-farming-build"
+  "explosive-blast-farming-wizard-bis-gear-gems-paragon-points": {
+    "aether-walker-P1_Wand_norm_unique_01": "aether-walker-P1_Wand_norm_unique_01-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "avarice-band-Unique_Ring_108_x1": "avarice-band-Unique_Ring_108_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "goldwrap-Unique_Belt_010_x1": "goldwrap-Unique_Belt_010_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "ingeom-Unique_Sword_1H_113_x1": "ingeom-Unique_Sword_1H_113_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "nemesis-bracers-Unique_Bracer_106_x1": "nemesis-bracers-Unique_Bracer_106_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "orb-of-infinite-depth-P61_Unique_Orb_004": "orb-of-infinite-depth-P61_Unique_Orb_004-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "pauldrons-of-the-skeleton-king-Unique_Shoulder_103_x1": "pauldrons-of-the-skeleton-king-Unique_Shoulder_103_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "ring-of-royal-grandeur-Unique_Ring_107_x1": "ring-of-royal-grandeur-Unique_Ring_107_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "sages-apogee-Unique_Helm_016_x1": "sages-apogee-Unique_Helm_016_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "sages-passage-Unique_Boots_018_x1": "sages-passage-Unique_Boots_018_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "sages-purchase-Unique_Gloves_017_x1": "sages-purchase-Unique_Gloves_017_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "stone-of-jordan-P69_Unique_Ring_019": "stone-of-jordan-P69_Unique_Ring_019-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "tal-rashas-allegiance-Unique_Amulet_007_x1": "tal-rashas-allegiance-Unique_Amulet_007_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "tal-rashas-brace-Unique_Belt_006_x1": "tal-rashas-brace-Unique_Belt_006_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "tal-rashas-grasp-P2_Unique_Gloves_02": "tal-rashas-grasp-P2_Unique_Gloves_02-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "tal-rashas-guise-of-wisdom-Unique_Helm_010_x1": "tal-rashas-guise-of-wisdom-Unique_Helm_010_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "tal-rashas-relentless-pursuit-Unique_Chest_014_x1": "tal-rashas-relentless-pursuit-Unique_Chest_014_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "tal-rashas-stride-P2_Unique_Pants_03": "tal-rashas-stride-P2_Unique_Pants_03-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+    "wand-of-woh-P61_Unique_Wand_101_x1": "wand-of-woh-P61_Unique_Wand_101_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points"
   },
   "lightning-archon-wizard-solo-progression-build": {
     "aether-walker-P1_Wand_norm_unique_01": "aether-walker-P1_Wand_norm_unique_01-lightning-archon-wizard-solo-progression-build",
@@ -18051,9 +18290,8 @@ export const itemsByBuild: ItemsByBuild =
     "cindercoat-Unique_Chest_006_x1": "cindercoat-Unique_Chest_006_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "deathwish-P61_Unique_Sword_1H_112_x1": "deathwish-P61_Unique_Sword_1H_112_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-    "etched-sigil-P610_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+    "fragment-of-destiny-P610_Unique_Wand_010": "fragment-of-destiny-P610_Unique_Wand_010-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-    "hergbrashs-binding-P4_Unique_Belt_06": "hergbrashs-binding-P4_Unique_Belt_06-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "ice-climbers-Unique_Boots_008_x1": "ice-climbers-Unique_Boots_008_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "illusory-boots-Unique_Boots_103_x1": "illusory-boots-Unique_Boots_103_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "mantle-of-channeling-P4_Unique_Shoulder_103": "mantle-of-channeling-P4_Unique_Shoulder_103-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
@@ -18063,8 +18301,9 @@ export const itemsByBuild: ItemsByBuild =
     "swamp-land-waders-P41_Unique_Pants_001": "swamp-land-waders-P41_Unique_Pants_001-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "tasker-and-theo-Unique_Gloves_003_x1": "tasker-and-theo-Unique_Gloves_003_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "the-magistrate-P68_Unique_WizardHat_103": "the-magistrate-P68_Unique_WizardHat_103-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-    "the-witching-hour-Unique_Belt_009_x1": "the-witching-hour-Unique_Belt_009_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-    "unity-Unique_Ring_010_x1": "unity-Unique_Ring_010_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points"
+    "the-shame-of-delsere-P4_Unique_Belt_02": "the-shame-of-delsere-P4_Unique_Belt_02-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+    "unity-Unique_Ring_010_x1": "unity-Unique_Ring_010_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+    "winter-flurry-P610_Unique_Orb_005": "winter-flurry-P610_Unique_Orb_005-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points"
   },
   "lod-spirit-barrage-witch-doctor-group-progression-build": {
     "ancient-parthan-defenders-Unique_Bracer_102_x1": "ancient-parthan-defenders-Unique_Bracer_102_x1-lod-spirit-barrage-witch-doctor-group-progression-build",
@@ -18668,6 +18907,16 @@ export const itemsByBuild: ItemsByBuild =
     "uhkapian-serpent-Unique_Mojo_008_x1": "uhkapian-serpent-Unique_Mojo_008_x1-lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points",
     "unity-Unique_Ring_010_x1": "unity-Unique_Ring_010_x1-lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points"
   },
+  "explosive-blast-farming-wizard-greater-rifting-build": {
+    "aquila-cuirass-P4_Unique_Chest_012": "aquila-cuirass-P4_Unique_Chest_012-explosive-blast-farming-wizard-greater-rifting-build",
+    "ashnagarrs-blood-bracer-P4_Unique_Bracer_004": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-explosive-blast-farming-wizard-greater-rifting-build",
+    "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-explosive-blast-farming-wizard-greater-rifting-build",
+    "firebirds-pinions-Unique_Shoulder_Set_06_x1": "firebirds-pinions-Unique_Shoulder_Set_06_x1-explosive-blast-farming-wizard-greater-rifting-build",
+    "firebirds-tarsi-Unique_Boots_Set_06_x1": "firebirds-tarsi-Unique_Boots_Set_06_x1-explosive-blast-farming-wizard-greater-rifting-build",
+    "focus-Unique_Ring_Set_001_x1": "focus-Unique_Ring_Set_001_x1-explosive-blast-farming-wizard-greater-rifting-build",
+    "restraint-Unique_Ring_Set_002_x1": "restraint-Unique_Ring_Set_002_x1-explosive-blast-farming-wizard-greater-rifting-build",
+    "the-furnace-Unique_Mace_2H_103_x1": "the-furnace-Unique_Mace_2H_103_x1-explosive-blast-farming-wizard-greater-rifting-build"
+  },
   "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": {
     "aquila-cuirass-P4_Unique_Chest_012": "aquila-cuirass-P4_Unique_Chest_012-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "captain-crimsons-silk-girdle-P66_Unique_Belt_012": "captain-crimsons-silk-girdle-P66_Unique_Belt_012-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
@@ -18758,6 +19007,25 @@ export const itemsByBuild: ItemsByBuild =
     "the-travelers-pledge-Unique_Amulet_008_x1": "the-travelers-pledge-Unique_Amulet_008_x1-spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
     "voos-juicer-P4_Unique_Dagger_002": "voos-juicer-P4_Unique_Dagger_002-spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points"
   },
+  "lod-energy-twister-wizard-bis-gear-gems-paragon-points": {
+    "aquila-cuirass-P4_Unique_Chest_012": "aquila-cuirass-P4_Unique_Chest_012-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "ashnagarrs-blood-bracer-P4_Unique_Bracer_004": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "deathwish-P61_Unique_Sword_1H_112_x1": "deathwish-P61_Unique_Sword_1H_112_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "etched-sigil-P610_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "hergbrashs-binding-P4_Unique_Belt_06": "hergbrashs-binding-P4_Unique_Belt_06-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "ice-climbers-Unique_Boots_008_x1": "ice-climbers-Unique_Boots_008_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "leorics-crown-Unique_Helm_002_p1": "leorics-crown-Unique_Helm_002_p1-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "mantle-of-channeling-P4_Unique_Shoulder_103": "mantle-of-channeling-P4_Unique_Shoulder_103-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "ranslors-folly-P61_Unique_Bracer_108_x1": "ranslors-folly-P61_Unique_Bracer_108_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "squirts-necklace-P66_Unique_Amulet_010": "squirts-necklace-P66_Unique_Amulet_010-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "stone-gauntlets-P66_Unique_Gloves_007": "stone-gauntlets-P66_Unique_Gloves_007-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "swamp-land-waders-P41_Unique_Pants_001": "swamp-land-waders-P41_Unique_Pants_001-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "the-twisted-sword-P610_Unique_Sword_1H_107": "the-twisted-sword-P610_Unique_Sword_1H_107-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "unity-Unique_Ring_010_x1": "unity-Unique_Ring_010_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "valtheks-rebuke-P610_Unique_Staff_102": "valtheks-rebuke-P610_Unique_Staff_102-lod-energy-twister-wizard-bis-gear-gems-paragon-points"
+  },
   "natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points": {
     "aquila-cuirass-P4_Unique_Chest_012": "aquila-cuirass-P4_Unique_Chest_012-natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
@@ -18820,6 +19088,25 @@ export const itemsByBuild: ItemsByBuild =
     "tyraels-might-Unique_Chest_002_x1": "tyraels-might-Unique_Chest_002_x1-lod-condemn-crusader-bis-gear-gems-paragon-points",
     "unity-Unique_Ring_010_x1": "unity-Unique_Ring_010_x1-lod-condemn-crusader-bis-gear-gems-paragon-points",
     "vigilante-belt-Unique_Belt_002_x1": "vigilante-belt-Unique_Belt_002_x1-lod-condemn-crusader-bis-gear-gems-paragon-points"
+  },
+  "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": {
+    "aquila-cuirass-P4_Unique_Chest_012": "aquila-cuirass-P4_Unique_Chest_012-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "ashnagarrs-blood-bracer-P4_Unique_Bracer_004": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "deathwish-P61_Unique_Sword_1H_112_x1": "deathwish-P61_Unique_Sword_1H_112_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "ice-climbers-Unique_Boots_008_x1": "ice-climbers-Unique_Boots_008_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "illusory-boots-Unique_Boots_103_x1": "illusory-boots-Unique_Boots_103_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "mantle-of-channeling-P4_Unique_Shoulder_103": "mantle-of-channeling-P4_Unique_Shoulder_103-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "prides-fall-Unique_Helm_103_x1": "prides-fall-Unique_Helm_103_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "squirts-necklace-P66_Unique_Amulet_010": "squirts-necklace-P66_Unique_Amulet_010-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "stone-gauntlets-P66_Unique_Gloves_007": "stone-gauntlets-P66_Unique_Gloves_007-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "swamp-land-waders-P41_Unique_Pants_001": "swamp-land-waders-P41_Unique_Pants_001-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "the-shame-of-delsere-P4_Unique_Belt_02": "the-shame-of-delsere-P4_Unique_Belt_02-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "triumvirate-P61_Unique_Orb_003": "triumvirate-P61_Unique_Orb_003-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "unity-Unique_Ring_010_x1": "unity-Unique_Ring_010_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "unstable-scepter-P61_Wand_norm_unique_02": "unstable-scepter-P61_Wand_norm_unique_02-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "wizardspike-P610_Unique_Dagger_010": "wizardspike-P610_Unique_Dagger_010-lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "witch-doctor-arachyr-set-dungeon-guide": {
     "arachyrs-carapace-Unique_Chest_Set_02_p3": "arachyrs-carapace-Unique_Chest_Set_02_p3-witch-doctor-arachyr-set-dungeon-guide",
@@ -18916,24 +19203,19 @@ export const itemsByBuild: ItemsByBuild =
     "tal-rashas-allegiance-Unique_Amulet_007_x1": "tal-rashas-allegiance-Unique_Amulet_007_x1-lightning-arcane-torrent-wizard-spectral-blade-build",
     "the-shame-of-delsere-P4_Unique_Belt_02": "the-shame-of-delsere-P4_Unique_Belt_02-lightning-arcane-torrent-wizard-spectral-blade-build"
   },
-  "explosive-blast-farming-wizard-greater-rifting-build": {
-    "ashnagarrs-blood-bracer-P4_Unique_Bracer_004": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-explosive-blast-farming-wizard-greater-rifting-build",
-    "firebirds-pinions-Unique_Shoulder_Set_06_x1": "firebirds-pinions-Unique_Shoulder_Set_06_x1-explosive-blast-farming-wizard-greater-rifting-build",
-    "firebirds-tarsi-Unique_Boots_Set_06_x1": "firebirds-tarsi-Unique_Boots_Set_06_x1-explosive-blast-farming-wizard-greater-rifting-build",
-    "focus-Unique_Ring_Set_001_x1": "focus-Unique_Ring_Set_001_x1-explosive-blast-farming-wizard-greater-rifting-build",
-    "restraint-Unique_Ring_Set_002_x1": "restraint-Unique_Ring_Set_002_x1-explosive-blast-farming-wizard-greater-rifting-build"
-  },
   "vyr-archon-wizard-bis-gear-gems-paragon-points": {
     "ashnagarrs-blood-bracer-P4_Unique_Bracer_004": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-vyr-archon-wizard-bis-gear-gems-paragon-points",
+    "captain-crimsons-silk-girdle-P66_Unique_Belt_012": "captain-crimsons-silk-girdle-P66_Unique_Belt_012-vyr-archon-wizard-bis-gear-gems-paragon-points",
+    "captain-crimsons-thrust-P66_Unique_Pants_012": "captain-crimsons-thrust-P66_Unique_Pants_012-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "chantodos-force-Unique_Orb_011_x1": "chantodos-force-Unique_Orb_011_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "chantodos-will-Unique_Wand_012_x1": "chantodos-will-Unique_Wand_012_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "fazulas-improbable-chain-P4_Unique_Belt_07": "fazulas-improbable-chain-P4_Unique_Belt_07-vyr-archon-wizard-bis-gear-gems-paragon-points",
-    "orb-of-infinite-depth-P61_Unique_Orb_004": "orb-of-infinite-depth-P61_Unique_Orb_004-vyr-archon-wizard-bis-gear-gems-paragon-points",
+    "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-vyr-archon-wizard-bis-gear-gems-paragon-points",
+    "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "squirts-necklace-P66_Unique_Amulet_010": "squirts-necklace-P66_Unique_Amulet_010-vyr-archon-wizard-bis-gear-gems-paragon-points",
-    "the-compass-rose-Unique_Ring_013_x1": "the-compass-rose-Unique_Ring_013_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
+    "the-furnace-Unique_Mace_2H_103_x1": "the-furnace-Unique_Mace_2H_103_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "the-swami-P3_Unique_WizardHat_003": "the-swami-P3_Unique_WizardHat_003-vyr-archon-wizard-bis-gear-gems-paragon-points",
-    "the-travelers-pledge-Unique_Amulet_008_x1": "the-travelers-pledge-Unique_Amulet_008_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "vyrs-astonishing-aura-Unique_Chest_Set_13_x1": "vyrs-astonishing-aura-Unique_Chest_Set_13_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "vyrs-fantastic-finery-Unique_Pants_Set_13_x1": "vyrs-fantastic-finery-Unique_Pants_Set_13_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "vyrs-grasping-gauntlets-Unique_Gloves_Set_13_x1": "vyrs-grasping-gauntlets-Unique_Gloves_Set_13_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
@@ -18941,25 +19223,45 @@ export const itemsByBuild: ItemsByBuild =
     "vyrs-sightless-skull-Unique_Helm_Set_13_x1": "vyrs-sightless-skull-Unique_Helm_Set_13_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "vyrs-swaggering-stance-Unique_Boots_Set_13_x1": "vyrs-swaggering-stance-Unique_Boots_Set_13_x1-vyr-archon-wizard-bis-gear-gems-paragon-points"
   },
+  "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": {
+    "ashnagarrs-blood-bracer-P4_Unique_Bracer_004": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2": "dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "fierce-gauntlets-Unique_Gloves_Set_02_p2": "fierce-gauntlets-Unique_Gloves_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "harness-of-truth-Unique_Chest_Set_02_p2": "harness-of-truth-Unique_Chest_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "leg-guards-of-mystery-Unique_Pants_Set_02_p2": "leg-guards-of-mystery-Unique_Pants_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "ranslors-folly-P61_Unique_Bracer_108_x1": "ranslors-folly-P61_Unique_Bracer_108_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "shrouded-mask-Unique_Helm_Set_02_p2": "shrouded-mask-Unique_Helm_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "striders-of-destiny-Unique_Boots_Set_02_p2": "striders-of-destiny-Unique_Boots_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "the-compass-rose-Unique_Ring_013_x1": "the-compass-rose-Unique_Ring_013_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "the-furnace-Unique_Mace_2H_103_x1": "the-furnace-Unique_Mace_2H_103_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "the-shame-of-delsere-P4_Unique_Belt_02": "the-shame-of-delsere-P4_Unique_Belt_02-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "the-travelers-pledge-Unique_Amulet_008_x1": "the-travelers-pledge-Unique_Amulet_008_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "triumvirate-P61_Unique_Orb_003": "triumvirate-P61_Unique_Orb_003-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "unstable-scepter-P61_Wand_norm_unique_02": "unstable-scepter-P61_Wand_norm_unique_02-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "wizardspike-P610_Unique_Dagger_010": "wizardspike-P610_Unique_Dagger_010-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points"
+  },
   "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": {
     "ashnagarrs-blood-bracer-P4_Unique_Bracer_004": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "deathwish-P61_Unique_Sword_1H_112_x1": "deathwish-P61_Unique_Sword_1H_112_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-    "etched-sigil-P610_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+    "fragment-of-destiny-P610_Unique_Wand_010": "fragment-of-destiny-P610_Unique_Wand_010-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "ring-of-royal-grandeur-Unique_Ring_107_x1": "ring-of-royal-grandeur-Unique_Ring_107_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "serpents-sparker-P68_Unique_Wand_102": "serpents-sparker-P68_Unique_Wand_102-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "squirts-necklace-P66_Unique_Amulet_010": "squirts-necklace-P66_Unique_Amulet_010-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "tasker-and-theo-Unique_Gloves_003_x1": "tasker-and-theo-Unique_Gloves_003_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "the-magistrate-P68_Unique_WizardHat_103": "the-magistrate-P68_Unique_WizardHat_103-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-    "the-witching-hour-Unique_Belt_009_x1": "the-witching-hour-Unique_Belt_009_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+    "the-shame-of-delsere-P4_Unique_Belt_02": "the-shame-of-delsere-P4_Unique_Belt_02-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "typhons-abdomen-P68_Unique_Pants_Set_03": "typhons-abdomen-P68_Unique_Pants_Set_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "typhons-claws-P68_Unique_Gloves_Set_03": "typhons-claws-P68_Unique_Gloves_Set_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "typhons-frons-P68_Unique_Helm_Set_03": "typhons-frons-P68_Unique_Helm_Set_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "typhons-tarsus-P68_Unique_Boots_Set_03": "typhons-tarsus-P68_Unique_Boots_Set_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "typhons-thorax-P68_Unique_Chest_Set_03": "typhons-thorax-P68_Unique_Chest_Set_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "typhons-tibia-P68_Unique_Shoulder_Set_03": "typhons-tibia-P68_Unique_Shoulder_Set_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-    "unity-Unique_Ring_010_x1": "unity-Unique_Ring_010_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points"
+    "unity-Unique_Ring_010_x1": "unity-Unique_Ring_010_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+    "winter-flurry-P610_Unique_Orb_005": "winter-flurry-P610_Unique_Orb_005-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points"
   },
   "wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1": {
     "aughilds-power-P66_Unique_Shoulder_008": "aughilds-power-P66_Unique_Shoulder_008-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1",
@@ -19227,6 +19529,13 @@ export const itemsByBuild: ItemsByBuild =
     "stone-of-jordan-P69_Unique_Ring_019": "stone-of-jordan-P69_Unique_Ring_019-frenzy-hotns-barbarian-speed-farming-build",
     "the-flavor-of-time-P66_Unique_Amulet_001": "the-flavor-of-time-P66_Unique_Amulet_001-frenzy-hotns-barbarian-speed-farming-build"
   },
+  "masquerade-bone-spear-necromancer-key-farming-build": {
+    "avarice-band-Unique_Ring_108_x1": "avarice-band-Unique_Ring_108_x1-masquerade-bone-spear-necromancer-key-farming-build",
+    "goldwrap-Unique_Belt_010_x1": "goldwrap-Unique_Belt_010_x1-masquerade-bone-spear-necromancer-key-farming-build",
+    "nemesis-bracers-Unique_Bracer_106_x1": "nemesis-bracers-Unique_Bracer_106_x1-masquerade-bone-spear-necromancer-key-farming-build",
+    "ring-of-royal-grandeur-Unique_Ring_107_x1": "ring-of-royal-grandeur-Unique_Ring_107_x1-masquerade-bone-spear-necromancer-key-farming-build",
+    "steuarts-greaves-P61_Necro_Unique_Boots_21": "steuarts-greaves-P61_Necro_Unique_Boots_21-masquerade-bone-spear-necromancer-key-farming-build"
+  },
   "helltooth-acid-cloud-witch-doctor-speed-farming-build": {
     "avarice-band-Unique_Ring_108_x1": "avarice-band-Unique_Ring_108_x1-helltooth-acid-cloud-witch-doctor-speed-farming-build",
     "goldwrap-Unique_Belt_010_x1": "goldwrap-Unique_Belt_010_x1-helltooth-acid-cloud-witch-doctor-speed-farming-build",
@@ -19264,25 +19573,15 @@ export const itemsByBuild: ItemsByBuild =
     "stone-of-jordan-P69_Unique_Ring_019": "stone-of-jordan-P69_Unique_Ring_019-blessed-hammer-crusader-speed-farming-build",
     "the-flavor-of-time-P66_Unique_Amulet_001": "the-flavor-of-time-P66_Unique_Amulet_001-blessed-hammer-crusader-speed-farming-build"
   },
-  "explosive-blast-farming-wizard-bis-gear-gems-paragon-points": {
-    "avarice-band-Unique_Ring_108_x1": "avarice-band-Unique_Ring_108_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "goldwrap-Unique_Belt_010_x1": "goldwrap-Unique_Belt_010_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "ingeom-Unique_Sword_1H_113_x1": "ingeom-Unique_Sword_1H_113_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "nemesis-bracers-Unique_Bracer_106_x1": "nemesis-bracers-Unique_Bracer_106_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "orb-of-infinite-depth-P61_Unique_Orb_004": "orb-of-infinite-depth-P61_Unique_Orb_004-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "pauldrons-of-the-skeleton-king-Unique_Shoulder_103_x1": "pauldrons-of-the-skeleton-king-Unique_Shoulder_103_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "ring-of-royal-grandeur-Unique_Ring_107_x1": "ring-of-royal-grandeur-Unique_Ring_107_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "sages-apogee-Unique_Helm_016_x1": "sages-apogee-Unique_Helm_016_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "sages-passage-Unique_Boots_018_x1": "sages-passage-Unique_Boots_018_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "sages-purchase-Unique_Gloves_017_x1": "sages-purchase-Unique_Gloves_017_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "stone-of-jordan-P69_Unique_Ring_019": "stone-of-jordan-P69_Unique_Ring_019-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "tal-rashas-allegiance-Unique_Amulet_007_x1": "tal-rashas-allegiance-Unique_Amulet_007_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "tal-rashas-brace-Unique_Belt_006_x1": "tal-rashas-brace-Unique_Belt_006_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "tal-rashas-grasp-P2_Unique_Gloves_02": "tal-rashas-grasp-P2_Unique_Gloves_02-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "tal-rashas-guise-of-wisdom-Unique_Helm_010_x1": "tal-rashas-guise-of-wisdom-Unique_Helm_010_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "tal-rashas-relentless-pursuit-Unique_Chest_014_x1": "tal-rashas-relentless-pursuit-Unique_Chest_014_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "tal-rashas-stride-P2_Unique_Pants_03": "tal-rashas-stride-P2_Unique_Pants_03-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "wand-of-woh-P61_Unique_Wand_101_x1": "wand-of-woh-P61_Unique_Wand_101_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points"
+  "vyr-archon-wizard-nephalem-rift-speed-farming-build": {
+    "avarice-band-Unique_Ring_108_x1": "avarice-band-Unique_Ring_108_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build",
+    "cosmic-strand-Unique_Orb_004_x1": "cosmic-strand-Unique_Orb_004_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build",
+    "goldwrap-Unique_Belt_010_x1": "goldwrap-Unique_Belt_010_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build",
+    "ingeom-Unique_Sword_1H_113_x1": "ingeom-Unique_Sword_1H_113_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build",
+    "messerschmidts-reaver-P66_Unique_Axe_2H_011": "messerschmidts-reaver-P66_Unique_Axe_2H_011-vyr-archon-wizard-nephalem-rift-speed-farming-build",
+    "nemesis-bracers-Unique_Bracer_106_x1": "nemesis-bracers-Unique_Bracer_106_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build",
+    "ring-of-royal-grandeur-Unique_Ring_107_x1": "ring-of-royal-grandeur-Unique_Ring_107_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build",
+    "the-flavor-of-time-P66_Unique_Amulet_001": "the-flavor-of-time-P66_Unique_Amulet_001-vyr-archon-wizard-nephalem-rift-speed-farming-build"
   },
   "generator-necromancer-speed-farming-build": {
     "avarice-band-Unique_Ring_108_x1": "avarice-band-Unique_Ring_108_x1-generator-necromancer-speed-farming-build",
@@ -19503,6 +19802,7 @@ export const itemsByBuild: ItemsByBuild =
     "goldwrap-Unique_Belt_010_x1": "goldwrap-Unique_Belt_010_x1-dmo-arcane-orbit-wizard-speed-farming-build",
     "hellfire-amulet-x1_Amulet_norm_unique_25": "hellfire-amulet-x1_Amulet_norm_unique_25-dmo-arcane-orbit-wizard-speed-farming-build",
     "ingeom-Unique_Sword_1H_113_x1": "ingeom-Unique_Sword_1H_113_x1-dmo-arcane-orbit-wizard-speed-farming-build",
+    "krelms-buff-belt-Unique_Belt_Set_02_x1": "krelms-buff-belt-Unique_Belt_Set_02_x1-dmo-arcane-orbit-wizard-speed-farming-build",
     "nemesis-bracers-Unique_Bracer_106_x1": "nemesis-bracers-Unique_Bracer_106_x1-dmo-arcane-orbit-wizard-speed-farming-build",
     "restraint-Unique_Ring_Set_002_x1": "restraint-Unique_Ring_Set_002_x1-dmo-arcane-orbit-wizard-speed-farming-build",
     "wand-of-woh-P61_Unique_Wand_101_x1": "wand-of-woh-P61_Unique_Wand_101_x1-dmo-arcane-orbit-wizard-speed-farming-build",
@@ -20582,25 +20882,6 @@ export const itemsByBuild: ItemsByBuild =
     "tragouls-corroded-fang-P6_Unique_Scythe1H_02": "tragouls-corroded-fang-P6_Unique_Scythe1H_02-generator-necromancer-bis-gear-gems-paragon-points",
     "unity-Unique_Ring_010_x1": "unity-Unique_Ring_010_x1-generator-necromancer-bis-gear-gems-paragon-points"
   },
-  "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": {
-    "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2": "dashing-pauldrons-of-despair-Unique_Shoulder_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "fierce-gauntlets-Unique_Gloves_Set_02_p2": "fierce-gauntlets-Unique_Gloves_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "harness-of-truth-Unique_Chest_Set_02_p2": "harness-of-truth-Unique_Chest_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "illusory-boots-Unique_Boots_103_x1": "illusory-boots-Unique_Boots_103_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "leg-guards-of-mystery-Unique_Pants_Set_02_p2": "leg-guards-of-mystery-Unique_Pants_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "orb-of-infinite-depth-P61_Unique_Orb_004": "orb-of-infinite-depth-P61_Unique_Orb_004-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "shrouded-mask-Unique_Helm_Set_02_p2": "shrouded-mask-Unique_Helm_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "striders-of-destiny-Unique_Boots_Set_02_p2": "striders-of-destiny-Unique_Boots_Set_02_p2-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "strongarm-bracers-Unique_Bracer_007_x1": "strongarm-bracers-Unique_Bracer_007_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "the-compass-rose-Unique_Ring_013_x1": "the-compass-rose-Unique_Ring_013_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "the-shame-of-delsere-P4_Unique_Belt_02": "the-shame-of-delsere-P4_Unique_Belt_02-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "the-travelers-pledge-Unique_Amulet_008_x1": "the-travelers-pledge-Unique_Amulet_008_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "the-witching-hour-Unique_Belt_009_x1": "the-witching-hour-Unique_Belt_009_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "triumvirate-P61_Unique_Orb_003": "triumvirate-P61_Unique_Orb_003-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "unstable-scepter-P61_Wand_norm_unique_02": "unstable-scepter-P61_Wand_norm_unique_02-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points"
-  },
   "spirit-barrage-mundunugu-wd-trash-killer-build": {
     "convention-of-elements-P2_Unique_Ring_04": "convention-of-elements-P2_Unique_Ring_04-spirit-barrage-mundunugu-wd-trash-killer-build",
     "frostburn-P41_Unique_Gloves_002": "frostburn-P41_Unique_Gloves_002-spirit-barrage-mundunugu-wd-trash-killer-build",
@@ -20639,14 +20920,15 @@ export const itemsByBuild: ItemsByBuild =
     "halo-of-karini-P61_Unique_Ring_03": "halo-of-karini-P61_Unique_Ring_03-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "harness-of-truth-Unique_Chest_Set_02_p2": "harness-of-truth-Unique_Chest_Set_02_p2-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "hergbrashs-binding-P4_Unique_Belt_06": "hergbrashs-binding-P4_Unique_Belt_06-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "illusory-boots-Unique_Boots_103_x1": "illusory-boots-Unique_Boots_103_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "leg-guards-of-mystery-Unique_Pants_Set_02_p2": "leg-guards-of-mystery-Unique_Pants_Set_02_p2-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
-    "mantle-of-channeling-P4_Unique_Shoulder_103": "mantle-of-channeling-P4_Unique_Shoulder_103-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "ranslors-folly-P61_Unique_Bracer_108_x1": "ranslors-folly-P61_Unique_Bracer_108_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "shrouded-mask-Unique_Helm_Set_02_p2": "shrouded-mask-Unique_Helm_Set_02_p2-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "striders-of-destiny-Unique_Boots_Set_02_p2": "striders-of-destiny-Unique_Boots_Set_02_p2-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "the-compass-rose-Unique_Ring_013_x1": "the-compass-rose-Unique_Ring_013_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "the-travelers-pledge-Unique_Amulet_008_x1": "the-travelers-pledge-Unique_Amulet_008_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
-    "the-twisted-sword-P610_Unique_Sword_1H_107": "the-twisted-sword-P610_Unique_Sword_1H_107-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
+    "the-twisted-sword-P610_Unique_Sword_1H_107": "the-twisted-sword-P610_Unique_Sword_1H_107-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "valtheks-rebuke-P610_Unique_Staff_102": "valtheks-rebuke-P610_Unique_Staff_102-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
   },
   "demon-hunter-natalyas-vengeance-set-dungeon-guide": {
     "dawn-P4_Unique_HandXBow_001": "dawn-P4_Unique_HandXBow_001-demon-hunter-natalyas-vengeance-set-dungeon-guide",
@@ -20726,6 +21008,12 @@ export const itemsByBuild: ItemsByBuild =
     "the-compass-rose-Unique_Ring_013_x1": "the-compass-rose-Unique_Ring_013_x1-monk-innas-mantra-set-dungeon-guide",
     "the-travelers-pledge-Unique_Amulet_008_x1": "the-travelers-pledge-Unique_Amulet_008_x1-monk-innas-mantra-set-dungeon-guide",
     "unity-Unique_Ring_010_x1": "unity-Unique_Ring_010_x1-monk-innas-mantra-set-dungeon-guide"
+  },
+  "vyr-archon-wizard-greater-rift-speed-farming-build": {
+    "echoing-fury-P66_Unique_Mace_1H_001": "echoing-fury-P66_Unique_Mace_1H_001-vyr-archon-wizard-greater-rift-speed-farming-build",
+    "messerschmidts-reaver-P66_Unique_Axe_2H_011": "messerschmidts-reaver-P66_Unique_Axe_2H_011-vyr-archon-wizard-greater-rift-speed-farming-build",
+    "nemesis-bracers-Unique_Bracer_106_x1": "nemesis-bracers-Unique_Bracer_106_x1-vyr-archon-wizard-greater-rift-speed-farming-build",
+    "the-flavor-of-time-P66_Unique_Amulet_001": "the-flavor-of-time-P66_Unique_Amulet_001-vyr-archon-wizard-greater-rift-speed-farming-build"
   },
   "god-marauder-support-demon-hunter-bis-gear-gems-paragon-points": {
     "echoing-fury-P66_Unique_Mace_1H_001": "echoing-fury-P66_Unique_Mace_1H_001-god-marauder-support-demon-hunter-bis-gear-gems-paragon-points",
@@ -20823,13 +21111,6 @@ export const itemsByBuild: ItemsByBuild =
     "restraint-Unique_Ring_Set_002_x1": "restraint-Unique_Ring_Set_002_x1-frenzy-hotns-barbarian-rgk-build",
     "squirts-necklace-P66_Unique_Amulet_010": "squirts-necklace-P66_Unique_Amulet_010-frenzy-hotns-barbarian-rgk-build",
     "sun-keeper-Unique_Mace_1H_011_x1": "sun-keeper-Unique_Mace_1H_011_x1-frenzy-hotns-barbarian-rgk-build"
-  },
-  "masquerade-bone-spear-necromancer-key-farming-build": {
-    "goldwrap-Unique_Belt_010_x1": "goldwrap-Unique_Belt_010_x1-masquerade-bone-spear-necromancer-key-farming-build",
-    "ingeom-Unique_Sword_1H_113_x1": "ingeom-Unique_Sword_1H_113_x1-masquerade-bone-spear-necromancer-key-farming-build",
-    "nemesis-bracers-Unique_Bracer_106_x1": "nemesis-bracers-Unique_Bracer_106_x1-masquerade-bone-spear-necromancer-key-farming-build",
-    "ring-of-royal-grandeur-Unique_Ring_107_x1": "ring-of-royal-grandeur-Unique_Ring_107_x1-masquerade-bone-spear-necromancer-key-farming-build",
-    "steuarts-greaves-P61_Necro_Unique_Boots_21": "steuarts-greaves-P61_Necro_Unique_Boots_21-masquerade-bone-spear-necromancer-key-farming-build"
   },
   "corpse-lance-necromancer-speed-farming-build": {
     "goldwrap-Unique_Belt_010_x1": "goldwrap-Unique_Belt_010_x1-corpse-lance-necromancer-speed-farming-build",
@@ -20938,7 +21219,7 @@ export const buildsByItem: BuildsByItem =
   "aether-walker-P1_Wand_norm_unique_01": {
     "wizard-firebird-set-dungeon-guide": "aether-walker-P1_Wand_norm_unique_01-wizard-firebird-set-dungeon-guide",
     "lightning-arcane-torrent-wizard-electrocute-build": "aether-walker-P1_Wand_norm_unique_01-lightning-arcane-torrent-wizard-electrocute-build",
-    "vyr-archon-wizard-speed-farming-build": "aether-walker-P1_Wand_norm_unique_01-vyr-archon-wizard-speed-farming-build",
+    "explosive-blast-farming-wizard-bis-gear-gems-paragon-points": "aether-walker-P1_Wand_norm_unique_01-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
     "lightning-archon-wizard-solo-progression-build": "aether-walker-P1_Wand_norm_unique_01-lightning-archon-wizard-solo-progression-build",
     "meteor-wizard-speed-farming-build": "aether-walker-P1_Wand_norm_unique_01-meteor-wizard-speed-farming-build"
   },
@@ -21026,6 +21307,7 @@ export const buildsByItem: BuildsByItem =
     "lod-poison-scythe-necromancer-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-lod-poison-scythe-necromancer-bis-gear-gems-paragon-points",
     "invoker-thorns-crusader-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-invoker-thorns-crusader-bis-gear-gems-paragon-points",
     "firebird-wizard-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-firebird-wizard-bis-gear-gems-paragon-points",
+    "explosive-blast-farming-wizard-greater-rifting-build": "aquila-cuirass-P4_Unique_Chest_012-explosive-blast-farming-wizard-greater-rifting-build",
     "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
     "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "meteor-wizard-tal-rasha-build": "aquila-cuirass-P4_Unique_Chest_012-meteor-wizard-tal-rasha-build",
@@ -21035,6 +21317,7 @@ export const buildsByItem: BuildsByItem =
     "lod-blood-nova-necromancer-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
     "lod-blessed-shield-crusader-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
     "inarius-bone-storm-necromancer-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-inarius-bone-storm-necromancer-bis-gear-gems-paragon-points",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
     "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
     "support-necromancer-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-support-necromancer-bis-gear-gems-paragon-points",
@@ -21042,6 +21325,7 @@ export const buildsByItem: BuildsByItem =
     "rolands-sweep-attack-crusader-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
     "lod-condemn-crusader-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-lod-condemn-crusader-bis-gear-gems-paragon-points",
     "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "chakram-demon-hunter-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-chakram-demon-hunter-bis-gear-gems-paragon-points",
     "frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points": "aquila-cuirass-P4_Unique_Chest_012-frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points"
   },
@@ -21077,8 +21361,11 @@ export const buildsByItem: BuildsByItem =
     "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "explosive-blast-farming-wizard-greater-rifting-build": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-explosive-blast-farming-wizard-greater-rifting-build",
     "vyr-archon-wizard-bis-gear-gems-paragon-points": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-vyr-archon-wizard-bis-gear-gems-paragon-points",
+    "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "meteor-wizard-tal-rasha-build": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-meteor-wizard-tal-rasha-build",
-    "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points"
+    "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "ashnagarrs-blood-bracer-P4_Unique_Bracer_004-lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "aughilds-power-P66_Unique_Shoulder_008": {
     "wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1": "aughilds-power-P66_Unique_Shoulder_008-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1",
@@ -21118,13 +21405,14 @@ export const buildsByItem: BuildsByItem =
     "hota-raekor-barbarian-speed-farming-build": "avarice-band-Unique_Ring_108_x1-hota-raekor-barbarian-speed-farming-build",
     "rathma-skeletal-mages-necromancer-speed-farming-build": "avarice-band-Unique_Ring_108_x1-rathma-skeletal-mages-necromancer-speed-farming-build",
     "frenzy-hotns-barbarian-speed-farming-build": "avarice-band-Unique_Ring_108_x1-frenzy-hotns-barbarian-speed-farming-build",
+    "masquerade-bone-spear-necromancer-key-farming-build": "avarice-band-Unique_Ring_108_x1-masquerade-bone-spear-necromancer-key-farming-build",
     "helltooth-acid-cloud-witch-doctor-speed-farming-build": "avarice-band-Unique_Ring_108_x1-helltooth-acid-cloud-witch-doctor-speed-farming-build",
     "zuni-carnevil-poison-dart-witch-doctor-speed-farming-build": "avarice-band-Unique_Ring_108_x1-zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
     "invoker-thorns-crusader-speed-farming-build": "avarice-band-Unique_Ring_108_x1-invoker-thorns-crusader-speed-farming-build",
     "firebird-wizard-speed-farming-build": "avarice-band-Unique_Ring_108_x1-firebird-wizard-speed-farming-build",
     "blessed-hammer-crusader-speed-farming-build": "avarice-band-Unique_Ring_108_x1-blessed-hammer-crusader-speed-farming-build",
     "explosive-blast-farming-wizard-bis-gear-gems-paragon-points": "avarice-band-Unique_Ring_108_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "vyr-archon-wizard-speed-farming-build": "avarice-band-Unique_Ring_108_x1-vyr-archon-wizard-speed-farming-build",
+    "vyr-archon-wizard-nephalem-rift-speed-farming-build": "avarice-band-Unique_Ring_108_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build",
     "generator-necromancer-speed-farming-build": "avarice-band-Unique_Ring_108_x1-generator-necromancer-speed-farming-build",
     "poj-tempest-rush-monk-speed-farming-build": "avarice-band-Unique_Ring_108_x1-poj-tempest-rush-monk-speed-farming-build",
     "helltooth-zombie-bears-witch-doctor-speed-farming-build": "avarice-band-Unique_Ring_108_x1-helltooth-zombie-bears-witch-doctor-speed-farming-build",
@@ -21333,6 +21621,7 @@ export const buildsByItem: BuildsByItem =
     "akkhan-condemn-crusader-bis-gear-gems-paragon-points": "captain-crimsons-silk-girdle-P66_Unique_Belt_012-akkhan-condemn-crusader-bis-gear-gems-paragon-points",
     "rolands-shield-bash-crusader-bis-gear-gems-paragon-points": "captain-crimsons-silk-girdle-P66_Unique_Belt_012-rolands-shield-bash-crusader-bis-gear-gems-paragon-points",
     "invoker-thorns-crusader-bis-gear-gems-paragon-points": "captain-crimsons-silk-girdle-P66_Unique_Belt_012-invoker-thorns-crusader-bis-gear-gems-paragon-points",
+    "vyr-archon-wizard-bis-gear-gems-paragon-points": "captain-crimsons-silk-girdle-P66_Unique_Belt_012-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "poj-tempest-rush-monk-bis-gear-gems-paragon-points": "captain-crimsons-silk-girdle-P66_Unique_Belt_012-poj-tempest-rush-monk-bis-gear-gems-paragon-points",
     "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": "captain-crimsons-silk-girdle-P66_Unique_Belt_012-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points": "captain-crimsons-silk-girdle-P66_Unique_Belt_012-sunwuko-wave-of-light-monk-bis-gear-gems-paragon-points",
@@ -21358,6 +21647,7 @@ export const buildsByItem: BuildsByItem =
     "akkhan-condemn-crusader-bis-gear-gems-paragon-points": "captain-crimsons-thrust-P66_Unique_Pants_012-akkhan-condemn-crusader-bis-gear-gems-paragon-points",
     "rolands-shield-bash-crusader-bis-gear-gems-paragon-points": "captain-crimsons-thrust-P66_Unique_Pants_012-rolands-shield-bash-crusader-bis-gear-gems-paragon-points",
     "invoker-thorns-crusader-bis-gear-gems-paragon-points": "captain-crimsons-thrust-P66_Unique_Pants_012-invoker-thorns-crusader-bis-gear-gems-paragon-points",
+    "vyr-archon-wizard-bis-gear-gems-paragon-points": "captain-crimsons-thrust-P66_Unique_Pants_012-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": "captain-crimsons-thrust-P66_Unique_Pants_012-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points": "captain-crimsons-thrust-P66_Unique_Pants_012-spirit-barrage-mundunugu-wd-bis-gear-gems-paragon-points",
     "support-monk-bis-gear-gems-paragon-points": "captain-crimsons-thrust-P66_Unique_Pants_012-support-monk-bis-gear-gems-paragon-points",
@@ -21418,6 +21708,7 @@ export const buildsByItem: BuildsByItem =
     "wizard-fire-build-with-the-tal-rasha-set-patch-2-3": "cindercoat-Unique_Chest_006_x1-wizard-fire-build-with-the-tal-rasha-set-patch-2-3",
     "monk-dashing-strike-cold-build-with-the-raiment-of-a-thousand-storms-set-patch-2-4": "cindercoat-Unique_Chest_006_x1-monk-dashing-strike-cold-build-with-the-raiment-of-a-thousand-storms-set-patch-2-4",
     "zdps-crusader-support-build-with-cain-and-born-sets-patch-2-4": "cindercoat-Unique_Chest_006_x1-zdps-crusader-support-build-with-cain-and-born-sets-patch-2-4",
+    "wizard-firebird-set-dungeon-guide": "cindercoat-Unique_Chest_006_x1-wizard-firebird-set-dungeon-guide",
     "barbarian-the-thrill-conquest-build-season-12-patch-2-6-1": "cindercoat-Unique_Chest_006_x1-barbarian-the-thrill-conquest-build-season-12-patch-2-6-1",
     "monk-raiment-of-a-thousand-storms-set-dungeon-guide": "cindercoat-Unique_Chest_006_x1-monk-raiment-of-a-thousand-storms-set-dungeon-guide",
     "monk-the-thrill-conquest-build-season-12-patch-2-6-1": "cindercoat-Unique_Chest_006_x1-monk-the-thrill-conquest-build-season-12-patch-2-6-1",
@@ -21503,6 +21794,7 @@ export const buildsByItem: BuildsByItem =
     "invoker-thorns-crusader-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-invoker-thorns-crusader-bis-gear-gems-paragon-points",
     "firebird-wizard-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-firebird-wizard-bis-gear-gems-paragon-points",
     "blessed-hammer-crusader-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-blessed-hammer-crusader-bis-gear-gems-paragon-points",
+    "explosive-blast-farming-wizard-greater-rifting-build": "convention-of-elements-P2_Unique_Ring_04-explosive-blast-farming-wizard-greater-rifting-build",
     "vyr-archon-wizard-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "generator-necromancer-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-generator-necromancer-bis-gear-gems-paragon-points",
     "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
@@ -21526,6 +21818,7 @@ export const buildsByItem: BuildsByItem =
     "god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points",
     "corpse-lance-necromancer-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-corpse-lance-necromancer-bis-gear-gems-paragon-points",
     "arachyr-firebats-witch-doctor-group-progression-build": "convention-of-elements-P2_Unique_Ring_04-arachyr-firebats-witch-doctor-group-progression-build",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
     "whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points",
     "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
@@ -21543,6 +21836,7 @@ export const buildsByItem: BuildsByItem =
     "lod-condemn-crusader-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-lod-condemn-crusader-bis-gear-gems-paragon-points",
     "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points": "convention-of-elements-P2_Unique_Ring_04-frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points"
   },
   "corpsewhisper-pauldrons-P6_Necro_Unique_Shoulders_21": {
@@ -21555,7 +21849,8 @@ export const buildsByItem: BuildsByItem =
     "witch-doctor-carnevil-build-with-legacy-of-nightmares-patch-2-4-1": "corruption-Unique_Shoulder_007_x1-witch-doctor-carnevil-build-with-legacy-of-nightmares-patch-2-4-1"
   },
   "cosmic-strand-Unique_Orb_004_x1": {
-    "wizard-dmo-set-dungeon-guide": "cosmic-strand-Unique_Orb_004_x1-wizard-dmo-set-dungeon-guide"
+    "wizard-dmo-set-dungeon-guide": "cosmic-strand-Unique_Orb_004_x1-wizard-dmo-set-dungeon-guide",
+    "vyr-archon-wizard-nephalem-rift-speed-farming-build": "cosmic-strand-Unique_Orb_004_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build"
   },
   "crashing-rain-P2_Unique_Belt_01": {
     "demon-hunter-natalya-fire-build-with-rain-of-vengeance-patch-2-4": "crashing-rain-P2_Unique_Belt_01-demon-hunter-natalya-fire-build-with-rain-of-vengeance-patch-2-4"
@@ -21665,7 +21960,9 @@ export const buildsByItem: BuildsByItem =
     "lod-star-pact-wizard-bis-gear-gems-paragon-points": "deathwish-P61_Unique_Sword_1H_112_x1-lod-star-pact-wizard-bis-gear-gems-paragon-points",
     "meteor-wizard-bis-gear-gems-paragon-points": "deathwish-P61_Unique_Sword_1H_112_x1-meteor-wizard-bis-gear-gems-paragon-points",
     "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "deathwish-P61_Unique_Sword_1H_112_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-    "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "deathwish-P61_Unique_Sword_1H_112_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "deathwish-P61_Unique_Sword_1H_112_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "deathwish-P61_Unique_Sword_1H_112_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "deathwish-P61_Unique_Sword_1H_112_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "decree-of-justice-P67_Unique_Helm_Set_02": {
     "poj-tempest-rush-monk-bis-gear-gems-paragon-points": "decree-of-justice-P67_Unique_Helm_Set_02-poj-tempest-rush-monk-bis-gear-gems-paragon-points"
@@ -21712,6 +22009,7 @@ export const buildsByItem: BuildsByItem =
     "lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points": "echoing-fury-P66_Unique_Mace_1H_001-lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points",
     "frenzy-hotns-barbarian-bis-gear-gems-paragon-points": "echoing-fury-P66_Unique_Mace_1H_001-frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
     "zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points": "echoing-fury-P66_Unique_Mace_1H_001-zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points",
+    "vyr-archon-wizard-greater-rift-speed-farming-build": "echoing-fury-P66_Unique_Mace_1H_001-vyr-archon-wizard-greater-rift-speed-farming-build",
     "generator-necromancer-speed-farming-build": "echoing-fury-P66_Unique_Mace_1H_001-generator-necromancer-speed-farming-build",
     "unhallowed-essence-grenades-demon-hunter-bis-gear-gems-paragon-points": "echoing-fury-P66_Unique_Mace_1H_001-unhallowed-essence-grenades-demon-hunter-bis-gear-gems-paragon-points",
     "shadow-impale-demon-hunter-speed-farming-build": "echoing-fury-P66_Unique_Mace_1H_001-shadow-impale-demon-hunter-speed-farming-build",
@@ -21760,11 +22058,9 @@ export const buildsByItem: BuildsByItem =
   },
   "etched-sigil-P610_Unique_Orb_002": {
     "wizard-energy-twister-build-with-the-dmo-set-patch-2-4": "etched-sigil-P610_Unique_Orb_002-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
-    "wizard-firebird-set-dungeon-guide": "etched-sigil-P610_Unique_Orb_002-wizard-firebird-set-dungeon-guide",
-    "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": "etched-sigil-P610_Unique_Orb_002-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "lod-star-pact-wizard-bis-gear-gems-paragon-points": "etched-sigil-P610_Unique_Orb_002-lod-star-pact-wizard-bis-gear-gems-paragon-points",
     "meteor-wizard-bis-gear-gems-paragon-points": "etched-sigil-P610_Unique_Orb_002-meteor-wizard-bis-gear-gems-paragon-points",
-    "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "etched-sigil-P610_Unique_Orb_002-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "etched-sigil-P610_Unique_Orb_002-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "etched-sigil-P610_Unique_Orb_002-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
   },
   "eunjangdo-Unique_Dagger_104_x1": {
@@ -21813,7 +22109,6 @@ export const buildsByItem: BuildsByItem =
     "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "fierce-gauntlets-Unique_Gloves_Set_02_p2-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
   },
   "firebirds-breast-Unique_Chest_Set_06_x1": {
-    "wizard-firebird-set-dungeon-guide": "firebirds-breast-Unique_Chest_Set_06_x1-wizard-firebird-set-dungeon-guide",
     "firebird-wizard-bis-gear-gems-paragon-points": "firebirds-breast-Unique_Chest_Set_06_x1-firebird-wizard-bis-gear-gems-paragon-points",
     "meteor-wizard-bis-gear-gems-paragon-points": "firebirds-breast-Unique_Chest_Set_06_x1-meteor-wizard-bis-gear-gems-paragon-points"
   },
@@ -21821,6 +22116,9 @@ export const buildsByItem: BuildsByItem =
     "wizard-firebird-set-dungeon-guide": "firebirds-down-Unique_Pants_Set_06_x1-wizard-firebird-set-dungeon-guide",
     "firebird-wizard-bis-gear-gems-paragon-points": "firebirds-down-Unique_Pants_Set_06_x1-firebird-wizard-bis-gear-gems-paragon-points",
     "meteor-wizard-bis-gear-gems-paragon-points": "firebirds-down-Unique_Pants_Set_06_x1-meteor-wizard-bis-gear-gems-paragon-points"
+  },
+  "firebirds-eye-Unique_Orb_Set_06_x1": {
+    "wizard-firebird-set-dungeon-guide": "firebirds-eye-Unique_Orb_Set_06_x1-wizard-firebird-set-dungeon-guide"
   },
   "firebirds-pinions-Unique_Shoulder_Set_06_x1": {
     "wizard-firebird-set-dungeon-guide": "firebirds-pinions-Unique_Shoulder_Set_06_x1-wizard-firebird-set-dungeon-guide",
@@ -21930,7 +22228,9 @@ export const buildsByItem: BuildsByItem =
   },
   "fragment-of-destiny-P610_Unique_Wand_010": {
     "wizard-dmo-set-dungeon-guide": "fragment-of-destiny-P610_Unique_Wand_010-wizard-dmo-set-dungeon-guide",
-    "lightning-arcane-torrent-wizard-spectral-blade-build": "fragment-of-destiny-P610_Unique_Wand_010-lightning-arcane-torrent-wizard-spectral-blade-build"
+    "lightning-arcane-torrent-wizard-spectral-blade-build": "fragment-of-destiny-P610_Unique_Wand_010-lightning-arcane-torrent-wizard-spectral-blade-build",
+    "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": "fragment-of-destiny-P610_Unique_Wand_010-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+    "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "fragment-of-destiny-P610_Unique_Wand_010-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points"
   },
   "freeze-of-deflection-Unique_Shield_004_x1": {
     "follower-skills-and-gearing-guide": "freeze-of-deflection-Unique_Shield_004_x1-follower-skills-and-gearing-guide"
@@ -22033,7 +22333,7 @@ export const buildsByItem: BuildsByItem =
     "zuni-carnevil-poison-dart-witch-doctor-speed-farming-build": "goldwrap-Unique_Belt_010_x1-zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
     "blessed-hammer-crusader-speed-farming-build": "goldwrap-Unique_Belt_010_x1-blessed-hammer-crusader-speed-farming-build",
     "explosive-blast-farming-wizard-bis-gear-gems-paragon-points": "goldwrap-Unique_Belt_010_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "vyr-archon-wizard-speed-farming-build": "goldwrap-Unique_Belt_010_x1-vyr-archon-wizard-speed-farming-build",
+    "vyr-archon-wizard-nephalem-rift-speed-farming-build": "goldwrap-Unique_Belt_010_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build",
     "generator-necromancer-speed-farming-build": "goldwrap-Unique_Belt_010_x1-generator-necromancer-speed-farming-build",
     "poj-tempest-rush-monk-speed-farming-build": "goldwrap-Unique_Belt_010_x1-poj-tempest-rush-monk-speed-farming-build",
     "helltooth-zombie-bears-witch-doctor-speed-farming-build": "goldwrap-Unique_Belt_010_x1-helltooth-zombie-bears-witch-doctor-speed-farming-build",
@@ -22110,12 +22410,15 @@ export const buildsByItem: BuildsByItem =
     "wizard-tal-rasha-set-dungeon-guide": "halo-of-karini-P61_Unique_Ring_03-wizard-tal-rasha-set-dungeon-guide",
     "wizard-the-thrill-conquest-build-season-12-patch-2-6-1": "halo-of-karini-P61_Unique_Ring_03-wizard-the-thrill-conquest-build-season-12-patch-2-6-1",
     "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": "halo-of-karini-P61_Unique_Ring_03-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+    "vyr-archon-wizard-bis-gear-gems-paragon-points": "halo-of-karini-P61_Unique_Ring_03-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "halo-of-karini-P61_Unique_Ring_03-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "meteor-wizard-tal-rasha-build": "halo-of-karini-P61_Unique_Ring_03-meteor-wizard-tal-rasha-build",
     "meteor-wizard-star-pact-build": "halo-of-karini-P61_Unique_Ring_03-meteor-wizard-star-pact-build",
     "meteor-wizard-speed-farming-build": "halo-of-karini-P61_Unique_Ring_03-meteor-wizard-speed-farming-build",
     "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "halo-of-karini-P61_Unique_Ring_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-    "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "halo-of-karini-P61_Unique_Ring_03-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "halo-of-karini-P61_Unique_Ring_03-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "halo-of-karini-P61_Unique_Ring_03-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "halo-of-karini-P61_Unique_Ring_03-lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "hammer-jammers-P4_Unique_Pants_002": {
     "crusader-seeker-of-the-light-set-dungeon-guide": "hammer-jammers-P4_Unique_Pants_002-crusader-seeker-of-the-light-set-dungeon-guide",
@@ -22260,8 +22563,8 @@ export const buildsByItem: BuildsByItem =
   "hergbrashs-binding-P4_Unique_Belt_06": {
     "wizard-energy-twister-build-with-the-dmo-set-patch-2-4": "hergbrashs-binding-P4_Unique_Belt_06-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
     "wizard-firebird-set-dungeon-guide": "hergbrashs-binding-P4_Unique_Belt_06-wizard-firebird-set-dungeon-guide",
-    "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": "hergbrashs-binding-P4_Unique_Belt_06-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "meteor-wizard-bis-gear-gems-paragon-points": "hergbrashs-binding-P4_Unique_Belt_06-meteor-wizard-bis-gear-gems-paragon-points",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "hergbrashs-binding-P4_Unique_Belt_06-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "hergbrashs-binding-P4_Unique_Belt_06-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
   },
   "hexing-pants-of-mr-yan-Unique_Pants_101_x1": {
@@ -22305,6 +22608,8 @@ export const buildsByItem: BuildsByItem =
     "lon-bombardment-crusader-bis-gear-gems-paragon-points": "ice-climbers-Unique_Boots_008_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points",
     "lod-blood-nova-necromancer-bis-gear-gems-paragon-points": "ice-climbers-Unique_Boots_008_x1-lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
     "lod-blessed-shield-crusader-bis-gear-gems-paragon-points": "ice-climbers-Unique_Boots_008_x1-lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "ice-climbers-Unique_Boots_008_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "ice-climbers-Unique_Boots_008_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points": "ice-climbers-Unique_Boots_008_x1-frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points"
   },
   "illusory-boots-Unique_Boots_103_x1": {
@@ -22339,14 +22644,15 @@ export const buildsByItem: BuildsByItem =
     "lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points",
     "lod-poison-scythe-necromancer-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-lod-poison-scythe-necromancer-bis-gear-gems-paragon-points",
     "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
-    "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "lon-bombardment-crusader-speed-farming-build": "illusory-boots-Unique_Boots_103_x1-lon-bombardment-crusader-speed-farming-build",
     "support-monk-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-support-monk-bis-gear-gems-paragon-points",
     "lod-blessed-shield-crusader-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
     "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
     "support-barbarian-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-support-barbarian-bis-gear-gems-paragon-points",
     "lod-condemn-crusader-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-lod-condemn-crusader-bis-gear-gems-paragon-points",
+    "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
     "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points": "illusory-boots-Unique_Boots_103_x1-frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points"
   },
   "immortal-kings-boulder-breaker-Unique_Mighty_2H_010_x1": {
@@ -22460,13 +22766,12 @@ export const buildsByItem: BuildsByItem =
     "hota-raekor-barbarian-speed-farming-build": "ingeom-Unique_Sword_1H_113_x1-hota-raekor-barbarian-speed-farming-build",
     "rathma-skeletal-mages-necromancer-speed-farming-build": "ingeom-Unique_Sword_1H_113_x1-rathma-skeletal-mages-necromancer-speed-farming-build",
     "frenzy-hotns-barbarian-speed-farming-build": "ingeom-Unique_Sword_1H_113_x1-frenzy-hotns-barbarian-speed-farming-build",
-    "masquerade-bone-spear-necromancer-key-farming-build": "ingeom-Unique_Sword_1H_113_x1-masquerade-bone-spear-necromancer-key-farming-build",
     "helltooth-acid-cloud-witch-doctor-speed-farming-build": "ingeom-Unique_Sword_1H_113_x1-helltooth-acid-cloud-witch-doctor-speed-farming-build",
     "invoker-thorns-crusader-speed-farming-build": "ingeom-Unique_Sword_1H_113_x1-invoker-thorns-crusader-speed-farming-build",
     "firebird-wizard-bis-gear-gems-paragon-points": "ingeom-Unique_Sword_1H_113_x1-firebird-wizard-bis-gear-gems-paragon-points",
     "blessed-hammer-crusader-speed-farming-build": "ingeom-Unique_Sword_1H_113_x1-blessed-hammer-crusader-speed-farming-build",
     "explosive-blast-farming-wizard-bis-gear-gems-paragon-points": "ingeom-Unique_Sword_1H_113_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "vyr-archon-wizard-speed-farming-build": "ingeom-Unique_Sword_1H_113_x1-vyr-archon-wizard-speed-farming-build",
+    "vyr-archon-wizard-nephalem-rift-speed-farming-build": "ingeom-Unique_Sword_1H_113_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build",
     "generator-necromancer-speed-farming-build": "ingeom-Unique_Sword_1H_113_x1-generator-necromancer-speed-farming-build",
     "lightning-archon-wizard-bis-gear-gems-paragon-points": "ingeom-Unique_Sword_1H_113_x1-lightning-archon-wizard-bis-gear-gems-paragon-points",
     "helltooth-zombie-bears-witch-doctor-speed-farming-build": "ingeom-Unique_Sword_1H_113_x1-helltooth-zombie-bears-witch-doctor-speed-farming-build",
@@ -22614,6 +22919,7 @@ export const buildsByItem: BuildsByItem =
     "unhallowed-essence-grenades-demon-hunter-speed-farming-build": "krelms-buff-belt-Unique_Belt_Set_02_x1-unhallowed-essence-grenades-demon-hunter-speed-farming-build",
     "god-hungering-arrow-speed-farming-demon-hunter-build": "krelms-buff-belt-Unique_Belt_Set_02_x1-god-hungering-arrow-speed-farming-demon-hunter-build",
     "demon-hunter-bolas-build-with-gears-of-dreadlands": "krelms-buff-belt-Unique_Belt_Set_02_x1-demon-hunter-bolas-build-with-gears-of-dreadlands",
+    "dmo-arcane-orbit-wizard-speed-farming-build": "krelms-buff-belt-Unique_Belt_Set_02_x1-dmo-arcane-orbit-wizard-speed-farming-build",
     "chakram-demon-hunter-speed-farming-build": "krelms-buff-belt-Unique_Belt_Set_02_x1-chakram-demon-hunter-speed-farming-build"
   },
   "kridershot-Unique_Bow_101_x1": {
@@ -22736,6 +23042,7 @@ export const buildsByItem: BuildsByItem =
     "lod-blood-nova-necromancer-bis-gear-gems-paragon-points": "leorics-crown-Unique_Helm_002_p1-lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
     "lod-blessed-shield-crusader-bis-gear-gems-paragon-points": "leorics-crown-Unique_Helm_002_p1-lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
     "arachyr-firebats-witch-doctor-speed-farming-build": "leorics-crown-Unique_Helm_002_p1-arachyr-firebats-witch-doctor-speed-farming-build",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "leorics-crown-Unique_Helm_002_p1-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "support-barbarian-speed-farming-build": "leorics-crown-Unique_Helm_002_p1-support-barbarian-speed-farming-build",
     "support-necromancer-bis-gear-gems-paragon-points": "leorics-crown-Unique_Helm_002_p1-support-necromancer-bis-gear-gems-paragon-points",
     "god-marauder-support-demon-hunter-bis-gear-gems-paragon-points": "leorics-crown-Unique_Helm_002_p1-god-marauder-support-demon-hunter-bis-gear-gems-paragon-points",
@@ -22852,11 +23159,12 @@ export const buildsByItem: BuildsByItem =
     "meteor-wizard-tal-rasha-build": "mantle-of-channeling-P4_Unique_Shoulder_103-meteor-wizard-tal-rasha-build",
     "lod-blood-nova-necromancer-bis-gear-gems-paragon-points": "mantle-of-channeling-P4_Unique_Shoulder_103-lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
     "arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points": "mantle-of-channeling-P4_Unique_Shoulder_103-arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "mantle-of-channeling-P4_Unique_Shoulder_103-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points": "mantle-of-channeling-P4_Unique_Shoulder_103-whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points",
     "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": "mantle-of-channeling-P4_Unique_Shoulder_103-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
     "natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points": "mantle-of-channeling-P4_Unique_Shoulder_103-natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
     "swk-tempest-rush-monk-bis-gear-gems-paragon-points": "mantle-of-channeling-P4_Unique_Shoulder_103-swk-tempest-rush-monk-bis-gear-gems-paragon-points",
-    "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "mantle-of-channeling-P4_Unique_Shoulder_103-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "mantle-of-channeling-P4_Unique_Shoulder_103-lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "mantle-of-the-upsidedown-sinners-Unique_Shoulder_Set_08_x1": {
     "monk-dashing-strike-cold-build-with-the-raiment-of-a-thousand-storms-set-patch-2-4": "mantle-of-the-upsidedown-sinners-Unique_Shoulder_Set_08_x1-monk-dashing-strike-cold-build-with-the-raiment-of-a-thousand-storms-set-patch-2-4",
@@ -22944,6 +23252,8 @@ export const buildsByItem: BuildsByItem =
     "rend-wastes-barbarian-speed-farming-build": "messerschmidts-reaver-P66_Unique_Axe_2H_011-rend-wastes-barbarian-speed-farming-build",
     "rolands-shield-bash-crusader-speed-farming-build": "messerschmidts-reaver-P66_Unique_Axe_2H_011-rolands-shield-bash-crusader-speed-farming-build",
     "hota-raekor-barbarian-speed-farming-build": "messerschmidts-reaver-P66_Unique_Axe_2H_011-hota-raekor-barbarian-speed-farming-build",
+    "vyr-archon-wizard-greater-rift-speed-farming-build": "messerschmidts-reaver-P66_Unique_Axe_2H_011-vyr-archon-wizard-greater-rift-speed-farming-build",
+    "vyr-archon-wizard-nephalem-rift-speed-farming-build": "messerschmidts-reaver-P66_Unique_Axe_2H_011-vyr-archon-wizard-nephalem-rift-speed-farming-build",
     "corpse-lance-necromancer-speed-farming-build": "messerschmidts-reaver-P66_Unique_Axe_2H_011-corpse-lance-necromancer-speed-farming-build",
     "whirlwind-gr-wastes-barbarian-speed-farming-build": "messerschmidts-reaver-P66_Unique_Axe_2H_011-whirlwind-gr-wastes-barbarian-speed-farming-build",
     "support-barbarian-bis-gear-gems-paragon-points": "messerschmidts-reaver-P66_Unique_Axe_2H_011-support-barbarian-bis-gear-gems-paragon-points",
@@ -23083,7 +23393,8 @@ export const buildsByItem: BuildsByItem =
     "invoker-thorns-crusader-speed-farming-build": "nemesis-bracers-Unique_Bracer_106_x1-invoker-thorns-crusader-speed-farming-build",
     "firebird-wizard-speed-farming-build": "nemesis-bracers-Unique_Bracer_106_x1-firebird-wizard-speed-farming-build",
     "explosive-blast-farming-wizard-bis-gear-gems-paragon-points": "nemesis-bracers-Unique_Bracer_106_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "vyr-archon-wizard-speed-farming-build": "nemesis-bracers-Unique_Bracer_106_x1-vyr-archon-wizard-speed-farming-build",
+    "vyr-archon-wizard-greater-rift-speed-farming-build": "nemesis-bracers-Unique_Bracer_106_x1-vyr-archon-wizard-greater-rift-speed-farming-build",
+    "vyr-archon-wizard-nephalem-rift-speed-farming-build": "nemesis-bracers-Unique_Bracer_106_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build",
     "generator-necromancer-bis-gear-gems-paragon-points": "nemesis-bracers-Unique_Bracer_106_x1-generator-necromancer-bis-gear-gems-paragon-points",
     "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points": "nemesis-bracers-Unique_Bracer_106_x1-lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
     "lightning-archon-wizard-bis-gear-gems-paragon-points": "nemesis-bracers-Unique_Bracer_106_x1-lightning-archon-wizard-bis-gear-gems-paragon-points",
@@ -23156,7 +23467,7 @@ export const buildsByItem: BuildsByItem =
     "hota-raekor-barbarian-bis-gear-gems-paragon-points": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-hota-raekor-barbarian-bis-gear-gems-paragon-points",
     "lod-wol-monk-bis-gear-gems-paragon-points": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-lod-wol-monk-bis-gear-gems-paragon-points",
     "blessed-hammer-crusader-bis-gear-gems-paragon-points": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-blessed-hammer-crusader-bis-gear-gems-paragon-points",
-    "vyr-archon-wizard-speed-farming-build": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-vyr-archon-wizard-speed-farming-build",
+    "vyr-archon-wizard-bis-gear-gems-paragon-points": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "lightning-archon-wizard-bis-gear-gems-paragon-points": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-lightning-archon-wizard-bis-gear-gems-paragon-points",
     "poj-tempest-rush-monk-bis-gear-gems-paragon-points": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-poj-tempest-rush-monk-bis-gear-gems-paragon-points",
     "inarius-corpse-explosion-necromancer-bis-gear-gems-paragon-points": "obsidian-ring-of-the-zodiac-Unique_Ring_023_p2-inarius-corpse-explosion-necromancer-bis-gear-gems-paragon-points",
@@ -23190,8 +23501,6 @@ export const buildsByItem: BuildsByItem =
     "wizard-the-thrill-conquest-build-season-12-patch-2-6-1": "orb-of-infinite-depth-P61_Unique_Orb_004-wizard-the-thrill-conquest-build-season-12-patch-2-6-1",
     "lightning-arcane-torrent-wizard-bis-gear-gems-paragon-points": "orb-of-infinite-depth-P61_Unique_Orb_004-lightning-arcane-torrent-wizard-bis-gear-gems-paragon-points",
     "explosive-blast-farming-wizard-bis-gear-gems-paragon-points": "orb-of-infinite-depth-P61_Unique_Orb_004-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "vyr-archon-wizard-bis-gear-gems-paragon-points": "orb-of-infinite-depth-P61_Unique_Orb_004-vyr-archon-wizard-bis-gear-gems-paragon-points",
-    "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "orb-of-infinite-depth-P61_Unique_Orb_004-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": "orb-of-infinite-depth-P61_Unique_Orb_004-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points"
   },
   "overwhelming-desire-Unique_Amulet_106_x1": {
@@ -23294,7 +23603,8 @@ export const buildsByItem: BuildsByItem =
     "demon-hunter-shadow-set-dungeon-guide": "prides-fall-Unique_Helm_103_x1-demon-hunter-shadow-set-dungeon-guide",
     "demon-hunter-natalyas-vengeance-set-dungeon-guide": "prides-fall-Unique_Helm_103_x1-demon-hunter-natalyas-vengeance-set-dungeon-guide",
     "demon-hunter-unhallowed-essence-set-dungeon-guide": "prides-fall-Unique_Helm_103_x1-demon-hunter-unhallowed-essence-set-dungeon-guide",
-    "multishot-marauder-demon-hunter-speed-farming-build": "prides-fall-Unique_Helm_103_x1-multishot-marauder-demon-hunter-speed-farming-build"
+    "multishot-marauder-demon-hunter-speed-farming-build": "prides-fall-Unique_Helm_103_x1-multishot-marauder-demon-hunter-speed-farming-build",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "prides-fall-Unique_Helm_103_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "pull-of-the-earth-Unique_Gloves_Set_15_x1": {
     "barbarian-might-of-the-earth-set-dungeon-guide": "pull-of-the-earth-Unique_Gloves_Set_15_x1-barbarian-might-of-the-earth-set-dungeon-guide",
@@ -23343,7 +23653,9 @@ export const buildsByItem: BuildsByItem =
   "ranslors-folly-P61_Unique_Bracer_108_x1": {
     "wizard-fire-build-with-the-tal-rasha-set-patch-2-3": "ranslors-folly-P61_Unique_Bracer_108_x1-wizard-fire-build-with-the-tal-rasha-set-patch-2-3",
     "wizard-the-thrill-conquest-build-season-12-patch-2-6-1": "ranslors-folly-P61_Unique_Bracer_108_x1-wizard-the-thrill-conquest-build-season-12-patch-2-6-1",
+    "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "ranslors-folly-P61_Unique_Bracer_108_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "meteor-wizard-speed-farming-build": "ranslors-folly-P61_Unique_Bracer_108_x1-meteor-wizard-speed-farming-build",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "ranslors-folly-P61_Unique_Bracer_108_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "ranslors-folly-P61_Unique_Bracer_108_x1-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
   },
   "rathmas-macabre-vambraces-P6_Necro_Set_1_Gloves": {
@@ -23509,7 +23821,7 @@ export const buildsByItem: BuildsByItem =
     "zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points": "ring-of-royal-grandeur-Unique_Ring_107_x1-zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points",
     "invoker-thorns-crusader-bis-gear-gems-paragon-points": "ring-of-royal-grandeur-Unique_Ring_107_x1-invoker-thorns-crusader-bis-gear-gems-paragon-points",
     "explosive-blast-farming-wizard-bis-gear-gems-paragon-points": "ring-of-royal-grandeur-Unique_Ring_107_x1-explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-    "vyr-archon-wizard-speed-farming-build": "ring-of-royal-grandeur-Unique_Ring_107_x1-vyr-archon-wizard-speed-farming-build",
+    "vyr-archon-wizard-nephalem-rift-speed-farming-build": "ring-of-royal-grandeur-Unique_Ring_107_x1-vyr-archon-wizard-nephalem-rift-speed-farming-build",
     "generator-necromancer-bis-gear-gems-paragon-points": "ring-of-royal-grandeur-Unique_Ring_107_x1-generator-necromancer-bis-gear-gems-paragon-points",
     "lightning-archon-wizard-bis-gear-gems-paragon-points": "ring-of-royal-grandeur-Unique_Ring_107_x1-lightning-archon-wizard-bis-gear-gems-paragon-points",
     "poj-tempest-rush-monk-bis-gear-gems-paragon-points": "ring-of-royal-grandeur-Unique_Ring_107_x1-poj-tempest-rush-monk-bis-gear-gems-paragon-points",
@@ -23827,9 +24139,11 @@ export const buildsByItem: BuildsByItem =
     "demon-hunter-bolas-build-with-gears-of-dreadlands": "squirts-necklace-P66_Unique_Amulet_010-demon-hunter-bolas-build-with-gears-of-dreadlands",
     "corpse-lance-necromancer-bis-gear-gems-paragon-points": "squirts-necklace-P66_Unique_Amulet_010-corpse-lance-necromancer-bis-gear-gems-paragon-points",
     "arachyr-firebats-witch-doctor-group-progression-build": "squirts-necklace-P66_Unique_Amulet_010-arachyr-firebats-witch-doctor-group-progression-build",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "squirts-necklace-P66_Unique_Amulet_010-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points": "squirts-necklace-P66_Unique_Amulet_010-unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
     "natalya-rain-of-vengeance-demon-hunter-speed-farming-build": "squirts-necklace-P66_Unique_Amulet_010-natalya-rain-of-vengeance-demon-hunter-speed-farming-build",
     "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": "squirts-necklace-P66_Unique_Amulet_010-lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "squirts-necklace-P66_Unique_Amulet_010-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "chakram-demon-hunter-bis-gear-gems-paragon-points": "squirts-necklace-P66_Unique_Amulet_010-chakram-demon-hunter-bis-gear-gems-paragon-points"
   },
   "st-archews-gage-Unique_Gloves_101_p2": {
@@ -23877,10 +24191,12 @@ export const buildsByItem: BuildsByItem =
     "lod-blood-nova-necromancer-bis-gear-gems-paragon-points": "stone-gauntlets-P66_Unique_Gloves_007-lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
     "lod-blessed-shield-crusader-bis-gear-gems-paragon-points": "stone-gauntlets-P66_Unique_Gloves_007-lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
     "shadow-impale-demon-hunter-bis-gear-gems-paragon-points": "stone-gauntlets-P66_Unique_Gloves_007-shadow-impale-demon-hunter-bis-gear-gems-paragon-points",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "stone-gauntlets-P66_Unique_Gloves_007-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": "stone-gauntlets-P66_Unique_Gloves_007-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
     "swk-tempest-rush-monk-bis-gear-gems-paragon-points": "stone-gauntlets-P66_Unique_Gloves_007-swk-tempest-rush-monk-bis-gear-gems-paragon-points",
     "natalya-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": "stone-gauntlets-P66_Unique_Gloves_007-natalya-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
-    "lod-condemn-crusader-bis-gear-gems-paragon-points": "stone-gauntlets-P66_Unique_Gloves_007-lod-condemn-crusader-bis-gear-gems-paragon-points"
+    "lod-condemn-crusader-bis-gear-gems-paragon-points": "stone-gauntlets-P66_Unique_Gloves_007-lod-condemn-crusader-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "stone-gauntlets-P66_Unique_Gloves_007-lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "stone-of-jordan-P69_Unique_Ring_019": {
     "wizard-firebird-set-dungeon-guide": "stone-of-jordan-P69_Unique_Ring_019-wizard-firebird-set-dungeon-guide",
@@ -23956,7 +24272,6 @@ export const buildsByItem: BuildsByItem =
     "monk-ulianas-stratagem-set-dungeon-guide": "strongarm-bracers-Unique_Bracer_007_x1-monk-ulianas-stratagem-set-dungeon-guide",
     "aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points": "strongarm-bracers-Unique_Bracer_007_x1-aegis-of-valor-fist-of-the-heavens-crusader-bis-gear-gems-paragon-points",
     "lod-star-pact-wizard-bis-gear-gems-paragon-points": "strongarm-bracers-Unique_Bracer_007_x1-lod-star-pact-wizard-bis-gear-gems-paragon-points",
-    "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "strongarm-bracers-Unique_Bracer_007_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "lon-bombardment-crusader-bis-gear-gems-paragon-points": "strongarm-bracers-Unique_Bracer_007_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points",
     "support-monk-bis-gear-gems-paragon-points": "strongarm-bracers-Unique_Bracer_007_x1-support-monk-bis-gear-gems-paragon-points",
     "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": "strongarm-bracers-Unique_Bracer_007_x1-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
@@ -24024,9 +24339,11 @@ export const buildsByItem: BuildsByItem =
     "lod-poison-scythe-necromancer-trash-killer-build": "swamp-land-waders-P41_Unique_Pants_001-lod-poison-scythe-necromancer-trash-killer-build",
     "lod-blood-nova-necromancer-bis-gear-gems-paragon-points": "swamp-land-waders-P41_Unique_Pants_001-lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
     "lod-blessed-shield-crusader-bis-gear-gems-paragon-points": "swamp-land-waders-P41_Unique_Pants_001-lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "swamp-land-waders-P41_Unique_Pants_001-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": "swamp-land-waders-P41_Unique_Pants_001-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
     "lod-condemn-crusader-bis-gear-gems-paragon-points": "swamp-land-waders-P41_Unique_Pants_001-lod-condemn-crusader-bis-gear-gems-paragon-points",
     "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points": "swamp-land-waders-P41_Unique_Pants_001-lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "swamp-land-waders-P41_Unique_Pants_001-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points": "swamp-land-waders-P41_Unique_Pants_001-frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points"
   },
   "swiftmount-Unique_Flail_1H_103_x1": {
@@ -24173,7 +24490,6 @@ export const buildsByItem: BuildsByItem =
     "invoker-thorns-crusader-bis-gear-gems-paragon-points": "the-compass-rose-Unique_Ring_013_x1-invoker-thorns-crusader-bis-gear-gems-paragon-points",
     "firebird-wizard-bis-gear-gems-paragon-points": "the-compass-rose-Unique_Ring_013_x1-firebird-wizard-bis-gear-gems-paragon-points",
     "blessed-hammer-crusader-bis-gear-gems-paragon-points": "the-compass-rose-Unique_Ring_013_x1-blessed-hammer-crusader-bis-gear-gems-paragon-points",
-    "vyr-archon-wizard-bis-gear-gems-paragon-points": "the-compass-rose-Unique_Ring_013_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "the-compass-rose-Unique_Ring_013_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": "the-compass-rose-Unique_Ring_013_x1-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "meteor-wizard-bis-gear-gems-paragon-points": "the-compass-rose-Unique_Ring_013_x1-meteor-wizard-bis-gear-gems-paragon-points",
@@ -24251,6 +24567,8 @@ export const buildsByItem: BuildsByItem =
     "zuni-carnevil-poison-dart-witch-doctor-speed-farming-build": "the-flavor-of-time-P66_Unique_Amulet_001-zuni-carnevil-poison-dart-witch-doctor-speed-farming-build",
     "invoker-thorns-crusader-speed-farming-build": "the-flavor-of-time-P66_Unique_Amulet_001-invoker-thorns-crusader-speed-farming-build",
     "blessed-hammer-crusader-speed-farming-build": "the-flavor-of-time-P66_Unique_Amulet_001-blessed-hammer-crusader-speed-farming-build",
+    "vyr-archon-wizard-greater-rift-speed-farming-build": "the-flavor-of-time-P66_Unique_Amulet_001-vyr-archon-wizard-greater-rift-speed-farming-build",
+    "vyr-archon-wizard-nephalem-rift-speed-farming-build": "the-flavor-of-time-P66_Unique_Amulet_001-vyr-archon-wizard-nephalem-rift-speed-farming-build",
     "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points": "the-flavor-of-time-P66_Unique_Amulet_001-lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
     "poj-tempest-rush-monk-bis-gear-gems-paragon-points": "the-flavor-of-time-P66_Unique_Amulet_001-poj-tempest-rush-monk-bis-gear-gems-paragon-points",
     "lon-bombardment-crusader-bis-gear-gems-paragon-points": "the-flavor-of-time-P66_Unique_Amulet_001-lon-bombardment-crusader-bis-gear-gems-paragon-points",
@@ -24292,6 +24610,9 @@ export const buildsByItem: BuildsByItem =
     "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points": "the-furnace-Unique_Mace_2H_103_x1-helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
     "firebird-wizard-bis-gear-gems-paragon-points": "the-furnace-Unique_Mace_2H_103_x1-firebird-wizard-bis-gear-gems-paragon-points",
     "blessed-hammer-crusader-bis-gear-gems-paragon-points": "the-furnace-Unique_Mace_2H_103_x1-blessed-hammer-crusader-bis-gear-gems-paragon-points",
+    "explosive-blast-farming-wizard-greater-rifting-build": "the-furnace-Unique_Mace_2H_103_x1-explosive-blast-farming-wizard-greater-rifting-build",
+    "vyr-archon-wizard-bis-gear-gems-paragon-points": "the-furnace-Unique_Mace_2H_103_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
+    "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "the-furnace-Unique_Mace_2H_103_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "lon-bombardment-crusader-bis-gear-gems-paragon-points": "the-furnace-Unique_Mace_2H_103_x1-lon-bombardment-crusader-bis-gear-gems-paragon-points",
     "helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points": "the-furnace-Unique_Mace_2H_103_x1-helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
     "lod-blessed-shield-crusader-bis-gear-gems-paragon-points": "the-furnace-Unique_Mace_2H_103_x1-lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
@@ -24376,9 +24697,12 @@ export const buildsByItem: BuildsByItem =
     "wizard-the-thrill-conquest-build-season-12-patch-2-6-1": "the-shame-of-delsere-P4_Unique_Belt_02-wizard-the-thrill-conquest-build-season-12-patch-2-6-1",
     "lightning-arcane-torrent-wizard-spectral-blade-build": "the-shame-of-delsere-P4_Unique_Belt_02-lightning-arcane-torrent-wizard-spectral-blade-build",
     "lightning-arcane-torrent-wizard-electrocute-build": "the-shame-of-delsere-P4_Unique_Belt_02-lightning-arcane-torrent-wizard-electrocute-build",
+    "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": "the-shame-of-delsere-P4_Unique_Belt_02-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "the-shame-of-delsere-P4_Unique_Belt_02-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "meteor-wizard-star-pact-build": "the-shame-of-delsere-P4_Unique_Belt_02-meteor-wizard-star-pact-build",
-    "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": "the-shame-of-delsere-P4_Unique_Belt_02-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points"
+    "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "the-shame-of-delsere-P4_Unique_Belt_02-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+    "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": "the-shame-of-delsere-P4_Unique_Belt_02-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "the-shame-of-delsere-P4_Unique_Belt_02-lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "the-short-mans-finger-P61_Unique_Ring_01": {
     "witch-doctor-gargantuan-build-with-legacy-of-nightmares-patch-2-4-1": "the-short-mans-finger-P61_Unique_Ring_01-witch-doctor-gargantuan-build-with-legacy-of-nightmares-patch-2-4-1",
@@ -24442,7 +24766,6 @@ export const buildsByItem: BuildsByItem =
     "invoker-thorns-crusader-bis-gear-gems-paragon-points": "the-travelers-pledge-Unique_Amulet_008_x1-invoker-thorns-crusader-bis-gear-gems-paragon-points",
     "firebird-wizard-bis-gear-gems-paragon-points": "the-travelers-pledge-Unique_Amulet_008_x1-firebird-wizard-bis-gear-gems-paragon-points",
     "blessed-hammer-crusader-bis-gear-gems-paragon-points": "the-travelers-pledge-Unique_Amulet_008_x1-blessed-hammer-crusader-bis-gear-gems-paragon-points",
-    "vyr-archon-wizard-bis-gear-gems-paragon-points": "the-travelers-pledge-Unique_Amulet_008_x1-vyr-archon-wizard-bis-gear-gems-paragon-points",
     "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "the-travelers-pledge-Unique_Amulet_008_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": "the-travelers-pledge-Unique_Amulet_008_x1-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
     "meteor-wizard-bis-gear-gems-paragon-points": "the-travelers-pledge-Unique_Amulet_008_x1-meteor-wizard-bis-gear-gems-paragon-points",
@@ -24467,6 +24790,7 @@ export const buildsByItem: BuildsByItem =
   "the-twisted-sword-P610_Unique_Sword_1H_107": {
     "wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1": "the-twisted-sword-P610_Unique_Sword_1H_107-wizard-energy-twister-build-with-the-tal-rasha-set-patch-2-4-1",
     "wizard-energy-twister-build-with-the-dmo-set-patch-2-4": "the-twisted-sword-P610_Unique_Sword_1H_107-wizard-energy-twister-build-with-the-dmo-set-patch-2-4",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "the-twisted-sword-P610_Unique_Sword_1H_107-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "the-twisted-sword-P610_Unique_Sword_1H_107-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
   },
   "the-undisputed-champion-P68_Unique_BarbBelt_006": {
@@ -24504,18 +24828,15 @@ export const buildsByItem: BuildsByItem =
     "lod-corpse-lance-necromancer-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-lod-corpse-lance-necromancer-bis-gear-gems-paragon-points",
     "helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-helltooth-gargantuan-witch-doctor-bis-gear-gems-paragon-points",
     "lod-singularity-necromancer-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-lod-singularity-necromancer-bis-gear-gems-paragon-points",
-    "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
     "lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points",
     "swk-ltk-monk-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-swk-ltk-monk-bis-gear-gems-paragon-points",
     "lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-lod-carnevil-dod-witch-doctor-bis-gear-gems-paragon-points",
     "rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-rathma-skeletal-mages-necromancer-bis-gear-gems-paragon-points",
     "lod-wol-monk-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-lod-wol-monk-bis-gear-gems-paragon-points",
     "zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points",
-    "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
     "lod-blood-nova-necromancer-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
     "lod-blessed-shield-crusader-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
-    "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "the-witching-hour-Unique_Belt_009_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "shadow-impale-demon-hunter-group-progression-build": "the-witching-hour-Unique_Belt_009_x1-shadow-impale-demon-hunter-group-progression-build"
   },
   "thunderfury-blessed-blade-of-the-windseeker-Unique_Sword_1H_101_x1": {
@@ -24580,7 +24901,8 @@ export const buildsByItem: BuildsByItem =
   "triumvirate-P61_Unique_Orb_003": {
     "wizard-the-thrill-conquest-build-season-12-patch-2-6-1": "triumvirate-P61_Unique_Orb_003-wizard-the-thrill-conquest-build-season-12-patch-2-6-1",
     "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "triumvirate-P61_Unique_Orb_003-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": "triumvirate-P61_Unique_Orb_003-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points"
+    "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": "triumvirate-P61_Unique_Orb_003-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "triumvirate-P61_Unique_Orb_003-lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "typhons-abdomen-P68_Unique_Pants_Set_03": {
     "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "typhons-abdomen-P68_Unique_Pants_Set_03-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points"
@@ -24679,10 +25001,12 @@ export const buildsByItem: BuildsByItem =
     "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "unity-Unique_Ring_010_x1-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
     "corpse-lance-necromancer-bis-gear-gems-paragon-points": "unity-Unique_Ring_010_x1-corpse-lance-necromancer-bis-gear-gems-paragon-points",
     "arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points": "unity-Unique_Ring_010_x1-arachyr-firebats-witch-doctor-bis-gear-gems-paragon-points",
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "unity-Unique_Ring_010_x1-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
     "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": "unity-Unique_Ring_010_x1-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
     "jade-harvester-witch-doctor-bis-gear-gems-paragon-points": "unity-Unique_Ring_010_x1-jade-harvester-witch-doctor-bis-gear-gems-paragon-points",
     "rolands-sweep-attack-crusader-bis-gear-gems-paragon-points": "unity-Unique_Ring_010_x1-rolands-sweep-attack-crusader-bis-gear-gems-paragon-points",
     "lod-condemn-crusader-bis-gear-gems-paragon-points": "unity-Unique_Ring_010_x1-lod-condemn-crusader-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "unity-Unique_Ring_010_x1-lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
     "follower-skills-and-gearing-guide": "unity-Unique_Ring_010_x1-follower-skills-and-gearing-guide"
   },
   "unsanctified-shoulders-Unique_Shoulder_Set_03_p2": {
@@ -24696,13 +25020,18 @@ export const buildsByItem: BuildsByItem =
   "unstable-scepter-P61_Wand_norm_unique_02": {
     "wizard-the-thrill-conquest-build-season-12-patch-2-6-1": "unstable-scepter-P61_Wand_norm_unique_02-wizard-the-thrill-conquest-build-season-12-patch-2-6-1",
     "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "unstable-scepter-P61_Wand_norm_unique_02-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-    "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": "unstable-scepter-P61_Wand_norm_unique_02-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points"
+    "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points": "unstable-scepter-P61_Wand_norm_unique_02-dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "unstable-scepter-P61_Wand_norm_unique_02-lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "ursuas-trodden-effigy-P610_Unique_Mojo_001": {
     "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points": "ursuas-trodden-effigy-P610_Unique_Mojo_001-helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points"
   },
   "vallas-bequest-P43_Unique_HandXBow_005": {
     "god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points": "vallas-bequest-P43_Unique_HandXBow_005-god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points"
+  },
+  "valtheks-rebuke-P610_Unique_Staff_102": {
+    "lod-energy-twister-wizard-bis-gear-gems-paragon-points": "valtheks-rebuke-P610_Unique_Staff_102-lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+    "dmo-energy-twister-wizard-bis-gear-gems-paragon-points": "valtheks-rebuke-P610_Unique_Staff_102-dmo-energy-twister-wizard-bis-gear-gems-paragon-points"
   },
   "vambraces-of-sescheron-P4_Unique_Bracer_106": {
     "frenzy-hotns-barbarian-bis-gear-gems-paragon-points": "vambraces-of-sescheron-P4_Unique_Bracer_106-frenzy-hotns-barbarian-bis-gear-gems-paragon-points",
@@ -24819,10 +25148,18 @@ export const buildsByItem: BuildsByItem =
   "windforce-Unique_Bow_009_x1": {
     "follower-skills-and-gearing-guide": "windforce-Unique_Bow_009_x1-follower-skills-and-gearing-guide"
   },
+  "winter-flurry-P610_Unique_Orb_005": {
+    "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points": "winter-flurry-P610_Unique_Orb_005-lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+    "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points": "winter-flurry-P610_Unique_Orb_005-typhon-frost-hydra-wizard-bis-gear-gems-paragon-points"
+  },
   "wisdom-of-kalan-P6_Unique_Amulet_03": {
     "inarius-corpse-explosion-necromancer-speed-farming-build": "wisdom-of-kalan-P6_Unique_Amulet_03-inarius-corpse-explosion-necromancer-speed-farming-build",
     "lod-blood-nova-necromancer-bis-gear-gems-paragon-points": "wisdom-of-kalan-P6_Unique_Amulet_03-lod-blood-nova-necromancer-bis-gear-gems-paragon-points",
     "inarius-bone-storm-necromancer-bis-gear-gems-paragon-points": "wisdom-of-kalan-P6_Unique_Amulet_03-inarius-bone-storm-necromancer-bis-gear-gems-paragon-points"
+  },
+  "wizardspike-P610_Unique_Dagger_010": {
+    "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points": "wizardspike-P610_Unique_Dagger_010-dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+    "lod-frozen-orb-wizard-bis-gear-gems-paragon-points": "wizardspike-P610_Unique_Dagger_010-lod-frozen-orb-wizard-bis-gear-gems-paragon-points"
   },
   "wojahnni-assaulter-P65_Unique_Xbow_102": {
     "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points": "wojahnni-assaulter-P65_Unique_Xbow_102-lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",

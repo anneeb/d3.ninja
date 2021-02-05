@@ -1,4 +1,4 @@
-// Last updated on 11/19/2020, 10:41:57 PM
+// Last updated on 2/4/2021, 9:14:20 PM
 
 import { RawItemData } from "./types";
 
@@ -63,9 +63,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "vyr-archon-wizard-speed-farming-build",
-        "label": "Vyr Archon Wizard",
-        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-speed-farming-build",
+        "id": "explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
+        "label": "Explosive Blast Farming Wizard",
+        "link": "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
         "tags": "Cube"
       },
       {
@@ -222,7 +222,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
         "label": "LoD Mammoth Hydra Wizard",
         "link": "https://www.icy-veins.com/d3/lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "Alt"
       },
       {
         "id": "lod-spirit-barrage-witch-doctor-group-progression-build",
@@ -537,6 +537,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube + 1 variation"
       },
       {
+        "id": "explosive-blast-farming-wizard-greater-rifting-build",
+        "label": "Explosive Blast Farming Wizard",
+        "link": "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-greater-rifting-build",
+        "tags": "Cube"
+      },
+      {
         "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Thorns Skeletons Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
@@ -591,6 +597,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
         "label": "Natalya Rain of Vengeance Demon Hunter",
         "link": "https://www.icy-veins.com/d3/natalya-rain-of-vengeance-demon-hunter-bis-gear-gems-paragon-points",
@@ -630,6 +642,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Skeletons Group Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -801,6 +819,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "DMO Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "meteor-wizard-tal-rasha-build",
         "label": "Meteor Wizard",
         "link": "https://www.icy-veins.com/d3/meteor-wizard-tal-rasha-build",
@@ -810,6 +834,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
         "label": "Typhon Frost Hydra Wizard",
         "link": "https://www.icy-veins.com/d3/typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS"
       }
     ]
@@ -1023,6 +1059,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "masquerade-bone-spear-necromancer-key-farming-build",
+        "label": "Masquerade Bone Spear Necromancer",
+        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build",
+        "tags": "BiS"
+      },
+      {
         "id": "helltooth-acid-cloud-witch-doctor-speed-farming-build",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-speed-farming-build",
@@ -1059,9 +1101,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "vyr-archon-wizard-speed-farming-build",
+        "id": "vyr-archon-wizard-nephalem-rift-speed-farming-build",
         "label": "Vyr Archon Wizard",
-        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-speed-farming-build",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-nephalem-rift-speed-farming-build",
         "tags": "BiS"
       },
       {
@@ -2091,6 +2133,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
+        "label": "Vyr Archon Wizard",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      },
+      {
         "id": "poj-tempest-rush-monk-bis-gear-gems-paragon-points",
         "label": "PoJ Tempest Rush Monk",
         "link": "https://www.icy-veins.com/d3/poj-tempest-rush-monk-bis-gear-gems-paragon-points",
@@ -2233,6 +2281,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Invoker Thorns Crusader",
         "link": "https://www.icy-veins.com/d3/invoker-thorns-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
+        "label": "Vyr Archon Wizard",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "helltooth-zombie-bears-witch-doctor-bis-gear-gems-paragon-points",
@@ -2412,7 +2466,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + 2 variations"
       }
     ]
   },
@@ -2436,7 +2490,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + 2 variations"
       }
     ]
   },
@@ -2539,6 +2593,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Support Crusader",
         "link": "https://www.icy-veins.com/d3/zdps-crusader-support-build-with-cain-and-born-sets-patch-2-4",
         "tags": "Cube outdated"
+      },
+      {
+        "id": "wizard-firebird-set-dungeon-guide",
+        "label": "Wizard Firebird Set Dungeon Guide",
+        "link": "https://www.icy-veins.com/d3/wizard-firebird-set-dungeon-guide",
+        "tags": "BiS"
       },
       {
         "id": "barbarian-the-thrill-conquest-build-season-12-patch-2-6-1",
@@ -2988,7 +3048,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
         "label": "Masquerade Bone Spear Necromancer",
         "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS"
       },
       {
         "id": "helltooth-acid-cloud-witch-doctor-bis-gear-gems-paragon-points",
@@ -3021,10 +3081,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "explosive-blast-farming-wizard-greater-rifting-build",
+        "label": "Explosive Blast Farming Wizard",
+        "link": "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-greater-rifting-build",
+        "tags": "Cube"
+      },
+      {
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "generator-necromancer-bis-gear-gems-paragon-points",
@@ -3159,6 +3225,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt + Cube"
       },
       {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
         "label": "Unhallowed Essence Multishot Demon Hunter",
         "link": "https://www.icy-veins.com/d3/unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
@@ -3261,6 +3333,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points",
         "label": "Frenzy Thorns LoN Barbarian",
         "link": "https://www.icy-veins.com/d3/frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points",
@@ -3319,6 +3397,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Wizard DMO Set Dungeon Guide",
         "link": "https://www.icy-veins.com/d3/wizard-dmo-set-dungeon-guide",
         "tags": "BiS"
+      },
+      {
+        "id": "vyr-archon-wizard-nephalem-rift-speed-farming-build",
+        "label": "Vyr Archon Wizard",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-nephalem-rift-speed-farming-build",
+        "tags": "Cube"
       }
     ]
   },
@@ -3852,7 +3936,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
         "label": "LoD Mammoth Hydra Wizard",
         "link": "https://www.icy-veins.com/d3/lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "Cube"
       },
       {
         "id": "lod-star-pact-wizard-bis-gear-gems-paragon-points",
@@ -3870,13 +3954,25 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
         "label": "Typhon Frost Hydra Wizard",
         "link": "https://www.icy-veins.com/d3/typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "Cube"
+      },
+      {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
         "label": "DMO Energy Twister Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "Cube"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       }
     ]
   },
@@ -4099,6 +4195,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Zuni Carnevil Poison Dart Witch Doctor",
         "link": "https://www.icy-veins.com/d3/zuni-carnevil-poison-dart-witch-doctor-bis-gear-gems-paragon-points",
         "tags": "Cube + 1 variation"
+      },
+      {
+        "id": "vyr-archon-wizard-greater-rift-speed-farming-build",
+        "label": "Vyr Archon Wizard",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-greater-rift-speed-farming-build",
+        "tags": "Cube"
       },
       {
         "id": "generator-necromancer-speed-farming-build",
@@ -4347,18 +4449,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS outdated"
       },
       {
-        "id": "wizard-firebird-set-dungeon-guide",
-        "label": "Wizard Firebird Set Dungeon Guide",
-        "link": "https://www.icy-veins.com/d3/wizard-firebird-set-dungeon-guide",
-        "tags": "BiS"
-      },
-      {
-        "id": "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-        "label": "LoD Mammoth Hydra Wizard",
-        "link": "https://www.icy-veins.com/d3/lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
         "id": "lod-star-pact-wizard-bis-gear-gems-paragon-points",
         "label": "LoD Star Pact Wizard",
         "link": "https://www.icy-veins.com/d3/lod-star-pact-wizard-bis-gear-gems-paragon-points",
@@ -4371,9 +4461,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS + 3 variations"
       },
       {
-        "id": "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-        "label": "Typhon Frost Hydra Wizard",
-        "link": "https://www.icy-veins.com/d3/typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -4506,7 +4596,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + Cube + 3 variations"
       },
       {
         "id": "lightning-archon-wizard-bis-gear-gems-paragon-points",
@@ -4599,12 +4689,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     "link": "https://us.diablo3.com/en/item/firebirds-breast-Unique_Chest_Set_06_x1",
     "buildsData": [
       {
-        "id": "wizard-firebird-set-dungeon-guide",
-        "label": "Wizard Firebird Set Dungeon Guide",
-        "link": "https://www.icy-veins.com/d3/wizard-firebird-set-dungeon-guide",
-        "tags": "BiS"
-      },
-      {
         "id": "firebird-wizard-bis-gear-gems-paragon-points",
         "label": "Firebird Wizard",
         "link": "https://www.icy-veins.com/d3/firebird-wizard-bis-gear-gems-paragon-points",
@@ -4639,6 +4723,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Meteor Wizard",
         "link": "https://www.icy-veins.com/d3/meteor-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS + 2 variations"
+      }
+    ]
+  },
+  {
+    "label": "Firebird's Eye",
+    "link": "https://us.diablo3.com/en/item/firebirds-eye-Unique_Orb_Set_06_x1",
+    "buildsData": [
+      {
+        "id": "wizard-firebird-set-dungeon-guide",
+        "label": "Wizard Firebird Set Dungeon Guide",
+        "link": "https://www.icy-veins.com/d3/wizard-firebird-set-dungeon-guide",
+        "tags": "BiS"
       }
     ]
   },
@@ -5215,6 +5311,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Lightning Arcane Torrent Wizard",
         "link": "https://www.icy-veins.com/d3/lightning-arcane-torrent-wizard-spectral-blade-build",
         "tags": "BiS"
+      },
+      {
+        "id": "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Mammoth Hydra Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+        "label": "Typhon Frost Hydra Wizard",
+        "link": "https://www.icy-veins.com/d3/typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       }
     ]
   },
@@ -5715,9 +5823,9 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
-        "id": "vyr-archon-wizard-speed-farming-build",
+        "id": "vyr-archon-wizard-nephalem-rift-speed-farming-build",
         "label": "Vyr Archon Wizard",
-        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-speed-farming-build",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-nephalem-rift-speed-farming-build",
         "tags": "Cube"
       },
       {
@@ -6111,6 +6219,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
+        "label": "Vyr Archon Wizard",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS + 1 variation"
+      },
+      {
         "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
         "label": "DMO Frozen Orb Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
@@ -6141,10 +6255,22 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
         "label": "DMO Energy Twister Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
         "tags": "Alt + Cube"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       }
     ]
   },
@@ -7065,16 +7191,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-        "label": "LoD Mammoth Hydra Wizard",
-        "link": "https://www.icy-veins.com/d3/lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-        "tags": "Alt"
-      },
-      {
         "id": "meteor-wizard-bis-gear-gems-paragon-points",
         "label": "Meteor Wizard",
         "link": "https://www.icy-veins.com/d3/meteor-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
+      },
+      {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       },
       {
         "id": "dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
@@ -7305,6 +7431,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points",
         "label": "Frenzy Thorns LoN Barbarian",
         "link": "https://www.icy-veins.com/d3/frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points",
@@ -7503,12 +7641,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-        "label": "DMO Frozen Orb Wizard",
-        "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-        "tags": "Cube"
-      },
-      {
         "id": "lon-bombardment-crusader-speed-farming-build",
         "label": "LoN Bombardment Crusader",
         "link": "https://www.icy-veins.com/d3/lon-bombardment-crusader-speed-farming-build",
@@ -7545,10 +7677,22 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "DMO Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Skeletons Group Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "frenzy-thorns-lon-barbarian-bis-gear-gems-paragon-points",
@@ -8139,12 +8283,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "masquerade-bone-spear-necromancer-key-farming-build",
-        "label": "Masquerade Bone Spear Necromancer",
-        "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-key-farming-build",
-        "tags": "Cube"
-      },
-      {
         "id": "helltooth-acid-cloud-witch-doctor-speed-farming-build",
         "label": "Helltooth Acid Cloud Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-acid-cloud-witch-doctor-speed-farming-build",
@@ -8172,12 +8310,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
         "label": "Explosive Blast Farming Wizard",
         "link": "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "tags": "Cube + 1 variation"
       },
       {
-        "id": "vyr-archon-wizard-speed-farming-build",
+        "id": "vyr-archon-wizard-nephalem-rift-speed-farming-build",
         "label": "Vyr Archon Wizard",
-        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-speed-farming-build",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-nephalem-rift-speed-farming-build",
         "tags": "Cube"
       },
       {
@@ -8919,6 +9057,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
+        "id": "dmo-arcane-orbit-wizard-speed-farming-build",
+        "label": "DMO Arcane Orbit Wizard",
+        "link": "https://www.icy-veins.com/d3/dmo-arcane-orbit-wizard-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
         "id": "chakram-demon-hunter-speed-farming-build",
         "label": "Chakram Demon Hunter",
         "link": "https://www.icy-veins.com/d3/chakram-demon-hunter-speed-farming-build",
@@ -9555,6 +9699,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "support-barbarian-speed-farming-build",
         "label": "Support Barbarian",
         "link": "https://www.icy-veins.com/d3/support-barbarian-speed-farming-build",
@@ -9972,7 +10122,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
         "label": "Masquerade Bone Spear Necromancer",
         "link": "https://www.icy-veins.com/d3/masquerade-bone-spear-necromancer-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
+        "tags": "Cube + 2 variations"
       }
     ]
   },
@@ -10149,6 +10299,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube + 1 variation"
       },
       {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points",
         "label": "Whirlwind GR Wastes Barbarian",
         "link": "https://www.icy-veins.com/d3/whirlwind-gr-wastes-barbarian-bis-gear-gems-paragon-points",
@@ -10173,10 +10329,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
-        "label": "DMO Energy Twister Wizard",
-        "link": "https://www.icy-veins.com/d3/dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       }
     ]
   },
@@ -10614,6 +10770,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "hota-raekor-barbarian-speed-farming-build",
         "label": "HotA Raekor Barbarian",
         "link": "https://www.icy-veins.com/d3/hota-raekor-barbarian-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "vyr-archon-wizard-greater-rift-speed-farming-build",
+        "label": "Vyr Archon Wizard",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-greater-rift-speed-farming-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "vyr-archon-wizard-nephalem-rift-speed-farming-build",
+        "label": "Vyr Archon Wizard",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-nephalem-rift-speed-farming-build",
         "tags": "Cube"
       },
       {
@@ -11319,9 +11487,15 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "vyr-archon-wizard-speed-farming-build",
+        "id": "vyr-archon-wizard-greater-rift-speed-farming-build",
         "label": "Vyr Archon Wizard",
-        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-speed-farming-build",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-greater-rift-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
+        "id": "vyr-archon-wizard-nephalem-rift-speed-farming-build",
+        "label": "Vyr Archon Wizard",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-nephalem-rift-speed-farming-build",
         "tags": "BiS"
       },
       {
@@ -11739,10 +11913,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube + 1 variation"
       },
       {
-        "id": "vyr-archon-wizard-speed-farming-build",
+        "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
-        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-speed-farming-build",
-        "tags": "BiS"
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       },
       {
         "id": "lightning-archon-wizard-bis-gear-gems-paragon-points",
@@ -11923,18 +12097,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Explosive Blast Farming Wizard",
         "link": "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS + 1 variation"
-      },
-      {
-        "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "label": "Vyr Archon Wizard",
-        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "Cube"
-      },
-      {
-        "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-        "label": "DMO Frozen Orb Wizard",
-        "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-        "tags": "Alt + Cube"
       },
       {
         "id": "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
@@ -12451,6 +12613,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Multishot Marauder Demon Hunter",
         "link": "https://www.icy-veins.com/d3/multishot-marauder-demon-hunter-speed-farming-build",
         "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       }
     ]
   },
@@ -12681,10 +12849,22 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "DMO Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
         "id": "meteor-wizard-speed-farming-build",
         "label": "Meteor Wizard",
         "link": "https://www.icy-veins.com/d3/meteor-wizard-speed-farming-build",
         "tags": "BiS"
+      },
+      {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "Alt + Cube"
       },
       {
         "id": "dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
@@ -13581,10 +13761,10 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
-        "id": "vyr-archon-wizard-speed-farming-build",
+        "id": "vyr-archon-wizard-nephalem-rift-speed-farming-build",
         "label": "Vyr Archon Wizard",
-        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-speed-farming-build",
-        "tags": "Cube"
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-nephalem-rift-speed-farming-build",
+        "tags": "BiS + Cube"
       },
       {
         "id": "generator-necromancer-bis-gear-gems-paragon-points",
@@ -14514,7 +14694,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
         "label": "LoD Mammoth Hydra Wizard",
         "link": "https://www.icy-veins.com/d3/lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "tags": "BiS"
       },
       {
         "id": "lightning-archon-wizard-group-progression-build",
@@ -14526,7 +14706,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
         "label": "Typhon Frost Hydra Wizard",
         "link": "https://www.icy-veins.com/d3/typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "tags": "BiS"
       }
     ]
   },
@@ -15150,7 +15330,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "helltooth-zombie-bears-witch-doctor-speed-farming-build",
@@ -15213,6 +15393,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
         "label": "Unhallowed Essence Multishot Demon Hunter",
         "link": "https://www.icy-veins.com/d3/unhallowed-essence-multishot-demon-hunter-bis-gear-gems-paragon-points",
@@ -15228,6 +15414,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Skeletons Group Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -15471,6 +15663,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube + 1 variation"
       },
       {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
         "label": "LoD Rapid Fire Demon Hunter",
         "link": "https://www.icy-veins.com/d3/lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
@@ -15492,6 +15690,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-condemn-crusader-bis-gear-gems-paragon-points",
         "label": "LoD Condemn Crusader",
         "link": "https://www.icy-veins.com/d3/lod-condemn-crusader-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS"
       }
     ]
@@ -15915,12 +16119,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt"
       },
       {
-        "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-        "label": "DMO Frozen Orb Wizard",
-        "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
         "id": "lon-bombardment-crusader-bis-gear-gems-paragon-points",
         "label": "LoN Bombardment Crusader",
         "link": "https://www.icy-veins.com/d3/lon-bombardment-crusader-bis-gear-gems-paragon-points",
@@ -16269,6 +16467,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
         "label": "LoD Rapid Fire Demon Hunter",
         "link": "https://www.icy-veins.com/d3/lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
@@ -16284,6 +16488,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Skeletons Group Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-skeletons-group-necromancer-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -17061,12 +17271,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "label": "Vyr Archon Wizard",
-        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
         "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
         "label": "DMO Frozen Orb Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
@@ -17487,6 +17691,18 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "vyr-archon-wizard-greater-rift-speed-farming-build",
+        "label": "Vyr Archon Wizard",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-greater-rift-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
+        "id": "vyr-archon-wizard-nephalem-rift-speed-farming-build",
+        "label": "Vyr Archon Wizard",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-nephalem-rift-speed-farming-build",
+        "tags": "BiS"
+      },
+      {
         "id": "lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
         "label": "LoD Thorns Skeletons Necromancer",
         "link": "https://www.icy-veins.com/d3/lod-thorns-skeletons-necromancer-bis-gear-gems-paragon-points",
@@ -17718,6 +17934,24 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "blessed-hammer-crusader-bis-gear-gems-paragon-points",
         "label": "Blessed Hammer Crusader",
         "link": "https://www.icy-veins.com/d3/blessed-hammer-crusader-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "explosive-blast-farming-wizard-greater-rifting-build",
+        "label": "Explosive Blast Farming Wizard",
+        "link": "https://www.icy-veins.com/d3/explosive-blast-farming-wizard-greater-rifting-build",
+        "tags": "Cube"
+      },
+      {
+        "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
+        "label": "Vyr Archon Wizard",
+        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "DMO Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
         "tags": "Cube"
       },
       {
@@ -18135,10 +18369,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Mammoth Hydra Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
         "label": "DMO Frozen Orb Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-        "tags": "Cube"
+        "tags": "BiS"
       },
       {
         "id": "meteor-wizard-star-pact-build",
@@ -18147,9 +18387,21 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
+        "id": "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+        "label": "Typhon Frost Hydra Wizard",
+        "link": "https://www.icy-veins.com/d3/typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
         "label": "DMO Arcane Orbit Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS"
       }
     ]
@@ -18306,7 +18558,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "Cube + 1 variation"
+        "tags": "Cube + 2 variations"
       },
       {
         "id": "lightning-archon-wizard-bis-gear-gems-paragon-points",
@@ -18489,12 +18741,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "label": "Vyr Archon Wizard",
-        "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
         "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
         "label": "DMO Frozen Orb Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
@@ -18633,10 +18879,16 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS outdated"
       },
       {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
         "id": "dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
         "label": "DMO Energy Twister Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
-        "tags": "Alt + Cube"
+        "tags": "BiS"
       }
     ]
   },
@@ -18837,12 +19089,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Alt + 1 variation"
       },
       {
-        "id": "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-        "label": "LoD Mammoth Hydra Wizard",
-        "link": "https://www.icy-veins.com/d3/lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
         "id": "lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points",
         "label": "LoD Spirit Barrage Witch Doctor",
         "link": "https://www.icy-veins.com/d3/lod-spirit-barrage-witch-doctor-bis-gear-gems-paragon-points",
@@ -18879,12 +19125,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "BiS"
       },
       {
-        "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-        "label": "DMO Frozen Orb Wizard",
-        "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
         "id": "helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
         "label": "Helltooth Grasp Witch Doctor",
         "link": "https://www.icy-veins.com/d3/helltooth-grasp-witch-doctor-bis-gear-gems-paragon-points",
@@ -18900,12 +19140,6 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
         "label": "LoD Blessed Shield Crusader",
         "link": "https://www.icy-veins.com/d3/lod-blessed-shield-crusader-bis-gear-gems-paragon-points",
-        "tags": "BiS"
-      },
-      {
-        "id": "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-        "label": "Typhon Frost Hydra Wizard",
-        "link": "https://www.icy-veins.com/d3/typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS"
       },
       {
@@ -19231,6 +19465,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "DMO Arcane Orbit Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       }
     ]
   },
@@ -19254,7 +19494,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
         "label": "Typhon Frost Hydra Wizard",
         "link": "https://www.icy-veins.com/d3/typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "Alt"
       }
     ]
   },
@@ -19719,6 +19959,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "tags": "Cube"
       },
       {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "Alt + Cube"
+      },
+      {
         "id": "lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
         "label": "LoD Rapid Fire Demon Hunter",
         "link": "https://www.icy-veins.com/d3/lod-rapid-fire-demon-hunter-bis-gear-gems-paragon-points",
@@ -19741,6 +19987,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "LoD Condemn Crusader",
         "link": "https://www.icy-veins.com/d3/lod-condemn-crusader-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "Alt + Cube"
       },
       {
         "id": "follower-skills-and-gearing-guide",
@@ -19813,6 +20065,12 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "DMO Arcane Orbit Wizard",
         "link": "https://www.icy-veins.com/d3/dmo-arcane-orbit-wizard-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
       }
     ]
   },
@@ -19837,6 +20095,24 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "GoD Hungering Arrow Demon Hunter",
         "link": "https://www.icy-veins.com/d3/god-hungering-arrow-demon-hunter-bis-gear-gems-paragon-points",
         "tags": "BiS"
+      }
+    ]
+  },
+  {
+    "label": "Valthek's Rebuke",
+    "link": "https://us.diablo3.com/en/item/valtheks-rebuke-P610_Unique_Staff_102",
+    "buildsData": [
+      {
+        "id": "lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "label": "DMO Energy Twister Wizard",
+        "link": "https://www.icy-veins.com/d3/dmo-energy-twister-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       }
     ]
   },
@@ -20076,7 +20352,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + 2 variations"
       },
       {
         "id": "lightning-archon-wizard-bis-gear-gems-paragon-points",
@@ -20100,7 +20376,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + 2 variations"
       },
       {
         "id": "lightning-archon-wizard-bis-gear-gems-paragon-points",
@@ -20124,7 +20400,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + 2 variations"
       },
       {
         "id": "lightning-archon-wizard-bis-gear-gems-paragon-points",
@@ -20148,7 +20424,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + 2 variations"
       },
       {
         "id": "lightning-archon-wizard-bis-gear-gems-paragon-points",
@@ -20172,7 +20448,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS"
+        "tags": "BiS + 1 variation"
       },
       {
         "id": "lightning-archon-wizard-bis-gear-gems-paragon-points",
@@ -20196,7 +20472,7 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "id": "vyr-archon-wizard-bis-gear-gems-paragon-points",
         "label": "Vyr Archon Wizard",
         "link": "https://www.icy-veins.com/d3/vyr-archon-wizard-bis-gear-gems-paragon-points",
-        "tags": "BiS + 1 variation"
+        "tags": "BiS + 2 variations"
       },
       {
         "id": "lightning-archon-wizard-bis-gear-gems-paragon-points",
@@ -20405,6 +20681,24 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
     ]
   },
   {
+    "label": "Winter Flurry",
+    "link": "https://us.diablo3.com/en/item/winter-flurry-P610_Unique_Orb_005",
+    "buildsData": [
+      {
+        "id": "lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Mammoth Hydra Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-mammoth-hydra-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      },
+      {
+        "id": "typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+        "label": "Typhon Frost Hydra Wizard",
+        "link": "https://www.icy-veins.com/d3/typhon-frost-hydra-wizard-bis-gear-gems-paragon-points",
+        "tags": "BiS"
+      }
+    ]
+  },
+  {
     "label": "Wisdom of Kalan",
     "link": "https://us.diablo3.com/en/item/wisdom-of-kalan-P6_Unique_Amulet_03",
     "buildsData": [
@@ -20425,6 +20719,24 @@ export const RAW_SALVAGE_GUIDE: RawItemData[] =
         "label": "Inarius Bone Storm Necromancer",
         "link": "https://www.icy-veins.com/d3/inarius-bone-storm-necromancer-bis-gear-gems-paragon-points",
         "tags": "Cube + 1 variation"
+      }
+    ]
+  },
+  {
+    "label": "Wizardspike",
+    "link": "https://us.diablo3.com/en/item/wizardspike-P610_Unique_Dagger_010",
+    "buildsData": [
+      {
+        "id": "dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "DMO Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/dmo-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
+      },
+      {
+        "id": "lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "label": "LoD Frozen Orb Wizard",
+        "link": "https://www.icy-veins.com/d3/lod-frozen-orb-wizard-bis-gear-gems-paragon-points",
+        "tags": "Cube"
       }
     ]
   },

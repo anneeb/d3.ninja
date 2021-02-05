@@ -1,8 +1,9 @@
 import fetch from "node-fetch";
 import { URL } from "url";
 import { ClientCredentials } from "simple-oauth2";
-import * as ora from "ora";
-import * as path from "path";
+import ora from "ora";
+import path from "path";
+import isEqual from "lodash.isequal";
 
 import {
   ItemSlot,
@@ -15,6 +16,7 @@ import {
   BuildsByItem,
 } from "./output/types";
 import { RAW_SALVAGE_GUIDE } from "./output/raw-salvage-guide";
+import * as salvageGuide from "./output/salvage-guide";
 import { saveFileToDirectory } from "./utils/fileSystem";
 
 const SAVE_DIR = path.resolve(__dirname, "output");
@@ -244,7 +246,16 @@ async function parse() {
   try {
     console.log("Parsing salvage guide...");
     const parsed = await getParsed();
-
+    if (
+      isEqual(parsed.itemsById, salvageGuide.itemsById) &&
+      isEqual(parsed.buildsById, salvageGuide.buildsById) &&
+      isEqual(parsed.tagsById, salvageGuide.tagsById) &&
+      isEqual(parsed.itemsByBuild, salvageGuide.itemsByBuild) &&
+      isEqual(parsed.buildsByItem, salvageGuide.buildsByItem)
+    ) {
+      console.log("No updates");
+      return;
+    }
     const target = await saveFile(parsed);
     console.log(`Saved salvage guide to ${target}`);
   } catch (err) {
