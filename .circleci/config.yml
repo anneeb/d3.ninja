@@ -1,0 +1,138 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@4.0.0
+
+executors:
+  node-executor:
+    docker:
+      - image: circleci/node:14.15.0-stretch
+  node-browsers-executor:
+    docker:
+      - image: circleci/node:14.15.0-stretch-browsers
+
+jobs:
+  build:
+    executor: node-executor
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - dependency-cache-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - dependency-cache-develop-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Node Modules
+          command: yarn
+      - save_cache:
+          key: dependency-cache-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths:
+            - ./node_modules
+      - persist_to_workspace:
+          root: .
+          paths:
+            - ./
+
+  update:
+    executor: node-browsers-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Update Salvage Guide
+          command: yarn salvage-guide
+      - persist_to_workspace:
+          root: .
+          paths:
+            - ./
+
+  compile:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Compile Application
+          command: yarn build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - ./
+
+  auto_commit:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Auto Commit
+          command: |
+            diff=$(git diff)
+            if [[ $diff = '' ]]
+            then 
+              echo 'No updates'
+              exit 1
+            fi
+            git config user.email ahuang852@gmail.com
+            git config user.name anneeb
+            git checkout -b temp origin/main
+            git add -A
+            git commit -m "circleci: update [ci skip]"
+            git push origin temp:main
+
+  distribute:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Distribute to d3.ninja
+          command: |
+            diff=$(git diff)
+            if [[ $diff = '' ]]
+            then 
+              echo 'No updates'
+              exit 1
+            fi
+            zip -r dist.zip dist
+            scp -oStrictHostKeyChecking=no dist.zip root@cryptopocalyp.se:~/dist.zip
+            ssh -oStrictHostKeyChecking=no root@cryptopocalyp.se "deploy && exit"
+      - store_artifacts:
+          path: ./dist.zip
+
+workflows:
+  compile_and_distribute:
+    jobs:
+      - build
+      - compile:
+          requires:
+            - build
+      - distribute:
+          filters:
+            branches:
+              only:
+                - main
+          requires:
+            - compile
+
+  scheduled_update_and_distribute:
+    triggers:
+      - schedule:
+          cron: "0 0 * * 2"
+          filters:
+            branches:
+              only:
+                - main
+    jobs:
+      - build
+      - update:
+          requires:
+            - build
+      - compile:
+          requires:
+            - update
+      - auto_commit:
+          requires:
+            - compile
+      - distribute:
+          requires:
+            - compile
