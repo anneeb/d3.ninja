@@ -32,7 +32,7 @@ jobs:
           paths:
             - ./
 
-  update:
+  update_salvage_guide:
     executor: node-browsers-executor
     steps:
       - attach_workspace:
@@ -44,6 +44,21 @@ jobs:
           root: .
           paths:
             - ./
+
+  detect_file_updates:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: Check for file updates
+          command: |
+            diff=$(git diff)
+            if [[ $diff = '' ]]
+            then 
+              echo 'No updates'
+              exit 1
+            fi
 
   compile:
     executor: node-executor
@@ -66,12 +81,6 @@ jobs:
       - run:
           name: Auto Commit
           command: |
-            diff=$(git diff)
-            if [[ $diff = '' ]]
-            then 
-              echo 'No updates'
-              exit 1
-            fi
             git config user.email ahuang852@gmail.com
             git config user.name anneeb
             git checkout -b temp origin/main
@@ -87,12 +96,6 @@ jobs:
       - run:
           name: Distribute to d3.ninja
           command: |
-            diff=$(git diff)
-            if [[ $diff = '' ]]
-            then 
-              echo 'No updates'
-              exit 1
-            fi
             zip -r dist.zip dist
             scp -oStrictHostKeyChecking=no dist.zip root@cryptopocalyp.se:~/dist.zip
             ssh -oStrictHostKeyChecking=no root@cryptopocalyp.se "deploy && exit"
@@ -124,12 +127,15 @@ workflows:
                 - main
     jobs:
       - build
-      - update:
+      - update_salvage_guide:
+          requires:
+            - build
+      - detect_file_updates:
           requires:
             - build
       - compile:
           requires:
-            - update
+            - detect_file_updates
       - auto_commit:
           requires:
             - compile
