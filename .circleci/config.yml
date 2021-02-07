@@ -54,10 +54,10 @@ jobs:
           name: Check for file updates
           command: |
             diff=$(git diff)
-            if [[ $diff = '' ]]
+            if [[ $diff = "" ]]
             then 
-              echo 'No updates'
-              exit 1
+              echo "No updates"
+              curl -X POST https://circleci.com/api/v2/workflow/${CIRCLE_WORKFLOW_ID}/cancel -H "Circle-Token: ${CIRCLE_TOKEN}"
             fi
 
   compile:
@@ -120,7 +120,7 @@ workflows:
   scheduled_update_and_distribute:
     triggers:
       - schedule:
-          cron: "0 0 * * 2"
+          cron: "0 12 * * *"
           filters:
             branches:
               only:
@@ -132,7 +132,7 @@ workflows:
             - build
       - detect_file_updates:
           requires:
-            - build
+            - update_salvage_guide
       - compile:
           requires:
             - detect_file_updates
