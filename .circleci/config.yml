@@ -103,42 +103,42 @@ jobs:
           path: ./dist.zip
 
 workflows:
-  compile_and_distribute:
-    jobs:
-      - build
-      - compile:
-          requires:
-            - build
-      - distribute:
-          filters:
-            branches:
-              only:
-                - main
-          requires:
-            - compile
+  # compile_and_distribute:
+  #   jobs:
+  #     - build
+  #     - compile:
+  #         requires:
+  #           - build
+  #     - distribute:
+  #         filters:
+  #           branches:
+  #             only:
+  #               - main
+  #         requires:
+  #           - compile
 
-  scheduled_update_and_distribute:
-    triggers:
-      - schedule:
-          cron: "0 12 * * *"
-          filters:
-            branches:
-              only:
-                - main
-    jobs:
-      - build
-      - update_salvage_guide:
-          requires:
-            - build
-      - detect_file_updates:
-          requires:
-            - update_salvage_guide
-      - compile:
-          requires:
-            - detect_file_updates
-      - auto_commit:
-          requires:
-            - compile
-      - distribute:
-          requires:
-            - compile
+  # scheduled_update_and_distribute:
+  #   triggers:
+  #     - schedule:
+  #         cron: "0 12 * * *"
+  #         filters:
+  #           branches:
+  #             only:
+  #               - main
+  #   jobs:
+  #     - build
+  #     - update_salvage_guide:
+  #         requires:
+  #           - build
+  #     - detect_file_updates:
+  #         requires:
+  #           - update_salvage_guide
+  #     - compile:
+  #         requires:
+  #           - detect_file_updates
+  #     - auto_commit:
+  #         requires:
+  #           - compile
+  #     - distribute:
+  #         requires:
+  #           - compile
