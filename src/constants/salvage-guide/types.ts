@@ -29,10 +29,9 @@ export enum ItemSlot {
   "RIGHT_HAND" = "right-hand",
 
   "FOLLOWER_SPECIAL" = "follower-special",
-  "CUBE" = "cube",
 }
 
-export enum ItemCubeSlot {
+export enum CubeItemSlot {
   "ARMOR" = "armor",
   "WEAPON" = "weapon",
   "JEWELRY" = "jewelry",
@@ -52,6 +51,8 @@ export interface ItemsById {
   [id: string]: Item;
 }
 
+export const FOLLOWER_GUIDE_ID = "follower-skills-and-gearing-guide";
+
 export enum BuildCharacter {
   "BARBARIAN" = "Barbarian",
   "CRUSADER" = "Crusader",
@@ -61,8 +62,16 @@ export enum BuildCharacter {
   "WITCH_DOCTOR" = "Witch Doctor",
   "WIZARD" = "Wizard",
 
-  "FOLLOWER" = "Follower",
+  "ENCHANTRESS" = "Enchantress",
+  "SCOUNDREL" = "Scoundrel",
+  "TEMPLAR" = "Templar",
 }
+
+export const BuildFollowers = [
+  BuildCharacter.ENCHANTRESS,
+  BuildCharacter.SCOUNDREL,
+  BuildCharacter.TEMPLAR,
+];
 
 export interface Build {
   id: string;
@@ -81,10 +90,6 @@ export enum BuildItemTag {
   "CUBE" = "Cube",
   "OUTDATED" = "outdated",
   "VARIATION" = "variation",
-
-  "ENCHANTRESS" = "Enchantress",
-  "SCOUNDREL" = "Scoundrel",
-  "TEMPLAR" = "Templar",
 }
 
 export interface BuildsByItem {

@@ -1,19 +1,52 @@
-import { Component, OnInit } from "@angular/core";
-import {
-  BuildItemMap,
-  GearItems,
-  ItemFollowerTag,
-  itemFollowerTags,
-  heroItemSlots,
-} from "constants/builds";
-import { StashItem } from "constants/stash";
-import { ItemSlot, BuildItemTag } from "constants/salvage-guide/types";
-import { BuildsService } from "app/services/builds.service";
-import { UiService } from "app/services/ui.service";
 import {
   BuildInfoItem,
   BuildInfoSlot,
 } from "app/components/build-info-slots/build-info-slots.component";
+import { BuildsService } from "app/services/builds.service";
+import { UiService } from "app/services/ui.service";
+import {
+  BuildItemMap,
+  characterItemSlots,
+  CubeItems,
+  followerItemSlots,
+  GearItems,
+} from "constants/builds";
+import { StashItem } from "constants/stash";
+
+import { Component, OnInit } from "@angular/core";
+
+const getBuildInfoItems = (
+  items: GearItems | CubeItems,
+  isCube: boolean = false
+) => {
+  return Object.entries(items).reduce<{ [itemId: string]: BuildInfoItem }>(
+    (acc, [itemTag, itemIds]) => {
+      itemIds.forEach((itemId) => {
+        if (!acc[itemId]) {
+          acc[itemId] = {
+            id: itemId,
+            tags: [],
+            isCube,
+            isItemSelected: (item: StashItem) =>
+              isCube ? item.isCubeSelected : item.isSelected,
+          };
+        }
+        if (!acc[itemId].tags.some((tag) => tag === itemTag)) {
+          acc[itemId].tags.push(itemTag);
+        }
+      });
+
+      return acc;
+    },
+    {}
+  );
+};
+
+const buildInfoSort = (a: BuildInfoItem, b: BuildInfoItem) => {
+  const aId = a.id.toLowerCase();
+  const bId = b.id.toLowerCase();
+  return aId < bId ? 1 : aId > bId ? -1 : 0;
+};
 
 @Component({
   selector: "app-build-info",
@@ -27,11 +60,7 @@ export class BuildInfoComponent implements OnInit {
   character: string;
   isOutdated: boolean;
   isVariation: boolean;
-  followerItems: {
-    label: string;
-    slots: BuildInfoSlot[];
-  }[] = null;
-  heroItems: BuildInfoSlot[] = null;
+  items: BuildInfoSlot[] = null;
 
   private buildId: string;
   private buildMap: BuildItemMap;
@@ -66,9 +95,9 @@ export class BuildInfoComponent implements OnInit {
       character,
       isOutdated,
       isVariation,
-      isFollower,
-      heroItems,
-      followersItems,
+      characterItems,
+      cubeItems,
+      followerItems,
     } = build;
 
     this.label = label;
@@ -78,68 +107,31 @@ export class BuildInfoComponent implements OnInit {
     this.isOutdated = isOutdated;
     this.isVariation = isVariation;
 
-    this.followerItems = null;
-    this.heroItems = null;
+    this.items = [];
 
-    if (isFollower) {
-      this.character = null;
-      this.followerItems = Array.from(itemFollowerTags).map((follower) => {
-        const slots = Object.entries(followersItems[follower]).map(
-          ([slot, items]: [ItemFollowerTag, GearItems]) => {
-            const tagItems: { [itemId: string]: BuildInfoItem } = {};
-            Object.entries(items).forEach(
-              ([itemTag, itemIds]: [BuildItemTag, string[]]) => {
-                itemIds.forEach((itemId) => {
-                  if (!tagItems[itemId]) {
-                    tagItems[itemId] = {
-                      id: itemId,
-                      tags: [],
-                      isCube: false,
-                      isItemSelected: (item: StashItem) => item.isSelected,
-                    };
-                  }
-
-                  if (!tagItems[itemId].tags.some((tag) => tag === itemTag)) {
-                    tagItems[itemId].tags.push(itemTag);
-                  }
-                });
-              }
-            );
-            return {
-              label: slot,
-              items: Object.values(tagItems),
-            };
-          }
-        );
-        return {
-          label: follower,
-          slots,
-        };
+    characterItemSlots.forEach((slot) => {
+      const buildInfoItems = getBuildInfoItems(characterItems[slot]);
+      this.items.push({
+        label: slot,
+        items: Object.values(buildInfoItems).sort(buildInfoSort),
       });
-    } else {
-      this.heroItems = heroItemSlots.concat(ItemSlot.CUBE).map((slot) => {
-        const tagItems: { [itemId: string]: BuildInfoItem } = {};
-        Object.entries(heroItems[slot]).forEach(
-          ([itemTag, itemIds]: [BuildItemTag, string[]]) => {
-            itemIds.forEach((itemId) => {
-              if (!tagItems[itemId]) {
-                tagItems[itemId] = {
-                  id: itemId,
-                  tags: [],
-                  isCube: slot === ItemSlot.CUBE,
-                  isItemSelected: (item: StashItem) =>
-                    slot === ItemSlot.CUBE
-                      ? item.isCubeSelected
-                      : item.isSelected,
-                };
-              }
-              if (!tagItems[itemId].tags.some((tag) => tag === itemTag)) {
-                tagItems[itemId].tags.push(itemTag);
-              }
-            });
-          }
-        );
-        return { label: slot, items: Object.values(tagItems) };
+    });
+
+    if (cubeItems) {
+      const buildInfoItems = getBuildInfoItems(cubeItems, true);
+      this.items.push({
+        label: "cube",
+        items: Object.values(buildInfoItems),
+      });
+    }
+
+    if (followerItems) {
+      followerItemSlots.forEach((slot) => {
+        const buildInfoItems = getBuildInfoItems(followerItems[slot]);
+        this.items.push({
+          label: slot,
+          items: Object.values(buildInfoItems).sort(buildInfoSort),
+        });
       });
     }
   }

@@ -1,28 +1,30 @@
 import {
-  itemsById,
   buildsById,
   itemsByBuild,
+  itemsById,
   tagsById,
 } from "constants/salvage-guide/salvage-guide";
 import {
-  ItemSlot,
-  ItemCubeSlot,
   Build,
+  BuildFollowers,
   BuildItemTag,
   BuildsById,
+  CubeItemSlot,
+  ItemSlot,
 } from "constants/salvage-guide/types";
 
-const CubeItemSlots = [
-  ItemCubeSlot.ARMOR,
-  ItemCubeSlot.WEAPON,
-  ItemCubeSlot.JEWELRY,
+export const cubeItemSlots = [
+  CubeItemSlot.ARMOR,
+  CubeItemSlot.WEAPON,
+  CubeItemSlot.JEWELRY,
 ];
 
+export type CubeItems = ReturnType<typeof createCubeItems>;
 function createCubeItems() {
   return {
-    [ItemCubeSlot.ARMOR]: [] as string[],
-    [ItemCubeSlot.WEAPON]: [] as string[],
-    [ItemCubeSlot.JEWELRY]: [] as string[],
+    [CubeItemSlot.ARMOR]: [] as string[],
+    [CubeItemSlot.WEAPON]: [] as string[],
+    [CubeItemSlot.JEWELRY]: [] as string[],
   };
 }
 
@@ -75,15 +77,15 @@ const itemJewelrySlots = new Set([
 type ItemWeaponSlot = ItemSlot.LEFT_HAND | ItemSlot.RIGHT_HAND;
 const itemWeaponSlots = new Set([ItemSlot.LEFT_HAND, ItemSlot.RIGHT_HAND]);
 
-type HeroItemSlot = ItemArmorSlot | ItemJewelrySlot | ItemWeaponSlot;
-export const heroItemSlots = [
+type CharacterItemSlot = ItemArmorSlot | ItemJewelrySlot | ItemWeaponSlot;
+export const characterItemSlots = [
   ...itemArmorSlots,
   ...itemJewelrySlots,
   ...itemWeaponSlots,
 ];
 
-type HeroItems = ReturnType<typeof createHeroItems>;
-function createHeroItems() {
+type CharacterItems = ReturnType<typeof createCharacterItems>;
+function createCharacterItems() {
   return {
     [ItemSlot.HEAD]: createGearItems(),
     [ItemSlot.SHOULDERS]: createGearItems(),
@@ -100,59 +102,24 @@ function createHeroItems() {
 
     [ItemSlot.LEFT_HAND]: createGearItems(),
     [ItemSlot.RIGHT_HAND]: createGearItems(),
-
-    [ItemSlot.CUBE]: createCubeItems(),
   };
 }
 
-type FollowerItemSlot =
-  | ItemJewelrySlot
-  | ItemWeaponSlot
-  | ItemSlot.FOLLOWER_SPECIAL;
-const followerItemSlots = [
-  ...itemJewelrySlots,
-  ...itemWeaponSlots,
-  ItemSlot.FOLLOWER_SPECIAL,
-];
+type FollowerItemSlot = ItemSlot.FOLLOWER_SPECIAL;
+export const followerItemSlots = [ItemSlot.FOLLOWER_SPECIAL];
 
 type FollowerItems = ReturnType<typeof createFollowerItems>;
 function createFollowerItems() {
   return {
-    [ItemSlot.NECK]: createGearItems(),
-    [ItemSlot.LEFT_FINGER]: createGearItems(),
-    [ItemSlot.RIGHT_FINGER]: createGearItems(),
-
-    [ItemSlot.LEFT_HAND]: createGearItems(),
-    [ItemSlot.RIGHT_HAND]: createGearItems(),
-
     [ItemSlot.FOLLOWER_SPECIAL]: createGearItems(),
   };
 }
 
-export type ItemFollowerTag =
-  | BuildItemTag.ENCHANTRESS
-  | BuildItemTag.SCOUNDREL
-  | BuildItemTag.TEMPLAR;
-export const itemFollowerTags = new Set([
-  BuildItemTag.ENCHANTRESS,
-  BuildItemTag.SCOUNDREL,
-  BuildItemTag.TEMPLAR,
-]);
-
-type FollowersItems = ReturnType<typeof createFollowersItems>;
-function createFollowersItems() {
-  return {
-    [BuildItemTag.ENCHANTRESS]: createFollowerItems(),
-    [BuildItemTag.SCOUNDREL]: createFollowerItems(),
-    [BuildItemTag.TEMPLAR]: createFollowerItems(),
-  };
-}
-
 interface BuildWithItems extends Build {
-  isFollower: boolean;
   isOutdated: boolean;
-  heroItems?: HeroItems;
-  followersItems?: FollowersItems;
+  characterItems: CharacterItems;
+  cubeItems?: CubeItems;
+  followerItems?: FollowerItems;
 }
 
 interface BuildsWithItems {
@@ -172,7 +139,7 @@ interface BuildsByLabel {
   [label: string]: BuildsWithItems;
 }
 
-function dedupeItems(items: HeroItems | FollowerItems) {
+function dedupeItems(items: CharacterItems) {
   const leftHand = items[ItemSlot.LEFT_HAND];
   const rightHand = items[ItemSlot.RIGHT_HAND];
   itemGearTags.forEach((tag: ItemGearTag) => {
@@ -196,20 +163,19 @@ function dedupeItems(items: HeroItems | FollowerItems) {
 
 function getBuildWithItems(build: Build): BuildWithItems {
   let isOutdated = false;
-  const isFollower = Object.values(itemsByBuild[build.id]).some((tagId) =>
-    tagsById[tagId].some((tag) => itemFollowerTags.has(tag))
-  );
-  let heroItems: HeroItems;
-  let followersItems: FollowersItems;
+  const isFollower = BuildFollowers.includes(build.character);
+
+  const characterItems: CharacterItems = createCharacterItems();
+  let cubeItems: CubeItems;
+  let followerItems: FollowerItems;
 
   if (isFollower) {
-    followersItems = createFollowersItems();
+    followerItems = createFollowerItems();
   } else {
-    heroItems = createHeroItems();
+    cubeItems = createCubeItems();
   }
 
   Object.entries(itemsByBuild[build.id]).forEach(([item, tagId]) => {
-    const followerTags: ItemFollowerTag[] = [];
     const gearTags: ItemGearTag[] = [];
     let isCube = false;
 
@@ -218,61 +184,49 @@ function getBuildWithItems(build: Build): BuildWithItems {
         isOutdated = true;
       } else if (tag === BuildItemTag.CUBE) {
         isCube = true;
-      } else if (itemFollowerTags.has(tag)) {
-        followerTags.push(tag as ItemFollowerTag);
       } else if (itemGearTags.has(tag)) {
         gearTags.push(tag as ItemGearTag);
       }
     });
 
-    if (isFollower) {
-      followerTags.forEach((itemTag) => {
-        const follower = followersItems[itemTag];
-        itemsById[item].slots.forEach((slot: FollowerItemSlot) => {
-          const followerSlot = follower[slot];
-          gearTags.forEach((gearTag) => {
-            followerSlot[gearTag].push(item);
-          });
-        });
+    if (isCube) {
+      const cubeSlots: Set<CubeItemSlot> = new Set();
+      itemsById[item].slots.forEach((slot: CharacterItemSlot) => {
+        if (itemArmorSlots.has(slot)) {
+          cubeSlots.add(CubeItemSlot.ARMOR);
+        }
+        if (itemJewelrySlots.has(slot)) {
+          cubeSlots.add(CubeItemSlot.JEWELRY);
+        }
+        if (itemWeaponSlots.has(slot)) {
+          cubeSlots.add(CubeItemSlot.WEAPON);
+        }
       });
-    } else {
-      if (isCube) {
-        const cubeSlots: Set<ItemCubeSlot> = new Set();
-        itemsById[item].slots.forEach((slot: HeroItemSlot) => {
-          if (itemArmorSlots.has(slot)) {
-            cubeSlots.add(ItemCubeSlot.ARMOR);
-          }
-          if (itemJewelrySlots.has(slot)) {
-            cubeSlots.add(ItemCubeSlot.JEWELRY);
-          }
-          if (itemWeaponSlots.has(slot)) {
-            cubeSlots.add(ItemCubeSlot.WEAPON);
-          }
-        });
 
-        cubeSlots.forEach((cubeSlot) => {
-          heroItems.cube[cubeSlot].push(item);
-        });
-      }
-      gearTags.forEach((gearTag) => {
-        itemsById[item].slots.forEach((slot: HeroItemSlot) => {
-          heroItems[slot][gearTag].push(item);
-        });
+      cubeSlots.forEach((cubeSlot) => {
+        cubeItems[cubeSlot].push(item);
       });
     }
+    gearTags.forEach((gearTag) => {
+      itemsById[item].slots.forEach(
+        (slot: CharacterItemSlot | FollowerItemSlot) => {
+          if (isFollower && followerItemSlots.includes(slot)) {
+            followerItems[slot][gearTag].push(item);
+          } else if (characterItemSlots.includes(slot)) {
+            characterItems[slot][gearTag].push(item);
+          }
+        }
+      );
+    });
   });
 
-  if (isFollower) {
-    Object.values(followersItems).forEach((follower) => dedupeItems(follower));
-  } else {
-    dedupeItems(heroItems);
-  }
+  dedupeItems(characterItems);
 
   return {
     ...build,
-    heroItems,
-    followersItems,
-    isFollower,
+    characterItems,
+    cubeItems,
+    followerItems,
     isOutdated,
   };
 }
@@ -366,33 +320,19 @@ function addBaseItemsToBuild(
   const baseBuildId = baseBuilds[build.label];
   if (baseBuildId !== build.id) {
     const baseBuild = builds[baseBuildId];
-    if (build.isFollower) {
-      Object.entries(build.followersItems).forEach(
-        ([follower, followerItems]) => {
-          Object.entries(followerItems).forEach(([slot, slotItems]) => {
-            addBaseGearItemsToBuild(
-              slotItems,
-              baseBuild.followersItems[follower][slot]
-            );
-          });
+    Object.entries(build.characterItems).forEach(([slot, slotItems]) => {
+      addBaseGearItemsToBuild(slotItems, baseBuild.characterItems[slot]);
+    });
+    if (build.cubeItems) {
+      Object.entries(build.cubeItems).forEach(([cubeSlot, cubeSlotItems]) => {
+        if (!cubeSlotItems.length) {
+          build.cubeItems[cubeSlot].push(...baseBuild.cubeItems[cubeSlot]);
         }
-      );
-    } else {
-      Object.entries(build.heroItems).forEach(([slot, slotItems]) => {
-        if (slot === ItemSlot.CUBE) {
-          Object.entries(slotItems).forEach(([cubeSlot, cubeSlotItems]) => {
-            if (!cubeSlotItems.length) {
-              build.heroItems[slot][cubeSlot].push(
-                ...baseBuild.heroItems[slot][cubeSlot]
-              );
-            }
-          });
-        } else {
-          addBaseGearItemsToBuild(
-            slotItems as GearItems,
-            baseBuild.heroItems[slot]
-          );
-        }
+      });
+    }
+    if (build.followerItems) {
+      Object.entries(build.followerItems).forEach(([slot, slotItems]) => {
+        addBaseGearItemsToBuild(slotItems, baseBuild.followerItems[slot]);
       });
     }
   }
@@ -411,19 +351,13 @@ function getBuildIcons(build: BuildWithItems) {
   const slotIcons: string[] = [];
   const cubeIcons: string[] = [];
 
-  if (build.isFollower) {
-    Object.values(build.followersItems).forEach((followerItems) => {
-      followerItemSlots.forEach((slot) => {
-        addItemsToIcons(followerItems[slot], slotIcons);
-      });
-    });
-  } else {
-    heroItemSlots.forEach((slot) => {
-      addItemsToIcons(build.heroItems[slot], slotIcons);
-    });
+  characterItemSlots.forEach((slot) => {
+    addItemsToIcons(build.characterItems[slot], slotIcons);
+  });
 
-    CubeItemSlots.forEach((slot, idx) => {
-      build.heroItems[ItemSlot.CUBE][slot].forEach((item) => {
+  if (build.cubeItems) {
+    cubeItemSlots.forEach((slot, idx) => {
+      build.cubeItems[slot].forEach((item) => {
         if (
           cubeIcons.length !== idx + 1 &&
           !slotIcons.includes(item) &&
@@ -432,6 +366,12 @@ function getBuildIcons(build: BuildWithItems) {
           cubeIcons.push(item);
         }
       });
+    });
+  }
+
+  if (build.followerItems) {
+    followerItemSlots.forEach((slot) => {
+      addItemsToIcons(build.followerItems[slot], slotIcons);
     });
   }
 
@@ -458,27 +398,28 @@ export interface BuildItemMap {
   [id: string]: BuildItem;
 }
 
-export const buildItems = Object.values(getBuildsByLabel(buildsById)).reduce<
-  BuildItemMap
->((acc, builds) => {
+export const buildItems = Object.values(
+  getBuildsByLabel(buildsById)
+).reduce<BuildItemMap>((acc, builds) => {
   Object.values(builds).forEach((build) => {
     addBaseItemsToBuild(build, builds, baseBuilds);
     const icons = getBuildIcons(build);
     const tags = buildTags[build.id];
     const itemLabels = [];
-    if (build.heroItems) {
-      Object.values(build.heroItems).forEach((slots) =>
-        Object.values(slots).forEach((ids) =>
-          ids.forEach((id) => itemLabels.push(itemsById[id].label))
-        )
+    Object.values(build.characterItems).forEach((slots) =>
+      Object.values(slots).forEach((ids) =>
+        ids.forEach((id) => itemLabels.push(itemsById[id].label))
+      )
+    );
+    if (build.cubeItems) {
+      Object.values(build.cubeItems).forEach((ids) =>
+        ids.forEach((id) => itemLabels.push(itemsById[id].label))
       );
     }
-    if (build.followersItems) {
-      Object.values(build.followersItems).forEach((follower) =>
-        Object.values(follower).forEach((slots) =>
-          Object.values(slots).forEach((ids) =>
-            ids.forEach((id) => itemLabels.push(itemsById[id].label))
-          )
+    if (build.followerItems) {
+      Object.values(build.followerItems).forEach((slots) =>
+        Object.values(slots).forEach((ids) =>
+          ids.forEach((id) => itemLabels.push(itemsById[id].label))
         )
       );
     }

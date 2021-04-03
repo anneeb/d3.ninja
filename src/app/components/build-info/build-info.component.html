@@ -34,24 +34,6 @@
   </div>
 
   <mat-list class="app-build-info__sections">
-    <ng-container *ngIf="followerItems">
-      <ng-container *ngFor="let followerItem of followerItems">
-        <mat-divider></mat-divider>
-        <mat-chip
-          class="app-build-info__follower-tag"
-          color="accent"
-          disableRipple="true"
-          selected="true"
-          selectable="false"
-          >{{ followerItem.label }}</mat-chip
-        >
-        <app-build-info-slots
-          [slots]="followerItem.slots"
-        ></app-build-info-slots>
-      </ng-container>
-    </ng-container>
-    <ng-container *ngIf="heroItems">
-      <app-build-info-slots [slots]="heroItems"></app-build-info-slots>
-    </ng-container>
+    <app-build-info-slots [slots]="items"></app-build-info-slots>
   </mat-list>
 </div>
