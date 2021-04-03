@@ -1,20 +1,20 @@
-import ora from "ora";
 import isEqual from "lodash.isequal";
+import ora from "ora";
 import path from "path";
 import {
   Builder,
   By,
   Locator,
-  WebDriver,
   until,
+  WebDriver,
   WebElement,
 } from "selenium-webdriver";
 import { Options } from "selenium-webdriver/firefox";
 
-import { RawItemData, RawBuildData } from "./output/types";
+import { RAW_SALVAGE_GUIDE } from "./output/raw-salvage-guide";
+import { RawBuildData, RawItemData } from "./output/types";
 import { delay } from "./utils/delay";
 import { saveFileToDirectory } from "./utils/fileSystem";
-import { RAW_SALVAGE_GUIDE } from "./output/raw-salvage-guide";
 
 const SALVAGE_GUIDE_URL =
   "https://www.icy-veins.com/d3/legendary-item-salvage-guide";
@@ -24,6 +24,8 @@ const BAD_ITEMS = {
     "belt-of-the-trove-P610_Unique_Belt_008",
   "blade-of-the-tribes-P4_Unique_Mighty_2H_101":
     "blade-of-the-tribes-P610_Unique_Mighty_2H_101",
+  "defiler-cuisses-P61_Necro_Unique_Pants_22":
+    "defiler-cuisses-P7_Necro_Unique_Pants_22",
   "etched-sigil-P61_Unique_Orb_002": "etched-sigil-P610_Unique_Orb_002",
   "fragment-of-destiny-P4_Unique_Wand_010":
     "fragment-of-destiny-P610_Unique_Wand_010",
@@ -81,7 +83,7 @@ async function getItemData(el: WebElement): Promise<RawItemData> {
   let label = "";
   let link = "";
 
-  const linkEl = await getElement(el, By.tagName("a"));
+  const linkEl = await getElement(el, By.css("a"));
   if (linkEl) {
     const [linkText, linkRef] = await Promise.all([
       linkEl.getText(),
@@ -106,7 +108,7 @@ async function getBuildData(el: WebElement): Promise<RawBuildData> {
   let link = "";
   let tags = "";
 
-  const linkEl = await getElement(el, By.tagName("a"));
+  const linkEl = await getElement(el, By.css("a"));
   if (linkEl) {
     const [linkText, linkRef] = await Promise.all([
       linkEl.getText(),
@@ -126,7 +128,7 @@ async function getBuildData(el: WebElement): Promise<RawBuildData> {
 }
 
 async function getBuildsData(el: WebElement): Promise<RawBuildData[]> {
-  const buildEls = await getElements(el, By.tagName("li"));
+  const buildEls = await getElements(el, By.css("li"));
   return await Promise.all<RawBuildData>(
     buildEls.map<Promise<RawBuildData>>(getBuildData)
   );
@@ -144,7 +146,7 @@ async function getResults(driver: WebDriver) {
   for (let i = 0; i < total; i++) {
     spinner.text = `Loading ${i + 1}/${total} items`;
 
-    const cells = await getElements(rows[i], By.tagName("td"));
+    const cells = await getElements(rows[i], By.css("td"));
     if (cells.length !== 2) {
       continue;
     }

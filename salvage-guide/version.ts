@@ -1,8 +1,8 @@
-import path from "path";
 import isEqual from "lodash.isequal";
+import path from "path";
 
-import { StashItemVersion } from "./output/types";
 import { itemsById } from "./output/salvage-guide";
+import { StashItemVersion } from "./output/types";
 import { stashItemVersions } from "./output/versions";
 import { readFile, saveFileToDirectory } from "./utils/fileSystem";
 

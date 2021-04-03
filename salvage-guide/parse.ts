@@ -1,22 +1,25 @@
+import isEqual from "lodash.isequal";
 import fetch from "node-fetch";
-import { URL } from "url";
-import { ClientCredentials } from "simple-oauth2";
 import ora from "ora";
 import path from "path";
-import isEqual from "lodash.isequal";
+import { ClientCredentials } from "simple-oauth2";
+import { URL } from "url";
 
-import {
-  ItemSlot,
-  ItemsById,
-  BuildCharacter,
-  BuildsById,
-  BuildItemTag,
-  TagsById,
-  ItemsByBuild,
-  BuildsByItem,
-} from "./output/types";
 import { RAW_SALVAGE_GUIDE } from "./output/raw-salvage-guide";
 import * as salvageGuide from "./output/salvage-guide";
+import {
+  BuildCharacter,
+  BuildFollowers,
+  BuildItemTag,
+  BuildsById,
+  BuildsByItem,
+  FOLLOWER_GUIDE_ID,
+  ItemsByBuild,
+  ItemsById,
+  ItemSlot,
+  RawBuildData,
+  TagsById,
+} from "./output/types";
 import { saveFileToDirectory } from "./utils/fileSystem";
 
 const SAVE_DIR = path.resolve(__dirname, "output");
@@ -56,6 +59,18 @@ function getCharacter(label: string, link: string) {
   }
 }
 
+function getFollowerCharacters(rawTags: string) {
+  const characters: BuildCharacter[] = [];
+
+  BuildFollowers.forEach((follower) => {
+    if (rawTags.indexOf(follower) > -1) {
+      characters.push(follower);
+    }
+  });
+
+  return characters.length ? characters : [...BuildFollowers];
+}
+
 interface ParsedData {
   itemsById: ItemsById;
   buildsById: BuildsById;
@@ -79,7 +94,7 @@ async function getBlizzardAccessToken() {
   return token.token.access_token as string;
 }
 
-async function getItemData(path: string, accessToken: string) {
+async function getItemData(path: string, accessToken: string, tries = 3) {
   const itemUrl = new URL(`${BASE_D3_DATA_URL}${path}`);
   itemUrl.searchParams.append("locale", "en_US");
   itemUrl.searchParams.append("access_token", accessToken);
@@ -89,7 +104,11 @@ async function getItemData(path: string, accessToken: string) {
   });
 
   if (!response.ok) {
-    return await getItemData(path, accessToken);
+    const nextTries = tries - 1;
+    if (!nextTries) {
+      throw new Error(`${path}: ${response.status} (${response.statusText})`);
+    }
+    return await getItemData(path, accessToken, nextTries);
   } else {
     return response.json();
   }
@@ -139,6 +158,32 @@ async function getParsed(): Promise<ParsedData> {
 
   spinner.succeed(`Loaded ${results.length} items`);
 
+  const addBuildItemToData = (
+    itemId: string,
+    build: RawBuildData,
+    buildId: string,
+    character: BuildCharacter,
+    label: string
+  ) => {
+    if (!buildsById[buildId]) {
+      buildsById[buildId] = {
+        id: buildId,
+        character,
+        label,
+        link: build.link,
+      };
+    }
+
+    const buildItemKey = `${itemId}-${buildId}`;
+    tagsById[buildItemKey] = getTags(build.tags);
+
+    if (!itemsByBuild[buildId]) {
+      itemsByBuild[buildId] = {};
+    }
+    itemsByBuild[buildId][itemId] = buildItemKey;
+    buildsByItem[itemId][buildId] = buildItemKey;
+  };
+
   RAW_SALVAGE_GUIDE.forEach((item, idx) => {
     const { itemId, itemData } = results[idx];
     itemsById[itemId] = {
@@ -156,21 +201,26 @@ async function getParsed(): Promise<ParsedData> {
     buildsByItem[itemId] = {};
 
     item.buildsData.forEach((build) => {
-      buildsById[build.id] = {
-        id: build.id,
-        character: getCharacter(build.label, build.link),
-        label: build.label,
-        link: build.link,
-      };
-
-      const buildItemLinks = `${itemId}-${build.id}`;
-      tagsById[buildItemLinks] = getTags(build.tags);
-
-      if (!itemsByBuild[build.id]) {
-        itemsByBuild[build.id] = {};
+      if (build.id === FOLLOWER_GUIDE_ID) {
+        const followers = getFollowerCharacters(build.tags);
+        followers.forEach((follower) => {
+          addBuildItemToData(
+            itemId,
+            build,
+            `${build.id}-${follower}`,
+            follower,
+            `${build.label} - ${follower}`
+          );
+        });
+      } else {
+        addBuildItemToData(
+          itemId,
+          build,
+          build.id,
+          getCharacter(build.label, build.link),
+          build.label
+        );
       }
-      itemsByBuild[build.id][itemId] = buildItemLinks;
-      buildsByItem[itemId][build.id] = buildItemLinks;
     });
   });
 
@@ -218,14 +268,14 @@ async function saveFile(results: ParsedData) {
   const data = `// Last updated on ${new Date().toLocaleString()}
 
 import {
-  ItemSlot,
-  ItemsById,
   BuildCharacter,
-  BuildsById,
   BuildItemTag,
-  TagsById,
-  ItemsByBuild,
+  BuildsById,
   BuildsByItem,
+  ItemsByBuild,
+  ItemsById,
+  ItemSlot,
+  TagsById,
 } from "./types";
 
 export const itemsById: ItemsById = \n${itemsById};
