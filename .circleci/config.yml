@@ -103,19 +103,19 @@ jobs:
           path: ./dist.zip
 
 workflows:
-  # compile_and_distribute:
-  #   jobs:
-  #     - build
-  #     - compile:
-  #         requires:
-  #           - build
-  #     - distribute:
-  #         filters:
-  #           branches:
-  #             only:
-  #               - main
-  #         requires:
-  #           - compile
+  compile_and_distribute:
+    jobs:
+      - build
+      - compile:
+          requires:
+            - build
+      - distribute:
+          filters:
+            branches:
+              only:
+                - main
+          requires:
+            - compile
 
   # scheduled_update_and_distribute:
   #   triggers:
